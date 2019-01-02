@@ -1,0 +1,162 @@
+body {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 60px;
+    font-family: 'Oswald';
+    margin-left: 1.5%;
+}
+
+.card {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 9.5%;
+    background-color: #000;
+    border: 3px solid #00ffbc;
+    box-shadow: 12px 16px 24px #000;
+    border-radius: 6px;
+}
+
+.date {
+    width: 47%;
+    text-align: left;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.result {
+    width: 47%;
+    text-align: right;
+    float: right;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.score1 {
+    font-family: 'Oswald';
+    font-size: 60px;
+    text-align: center;
+    float: left;
+    width: 40%;
+    padding-top: 3%;
+}
+
+.dash {
+    position: relative;
+    width: 20%;
+    float: right;
+    text-align: center;
+    font-size: 60px;
+    top: 4%;
+    height: 30%;
+    padding-top: 3%;
+}
+
+.score2 {
+    font-family: 'Oswald';
+    font-size: 60px;
+    text-align: center;
+    float: right;
+    width: 40%;
+    padding-top: 3%;
+}
+
+.name1 {
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    width: 40%; 
+}
+
+.name2 {
+    float: right;
+    font-size: 17px;
+    text-align: center;
+    width: 40%;
+}
+
+.record1 {
+    text-align: center;
+    width: 40%;
+    float: left;
+    color: #bbbbbb;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.record2 {
+    text-align: center;
+    width: 40%;
+    float: right;
+    color: #bbbbbb;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.empty {
+    width: 20%;
+    float: right;
+    color: #000;
+    text-align: center;
+    height: 6%;
+}
+
+.scoring-header {
+    float: left;
+    width: 100%;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 3.333%;
+    padding: 0;
+}
+
+.quarter, .quarter1, .quarter2 {
+    position: relative;
+    left: 7%;
+}
+
+li {
+    display: inline-block;
+    width: 8%;
+    font-size: 15px;
+}
+
+.scoring {
+    float: left;
+    padding-top: 1.5%;
+    text-align: center;
+    width: 100%;
+}
+
+.team-name, .team-name1, .team-name2 {
+    position: relative;
+    right: 8%;
+    width: 40%;
+    text-align: left;
+}
+
+.team-name2 {
+    margin-bottom: 2%;
+}
+
+.quarter-hidden {
+    display: none;
+}
+
+.hiddenName, .hiddenScore, .hiddenPoint, .hiddenTime, .hiddenDate, .hiddenStanding1, .hiddenStanding2 {
+    display: none;
+}
