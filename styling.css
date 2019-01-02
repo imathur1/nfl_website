@@ -12,8 +12,8 @@ body {
     margin-bottom: 2.5%;
     margin-left: 10%;
     background-color: #000;
-    border: 2px solid #00ffbc;
-    box-shadow: 6px 10px 10px #000;
+    border: 3px solid #00ffbc;
+    box-shadow: 9px 12px 12px #000;
     border-radius: 6px;
 }
 
@@ -140,6 +140,14 @@ li {
     text-align: left;
 }
 
+.team-name2 {
+    margin-bottom: 2%;
+}
+
 .quarter-hidden {
+    display: none;
+}
+
+.hiddenName, .hiddenScore, .hiddenPoint, .hiddenTime, .hiddenDate, .hiddenStanding1, .hiddenStanding2 {
     display: none;
 }

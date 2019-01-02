@@ -1,3 +1,4 @@
+const card = document.getElementsByClassName('card');
 const name1 = document.getElementsByClassName('name1');
 const name2 = document.getElementsByClassName('name2');
 const score1 = document.getElementsByClassName('score1');
@@ -22,17 +23,22 @@ const hiddenDate = document.getElementsByClassName('hiddenDate');
 const hiddenStanding1 = document.getElementsByClassName('hiddenStanding1');
 const hiddenStanding2 = document.getElementsByClassName('hiddenStanding2');
 
+var num = 0;
+
 function createInfo() {
     var teams = []
     for (var i = 0; i < hiddenName.length; i++) {
-        if (hiddenName[i].innerHTML != "") {
+        if (hiddenName[i].innerHTML != "None") {
             teams.push([hiddenName[i].innerHTML]);
+            num++;
+        } else {
+            card[Math.floor(i / 2)].style.display = 'none';
         };
     };
 
     var index = 0;
     for (var i = 0; i < hiddenScore.length; i++) {
-        if (hiddenScore[i].innerHTML != "") {
+        if (hiddenScore[i].innerHTML != "None") {
             teams[index].push(Number(hiddenScore[i].innerHTML));
             index++;
         };
@@ -45,21 +51,21 @@ function createInfo() {
             teams[index2].push(newList);
             newList = [];
             index2++;
-        } else if (hiddenPoint[i].innerHTML != "") {
+        } else if (hiddenPoint[i].innerHTML != "None") {
             newList.push(Number(hiddenPoint[i].innerHTML));
         };
     };
     
     var times = [];
     for (var i = 0; i < hiddenTime.length; i++) {
-        if (hiddenTime[i].innerHTML != "") {
+        if (hiddenTime[i].innerHTML != "None") {
             times.push([Number(hiddenTime[i].innerHTML)]);
         };
     };
 
     var index3 = 0;
     for (var i = 0; i < hiddenDate.length; i++) {
-        if (hiddenDate[i].innerHTML != "") {
+        if (hiddenDate[i].innerHTML != "None") {
             times[index3].push(hiddenDate[i].innerHTML);
             index3++;
         };
@@ -93,7 +99,7 @@ function createStanding() {
 
 function changeHTML() {
     var count = 0;
-    for (var i = 0; i < name1.length; i++){
+    for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
         name1[i].innerHTML = info[i][0][0];  
         name2[i].innerHTML = info[i][1][0];
@@ -194,4 +200,4 @@ function changeHTML() {
 var info = createInfo();
 var standings = createStanding();
 changeHTML();
-    
+        
