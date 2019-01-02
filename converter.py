@@ -4,6 +4,16 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
+# TO DO:
+# Make 1 file for templates
+# Make homepage
+# Make navigation bar
+# Customize for different years
+# Pictures
+# More JS functionality
+# More game statistics
+# Host on server 
+
 # curl -X GET "https://api.sportradar.us/nfl/official/trial/v5/en/games/2018/REG/16/schedule.xml?api_key=5dbyzszswdjteg4ab663g837"
 # Key: 5dbyzszswdjteg4ab663g837
 
@@ -45,26 +55,30 @@ class Converter():
     }
 
     def makePath(self):
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/schedules'
+        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/CSS'
         if not os.path.exists(newPath):
             os.makedirs(newPath)
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/html_templates'
+        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/HTML'
         if not os.path.exists(newPath):
             os.makedirs(newPath)
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/js_templates'
+        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/JS'
+        if not os.path.exists(newPath):
+            os.makedirs(newPath)
+        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/Schedules'
         if not os.path.exists(newPath):
             os.makedirs(newPath)
 
     def makeHTMLTemplate(self, week):
-        file = open("html_templates/html_template" + str(week) + ".html", "w")
+        file = open("HTML/html_template" + str(week) + ".html", "w")
         text = """<!DOCTYPE html>
 <html>
     <head>
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/styling.css">
+        <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/template_styling.css">
     </head>
     <body>
+        <div class="title">NFL WEEK """ + str(week) + """ </div>
         <div class="row">
             <div class="card">
                 <div class="date">Sun, 16/12</div>
@@ -853,8 +867,8 @@ class Converter():
         file.write(text)
         file.close()
 
-    def makeJSTemplate(self, week):
-        file = open("js_templates/js_template" + str(week) + ".js", "w")
+    def makeJSTemplate(self):
+        file = open("JS/js_template.js", "w")
         text = """const card = document.getElementsByClassName('card');
 const name1 = document.getElementsByClassName('name1');
 const name2 = document.getElementsByClassName('name2');
@@ -1062,8 +1076,7 @@ changeHTML();
         file.close()
 
     def appendInfo(self, games, week):
-        # append info for bye week
-        output = open("html_templates/html_template" + str(week) + ".html", "a")
+        output = open("HTML/html_template" + str(week) + ".html", "a")
         text = ''
         count = 0
         for i in games:
@@ -1110,7 +1123,7 @@ changeHTML();
             text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
             text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
             text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
-        text += ' ' * 8 + '<script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/js_templates/js_template' + str(week) + '.js"></script>'
+        text += ' ' * 8 + '<script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/js_template.js"></script>'
 
         output.write(text)
         output.close()
@@ -1135,19 +1148,18 @@ changeHTML();
 
     def convertInfo(self, week):
         self.makeHTMLTemplate(week)
-        self.makeJSTemplate(week)
         """
         conn = http.client.HTTPSConnection("api.sportradar.us")
         conn.request("GET", "/nfl/official/trial/v5/en/games/2018/REG/" + str(week) + "/schedule.xml?api_key=5dbyzszswdjteg4ab663g837")
         res = conn.getresponse()
         data = res.read()
         text = data.decode("utf-8")
-        output = open("schedules/schedule" + str(week) + ".xml", "w")
+        output = open("Schedules/schedule" + str(week) + ".xml", "w")
         output.write(text)
         output.close()
         """
         games = []
-        tree = ET.parse("schedules/schedule" + str(week) + ".xml")
+        tree = ET.parse("Schedules/schedule" + str(week) + ".xml")
         for elem in tree.iter():
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
                 date = elem.attrib["scheduled"]
@@ -1215,6 +1227,7 @@ changeHTML();
 def main():
     converter = Converter()
     converter.makePath()
+    converter.makeJSTemplate()
     week = 1
     while week <= 17:
         converter.convertInfo(week)
