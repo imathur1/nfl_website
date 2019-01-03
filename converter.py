@@ -13,6 +13,8 @@ from datetime import date as dateName
 # More JS functionality
 # More game statistics
 # Host on server 
+# Test on different devices
+# Styling, different colors, blue, dark blue
 
 # curl -X GET "https://api.sportradar.us/nfl/official/trial/v5/en/games/2018/REG/16/schedule.xml?api_key=5dbyzszswdjteg4ab663g837"
 # Key: 5dbyzszswdjteg4ab663g837
@@ -1158,7 +1160,7 @@ changeHTML();
         output.write(text)
         output.close()
         """
-        games = []
+        games = [] # huge nested list of games, call index week
         tree = ET.parse("Schedules/schedule" + str(week) + ".xml")
         for elem in tree.iter():
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
