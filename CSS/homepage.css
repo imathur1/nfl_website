@@ -55,10 +55,6 @@ body {
     width: 100%;
 }
 
-.hoverPreWeek:hover, .hoverRegWeek:hover, .hoverPostRound:hover {
-    color: #00ffbc;
-}
-
 h1 {
     font-family: 'Oswald';
     position: relative;
@@ -74,4 +70,14 @@ h1 {
     border-radius: 6px;
     margin-bottom: 2.5%;
     margin-left: 5%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ffbc;
+    text-decoration: none;
 }

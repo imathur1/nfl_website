@@ -4,18 +4,18 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
+# onclick, runs pythonn script through ajan THEN links to the newly
+# generated file
+
 # TO DO:
-# Make 1 file for templates
-# Make homepage
 # Make navigation bar
-# Customize for different years
 # Pictures
 # More JS functionality
 # More game statistics
 # Host on server 
 # Test on different devices
 # Styling, different colors, blue, dark blue
-# Hall of Fame (HOF), special events, etc?
+# Hall of Fame (HOF), special events, special stats, etc?
 
 # Tweak shadow
 # display: inline-block;
@@ -68,22 +68,13 @@ class Converter():
     "Washington Redskins": [0, 0, 0]
     }
 
-    def makePath(self):
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/CSS'
-        if not os.path.exists(newPath):
-            os.makedirs(newPath)
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/HTML'
-        if not os.path.exists(newPath):
-            os.makedirs(newPath)
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/JS'
-        if not os.path.exists(newPath):
-            os.makedirs(newPath)
-        newPath = r'/Users/ishaan/Coding/Projects/NFL_Website/Schedules'
-        if not os.path.exists(newPath):
-            os.makedirs(newPath)
+    def __init__(self, year, type, week):
+        self.year = year
+        self.type = type
+        self.week = week
 
-    def makeHTMLTemplate(self, week):
-        file = open("HTML/2018REGscorecard" + str(week) + ".html", "w")
+    def makeHTMLTemplate(self):
+        file = open("HTML/" + str(self.year) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "w")
         text = """<!DOCTYPE html>
 <html>
     <head>
@@ -92,7 +83,7 @@ class Converter():
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/scorecards.css">
     </head>
     <body>
-        <div class="title">NFL WEEK """ + str(week) + """ </div>
+        <div class="title">NFL WEEK """ + str(self.week) + """ </div>
         <div class="row">
             <div class="card">
                 <div class="date">Sun, 16/12</div>
@@ -881,8 +872,18 @@ class Converter():
         file.write(text)
         file.close()
 
-    def appendInfo(self, games, week):
-        output = open("HTML/2018REGscorecard" + str(week) + ".html", "a")
+    def makeInfo(self, diffYear, diffType, diffWeek):
+        conn = http.client.HTTPSConnection("api.sportradar.us")
+        conn.request("GET", "/nfl/official/trial/v5/en/games/" + str(diffYear) + "/" + diffType + "/" + str(diffWeek) + "/schedule.xml?api_key=5dbyzszswdjteg4ab663g837")
+        res = conn.getresponse()
+        data = res.read()
+        text = data.decode("utf-8")
+        output = open("Schedules/" + str(self.year) + "/" + self.type + "/schedule" + str(self.week) + ".xml", "w")
+        output.write(text)
+        output.close()
+
+    def appendInfo(self, games):
+        output = open("HTML/" + str(self.year) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "a")
         text = ''
         count = 0
         for i in games:
@@ -952,20 +953,10 @@ class Converter():
         newDate = ''.join(newDate)
         return value, dayOfWeek + ", " + newDate
 
-    def convertInfo(self, week):
-        self.makeHTMLTemplate(week)
-        """
-        conn = http.client.HTTPSConnection("api.sportradar.us")
-        conn.request("GET", "/nfl/official/trial/v5/en/games/2018/REG/" + str(week) + "/schedule.xml?api_key=5dbyzszswdjteg4ab663g837")
-        res = conn.getresponse()
-        data = res.read()
-        text = data.decode("utf-8")
-        output = open("Schedules/2018REGschedule" + str(week) + ".xml", "w")
-        output.write(text)
-        output.close()
-        """
-        games = [] # huge nested list of games, call index week
-        tree = ET.parse("Schedules/2018REGschedule" + str(week) + ".xml")
+    def convertInfo(self):
+        self.makeHTMLTemplate()
+        games = []
+        tree = ET.parse("Schedules/" + str(self.year) + "/" + self.type + "/schedule" + str(self.week) + ".xml")
         for elem in tree.iter():
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
                 date = elem.attrib["scheduled"]
@@ -1028,15 +1019,15 @@ class Converter():
                     pass
 
         games.sort(key = itemgetter(2))
-        self.appendInfo(games, week)
+        self.appendInfo(games)
 
 def main():
-    converter = Converter()
-    converter.makePath()
-    week = 1
-    while week <= 17:
-        converter.convertInfo(week)
-        week += 1
+    year = 2017
+    type = "REG"
+    week = 17
+    converter = Converter(year, type, week)
+    # converter.makeInfo(year, type, week)
+    converter.convertInfo()
 
 if __name__ == '__main__':
     main()
