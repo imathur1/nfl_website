@@ -17,6 +17,17 @@ from datetime import date as dateName
 # Styling, different colors, blue, dark blue
 # Hall of Fame (HOF), special events, etc?
 
+# Tweak shadow
+# display: inline-block;
+# width: 20%;
+# height: 200px;
+# background-color: #000;
+# border: 0px solid #00ffbc;
+# box-shadow: 12px 16px 24px #000;
+# border-radius: 6px;
+# margin-left: 9.5%;
+# margin-bottom: 5%;
+
 # curl -X GET "https://api.sportradar.us/nfl/official/trial/v5/en/games/2018/REG/16/schedule.xml?api_key=5dbyzszswdjteg4ab663g837"
 # Key: 5dbyzszswdjteg4ab663g837
 
