@@ -33,6 +33,65 @@ body {
     margin-top: 17.5%;
 }
 
+.preWeeks {
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 14%;
+    position: relative;
+    bottom: 20%;
+}
+
+.hoverPreWeek {
+    font-family: 'Oswald';
+    font-size: 28px;
+    width: 10%;
+    margin-left: 4%;
+    text-align: center;
+    display: none;
+}
+
+.hoverPreWeek:hover {
+    color: #00ffbc;
+}
+
+.regWeeks {
+    text-align: center;
+    margin-right: 5%;
+    position: relative;
+    bottom: -5%;
+}
+
+.hoverRegWeek {
+    font-family: 'Oswald';
+    font-size: 28px;
+    width: 10%;
+    margin-left: 4%;
+    text-align: center;
+    display: none;
+}
+
+.hoverRegWeek:hover {
+    color: #00ffbc;
+}
+
+.postRounds {
+    text-align: center;
+    position: relative;
+    bottom: -7.5%;
+}
+
+.hoverPostRound {
+    font-family: 'Oswald';
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.hoverPostRound:hover {
+    color: #00ffbc;
+}
+
 h1 {
     font-family: 'Oswald';
     position: relative;

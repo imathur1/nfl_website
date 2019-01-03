@@ -15,6 +15,7 @@ from datetime import date as dateName
 # Host on server 
 # Test on different devices
 # Styling, different colors, blue, dark blue
+# Hall of Fame (HOF), special events, etc?
 
 # curl -X GET "https://api.sportradar.us/nfl/official/trial/v5/en/games/2018/REG/16/schedule.xml?api_key=5dbyzszswdjteg4ab663g837"
 # Key: 5dbyzszswdjteg4ab663g837
