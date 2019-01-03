@@ -72,7 +72,7 @@ class Converter():
             os.makedirs(newPath)
 
     def makeHTMLTemplate(self, week):
-        file = open("HTML/scorecards" + str(week) + ".html", "w")
+        file = open("HTML/2018REGscorecard" + str(week) + ".html", "w")
         text = """<!DOCTYPE html>
 <html>
     <head>
@@ -871,7 +871,7 @@ class Converter():
         file.close()
 
     def appendInfo(self, games, week):
-        output = open("HTML/scorecards" + str(week) + ".html", "a")
+        output = open("HTML/2018REGscorecard" + str(week) + ".html", "a")
         text = ''
         count = 0
         for i in games:
@@ -949,12 +949,12 @@ class Converter():
         res = conn.getresponse()
         data = res.read()
         text = data.decode("utf-8")
-        output = open("Schedules/schedule" + str(week) + ".xml", "w")
+        output = open("Schedules/2018REGschedule" + str(week) + ".xml", "w")
         output.write(text)
         output.close()
         """
         games = [] # huge nested list of games, call index week
-        tree = ET.parse("Schedules/schedule" + str(week) + ".xml")
+        tree = ET.parse("Schedules/2018REGschedule" + str(week) + ".xml")
         for elem in tree.iter():
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
                 date = elem.attrib["scheduled"]
