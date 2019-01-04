@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 20:51:41 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="619b7505-fc8a-4d1e-ad86-c485031b7f81" year="2017" type="PST" name="PST">
+  <week id="cfae4f92-770b-4055-8d33-3d6f99a5b59d" sequence="4" title="4">
+    <game id="0c38ce7b-ab8e-4474-a051-db8f00dd3799" status="closed" reference="57500" number="267" scheduled="2018-02-04T23:30:00+00:00" attendance="67612" utc_offset="-6" entry_mode="INGEST" weather="Temp: 3 F, Wind:   mph" sr_id="sr:match:13600791">
+      <venue id="f5ff00d4-1ed8-4918-bf73-13d66d510f98" name="U.S. Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 S 5th Street" capacity="66655" surface="artificial" roof_type="dome" sr_id="sr:venue:18423"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="3" sr_id="sr:competitor:4424"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="3" sr_id="sr:competitor:4428"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="33" away_points="41">
+        <quarter id="3620c626-bbe3-4ae5-9c51-7f8501017d9f" number="1" sequence="1" home_points="3" away_points="9"/>
+        <quarter id="cc4b3b95-9749-481e-bc56-316d1a8e6376" number="2" sequence="2" home_points="9" away_points="13"/>
+        <quarter id="d39625f4-b248-4e73-83a8-2fffd5663ff7" number="3" sequence="3" home_points="14" away_points="7"/>
+        <quarter id="6645af5e-cee5-4f1f-97d3-ef3ca12c07f7" number="4" sequence="4" home_points="7" away_points="12"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 20:51:41 +0000 -->

@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<games season="2015" type="PST" week="1" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at 2016-07-08 02:24:19 +0000-->  <game away="SEA" clock=":00" completed="2016-01-10T21:03:16+00:00" home="MIN" id="3732ac85-8068-4ee9-a196-1836dd66fe40" quarter="4" scheduled="2016-01-10T18:05:00+00:00" status="closed">
+    <team id="MIN" market="Minnesota" name="Vikings" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="9">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="6"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="SEA" market="Seattle" name="Seahawks" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="10">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="06:53" quarter="1" sequence="1" team="MIN">
+        <score clock="01:06" id="98d467cf-c904-4117-bd35-e2256235ace2" points="3" quarter="1" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="MIN" points="3"/>
+            <team id="SEA" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/98d467cf-c904-4117-bd35-e2256235ace2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:49" quarter="3" sequence="2" team="MIN">
+        <score clock="07:09" id="697a5237-1739-43f4-8f7f-edafdcfad8eb" points="3" quarter="3" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="MIN" points="6"/>
+            <team id="SEA" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 43 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/697a5237-1739-43f4-8f7f-edafdcfad8eb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:41" quarter="3" sequence="3" team="MIN">
+        <score clock=":07" id="88518679-3242-48de-a191-c015b46dd9b5" points="3" quarter="3" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="MIN" points="9"/>
+            <team id="SEA" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 47 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/88518679-3242-48de-a191-c015b46dd9b5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":02" quarter="3" sequence="4" team="SEA">
+        <score clock="11:41" id="ced85743-06fc-412b-bce8-5cc179d42db0" points="6" quarter="4" team="SEA" type="touchdown">
+          <game-score>
+            <team id="MIN" points="9"/>
+            <team id="SEA" points="6"/>
+          </game-score>
+          <summary><![CDATA[3-R.Wilson complete to 89-D.Baldwin. 89-D.Baldwin runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/ced85743-06fc-412b-bce8-5cc179d42db0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:37" id="017d3190-c734-4425-98ce-b98c54a77969" points="1" quarter="4" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="MIN" points="9"/>
+            <team id="SEA" points="7"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/017d3190-c734-4425-98ce-b98c54a77969.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:37" quarter="4" sequence="5" team="SEA">
+        <score clock="08:09" id="69a02d01-1e18-4651-8795-7c3a1a052540" points="3" quarter="4" team="SEA" type="fieldgoal">
+          <game-score>
+            <team id="MIN" points="9"/>
+            <team id="SEA" points="10"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka 46 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/SEA/MIN/plays/69a02d01-1e18-4651-8795-7c3a1a052540.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="GB" clock=":00" completed="2016-01-11T01:11:05+00:00" home="WAS" id="c9b0c978-2b2a-417d-b211-aeb941c064e8" quarter="4" scheduled="2016-01-10T21:40:00+00:00" status="closed">
+    <team id="WAS" market="Washington" name="Redskins" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="18">
+        <quarter number="1" points="5"/>
+        <quarter number="2" points="6"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="GB" market="Green Bay" name="Packers" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="35">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="17"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="11"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="11:47" quarter="1" sequence="1" team="GB">
+        <score clock="10:33" id="057d282f-70eb-4373-8e9b-51e19284e310" points="2" quarter="1" team="WAS" type="safety">
+          <game-score>
+            <team id="WAS" points="2"/>
+            <team id="GB" points="0"/>
+          </game-score>
+          <summary><![CDATA[12-A.Rodgers sacked at GB End Zone for -5 yards to GB End Zone for no gain, safety (94-P.Smith).]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/057d282f-70eb-4373-8e9b-51e19284e310.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:27" quarter="1" sequence="2" team="WAS">
+        <score clock="04:54" id="79ca81ac-ed79-4f50-bfcf-ade2ffc7a706" points="3" quarter="1" team="WAS" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="5"/>
+            <team id="GB" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins 25 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/79ca81ac-ed79-4f50-bfcf-ade2ffc7a706.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:24" quarter="1" sequence="3" team="WAS">
+        <score clock="13:07" id="200c25de-fc1e-4a6d-bc27-f3a2b7f9dd28" points="6" quarter="2" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="0"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins complete to 86-J.Reed. 86-J.Reed runs 24 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/200c25de-fc1e-4a6d-bc27-f3a2b7f9dd28.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:02" quarter="2" sequence="4" team="GB">
+        <score clock="09:11" id="ade16087-5279-4103-a57e-6ef595413010" points="6" quarter="2" team="GB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="6"/>
+          </game-score>
+          <summary><![CDATA[12-A.Rodgers complete to 18-R.Cobb. 18-R.Cobb runs 12 yards for a touchdown. Penalty on WAS 99-R.Jean-Francois, Offside, declined. Team penalty on WAS, 12 players, declined.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/ade16087-5279-4103-a57e-6ef595413010.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:04" id="c13c01ea-5a62-4689-ba28-68213f4a759a" points="1" quarter="2" team="GB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="7"/>
+          </game-score>
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/c13c01ea-5a62-4689-ba28-68213f4a759a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:05" quarter="2" sequence="5" team="GB">
+        <score clock="02:58" id="e073d222-6785-454c-b136-8a0d10d04a2d" points="3" quarter="2" team="GB" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="10"/>
+          </game-score>
+          <summary><![CDATA[2-M.Crosby 43 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/e073d222-6785-454c-b136-8a0d10d04a2d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:22" quarter="2" sequence="6" team="GB">
+        <score clock=":33" id="7f2d164c-cb47-441b-8c92-8ee7b8f76df2" points="6" quarter="2" team="GB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="16"/>
+          </game-score>
+          <summary><![CDATA[12-A.Rodgers complete to 17-D.Adams. 17-D.Adams runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/7f2d164c-cb47-441b-8c92-8ee7b8f76df2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":28" id="3256322b-e133-4590-af64-f7e829844803" points="1" quarter="2" team="GB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="11"/>
+            <team id="GB" points="17"/>
+          </game-score>
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/3256322b-e133-4590-af64-f7e829844803.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="7" team="WAS">
+        <score clock="09:44" id="cc0ab71b-40fa-46f6-96aa-b5e0f042c0af" points="6" quarter="3" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="17"/>
+            <team id="GB" points="17"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/cc0ab71b-40fa-46f6-96aa-b5e0f042c0af.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:41" id="24b0282c-a4a2-46b7-b88b-e1332e645477" points="1" quarter="3" team="WAS" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="17"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/24b0282c-a4a2-46b7-b88b-e1332e645477.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:41" quarter="3" sequence="8" team="GB">
+        <score clock="04:18" id="d4fc0979-a820-4227-ac47-ae663d7d6ccc" points="6" quarter="3" team="GB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="23"/>
+          </game-score>
+          <summary><![CDATA[44-J.Starks runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/d4fc0979-a820-4227-ac47-ae663d7d6ccc.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:12" id="7330465a-0a6f-48da-bacf-2a59b13e52de" points="1" quarter="3" team="GB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="24"/>
+          </game-score>
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/7330465a-0a6f-48da-bacf-2a59b13e52de.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:02" quarter="3" sequence="9" team="GB">
+        <score clock="12:27" id="e175c74e-200e-4c46-b314-f5a031769401" points="6" quarter="4" team="GB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="30"/>
+          </game-score>
+          <summary><![CDATA[27-E.Lacy runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/e175c74e-200e-4c46-b314-f5a031769401.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:23" id="e59b758d-0867-4517-8d19-e687cfd5b753" points="2" quarter="4" team="GB" type="conversion">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="32"/>
+          </game-score>
+          <summary><![CDATA[12-A.Rodgers complete to 84-J.Abbrederis. 84-J.Abbrederis to WAS End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/e59b758d-0867-4517-8d19-e687cfd5b753.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:58" quarter="4" sequence="10" team="GB">
+        <score clock="04:43" id="b6ded030-306c-4db1-b261-c11a212b0cac" points="3" quarter="4" team="GB" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="18"/>
+            <team id="GB" points="35"/>
+          </game-score>
+          <summary><![CDATA[2-M.Crosby 29 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/GB/WAS/plays/b6ded030-306c-4db1-b261-c11a212b0cac.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="PIT" clock=":00" completed="2016-01-10T04:56:06+00:00" home="CIN" id="56f7b3b7-f4de-475e-999c-5820b48106c1" quarter="4" scheduled="2016-01-10T01:15:00+00:00" status="closed">
+    <team id="CIN" market="Cincinnati" name="Bengals" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="16">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="16"/>
+      </scoring>
+    </team>
+    <team id="PIT" market="Pittsburgh" name="Steelers" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="18">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="6"/>
+        <quarter number="3" points="9"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="04:57" quarter="2" sequence="1" team="PIT">
+        <score clock="02:32" id="f9fc890c-bac2-4b18-ac5b-be9cd6eb8d41" points="3" quarter="2" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="CIN" points="0"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 39 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/f9fc890c-bac2-4b18-ac5b-be9cd6eb8d41.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:49" quarter="2" sequence="2" team="PIT">
+        <score clock=":37" id="85a0e6b7-0580-4d8e-9bd6-2bb15201e504" points="3" quarter="2" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="CIN" points="0"/>
+            <team id="PIT" points="6"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/85a0e6b7-0580-4d8e-9bd6-2bb15201e504.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:13" quarter="3" sequence="3" team="PIT">
+        <score clock="10:13" id="43102fb3-8636-40f1-b99c-8b4fdca7568c" points="3" quarter="3" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="CIN" points="0"/>
+            <team id="PIT" points="9"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/43102fb3-8636-40f1-b99c-8b4fdca7568c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:31" quarter="3" sequence="4" team="PIT">
+        <score clock="05:08" id="7260522f-af44-4b31-bca2-a3f7d39471af" points="6" quarter="3" team="PIT" type="touchdown">
+          <game-score>
+            <team id="CIN" points="0"/>
+            <team id="PIT" points="15"/>
+          </game-score>
+          <summary><![CDATA[7-B.Roethlisberger complete to 10-M.Bryant. 10-M.Bryant runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/7260522f-af44-4b31-bca2-a3f7d39471af.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:47" quarter="4" sequence="5" team="CIN">
+        <score clock="14:00" id="a83ca252-9924-4a96-8ec9-ad2173eef315" points="6" quarter="4" team="CIN" type="touchdown">
+          <game-score>
+            <team id="CIN" points="6"/>
+            <team id="PIT" points="15"/>
+          </game-score>
+          <summary><![CDATA[32-J.Hill runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/a83ca252-9924-4a96-8ec9-ad2173eef315.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="13:57" id="6db19073-58df-4a2d-8e07-989a9b2b75b8" points="1" quarter="4" team="CIN" type="extrapoint">
+          <game-score>
+            <team id="CIN" points="7"/>
+            <team id="PIT" points="15"/>
+          </game-score>
+          <summary><![CDATA[2-M.Nugent extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/6db19073-58df-4a2d-8e07-989a9b2b75b8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:11" quarter="4" sequence="6" team="CIN">
+        <score clock="05:17" id="ab5c06ab-3598-4203-a7eb-d5ef99ca4476" points="3" quarter="4" team="CIN" type="fieldgoal">
+          <game-score>
+            <team id="CIN" points="10"/>
+            <team id="PIT" points="15"/>
+          </game-score>
+          <summary><![CDATA[2-M.Nugent 36 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/ab5c06ab-3598-4203-a7eb-d5ef99ca4476.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:28" quarter="4" sequence="7" team="CIN">
+        <score clock="01:56" id="789eade8-88c9-472c-9adc-8573844dcf9f" points="6" quarter="4" team="CIN" type="touchdown">
+          <game-score>
+            <team id="CIN" points="16"/>
+            <team id="PIT" points="15"/>
+          </game-score>
+          <summary><![CDATA[5-A.McCarron complete to 18-A.Green. 18-A.Green runs 25 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/789eade8-88c9-472c-9adc-8573844dcf9f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:23" quarter="4" sequence="8" team="PIT">
+        <score clock=":18" id="bfebbcf0-bd55-440c-863d-34ac4d1bd5f2" points="3" quarter="4" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="CIN" points="16"/>
+            <team id="PIT" points="18"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/PIT/CIN/plays/bfebbcf0-bd55-440c-863d-34ac4d1bd5f2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="KC" clock=":00" completed="2016-01-10T00:34:09+00:00" home="HOU" id="b999cd2f-1463-45ff-a089-3ee074af80e2" quarter="4" scheduled="2016-01-09T21:35:00+00:00" status="closed">
+    <team id="HOU" market="Houston" name="Texans" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="0">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="KC" market="Kansas City" name="Chiefs" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="30">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="6"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="KC">
+        <score clock="15:00" id="06bb9e8b-8461-4515-a964-b78e1843983f" points="6" quarter="1" team="KC" type="touchdown">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="6"/>
+          </game-score>
+          <summary><![CDATA[8-N.Novak kicks 71 yards from HOU 35. 34-K.Davis runs 106 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/06bb9e8b-8461-4515-a964-b78e1843983f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:49" id="a41a8456-51e3-4530-b638-6c8299207ebf" points="1" quarter="1" team="KC" type="extrapoint">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="7"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/a41a8456-51e3-4530-b638-6c8299207ebf.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":20" quarter="1" sequence="2" team="KC">
+        <score clock="12:56" id="1c03b129-95f0-411b-a86e-936c054f5d8d" points="3" quarter="2" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="10"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/1c03b129-95f0-411b-a86e-936c054f5d8d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:35" quarter="2" sequence="3" team="KC">
+        <score clock="07:11" id="f9f5c64f-f2a7-4c50-9587-7290dc63fb0d" points="3" quarter="2" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="13"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/f9f5c64f-f2a7-4c50-9587-7290dc63fb0d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:58" quarter="3" sequence="4" team="KC">
+        <score clock="04:41" id="bd0c4026-1ab0-4b72-9a37-68421c915c33" points="6" quarter="3" team="KC" type="touchdown">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="19"/>
+          </game-score>
+          <summary><![CDATA[11-A.Smith complete to 17-C.Conley. 17-C.Conley runs 9 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/bd0c4026-1ab0-4b72-9a37-68421c915c33.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:35" id="6f40188a-da54-4bef-b42a-1a28c05efe18" points="1" quarter="3" team="KC" type="extrapoint">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="20"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/6f40188a-da54-4bef-b42a-1a28c05efe18.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:09" quarter="3" sequence="5" team="KC">
+        <score clock="15:00" id="fad843c6-a9d9-48e2-af36-b4be3d2c6ed4" points="6" quarter="4" team="KC" type="touchdown">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="26"/>
+          </game-score>
+          <summary><![CDATA[32-S.Ware runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/fad843c6-a9d9-48e2-af36-b4be3d2c6ed4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:56" id="f984a553-95b6-4ff9-a5d4-143540979909" points="1" quarter="4" team="KC" type="extrapoint">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="27"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/f984a553-95b6-4ff9-a5d4-143540979909.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:12" quarter="4" sequence="6" team="KC">
+        <score clock="04:04" id="3578e381-084f-407c-aa10-6ff268d006b6" points="3" quarter="4" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="HOU" points="0"/>
+            <team id="KC" points="30"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 33 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/1/KC/HOU/plays/3578e381-084f-407c-aa10-6ff268d006b6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at 2016-07-08 02:24:20 +0000--></games>

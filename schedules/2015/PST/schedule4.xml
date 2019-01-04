@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<games season="2015" type="PST" week="4" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at 2016-08-05 18:36:34 +0000-->  <game away="CAR" clock=":00" completed="2016-02-08T03:22:00+00:00" home="DEN" id="de15d845-372d-4f51-8daf-520f0fab657b" quarter="4" scheduled="2016-02-07T23:30:00+00:00" status="closed">
+    <team id="DEN" market="Denver" name="Broncos" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="8"/>
+      </scoring>
+    </team>
+    <team id="CAR" market="Carolina" name="Panthers" remaining_challenges="0" remaining_timeouts="2">
+      <scoring points="10">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="DEN">
+        <score clock="10:47" id="6708a46c-2eca-4195-86f9-74639d5eb1f1" points="3" quarter="1" team="DEN" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="3"/>
+            <team id="CAR" points="0"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/6708a46c-2eca-4195-86f9-74639d5eb1f1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:23" quarter="1" sequence="2" team="CAR">
+        <score clock="06:34" id="6fdb68b0-7f1b-45e7-bbe9-5b0fef697b7b" points="6" quarter="1" team="DEN" type="touchdown">
+          <game-score>
+            <team id="DEN" points="9"/>
+            <team id="CAR" points="0"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton sacked at CAR 4 for -11 yards, FUMBLES (58-V.Miller). 97-M.Jackson runs no gain for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/6fdb68b0-7f1b-45e7-bbe9-5b0fef697b7b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:27" quarter="1" sequence="3" team="DEN">
+        <score clock="06:27" id="5db2356a-d38c-45cb-95f0-0c4dadf7df92" points="1" quarter="1" team="DEN" type="extrapoint">
+          <game-score>
+            <team id="DEN" points="10"/>
+            <team id="CAR" points="0"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/5db2356a-d38c-45cb-95f0-0c4dadf7df92.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:15" quarter="1" sequence="4" team="CAR">
+        <score clock="11:28" id="fe8fd40e-1964-4a66-8159-c0bc778476ed" points="6" quarter="2" team="CAR" type="touchdown">
+          <game-score>
+            <team id="DEN" points="10"/>
+            <team id="CAR" points="6"/>
+          </game-score>
+          <summary><![CDATA[28-J.Stewart runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/fe8fd40e-1964-4a66-8159-c0bc778476ed.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:25" id="f7bf4ad1-2a83-4252-a107-5137741ebb82" points="1" quarter="2" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="DEN" points="10"/>
+            <team id="CAR" points="7"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/f7bf4ad1-2a83-4252-a107-5137741ebb82.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:11" quarter="2" sequence="5" team="DEN">
+        <score clock="07:01" id="cbc40a9f-be90-44df-abe0-26795c77a78d" points="3" quarter="2" team="DEN" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="13"/>
+            <team id="CAR" points="7"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus 33 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/cbc40a9f-be90-44df-abe0-26795c77a78d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:48" quarter="3" sequence="6" team="DEN">
+        <score clock="08:22" id="aac42e32-5498-4256-a1ad-263efb11415f" points="3" quarter="3" team="DEN" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="16"/>
+            <team id="CAR" points="7"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/aac42e32-5498-4256-a1ad-263efb11415f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:17" quarter="4" sequence="7" team="CAR">
+        <score clock="10:26" id="64ca13d4-7728-4a23-8ff3-66b5f11b638e" points="3" quarter="4" team="CAR" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="16"/>
+            <team id="CAR" points="10"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano 39 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/64ca13d4-7728-4a23-8ff3-66b5f11b638e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:04" quarter="4" sequence="8" team="DEN">
+        <score clock="03:13" id="f325c90f-ae9c-4739-9ec0-1a5ae9603ab9" points="6" quarter="4" team="DEN" type="touchdown">
+          <game-score>
+            <team id="DEN" points="22"/>
+            <team id="CAR" points="10"/>
+          </game-score>
+          <summary><![CDATA[22-C.Anderson runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/f325c90f-ae9c-4739-9ec0-1a5ae9603ab9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:08" id="cfeb8cfd-a445-4888-951e-187d3f90226e" points="2" quarter="4" team="DEN" type="conversion">
+          <game-score>
+            <team id="DEN" points="24"/>
+            <team id="CAR" points="10"/>
+          </game-score>
+          <summary><![CDATA[18-P.Manning complete to 16-B.Fowler. 16-B.Fowler to CAR End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/PST/4/CAR/DEN/plays/cfeb8cfd-a445-4888-951e-187d3f90226e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at 2016-08-05 18:36:34 +0000--></games>

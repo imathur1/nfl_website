@@ -1,28 +1,16 @@
 import os
-from pathlib import Path
 import http.client
 import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
-# CHECK IF FILE ALREADY IN SYSTEM TO AVOID REPETITIVE CALLS
-
-# Threshold for Official is 2015
-# onclick, runs pythonn script through ajax THEN links to the newly
-# generated file
-
-# TO DO:
-# Make navigation bar
+# Navigation bar
 # Centering if odd number of games
-# Make date include year (i.e. 13/08/15)
 # Pictures
-# More JS functionality
-# More game statistics
+# Link videos
 # Host on server 
-# Test on different devices
 # Styling, different colors, blue, dark blue
-# Hall of Fame (HOF), special events, special stats, etc?
-# Stats by team
+# Back button, next button
 
 # Tweak shadow
 # display: inline-block;
@@ -36,11 +24,8 @@ from datetime import date as dateName
 # margin-bottom: 5%;
 
 # NFL Official
-# Bash: curl -X GET "https://api.sportradar.us/nfl/official/trial/v5/en/games/2018/REG/16/schedule.xml?api_key=5dbyzszswdjteg4ab663g837"
 # Key: 5dbyzszswdjteg4ab663g837
-
 # NFL Classic
-# Bash: curl -X GET "https://api.sportradar.us/nfl-t1/2016/reg/1/schedule.xml?api_key=vqbcxphvmpgyndjpqf2y27c"
 # Key: zvqbcxphvmpgyndjpqf2y27c
 
 class Converter():
@@ -82,8 +67,8 @@ class Converter():
     "Washington Redskins": [0, 0, 0]
     }
 
-    def __init__(self, year, type, week):
-        self.year = year
+    def __init__(self, startYear, type, week):
+        self.startYear = startYear
         self.type = type
         self.week = week
 
@@ -98,9 +83,9 @@ class Converter():
             else:
                 title = "SUPER BOWL"
         else:
-            title = "WEEK " + self.week
+            title = "WEEK " + str(self.week)
 
-        file = open("HTML/" + str(self.year) + "/" + self.type + "/scorecard" + self.week + ".html", "w")
+        file = open("HTML/" + str(self.startYear) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "w")
         text = """<!DOCTYPE html>
 <html>
     <head>
@@ -109,7 +94,7 @@ class Converter():
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/scorecards.css">
     </head>
     <body>
-        <div class="title">""" + str(self.year) +  """ NFL """ + str(title) + """</div>
+        <div class="title">""" + str(self.startYear) +  """ NFL """ + str(title) + """</div>
         """
         for i in range(8):
             text += """<div class="row">
@@ -216,19 +201,26 @@ class Converter():
     
     def makeInfo(self):
         conn = http.client.HTTPSConnection("api.sportradar.us")
-        if self.year <= 2015:
-            conn.request("GET", "/nfl-t1/2016/reg/1/schedule.xml?api_key=zvqbcxphvmpgyndjpqf2y27c")
-        else:
-            conn.request("GET", "/nfl/official/trial/v5/en/games/" + str(self.year) + "/" + self.type + "/" + self.week + "/schedule.xml?api_key=5dbyzszswdjteg4ab663g837")
+        conn.request("GET", "/nfl/official/trial/v5/en/games/" + str(self.startYear) + "/" + self.type + "/" + str(self.week) + "/schedule.xml?api_key=5dbyzszswdjteg4ab663g837")
         res = conn.getresponse()
         data = res.read()
         text = data.decode("utf-8")
-        output = open("Schedules/" + str(self.year) + "/" + self.type + "/schedule" + self.week + ".xml", "w")
+        output = open("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml", "w")
+        output.write(text)
+        output.close()
+
+    def makeInfo2(self):
+        conn = http.client.HTTPSConnection("api.sportradar.us")
+        conn.request("GET", "/nfl-t1/" + str(self.startYear) + "/" + self.type + "/" + str(self.week) + "/boxscore.xml?api_key=zvqbcxphvmpgyndjpqf2y27c")
+        res = conn.getresponse()
+        data = res.read()
+        text = data.decode("utf-8")
+        output = open("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml", "w")
         output.write(text)
         output.close()
 
     def appendInfo(self, games):
-        output = open("HTML/" + str(self.year) + "/" + self.type + "/scorecard" + self.week + ".html", "a")
+        output = open("HTML/" + str(self.startYear) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "a")
         text = ''
         count = 0
         for i in games:
@@ -290,8 +282,8 @@ class Converter():
     def convertDate(self, date):
         dayMapping = {0: "Mon", 1: "Tue", 2: "Wed", 3: "Thu", 4: "Fri", 5: "Sat", 6: "Sun"}
         date = list(date)
-        year = date[0:4]
-        newYear = ''.join(year)
+        year1 = date[0:4]
+        newYear = ''.join(year1)
         month = date[5:8]
         day = date[8:10]
         newDate = day + month
@@ -308,7 +300,7 @@ class Converter():
     def convertInfo(self):
         self.makeHTMLTemplate()
         games = []
-        tree = ET.parse("Schedules/" + str(self.year) + "/" + self.type + "/schedule" + self.week + ".xml")
+        tree = ET.parse("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week)+ ".xml")
         for elem in tree.iter():
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
                 date = elem.attrib["scheduled"]
@@ -372,55 +364,150 @@ class Converter():
 
         games.sort(key = itemgetter(2))
         self.appendInfo(games)
-
-def changeWeek(week):
-    week = list(str(week))
-    if len(week) == 1:
-        temp = week[0]
-        del week[0]
-        week.append("0")
-        week.append(temp)
     
-    week = ''.join(week)
-    return week
+    def convertInfo2(self):
+        self.makeHTMLTemplate()
+        games = []
+        tree = ET.parse("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml")
+        tracker = 0
+        tracker2 = 0
+        tracker3 = 0
+        tracker4 = 0
+        for elem in tree.iter():
+            if elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}game": 
+                date = elem.attrib["scheduled"]
+                value, newDate = self.convertDate(date)
+                records = []
+                home = []
+                away = []
+                homePointsByQuarter = []
+                awayPointsByQuarter = []
+                count = 0
+            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}team":
+                try:
+                    message = elem.attrib['market']
+                    message += " " + elem.attrib['name']
+                    if tracker == 0:
+                        home.append(message)
+                        tracker = 1
+                    else:
+                        away.append(message)
+                        tracker = 0
+                    records.append(message)
+                except KeyError:
+                    pass
+            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}scoring":
+                if tracker2 == 0:
+                    home.append(int(elem.attrib['points']))
+                    tracker2 = 1
+                else:
+                    away.append(int(elem.attrib['points']))
+                    tracker2 = 0
+            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}quarter":
+                if tracker3 == 0:
+                    homePointsByQuarter.append(int(elem.attrib['points']))
+                    tracker3 = 1
+                else:
+                    awayPointsByQuarter.append(int(elem.attrib['points']))
+                    tracker3 = 0
+                    count += 1
+                    if count == 4:
+                        homeSum = sum(homePointsByQuarter)
+                        homePointsByQuarter.append(homeSum)
+                        home.append(homePointsByQuarter)
+                        awaySum = sum(awayPointsByQuarter)
+                        awayPointsByQuarter.append(awaySum)
+                        away.append(awayPointsByQuarter)
+                        games.append([home, away, [value, newDate]])
 
-def makeCalls(year):
-    while year <= 2018:
-        type = "PRE"
-        week = 1
-        while week <= 4:
-            newWeek = changeWeek(week)
-            converter = Converter(year, type, newWeek)
-            file = Path("Schedules/" + str(year) + "/" + type + "/schedule" + newWeek + ".xml")
-            if not file.is_file():
+                        if homeSum > awaySum:
+                            Converter.standings[records[0]][0] += 1
+                            Converter.standings[records[1]][1] += 1
+                        elif homeSum < awaySum:
+                            Converter.standings[records[0]][1] += 1
+                            Converter.standings[records[1]][0] += 1    
+                        else:
+                            Converter.standings[records[0]][2] += 1
+                            Converter.standings[records[1]][2] += 1
+            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}overtime":
+                if tracker4 == 0:
+                    home[2].append(int(elem.attrib['points']))
+                    homeSum = sum(home[2])
+                    home[2][4] += int(elem.attrib['points'])
+                    tracker4 = 1
+                else:
+                    away[2].append(int(elem.attrib['points']))
+                    awaySum = sum(away[2])
+                    away[2][4] += int(elem.attrib['away_points'])
+                    tracker4 = 0
+
+                    if homeSum > awaySum:
+                        Converter.standings[records[0]][0] += 1
+                        Converter.standings[records[1]][1] += 1
+                        Converter.standings[records[0]][2] -= 1
+                        Converter.standings[records[1]][2] -= 1
+                    elif homeSum < awaySum:
+                        Converter.standings[records[0]][1] += 1
+                        Converter.standings[records[1]][0] += 1
+                        Converter.standings[records[0]][2] -= 1
+                        Converter.standings[records[1]][2] -= 1        
+                    else:
+                        pass
+        
+        games.sort(key = itemgetter(2))
+        self.appendInfo(games)
+
+def makeCalls(startYear, endYear, switch):
+    while startYear <= endYear:
+        if startYear <= switch:
+            type = "PRE"
+            week = 1
+            while week <= 4:
+                converter = Converter(startYear, type, week)
+                converter.makeInfo2()
+                converter.convertInfo2()  
+                week += 1
+            type = "REG"
+            week = 1
+            while week <= 17:
+                converter = Converter(startYear, type, week)
+                converter.makeInfo2()
+                converter.convertInfo2()  
+                week += 1
+            type = "PST"
+            week = 1
+            while week <= 4:
+                converter = Converter(startYear, type, week)
+                converter.makeInfo2()
+                converter.convertInfo2()  
+                week += 1
+        else:
+            type = "PRE"
+            week = 1
+            while week <= 4:
+                converter = Converter(startYear, type, week)
                 converter.makeInfo()
-            converter.convertInfo()  
-            week += 1
-    
-        type = "REG"
-        week = 1
-        while week <= 17:
-            newWeek = changeWeek(week)
-            converter = Converter(year, type, newWeek)
-            file = Path("Schedules/" + str(year) + "/" + type + "/schedule" + newWeek + ".xml")
-            if file.is_file() == False:
+                converter.convertInfo()  
+                week += 1
+        
+            type = "REG"
+            week = 1
+            while week <= 17:
+                converter = Converter(startYear, type, week)
                 converter.makeInfo()
-            converter.convertInfo()  
-            week += 1
-        type = "PST"
-        week = 1
-        while week <= 4:
-            newWeek = changeWeek(week)
-            converter = Converter(year, type, newWeek)
-            file = Path("Schedules/" + str(year) + "/" + type + "/schedule" + newWeek + ".xml")
-            if not file.is_file():
+                converter.convertInfo()  
+                week += 1
+            type = "PST"
+            week = 1
+            while week <= 4:
+                converter = Converter(startYear, type, week)
                 converter.makeInfo()
-            converter.convertInfo()  
-            week += 1
-        year += 1
+                converter.convertInfo()  
+                week += 1
+        startYear += 1
 
 def main():
-    makeCalls(2014)
+    makeCalls(2012, 2012, 2015)
 
 if __name__ == '__main__':
     main()

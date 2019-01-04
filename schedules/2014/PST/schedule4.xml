@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<games season="2014" type="PST" week="4" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at 2015-08-05 19:08:50 +0000-->  <game away="NE" clock=":00" completed="2015-02-02T03:07:10+00:00" home="SEA" id="b7aeb58f-7987-4202-bc41-3ad9a5b83fa4" quarter="4" scheduled="2015-02-01T23:30:00+00:00" status="closed">
+    <team id="SEA" market="Seattle" name="Seahawks" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="NE" market="New England" name="Patriots" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="28">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:57" quarter="2" sequence="1" team="NE">
+        <score clock="09:51" id="71acf071-77a4-4ca8-a7a1-1c527731bc25" points="6" quarter="2" team="NE" type="touchdown">
+          <game-score>
+            <team id="SEA" points="0"/>
+            <team id="NE" points="6"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 19-B.LaFell. 19-B.LaFell runs 11 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/71acf071-77a4-4ca8-a7a1-1c527731bc25.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:47" id="e750e058-68bc-4b01-95cb-118af13f93e8" points="1" quarter="2" team="NE" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="0"/>
+            <team id="NE" points="7"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/e750e058-68bc-4b01-95cb-118af13f93e8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:07" quarter="2" sequence="2" team="SEA">
+        <score clock="02:24" id="82aa1f8f-1012-40d4-8ccb-ca55388ec0d3" points="6" quarter="2" team="SEA" type="touchdown">
+          <game-score>
+            <team id="SEA" points="6"/>
+            <team id="NE" points="7"/>
+          </game-score>
+          <summary><![CDATA[24-M.Lynch runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/82aa1f8f-1012-40d4-8ccb-ca55388ec0d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:16" id="4fec5baf-d5d7-44f9-adac-9d8cd1844e33" points="1" quarter="2" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="7"/>
+            <team id="NE" points="7"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/4fec5baf-d5d7-44f9-adac-9d8cd1844e33.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:16" quarter="2" sequence="3" team="NE">
+        <score clock=":36" id="ebad5271-da55-4ded-abb6-4124aaa0fc3e" points="6" quarter="2" team="NE" type="touchdown">
+          <game-score>
+            <team id="SEA" points="7"/>
+            <team id="NE" points="13"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 87-R.Gronkowski. 87-R.Gronkowski runs 22 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/ebad5271-da55-4ded-abb6-4124aaa0fc3e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":31" id="c1e3d7cd-bce0-4e57-8efb-6e860a023a78" points="1" quarter="2" team="NE" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="7"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/c1e3d7cd-bce0-4e57-8efb-6e860a023a78.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":31" quarter="2" sequence="4" team="SEA">
+        <score clock=":06" id="3414961a-7e59-4fde-995d-fbff6bbff83d" points="6" quarter="2" team="SEA" type="touchdown">
+          <game-score>
+            <team id="SEA" points="13"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[3-R.Wilson complete to 13-C.Matthews. 13-C.Matthews runs 11 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/3414961a-7e59-4fde-995d-fbff6bbff83d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":02" id="632a2848-40e7-4006-b28d-f0fdb613225e" points="1" quarter="2" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="14"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/632a2848-40e7-4006-b28d-f0fdb613225e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="5" team="SEA">
+        <score clock="11:13" id="98052155-88b8-46f3-80b7-2929f29c66de" points="3" quarter="3" team="SEA" type="fieldgoal">
+          <game-score>
+            <team id="SEA" points="17"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/98052155-88b8-46f3-80b7-2929f29c66de.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:07" quarter="3" sequence="6" team="SEA">
+        <score clock="05:00" id="7aeeb603-e152-461e-94fa-747772305090" points="6" quarter="3" team="SEA" type="touchdown">
+          <game-score>
+            <team id="SEA" points="23"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[3-R.Wilson complete to 89-D.Baldwin. 89-D.Baldwin runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/7aeeb603-e152-461e-94fa-747772305090.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:54" id="1b9900bf-747b-4c9f-9ee1-55ffe0dcf42f" points="1" quarter="3" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="24"/>
+            <team id="NE" points="14"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/1b9900bf-747b-4c9f-9ee1-55ffe0dcf42f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:10" quarter="4" sequence="7" team="NE">
+        <score clock="08:00" id="3ecf9ffc-b70f-45a7-b744-cba1754f87f9" points="6" quarter="4" team="NE" type="touchdown">
+          <game-score>
+            <team id="SEA" points="24"/>
+            <team id="NE" points="20"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 80-D.Amendola. 80-D.Amendola runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/3ecf9ffc-b70f-45a7-b744-cba1754f87f9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:55" id="fbd8cd14-ca56-4142-8b2a-7e1d5b31d2d3" points="1" quarter="4" team="NE" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="24"/>
+            <team id="NE" points="21"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/fbd8cd14-ca56-4142-8b2a-7e1d5b31d2d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:52" quarter="4" sequence="8" team="NE">
+        <score clock="02:06" id="7031939a-c7cf-4292-a27a-e0a14fc1570f" points="6" quarter="4" team="NE" type="touchdown">
+          <game-score>
+            <team id="SEA" points="24"/>
+            <team id="NE" points="27"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 11-J.Edelman. 11-J.Edelman runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/7031939a-c7cf-4292-a27a-e0a14fc1570f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:02" id="28b0698c-8954-441f-b2d1-72b0beb76452" points="1" quarter="4" team="NE" type="extrapoint">
+          <game-score>
+            <team id="SEA" points="24"/>
+            <team id="NE" points="28"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2014/PST/4/NE/SEA/plays/28b0698c-8954-441f-b2d1-72b0beb76452.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at 2015-08-05 19:08:50 +0000--></games>

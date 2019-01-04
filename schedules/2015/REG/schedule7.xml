@@ -1,0 +1,2410 @@
+<?xml version="1.0"?>
+<games season="2015" type="REG" week="7" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at 2016-08-23 18:42:35 +0000-->  <game away="MIN" clock=":00" completed="2015-10-25T20:04:13+00:00" home="DET" id="2b6faf20-5ae8-42ea-b7f2-a1eda282fe8c" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="DET" market="Detroit" name="Lions" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="19">
+        <quarter number="1" points="14"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="2"/>
+      </scoring>
+    </team>
+    <team id="MIN" market="Minnesota" name="Vikings" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="28">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="12"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="DET">
+        <score clock="11:14" id="d5751ca7-c5e5-4e5c-8933-d765d793425b" points="6" quarter="1" team="DET" type="touchdown">
+          <game-score>
+            <team id="DET" points="6"/>
+            <team id="MIN" points="0"/>
+          </game-score>
+          <summary><![CDATA[9-M.Stafford complete to 81-C.Johnson. 81-C.Johnson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/d5751ca7-c5e5-4e5c-8933-d765d793425b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:10" id="28671a53-0f5a-4c80-8db8-1ffe7c433e53" points="1" quarter="1" team="DET" type="extrapoint">
+          <game-score>
+            <team id="DET" points="7"/>
+            <team id="MIN" points="0"/>
+          </game-score>
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/28671a53-0f5a-4c80-8db8-1ffe7c433e53.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:10" quarter="1" sequence="2" team="MIN">
+        <score clock="03:51" id="af375d85-5e49-49f6-9886-c8aab645ef4a" points="3" quarter="1" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="7"/>
+            <team id="MIN" points="3"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 37 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/af375d85-5e49-49f6-9886-c8aab645ef4a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:47" quarter="1" sequence="3" team="DET">
+        <score clock="01:30" id="eb84ca6a-ed72-4489-b56a-8d55fd626e50" points="6" quarter="1" team="DET" type="touchdown">
+          <game-score>
+            <team id="DET" points="13"/>
+            <team id="MIN" points="3"/>
+          </game-score>
+          <summary><![CDATA[9-M.Stafford complete to 85-E.Ebron. 85-E.Ebron runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/eb84ca6a-ed72-4489-b56a-8d55fd626e50.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:24" id="52e304f8-2097-48d0-9112-c50ee1e86630" points="1" quarter="1" team="DET" type="extrapoint">
+          <game-score>
+            <team id="DET" points="14"/>
+            <team id="MIN" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/52e304f8-2097-48d0-9112-c50ee1e86630.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:24" quarter="1" sequence="4" team="MIN">
+        <score clock="11:15" id="3cfe96a5-e382-437e-9420-e8a1cc2b2851" points="3" quarter="2" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="14"/>
+            <team id="MIN" points="6"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 53 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/3cfe96a5-e382-437e-9420-e8a1cc2b2851.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:56" quarter="2" sequence="5" team="DET">
+        <score clock="05:08" id="3ef19ba2-3261-477a-8869-fa9ca5b71e63" points="3" quarter="2" team="DET" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="6"/>
+          </game-score>
+          <summary><![CDATA[5-M.Prater 52 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/3ef19ba2-3261-477a-8869-fa9ca5b71e63.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:03" quarter="2" sequence="6" team="MIN">
+        <score clock="01:54" id="736d722e-7cc2-4156-8701-b065e547595a" points="6" quarter="2" team="MIN" type="touchdown">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="12"/>
+          </game-score>
+          <summary><![CDATA[5-T.Bridgewater complete to 82-K.Rudolph. 82-K.Rudolph runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/736d722e-7cc2-4156-8701-b065e547595a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:13" quarter="2" sequence="7" team="MIN">
+        <score clock=":04" id="e446e773-fb06-425e-8f9e-23f4ccb4a321" points="3" quarter="2" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="15"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 51 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/e446e773-fb06-425e-8f9e-23f4ccb4a321.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="8" team="MIN">
+        <score clock="10:28" id="c5db59e4-2ec6-4e27-b85f-9ae688ae04d9" points="6" quarter="3" team="MIN" type="touchdown">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="21"/>
+          </game-score>
+          <summary><![CDATA[5-T.Bridgewater complete to 14-S.Diggs. 14-S.Diggs runs 36 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/c5db59e4-2ec6-4e27-b85f-9ae688ae04d9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:19" id="397362c8-b0d3-4b5d-a2bd-7c0abf1c3dd8" points="1" quarter="3" team="MIN" type="extrapoint">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="22"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/397362c8-b0d3-4b5d-a2bd-7c0abf1c3dd8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:14" quarter="3" sequence="9" team="MIN">
+        <score clock="06:11" id="d3c9f6b1-32d7-4e37-b1f7-79f667bdb05b" points="3" quarter="3" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="25"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/d3c9f6b1-32d7-4e37-b1f7-79f667bdb05b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:07" quarter="3" sequence="10" team="MIN">
+        <score clock="14:13" id="e8ba435d-3549-435d-8641-44c3d07c5f5c" points="3" quarter="4" team="MIN" type="fieldgoal">
+          <game-score>
+            <team id="DET" points="17"/>
+            <team id="MIN" points="28"/>
+          </game-score>
+          <summary><![CDATA[3-B.Walsh 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/e8ba435d-3549-435d-8641-44c3d07c5f5c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:56" quarter="4" sequence="11" team="MIN">
+        <score clock="01:03" id="322260f1-3b05-4b44-a25f-fea12c7094b5" points="2" quarter="4" team="DET" type="safety">
+          <game-score>
+            <team id="DET" points="19"/>
+            <team id="MIN" points="28"/>
+          </game-score>
+          <summary><![CDATA[18-J.Locke runs ob at MIN End Zone for -6 yards. Penalty on MIN 19-A.Thielen, Holding, declined. to MIN End Zone for -6 yards, safety.]]></summary>
+          <links>
+            <link href="/2015/REG/7/MIN/DET/plays/322260f1-3b05-4b44-a25f-fea12c7094b5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="DAL" clock=":00" completed="2015-10-25T23:20:34+00:00" home="NYG" id="2f94280c-aa83-4204-8479-f0923b6e1307" quarter="4" scheduled="2015-10-25T20:25:00+00:00" status="closed">
+    <team id="NYG" market="New York" name="Giants" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="27">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="DAL" market="Dallas" name="Cowboys" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="20">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="10:42" quarter="1" sequence="1" team="DAL">
+        <score clock="05:29" id="e4dcdfa7-324c-4f16-bdbf-f15748516b8c" points="3" quarter="1" team="DAL" type="fieldgoal">
+          <game-score>
+            <team id="NYG" points="0"/>
+            <team id="DAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-D.Bailey 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/e4dcdfa7-324c-4f16-bdbf-f15748516b8c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:07" quarter="2" sequence="2" team="NYG">
+        <score clock="11:10" id="01b0b33d-3fd8-467f-8ea3-e96c905e5f37" points="6" quarter="2" team="NYG" type="touchdown">
+          <game-score>
+            <team id="NYG" points="6"/>
+            <team id="DAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[26-O.Darkwa runs 15 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/01b0b33d-3fd8-467f-8ea3-e96c905e5f37.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:02" id="1c4f794a-98ef-4be2-9022-eb16cb1547d4" points="1" quarter="2" team="NYG" type="extrapoint">
+          <game-score>
+            <team id="NYG" points="7"/>
+            <team id="DAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[3-J.Brown extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/1c4f794a-98ef-4be2-9022-eb16cb1547d4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:02" quarter="2" sequence="3" team="DAL">
+        <score clock="07:35" id="3a80209f-ae9b-482b-9d60-6e8ba112d189" points="3" quarter="2" team="DAL" type="fieldgoal">
+          <game-score>
+            <team id="NYG" points="7"/>
+            <team id="DAL" points="6"/>
+          </game-score>
+          <summary><![CDATA[5-D.Bailey 48 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/3a80209f-ae9b-482b-9d60-6e8ba112d189.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:36" quarter="2" sequence="4" team="DAL">
+        <score clock="02:22" id="233cfc3d-708d-49c7-8d97-deb61eb7e4e4" points="6" quarter="2" team="DAL" type="touchdown">
+          <game-score>
+            <team id="NYG" points="7"/>
+            <team id="DAL" points="12"/>
+          </game-score>
+          <summary><![CDATA[20-D.McFadden runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/233cfc3d-708d-49c7-8d97-deb61eb7e4e4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:17" id="821cbc6a-bdf4-4d64-9ca8-2410484e2118" points="1" quarter="2" team="DAL" type="extrapoint">
+          <game-score>
+            <team id="NYG" points="7"/>
+            <team id="DAL" points="13"/>
+          </game-score>
+          <summary><![CDATA[5-D.Bailey extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/821cbc6a-bdf4-4d64-9ca8-2410484e2118.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:17" quarter="2" sequence="5" team="NYG">
+        <score clock="01:08" id="ca95e5f1-f59b-49f0-948a-3ad456b191bd" points="3" quarter="2" team="NYG" type="fieldgoal">
+          <game-score>
+            <team id="NYG" points="10"/>
+            <team id="DAL" points="13"/>
+          </game-score>
+          <summary><![CDATA[3-J.Brown 47 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/ca95e5f1-f59b-49f0-948a-3ad456b191bd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="DAL">
+        <score clock="11:34" id="ca4ec685-ce73-4f91-b5f9-5e779be613d7" points="6" quarter="3" team="NYG" type="touchdown">
+          <game-score>
+            <team id="NYG" points="16"/>
+            <team id="DAL" points="13"/>
+          </game-score>
+          <summary><![CDATA[16-M.Cassel incomplete. Intended for 83-T.Williams, INTERCEPTED by 41-D.Rodgers-Cromartie at NYG 42. 41-D.Rodgers-Cromartie runs 58 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/ca4ec685-ce73-4f91-b5f9-5e779be613d7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:19" quarter="3" sequence="7" team="NYG">
+        <score clock="11:19" id="e2334af3-e8f6-4a9d-8b81-8d6fcf064085" points="1" quarter="3" team="NYG" type="extrapoint">
+          <game-score>
+            <team id="NYG" points="17"/>
+            <team id="DAL" points="13"/>
+          </game-score>
+          <summary><![CDATA[3-J.Brown extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/e2334af3-e8f6-4a9d-8b81-8d6fcf064085.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:43" quarter="3" sequence="8" team="NYG">
+        <score clock="03:23" id="0772ab81-8a89-454b-8481-8815bb331d35" points="3" quarter="3" team="NYG" type="fieldgoal">
+          <game-score>
+            <team id="NYG" points="20"/>
+            <team id="DAL" points="13"/>
+          </game-score>
+          <summary><![CDATA[3-J.Brown 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/0772ab81-8a89-454b-8481-8815bb331d35.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:12" quarter="4" sequence="9" team="DAL">
+        <score clock="07:23" id="1c7fe982-3da9-4f00-a602-9d256daa44c8" points="6" quarter="4" team="DAL" type="touchdown">
+          <game-score>
+            <team id="NYG" points="20"/>
+            <team id="DAL" points="19"/>
+          </game-score>
+          <summary><![CDATA[16-M.Cassel complete to 15-D.Street. 15-D.Street runs 25 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/1c7fe982-3da9-4f00-a602-9d256daa44c8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:14" id="8fdcb1a2-cd93-4cc3-91a6-c51c6edcf4c2" points="1" quarter="4" team="DAL" type="extrapoint">
+          <game-score>
+            <team id="NYG" points="20"/>
+            <team id="DAL" points="20"/>
+          </game-score>
+          <summary><![CDATA[5-D.Bailey extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/8fdcb1a2-cd93-4cc3-91a6-c51c6edcf4c2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:14" quarter="4" sequence="10" team="NYG">
+        <score clock="07:14" id="e02188b9-e17b-4cdb-a7cd-02834bd78374" points="6" quarter="4" team="NYG" type="touchdown">
+          <game-score>
+            <team id="NYG" points="26"/>
+            <team id="DAL" points="20"/>
+          </game-score>
+          <summary><![CDATA[5-D.Bailey kicks 65 yards from DAL 35. 17-D.Harris runs 100 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/e02188b9-e17b-4cdb-a7cd-02834bd78374.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:01" id="530f9712-579c-40e8-8384-a61b76f589fe" points="1" quarter="4" team="NYG" type="extrapoint">
+          <game-score>
+            <team id="NYG" points="27"/>
+            <team id="DAL" points="20"/>
+          </game-score>
+          <summary><![CDATA[3-J.Brown extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/DAL/NYG/plays/530f9712-579c-40e8-8384-a61b76f589fe.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="CLE" clock=":00" completed="2015-10-25T19:57:58+00:00" home="STL" id="cde2e031-326d-400e-b884-8a785f6e2b9e" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="STL" market="St. Louis" name="Rams" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="CLE" market="Cleveland" name="Browns" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="6">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:16" quarter="1" sequence="1" team="CLE">
+        <score clock="12:06" id="f8a500a8-5e82-40d5-9923-ccab10f95901" points="6" quarter="1" team="STL" type="touchdown">
+          <game-score>
+            <team id="STL" points="6"/>
+            <team id="CLE" points="0"/>
+          </game-score>
+          <summary><![CDATA[13-J.McCown complete to 18-T.Gabriel. 18-T.Gabriel to CLE 19, FUMBLES (21-J.Jenkins). 23-R.McLeod runs 20 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/f8a500a8-5e82-40d5-9923-ccab10f95901.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:59" quarter="1" sequence="2" team="STL">
+        <score clock="11:59" id="2084864e-1fe1-43a8-95cc-0558721e1a5d" points="1" quarter="1" team="STL" type="extrapoint">
+          <game-score>
+            <team id="STL" points="7"/>
+            <team id="CLE" points="0"/>
+          </game-score>
+          <summary><![CDATA[4-G.Zuerlein extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/2084864e-1fe1-43a8-95cc-0558721e1a5d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:15" quarter="1" sequence="3" team="STL">
+        <score clock="07:37" id="272545a2-4985-461c-8cbb-e477d1d3b711" points="3" quarter="1" team="STL" type="fieldgoal">
+          <game-score>
+            <team id="STL" points="10"/>
+            <team id="CLE" points="0"/>
+          </game-score>
+          <summary><![CDATA[4-G.Zuerlein 39 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/272545a2-4985-461c-8cbb-e477d1d3b711.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:33" quarter="1" sequence="4" team="CLE">
+        <score clock="14:08" id="5db6f043-f83e-4c9e-b471-bc13ac3cbc7c" points="3" quarter="2" team="CLE" type="fieldgoal">
+          <game-score>
+            <team id="STL" points="10"/>
+            <team id="CLE" points="3"/>
+          </game-score>
+          <summary><![CDATA[6-T.Coons 25 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/5db6f043-f83e-4c9e-b471-bc13ac3cbc7c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="5" team="CLE">
+        <score clock="11:53" id="b8e3b20a-f4c0-4aab-b31e-6faff842d229" points="3" quarter="3" team="CLE" type="fieldgoal">
+          <game-score>
+            <team id="STL" points="10"/>
+            <team id="CLE" points="6"/>
+          </game-score>
+          <summary><![CDATA[6-T.Coons 44 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/b8e3b20a-f4c0-4aab-b31e-6faff842d229.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:09" quarter="3" sequence="6" team="STL">
+        <score clock="02:18" id="963aeebb-1cde-4828-ba78-712816282b38" points="6" quarter="3" team="STL" type="touchdown">
+          <game-score>
+            <team id="STL" points="16"/>
+            <team id="CLE" points="6"/>
+          </game-score>
+          <summary><![CDATA[30-T.Gurley runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/963aeebb-1cde-4828-ba78-712816282b38.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:14" id="da92f2cd-60d8-44b2-bb98-09c83b25ae46" points="1" quarter="3" team="STL" type="extrapoint">
+          <game-score>
+            <team id="STL" points="17"/>
+            <team id="CLE" points="6"/>
+          </game-score>
+          <summary><![CDATA[4-G.Zuerlein extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/da92f2cd-60d8-44b2-bb98-09c83b25ae46.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:17" quarter="4" sequence="7" team="STL">
+        <score clock="08:18" id="fba886f9-082f-4f5f-bb0f-d11b52172f4e" points="6" quarter="4" team="STL" type="touchdown">
+          <game-score>
+            <team id="STL" points="23"/>
+            <team id="CLE" points="6"/>
+          </game-score>
+          <summary><![CDATA[30-T.Gurley runs 16 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/fba886f9-082f-4f5f-bb0f-d11b52172f4e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:11" id="bd1c5ac1-70f8-414e-8292-d081d83c5cd1" points="1" quarter="4" team="STL" type="extrapoint">
+          <game-score>
+            <team id="STL" points="24"/>
+            <team id="CLE" points="6"/>
+          </game-score>
+          <summary><![CDATA[4-G.Zuerlein extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/CLE/STL/plays/bd1c5ac1-70f8-414e-8292-d081d83c5cd1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="ATL" clock=":00" completed="2015-10-25T19:59:27+00:00" home="TEN" id="2a02fdc1-d24f-4509-8322-7225a8310282" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="TEN" market="Tennessee" name="Titans" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="7">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="ATL" market="Atlanta" name="Falcons" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="10">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="08:49" quarter="2" sequence="1" team="TEN">
+        <score clock="08:49" id="17b0c337-9e16-4449-9005-fdd0a8ea5ced" points="6" quarter="2" team="TEN" type="touchdown">
+          <game-score>
+            <team id="TEN" points="6"/>
+            <team id="ATL" points="0"/>
+          </game-score>
+          <summary><![CDATA[7-Z.Mettenberger complete to 13-K.Wright. 13-K.Wright runs 19 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/ATL/TEN/plays/17b0c337-9e16-4449-9005-fdd0a8ea5ced.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:42" id="79a32751-2dee-47c7-878a-cb5b1fa80eac" points="1" quarter="2" team="TEN" type="extrapoint">
+          <game-score>
+            <team id="TEN" points="7"/>
+            <team id="ATL" points="0"/>
+          </game-score>
+          <summary><![CDATA[4-R.Succop extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/ATL/TEN/plays/79a32751-2dee-47c7-878a-cb5b1fa80eac.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:42" quarter="2" sequence="2" team="ATL">
+        <score clock="02:36" id="69cebd09-86b6-44cd-9396-a1284867d510" points="3" quarter="2" team="ATL" type="fieldgoal">
+          <game-score>
+            <team id="TEN" points="7"/>
+            <team id="ATL" points="3"/>
+          </game-score>
+          <summary><![CDATA[3-M.Bryant 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/ATL/TEN/plays/69cebd09-86b6-44cd-9396-a1284867d510.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:26" quarter="3" sequence="3" team="ATL">
+        <score clock="06:01" id="e9481eae-24bb-4cf3-94d7-70981f1db35c" points="6" quarter="3" team="ATL" type="touchdown">
+          <game-score>
+            <team id="TEN" points="7"/>
+            <team id="ATL" points="9"/>
+          </game-score>
+          <summary><![CDATA[2-M.Ryan complete to 11-J.Jones. 11-J.Jones runs 8 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/ATL/TEN/plays/e9481eae-24bb-4cf3-94d7-70981f1db35c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:56" id="48ddcbc0-6743-4ce8-8bd8-8aeb82afdb15" points="1" quarter="3" team="ATL" type="extrapoint">
+          <game-score>
+            <team id="TEN" points="7"/>
+            <team id="ATL" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/ATL/TEN/plays/48ddcbc0-6743-4ce8-8bd8-8aeb82afdb15.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="PIT" clock=":00" completed="2015-10-25T19:57:22+00:00" home="KC" id="e5e947a2-c254-42fc-873a-a76fde74bc31" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="KC" market="Kansas City" name="Chiefs" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="23">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="6"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="PIT" market="Pittsburgh" name="Steelers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="13">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="12:55" quarter="1" sequence="1" team="KC">
+        <score clock="08:52" id="ba2a087f-3584-4605-a00d-4f19808addac" points="3" quarter="1" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="KC" points="3"/>
+            <team id="PIT" points="0"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/ba2a087f-3584-4605-a00d-4f19808addac.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:47" quarter="1" sequence="2" team="PIT">
+        <score clock="01:03" id="b00ffb1c-8645-4fd9-a0be-5ae3aa7d5bc5" points="3" quarter="1" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="KC" points="3"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 24 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/b00ffb1c-8645-4fd9-a0be-5ae3aa7d5bc5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":59" quarter="1" sequence="3" team="KC">
+        <score clock="09:00" id="137259b4-6025-431d-a00f-ee4090410812" points="3" quarter="2" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="KC" points="6"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/137259b4-6025-431d-a00f-ee4090410812.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:41" quarter="2" sequence="4" team="KC">
+        <score clock="01:05" id="55cc8f34-2fee-4cbc-83b0-bc5e70662bde" points="3" quarter="2" team="KC" type="fieldgoal">
+          <game-score>
+            <team id="KC" points="9"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/55cc8f34-2fee-4cbc-83b0-bc5e70662bde.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:45" quarter="3" sequence="5" team="KC">
+        <score clock="04:27" id="8b07f156-6fe1-4cb1-9962-5f18ba1b6ce7" points="6" quarter="3" team="KC" type="touchdown">
+          <game-score>
+            <team id="KC" points="15"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[35-C.West runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/8b07f156-6fe1-4cb1-9962-5f18ba1b6ce7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:23" id="024eb44a-98ec-4457-825a-bdb4df1f3966" points="1" quarter="3" team="KC" type="extrapoint">
+          <game-score>
+            <team id="KC" points="16"/>
+            <team id="PIT" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/024eb44a-98ec-4457-825a-bdb4df1f3966.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:23" quarter="3" sequence="6" team="PIT">
+        <score clock="01:47" id="c8ddb87f-3519-49a0-ae6c-006b482e8c18" points="6" quarter="3" team="PIT" type="touchdown">
+          <game-score>
+            <team id="KC" points="16"/>
+            <team id="PIT" points="9"/>
+          </game-score>
+          <summary><![CDATA[3-L.Jones complete to 10-M.Bryant. 10-M.Bryant runs 19 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/c8ddb87f-3519-49a0-ae6c-006b482e8c18.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:40" id="4ccdceb2-941e-453a-824a-8050247f8b83" points="1" quarter="3" team="PIT" type="extrapoint">
+          <game-score>
+            <team id="KC" points="16"/>
+            <team id="PIT" points="10"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/4ccdceb2-941e-453a-824a-8050247f8b83.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:13" quarter="4" sequence="7" team="PIT">
+        <score clock="10:22" id="e6daa918-4e09-4aa0-9473-4eda0b769d84" points="3" quarter="4" team="PIT" type="fieldgoal">
+          <game-score>
+            <team id="KC" points="16"/>
+            <team id="PIT" points="13"/>
+          </game-score>
+          <summary><![CDATA[9-C.Boswell 36 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/e6daa918-4e09-4aa0-9473-4eda0b769d84.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:17" quarter="4" sequence="8" team="KC">
+        <score clock="05:17" id="7acd830a-3314-49c0-aa77-0304eccebf2b" points="6" quarter="4" team="KC" type="touchdown">
+          <game-score>
+            <team id="KC" points="22"/>
+            <team id="PIT" points="13"/>
+          </game-score>
+          <summary><![CDATA[11-A.Smith complete to 17-C.Conley. 17-C.Conley runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/7acd830a-3314-49c0-aa77-0304eccebf2b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:13" id="f08cbaa7-57b9-45de-9029-009c03c441f0" points="1" quarter="4" team="KC" type="extrapoint">
+          <game-score>
+            <team id="KC" points="23"/>
+            <team id="PIT" points="13"/>
+          </game-score>
+          <summary><![CDATA[5-C.Santos extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PIT/KC/plays/f08cbaa7-57b9-45de-9029-009c03c441f0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="NYJ" clock=":00" completed="2015-10-25T20:17:58+00:00" home="NE" id="fadd8069-5b74-4970-8149-592f28e30493" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="NE" market="New England" name="Patriots" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="30">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <team id="NYJ" market="New York" name="Jets" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="23">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="6"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="14:10" quarter="1" sequence="1" team="NE">
+        <score clock="12:52" id="041e2538-2ddb-49dc-8b2a-6cbf0bc648af" points="3" quarter="1" team="NE" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="3"/>
+            <team id="NYJ" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/041e2538-2ddb-49dc-8b2a-6cbf0bc648af.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:48" quarter="1" sequence="2" team="NYJ">
+        <score clock="07:32" id="a4bac88b-0032-4d3e-a202-524a3687024a" points="3" quarter="1" team="NYJ" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="3"/>
+            <team id="NYJ" points="3"/>
+          </game-score>
+          <summary><![CDATA[2-N.Folk 20 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/a4bac88b-0032-4d3e-a202-524a3687024a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:05" quarter="1" sequence="3" team="NYJ">
+        <score clock="12:33" id="67c336f9-c4b8-4ac4-aa91-954b1a5082ff" points="6" quarter="2" team="NYJ" type="touchdown">
+          <game-score>
+            <team id="NE" points="3"/>
+            <team id="NYJ" points="9"/>
+          </game-score>
+          <summary><![CDATA[14-R.Fitzpatrick complete to 11-J.Kerley. 11-J.Kerley runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/67c336f9-c4b8-4ac4-aa91-954b1a5082ff.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:30" id="6748e583-4abd-4a9a-9a82-b8f7e6f16d0b" points="1" quarter="2" team="NYJ" type="extrapoint">
+          <game-score>
+            <team id="NE" points="3"/>
+            <team id="NYJ" points="10"/>
+          </game-score>
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/6748e583-4abd-4a9a-9a82-b8f7e6f16d0b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:50" quarter="2" sequence="4" team="NE">
+        <score clock="06:26" id="fdbfa0db-a41e-4fd0-a6c0-cae76f494c22" points="6" quarter="2" team="NE" type="touchdown">
+          <game-score>
+            <team id="NE" points="9"/>
+            <team id="NYJ" points="10"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/fdbfa0db-a41e-4fd0-a6c0-cae76f494c22.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:24" id="5a73ec17-507c-428f-b7db-72ccfddcbf37" points="1" quarter="2" team="NE" type="extrapoint">
+          <game-score>
+            <team id="NE" points="10"/>
+            <team id="NYJ" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/5a73ec17-507c-428f-b7db-72ccfddcbf37.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:49" quarter="2" sequence="5" team="NE">
+        <score clock="02:05" id="182029d6-a8a3-4214-9cc9-da5ded018931" points="3" quarter="2" team="NE" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="13"/>
+            <team id="NYJ" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski 46 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/182029d6-a8a3-4214-9cc9-da5ded018931.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="NE">
+        <score clock="11:14" id="d62456f1-a6c3-4a28-a042-364dc11b455d" points="3" quarter="3" team="NE" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="16"/>
+            <team id="NYJ" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski 24 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/d62456f1-a6c3-4a28-a042-364dc11b455d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:10" quarter="3" sequence="7" team="NYJ">
+        <score clock="04:12" id="81b3e80a-3e9b-4260-b916-69d9d63ef30e" points="6" quarter="3" team="NYJ" type="touchdown">
+          <game-score>
+            <team id="NE" points="16"/>
+            <team id="NYJ" points="16"/>
+          </game-score>
+          <summary><![CDATA[14-R.Fitzpatrick complete to 33-C.Ivory. 33-C.Ivory runs 9 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/81b3e80a-3e9b-4260-b916-69d9d63ef30e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:07" id="6c8ef8f6-0255-4177-95af-5c91d857ce5b" points="1" quarter="3" team="NYJ" type="extrapoint">
+          <game-score>
+            <team id="NE" points="16"/>
+            <team id="NYJ" points="17"/>
+          </game-score>
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/6c8ef8f6-0255-4177-95af-5c91d857ce5b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:02" quarter="3" sequence="8" team="NYJ">
+        <score clock="12:54" id="3e490e79-0f17-4e85-858c-714d730fde3a" points="3" quarter="4" team="NYJ" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="16"/>
+            <team id="NYJ" points="20"/>
+          </game-score>
+          <summary><![CDATA[2-N.Folk 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/3e490e79-0f17-4e85-858c-714d730fde3a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:50" quarter="4" sequence="9" team="NE">
+        <score clock="07:22" id="58ffcad6-8ffc-42c3-86d4-23b9494fe290" points="6" quarter="4" team="NE" type="touchdown">
+          <game-score>
+            <team id="NE" points="22"/>
+            <team id="NYJ" points="20"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 80-D.Amendola. 80-D.Amendola runs 8 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/58ffcad6-8ffc-42c3-86d4-23b9494fe290.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:16" id="ec816dc0-0d44-46aa-aede-8a19b33df30e" points="1" quarter="4" team="NE" type="extrapoint">
+          <game-score>
+            <team id="NE" points="23"/>
+            <team id="NYJ" points="20"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/ec816dc0-0d44-46aa-aede-8a19b33df30e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:32" quarter="4" sequence="10" team="NE">
+        <score clock="01:18" id="c4e1e627-dfa5-456f-b3c1-5d0c4f1a8dd3" points="6" quarter="4" team="NE" type="touchdown">
+          <game-score>
+            <team id="NE" points="29"/>
+            <team id="NYJ" points="20"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 87-R.Gronkowski. 87-R.Gronkowski runs 15 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/c4e1e627-dfa5-456f-b3c1-5d0c4f1a8dd3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:13" id="f699d325-2d44-4acc-83bf-a73e551bbef4" points="1" quarter="4" team="NE" type="extrapoint">
+          <game-score>
+            <team id="NE" points="30"/>
+            <team id="NYJ" points="20"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/f699d325-2d44-4acc-83bf-a73e551bbef4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:13" quarter="4" sequence="11" team="NYJ">
+        <score clock=":23" id="a57ef06d-efea-4d94-81eb-a98d50241a9d" points="3" quarter="4" team="NYJ" type="fieldgoal">
+          <game-score>
+            <team id="NE" points="30"/>
+            <team id="NYJ" points="23"/>
+          </game-score>
+          <summary><![CDATA[2-N.Folk 55 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NYJ/NE/plays/a57ef06d-efea-4d94-81eb-a98d50241a9d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="NO" clock=":00" completed="2015-10-25T20:38:58+00:00" home="IND" id="50d09f1d-dd4c-4b51-893a-c24ae4673f4a" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="IND" market="Indianapolis" name="Colts" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="21">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="14"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="NO" market="New Orleans" name="Saints" remaining_challenges="0" remaining_timeouts="2">
+      <scoring points="27">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="13"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="06:02" quarter="1" sequence="1" team="NO">
+        <score clock="02:36" id="9ebebffa-0914-4dfc-92bb-9e43db29c9cd" points="6" quarter="1" team="NO" type="touchdown">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="6"/>
+          </game-score>
+          <summary><![CDATA[29-K.Robinson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/9ebebffa-0914-4dfc-92bb-9e43db29c9cd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:31" id="6734447d-c3f3-4f34-905f-eb8d445698cb" points="1" quarter="1" team="NO" type="extrapoint">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="7"/>
+          </game-score>
+          <summary><![CDATA[5-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/6734447d-c3f3-4f34-905f-eb8d445698cb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:14" quarter="1" sequence="2" team="NO">
+        <score clock="15:00" id="c9c3b05a-7399-4acc-b7a9-69b62bd415d3" points="6" quarter="2" team="NO" type="touchdown">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="13"/>
+          </game-score>
+          <summary><![CDATA[29-K.Robinson runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/c9c3b05a-7399-4acc-b7a9-69b62bd415d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:56" id="7f468352-3730-4f67-ae7c-27b30b8b7aaa" points="1" quarter="2" team="NO" type="extrapoint">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="14"/>
+          </game-score>
+          <summary><![CDATA[5-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/7f468352-3730-4f67-ae7c-27b30b8b7aaa.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:49" quarter="2" sequence="3" team="NO">
+        <score clock="13:42" id="8e11cda8-5bbb-434b-95a7-07375a27aeaf" points="6" quarter="2" team="NO" type="touchdown">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="20"/>
+          </game-score>
+          <summary><![CDATA[9-D.Brees complete to 84-M.Hoomanawanui. 84-M.Hoomanawanui runs 16 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/8e11cda8-5bbb-434b-95a7-07375a27aeaf.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:23" quarter="3" sequence="4" team="NO">
+        <score clock="10:31" id="88f25a76-e0ae-4079-bfd0-c842649c0000" points="6" quarter="3" team="NO" type="touchdown">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="26"/>
+          </game-score>
+          <summary><![CDATA[22-M.Ingram runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/88f25a76-e0ae-4079-bfd0-c842649c0000.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:26" id="c31938be-92cc-48a0-afa4-19aa976c665b" points="1" quarter="3" team="NO" type="extrapoint">
+          <game-score>
+            <team id="IND" points="0"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[5-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/c31938be-92cc-48a0-afa4-19aa976c665b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:02" quarter="3" sequence="5" team="IND">
+        <score clock="03:56" id="ee5a11c5-566c-4739-989d-6bb009b86cc6" points="6" quarter="3" team="IND" type="touchdown">
+          <game-score>
+            <team id="IND" points="6"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[12-A.Luck complete to 13-T.Y.Hilton. 13-T.Y.Hilton runs 87 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/ee5a11c5-566c-4739-989d-6bb009b86cc6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:42" id="7c347c8d-905c-412b-8bfd-ca9f4cf2b368" points="1" quarter="3" team="IND" type="extrapoint">
+          <game-score>
+            <team id="IND" points="7"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[4-A.Vinatieri extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/7c347c8d-905c-412b-8bfd-ca9f4cf2b368.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:25" quarter="3" sequence="6" team="IND">
+        <score clock=":11" id="09db08cf-3fb3-43fa-b014-9edd309c25ec" points="6" quarter="3" team="IND" type="touchdown">
+          <game-score>
+            <team id="IND" points="13"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[12-A.Luck complete to 13-T.Y.Hilton. 13-T.Y.Hilton runs 46 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/09db08cf-3fb3-43fa-b014-9edd309c25ec.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":01" id="fda4d7d3-b230-4d6d-9af4-320396fdc91c" points="1" quarter="3" team="IND" type="extrapoint">
+          <game-score>
+            <team id="IND" points="14"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[4-A.Vinatieri extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/fda4d7d3-b230-4d6d-9af4-320396fdc91c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:59" quarter="4" sequence="7" team="IND">
+        <score clock="03:10" id="72d68ae5-8bb3-40f9-ab4b-a61aa588217e" points="6" quarter="4" team="IND" type="touchdown">
+          <game-score>
+            <team id="IND" points="20"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[12-A.Luck complete to 10-D.Moncrief. 10-D.Moncrief runs 8 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/72d68ae5-8bb3-40f9-ab4b-a61aa588217e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:05" id="d40ea3a6-27ff-42b8-8294-3baf30a28e42" points="1" quarter="4" team="IND" type="extrapoint">
+          <game-score>
+            <team id="IND" points="21"/>
+            <team id="NO" points="27"/>
+          </game-score>
+          <summary><![CDATA[4-A.Vinatieri extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/NO/IND/plays/d40ea3a6-27ff-42b8-8294-3baf30a28e42.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="OAK" clock=":00" completed="2015-10-25T23:30:55+00:00" home="SD" id="17cad0c4-bff5-4d59-9fb3-3a5fc71d3981" quarter="4" scheduled="2015-10-25T20:05:00+00:00" status="closed">
+    <team id="SD" market="San Diego" name="Chargers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="29">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="23"/>
+      </scoring>
+    </team>
+    <team id="OAK" market="Oakland" name="Raiders" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="37">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="20"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:27" quarter="1" sequence="1" team="OAK">
+        <score clock="12:51" id="07c4cde9-97ef-45ed-bbc8-4ff67a7a2ae4" points="6" quarter="1" team="OAK" type="touchdown">
+          <game-score>
+            <team id="SD" points="0"/>
+            <team id="OAK" points="6"/>
+          </game-score>
+          <summary><![CDATA[28-L.Murray runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/07c4cde9-97ef-45ed-bbc8-4ff67a7a2ae4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:46" id="dec844ee-a79f-44cf-8f3c-eed0a36d6c0a" points="1" quarter="1" team="OAK" type="extrapoint">
+          <game-score>
+            <team id="SD" points="0"/>
+            <team id="OAK" points="7"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/dec844ee-a79f-44cf-8f3c-eed0a36d6c0a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:11" quarter="1" sequence="2" team="OAK">
+        <score clock="05:23" id="6f1adeb0-6723-415d-a3a7-4e6e4f0043c7" points="3" quarter="1" team="OAK" type="fieldgoal">
+          <game-score>
+            <team id="SD" points="0"/>
+            <team id="OAK" points="10"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski 29 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/6f1adeb0-6723-415d-a3a7-4e6e4f0043c7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:21" quarter="1" sequence="3" team="SD">
+        <score clock="01:21" id="a3fe61b5-cad8-40d7-9cfe-7dac6a8d7cab" points="3" quarter="1" team="SD" type="fieldgoal">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="10"/>
+          </game-score>
+          <summary><![CDATA[2-J.Lambo 40 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/a3fe61b5-cad8-40d7-9cfe-7dac6a8d7cab.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:18" quarter="1" sequence="4" team="OAK">
+        <score clock="13:11" id="3212e584-ee54-41ef-af6d-7f325855cb37" points="6" quarter="2" team="OAK" type="touchdown">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="16"/>
+          </game-score>
+          <summary><![CDATA[4-D.Carr complete to 88-C.Walford. 88-C.Walford runs 23 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/3212e584-ee54-41ef-af6d-7f325855cb37.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="13:06" id="9a391794-9207-4286-a8d4-d0a7a9dceb1f" points="1" quarter="2" team="OAK" type="extrapoint">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="17"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/9a391794-9207-4286-a8d4-d0a7a9dceb1f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:25" quarter="2" sequence="5" team="OAK">
+        <score clock="09:31" id="cdbee1ff-664a-4e49-bcb9-5fc3967555d0" points="3" quarter="2" team="OAK" type="fieldgoal">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="20"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski 32 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/cdbee1ff-664a-4e49-bcb9-5fc3967555d0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:58" quarter="2" sequence="6" team="OAK">
+        <score clock="04:44" id="d5fe4864-7e3b-4749-96d0-aa759c426e26" points="3" quarter="2" team="OAK" type="fieldgoal">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="23"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski 31 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/d5fe4864-7e3b-4749-96d0-aa759c426e26.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:42" quarter="2" sequence="7" team="OAK">
+        <score clock="01:12" id="8de6dc38-fd43-454f-b904-edb683841764" points="6" quarter="2" team="OAK" type="touchdown">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="29"/>
+          </game-score>
+          <summary><![CDATA[4-D.Carr complete to 89-A.Cooper. 89-A.Cooper runs 52 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/8de6dc38-fd43-454f-b904-edb683841764.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:01" id="1dff0be9-1b0b-41be-81ba-10d11632b990" points="1" quarter="2" team="OAK" type="extrapoint">
+          <game-score>
+            <team id="SD" points="3"/>
+            <team id="OAK" points="30"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/1dff0be9-1b0b-41be-81ba-10d11632b990.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:01" quarter="2" sequence="8" team="SD">
+        <score clock=":02" id="a1250237-8be4-44c6-8754-43907494df37" points="3" quarter="2" team="SD" type="fieldgoal">
+          <game-score>
+            <team id="SD" points="6"/>
+            <team id="OAK" points="30"/>
+          </game-score>
+          <summary><![CDATA[2-J.Lambo 44 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/a1250237-8be4-44c6-8754-43907494df37.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="9" team="OAK">
+        <score clock="10:50" id="c5938024-c0f3-4a40-93f9-8dc4dec85f31" points="6" quarter="3" team="OAK" type="touchdown">
+          <game-score>
+            <team id="SD" points="6"/>
+            <team id="OAK" points="36"/>
+          </game-score>
+          <summary><![CDATA[4-D.Carr complete to 15-M.Crabtree. 15-M.Crabtree runs 25 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/c5938024-c0f3-4a40-93f9-8dc4dec85f31.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:41" id="c7a2247d-2c75-4a70-8ad2-61e1229b2ebe" points="1" quarter="3" team="OAK" type="extrapoint">
+          <game-score>
+            <team id="SD" points="6"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/c7a2247d-2c75-4a70-8ad2-61e1229b2ebe.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:50" quarter="3" sequence="10" team="SD">
+        <score clock="13:07" id="129eaa9c-f4c6-4aba-a59a-484eddb58969" points="6" quarter="4" team="SD" type="touchdown">
+          <game-score>
+            <team id="SD" points="12"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[17-P.Rivers complete to 89-L.Green. 89-L.Green runs 31 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/129eaa9c-f4c6-4aba-a59a-484eddb58969.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:58" id="cab4bc9e-7177-4515-99a7-cfdd89eda681" points="1" quarter="4" team="SD" type="extrapoint">
+          <game-score>
+            <team id="SD" points="13"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[2-J.Lambo extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/cab4bc9e-7177-4515-99a7-cfdd89eda681.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:21" quarter="4" sequence="11" team="SD">
+        <score clock="06:03" id="b828e14c-9875-46a0-b6ee-f951f01d9ae5" points="6" quarter="4" team="SD" type="touchdown">
+          <game-score>
+            <team id="SD" points="19"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[17-P.Rivers complete to 39-D.Woodhead. 39-D.Woodhead runs 8 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/b828e14c-9875-46a0-b6ee-f951f01d9ae5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:00" id="b78b6e7a-e556-46d0-84f2-24090dbe317d" points="2" quarter="4" team="SD" type="conversion">
+          <game-score>
+            <team id="SD" points="21"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[17-P.Rivers complete to 89-L.Green. 89-L.Green to OAK End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/b78b6e7a-e556-46d0-84f2-24090dbe317d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:13" quarter="4" sequence="12" team="SD">
+        <score clock=":09" id="fdfcdb08-a243-4d56-a045-a823638aa0c3" points="6" quarter="4" team="SD" type="touchdown">
+          <game-score>
+            <team id="SD" points="27"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[17-P.Rivers complete to 39-D.Woodhead. 39-D.Woodhead runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/fdfcdb08-a243-4d56-a045-a823638aa0c3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":06" id="98ab2b2d-0fb7-42d5-8b8f-172e1093d52b" points="2" quarter="4" team="SD" type="conversion">
+          <game-score>
+            <team id="SD" points="29"/>
+            <team id="OAK" points="37"/>
+          </game-score>
+          <summary><![CDATA[17-P.Rivers complete to 89-L.Green. 89-L.Green to OAK End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/OAK/SD/plays/98ab2b2d-0fb7-42d5-8b8f-172e1093d52b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="BAL" clock=":00" completed="2015-10-27T03:32:58+00:00" home="ARI" id="4831522e-3168-4a9b-b49d-41b0f62eea31" quarter="4" scheduled="2015-10-27T00:30:00+00:00" status="closed">
+    <team id="ARI" market="Arizona" name="Cardinals" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="26">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="6"/>
+        <quarter number="4" points="6"/>
+      </scoring>
+    </team>
+    <team id="BAL" market="Baltimore" name="Ravens" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="18">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="8"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="10:52" quarter="1" sequence="1" team="BAL">
+        <score clock="05:30" id="d0f28592-fb79-4bda-9aef-7020d6c3f2be" points="3" quarter="1" team="BAL" type="fieldgoal">
+          <game-score>
+            <team id="ARI" points="0"/>
+            <team id="BAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[9-J.Tucker 44 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/d0f28592-fb79-4bda-9aef-7020d6c3f2be.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:25" quarter="1" sequence="2" team="ARI">
+        <score clock="04:11" id="bd5e0696-b7cc-456d-8cf5-1623f8835d77" points="6" quarter="1" team="ARI" type="touchdown">
+          <game-score>
+            <team id="ARI" points="6"/>
+            <team id="BAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[23-C.Johnson runs 26 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/bd5e0696-b7cc-456d-8cf5-1623f8835d77.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:59" id="3d663c56-da0f-4f2d-a74e-d03fedeffe91" points="1" quarter="1" team="ARI" type="extrapoint">
+          <game-score>
+            <team id="ARI" points="7"/>
+            <team id="BAL" points="3"/>
+          </game-score>
+          <summary><![CDATA[7-C.Catanzaro extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/3d663c56-da0f-4f2d-a74e-d03fedeffe91.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:39" quarter="2" sequence="3" team="BAL">
+        <score clock="04:00" id="9104bbab-2baa-4b6f-abbd-3e156abce404" points="6" quarter="2" team="BAL" type="touchdown">
+          <game-score>
+            <team id="ARI" points="7"/>
+            <team id="BAL" points="9"/>
+          </game-score>
+          <summary><![CDATA[29-J.Forsett runs 14 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/9104bbab-2baa-4b6f-abbd-3e156abce404.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:54" id="3149f250-5f53-44d9-a615-4b1b9a7ab19f" points="1" quarter="2" team="BAL" type="extrapoint">
+          <game-score>
+            <team id="ARI" points="7"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/3149f250-5f53-44d9-a615-4b1b9a7ab19f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:54" quarter="2" sequence="4" team="ARI">
+        <score clock="01:05" id="d868b058-1f4e-4faf-bab3-b5a451199d7b" points="6" quarter="2" team="ARI" type="touchdown">
+          <game-score>
+            <team id="ARI" points="13"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-C.Palmer complete to 15-M.Floyd. 15-M.Floyd runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/d868b058-1f4e-4faf-bab3-b5a451199d7b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:01" id="effe502e-130b-439f-8750-6160ad1fd183" points="1" quarter="2" team="ARI" type="extrapoint">
+          <game-score>
+            <team id="ARI" points="14"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[7-C.Catanzaro extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/effe502e-130b-439f-8750-6160ad1fd183.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:54" quarter="3" sequence="5" team="ARI">
+        <score clock="09:51" id="431088e8-1dd5-46b1-8970-d50679d8c801" points="3" quarter="3" team="ARI" type="fieldgoal">
+          <game-score>
+            <team id="ARI" points="17"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[7-C.Catanzaro 21 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/431088e8-1dd5-46b1-8970-d50679d8c801.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:25" quarter="3" sequence="6" team="ARI">
+        <score clock="02:31" id="01f76053-f403-4e0c-8529-5f6053312738" points="3" quarter="3" team="ARI" type="fieldgoal">
+          <game-score>
+            <team id="ARI" points="20"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[7-C.Catanzaro 21 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/01f76053-f403-4e0c-8529-5f6053312738.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:16" quarter="4" sequence="7" team="ARI">
+        <score clock="08:14" id="aa2e56f7-7847-4703-8050-175d9bb67630" points="6" quarter="4" team="ARI" type="touchdown">
+          <game-score>
+            <team id="ARI" points="26"/>
+            <team id="BAL" points="10"/>
+          </game-score>
+          <summary><![CDATA[3-C.Palmer complete to 12-J.Brown. 12-J.Brown runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/aa2e56f7-7847-4703-8050-175d9bb67630.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:31" quarter="4" sequence="8" team="BAL">
+        <score clock="04:31" id="583d643a-758b-456e-8af9-2f2f641b5f5d" points="6" quarter="4" team="BAL" type="touchdown">
+          <game-score>
+            <team id="ARI" points="26"/>
+            <team id="BAL" points="16"/>
+          </game-score>
+          <summary><![CDATA[5-J.Flacco complete to 44-K.Juszczyk. 44-K.Juszczyk runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/583d643a-758b-456e-8af9-2f2f641b5f5d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:26" id="b7522273-cc4c-4ac5-b050-cf0bd228216f" points="2" quarter="4" team="BAL" type="conversion">
+          <game-score>
+            <team id="ARI" points="26"/>
+            <team id="BAL" points="18"/>
+          </game-score>
+          <summary><![CDATA[5-J.Flacco complete to 82-N.Boyle. 82-N.Boyle to ARI End Zone for 7 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BAL/ARI/plays/b7522273-cc4c-4ac5-b050-cf0bd228216f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="TB" clock=":00" completed="2015-10-25T20:18:04+00:00" home="WAS" id="b31e8f2c-fa48-45d5-a16e-c7aa5f4e4d1c" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="WAS" market="Washington" name="Redskins" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="31">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="14"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <team id="TB" market="Tampa Bay" name="Buccaneers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="30">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="6"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:06" quarter="1" sequence="1" team="TB">
+        <score clock="11:55" id="b9971827-649f-488a-ae4c-9ba7d9a43d60" points="6" quarter="1" team="TB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="6"/>
+          </game-score>
+          <summary><![CDATA[3-J.Winston complete to 13-M.Evans. 13-M.Evans runs 40 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/b9971827-649f-488a-ae4c-9ba7d9a43d60.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:47" id="dfa3a5fa-ac4f-47b6-b03b-942ddf6c541d" points="1" quarter="1" team="TB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="7"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/dfa3a5fa-ac4f-47b6-b03b-942ddf6c541d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:32" quarter="1" sequence="2" team="TB">
+        <score clock="05:10" id="6b200bad-6360-41c8-9b19-dcd6b197c23d" points="3" quarter="1" team="TB" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="10"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/6b200bad-6360-41c8-9b19-dcd6b197c23d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:34" quarter="1" sequence="3" team="TB">
+        <score clock="11:41" id="c38aa781-96f0-408a-b948-8c14b550e537" points="6" quarter="2" team="TB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="16"/>
+          </game-score>
+          <summary><![CDATA[3-J.Winston complete to 17-D.Dye. 17-D.Dye runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/c38aa781-96f0-408a-b948-8c14b550e537.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:34" id="a5aba5a9-17bc-478e-a92b-888305b43181" points="1" quarter="2" team="TB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="17"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/a5aba5a9-17bc-478e-a92b-888305b43181.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:34" quarter="2" sequence="4" team="WAS">
+        <score clock="08:31" id="381eee89-b99f-4daf-9de3-64aa47291862" points="6" quarter="2" team="TB" type="touchdown">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="23"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins sacked at WAS 46 for -9 yards, FUMBLES (56-J.Smith). 95-H.Jones runs 43 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/381eee89-b99f-4daf-9de3-64aa47291862.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:19" quarter="2" sequence="5" team="TB">
+        <score clock="08:19" id="6714167b-6a07-44cb-842d-895401d2931a" points="1" quarter="2" team="TB" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="0"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/6714167b-6a07-44cb-842d-895401d2931a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:19" quarter="2" sequence="6" team="WAS">
+        <score clock="04:32" id="9ab56aff-d05e-4aad-b2e7-5a5b594a1a62" points="6" quarter="2" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="6"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins runs 8 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/9ab56aff-d05e-4aad-b2e7-5a5b594a1a62.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:26" id="40a0c3a0-72b7-4ae6-9dcf-e9adb8f27e82" points="1" quarter="2" team="WAS" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="7"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/40a0c3a0-72b7-4ae6-9dcf-e9adb8f27e82.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:56" quarter="3" sequence="7" team="WAS">
+        <score clock="11:14" id="aa7922f3-cf59-42d3-8f44-ccaa04708763" points="6" quarter="3" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="13"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins complete to 14-R.Grant. 14-R.Grant runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/aa7922f3-cf59-42d3-8f44-ccaa04708763.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:10" id="5dcb1e9e-ebb4-4df3-80c1-eee4b0eed870" points="1" quarter="3" team="WAS" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="14"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/5dcb1e9e-ebb4-4df3-80c1-eee4b0eed870.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:08" quarter="3" sequence="8" team="WAS">
+        <score clock="07:01" id="1df4c1ec-7891-4fc7-9451-6f7b4eb3b068" points="6" quarter="3" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="20"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins complete to 86-J.Reed. 86-J.Reed runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/1df4c1ec-7891-4fc7-9451-6f7b4eb3b068.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:56" id="8ac6a40a-a2c2-46da-bd21-b96bb2f29d97" points="1" quarter="3" team="WAS" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="21"/>
+            <team id="TB" points="24"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/8ac6a40a-a2c2-46da-bd21-b96bb2f29d97.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:56" quarter="3" sequence="9" team="TB">
+        <score clock="13:57" id="0019ac23-52e2-436f-9274-e478462181fb" points="3" quarter="4" team="TB" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="21"/>
+            <team id="TB" points="27"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth 45 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/0019ac23-52e2-436f-9274-e478462181fb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:51" quarter="4" sequence="10" team="WAS">
+        <score clock="07:34" id="d369d85f-b947-4071-9687-f148ad0c4ffc" points="3" quarter="4" team="WAS" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="24"/>
+            <team id="TB" points="27"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/d369d85f-b947-4071-9687-f148ad0c4ffc.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:34" quarter="4" sequence="11" team="TB">
+        <score clock="02:27" id="396b8f0d-afdf-4f10-8855-a3c1d522ee21" points="3" quarter="4" team="TB" type="fieldgoal">
+          <game-score>
+            <team id="WAS" points="24"/>
+            <team id="TB" points="30"/>
+          </game-score>
+          <summary><![CDATA[10-C.Barth 21 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/396b8f0d-afdf-4f10-8855-a3c1d522ee21.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:27" quarter="4" sequence="12" team="WAS">
+        <score clock=":28" id="336b1f02-6b8b-4d4a-81f8-2c62c0c2c46d" points="6" quarter="4" team="WAS" type="touchdown">
+          <game-score>
+            <team id="WAS" points="30"/>
+            <team id="TB" points="30"/>
+          </game-score>
+          <summary><![CDATA[8-K.Cousins complete to 86-J.Reed. 86-J.Reed runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/336b1f02-6b8b-4d4a-81f8-2c62c0c2c46d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":24" id="7cd5424f-7dee-4dcf-b9cf-1a70122e3d5b" points="1" quarter="4" team="WAS" type="extrapoint">
+          <game-score>
+            <team id="WAS" points="31"/>
+            <team id="TB" points="30"/>
+          </game-score>
+          <summary><![CDATA[3-D.Hopkins extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/TB/WAS/plays/7cd5424f-7dee-4dcf-b9cf-1a70122e3d5b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="BUF" clock=":00" completed="2015-10-25T16:50:54+00:00" home="JAC" id="3b867aaf-7406-4a8c-b89d-5b92fd864e4d" quarter="4" scheduled="2015-10-25T13:30:00+00:00" status="closed">
+    <team id="JAC" market="Jacksonville" name="Jaguars" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="34">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="27"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="BUF" market="Buffalo" name="Bills" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="31">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="18"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="10:04" quarter="1" sequence="1" team="BUF">
+        <score clock="07:29" id="2e07fc74-8b56-411b-afab-376f40a04326" points="3" quarter="1" team="BUF" type="fieldgoal">
+          <game-score>
+            <team id="JAC" points="0"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[2-D.Carpenter 31 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/2e07fc74-8b56-411b-afab-376f40a04326.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:13" quarter="1" sequence="2" team="JAC">
+        <score clock="14:09" id="39c0b1a7-9590-4724-be26-4fd82a67822a" points="6" quarter="2" team="JAC" type="touchdown">
+          <game-score>
+            <team id="JAC" points="6"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[5-B.Bortles complete to 15-A.Robinson. 15-A.Robinson runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/39c0b1a7-9590-4724-be26-4fd82a67822a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:05" id="662c0a94-6256-4400-9b79-da73d70536ea" points="1" quarter="2" team="JAC" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="7"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[2-J.Myers extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/662c0a94-6256-4400-9b79-da73d70536ea.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:05" quarter="2" sequence="3" team="BUF">
+        <score clock="12:30" id="12788720-c3f7-409e-9457-0c677751506e" points="6" quarter="2" team="JAC" type="touchdown">
+          <game-score>
+            <team id="JAC" points="13"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[3-E.Manuel sacked at BUF 16 for -7 yards, FUMBLES (22-A.Colvin). 91-C.Clemons runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/12788720-c3f7-409e-9457-0c677751506e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:21" quarter="2" sequence="4" team="JAC">
+        <score clock="12:21" id="f9748045-969b-47e2-b790-a819bcb932bb" points="1" quarter="2" team="JAC" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="14"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[2-J.Myers extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/f9748045-969b-47e2-b790-a819bcb932bb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:21" quarter="2" sequence="5" team="BUF">
+        <score clock="12:21" id="d6051a44-2a6f-4808-9afa-a45209f963e0" points="6" quarter="2" team="JAC" type="touchdown">
+          <game-score>
+            <team id="JAC" points="20"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[3-E.Manuel incomplete. Intended for 10-R.Woods, INTERCEPTED by 50-T.Smith at BUF 26. 50-T.Smith runs 26 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/d6051a44-2a6f-4808-9afa-a45209f963e0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:14" quarter="2" sequence="6" team="JAC">
+        <score clock="12:14" id="49ab4119-422a-40a1-97eb-907b8c0250ee" points="1" quarter="2" team="JAC" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="21"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[2-J.Myers extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/49ab4119-422a-40a1-97eb-907b8c0250ee.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:55" quarter="2" sequence="7" team="JAC">
+        <score clock="08:34" id="32b9276a-4773-46f2-a5d2-4326ba590a3f" points="6" quarter="2" team="JAC" type="touchdown">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="3"/>
+          </game-score>
+          <summary><![CDATA[24-T.Yeldon runs 28 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/32b9276a-4773-46f2-a5d2-4326ba590a3f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:25" quarter="2" sequence="8" team="BUF">
+        <score clock="02:52" id="aef59d58-f5f7-4528-a751-320302079b2f" points="6" quarter="2" team="BUF" type="touchdown">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="9"/>
+          </game-score>
+          <summary><![CDATA[3-E.Manuel complete to 10-R.Woods. 10-R.Woods runs 16 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/aef59d58-f5f7-4528-a751-320302079b2f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:46" id="9ee55a29-e92b-4a5e-9ef0-d33bfa748ff2" points="1" quarter="2" team="BUF" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="10"/>
+          </game-score>
+          <summary><![CDATA[2-D.Carpenter extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/9ee55a29-e92b-4a5e-9ef0-d33bfa748ff2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:38" quarter="2" sequence="9" team="BUF">
+        <score clock=":12" id="8e6e4070-c88d-4ab6-8277-68bd8d9f174c" points="3" quarter="2" team="BUF" type="fieldgoal">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="13"/>
+          </game-score>
+          <summary><![CDATA[2-D.Carpenter 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/8e6e4070-c88d-4ab6-8277-68bd8d9f174c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:30" quarter="3" sequence="10" team="BUF">
+        <score clock="14:52" id="b3df8906-e9e9-4adb-85bf-8b89c9391e04" points="3" quarter="4" team="BUF" type="fieldgoal">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="16"/>
+          </game-score>
+          <summary><![CDATA[2-D.Carpenter 26 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/b3df8906-e9e9-4adb-85bf-8b89c9391e04.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:15" quarter="4" sequence="11" team="BUF">
+        <score clock="06:39" id="2ae5a3e2-c217-432c-b2a7-746b9b9cf94b" points="6" quarter="4" team="BUF" type="touchdown">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="22"/>
+          </game-score>
+          <summary><![CDATA[3-E.Manuel complete to 81-M.Easley. 81-M.Easley runs 58 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/2ae5a3e2-c217-432c-b2a7-746b9b9cf94b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:33" id="d70ecf2a-ae6f-4d5a-9354-efc42cc143f4" points="2" quarter="4" team="BUF" type="conversion">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="24"/>
+          </game-score>
+          <summary><![CDATA[25-L.McCoy to JAC End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/d70ecf2a-ae6f-4d5a-9354-efc42cc143f4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:33" quarter="4" sequence="12" team="JAC">
+        <score clock="05:34" id="76b6cdae-bd37-4799-a3f1-502102f311aa" points="6" quarter="4" team="BUF" type="touchdown">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="30"/>
+          </game-score>
+          <summary><![CDATA[5-B.Bortles incomplete. Intended for 15-A.Robinson, INTERCEPTED by 20-C.Graham at JAC 44. 20-C.Graham runs 44 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/76b6cdae-bd37-4799-a3f1-502102f311aa.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:21" quarter="4" sequence="13" team="BUF">
+        <score clock="05:21" id="8bac1db6-7b8d-4455-aa9e-9f8059e55c9d" points="1" quarter="4" team="BUF" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="27"/>
+            <team id="BUF" points="31"/>
+          </game-score>
+          <summary><![CDATA[2-D.Carpenter extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/8bac1db6-7b8d-4455-aa9e-9f8059e55c9d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:21" quarter="4" sequence="14" team="JAC">
+        <score clock="02:24" id="24744759-52f9-4092-a6a3-5dfab3c9a8c1" points="6" quarter="4" team="JAC" type="touchdown">
+          <game-score>
+            <team id="JAC" points="33"/>
+            <team id="BUF" points="31"/>
+          </game-score>
+          <summary><![CDATA[5-B.Bortles complete to 88-A.Hurns. 88-A.Hurns runs 31 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/24744759-52f9-4092-a6a3-5dfab3c9a8c1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:16" id="e1d37f1f-a246-4847-962e-45f02865ad39" points="1" quarter="4" team="JAC" type="extrapoint">
+          <game-score>
+            <team id="JAC" points="34"/>
+            <team id="BUF" points="31"/>
+          </game-score>
+          <summary><![CDATA[2-J.Myers extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/BUF/JAC/plays/e1d37f1f-a246-4847-962e-45f02865ad39.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="SEA" clock=":00" completed="2015-10-23T03:19:15+00:00" home="SF" id="7de65f3b-0405-4c1c-9a75-ea757047cba5" quarter="4" scheduled="2015-10-23T00:25:00+00:00" status="closed">
+    <team id="SF" market="San Francisco" name="49ers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="3">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="SEA" market="Seattle" name="Seahawks" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="20">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:37" quarter="1" sequence="1" team="SEA">
+        <score clock="07:05" id="6e916c1b-a40b-4440-a1e9-7c36a9eda810" points="6" quarter="1" team="SEA" type="touchdown">
+          <game-score>
+            <team id="SF" points="0"/>
+            <team id="SEA" points="6"/>
+          </game-score>
+          <summary><![CDATA[24-M.Lynch runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/6e916c1b-a40b-4440-a1e9-7c36a9eda810.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:01" id="50dd4c8a-f9b6-4e61-8e2e-086a8829e070" points="1" quarter="1" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="SF" points="0"/>
+            <team id="SEA" points="7"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/50dd4c8a-f9b6-4e61-8e2e-086a8829e070.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:58" quarter="2" sequence="2" team="SEA">
+        <score clock="09:43" id="5f18a572-592a-47c9-a9a1-49cb26d52fec" points="3" quarter="2" team="SEA" type="fieldgoal">
+          <game-score>
+            <team id="SF" points="0"/>
+            <team id="SEA" points="10"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/5f18a572-592a-47c9-a9a1-49cb26d52fec.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:41" quarter="2" sequence="3" team="SEA">
+        <score clock="02:53" id="d7b88eb2-8da6-40de-b727-4a4fc939c2bb" points="6" quarter="2" team="SEA" type="touchdown">
+          <game-score>
+            <team id="SF" points="0"/>
+            <team id="SEA" points="16"/>
+          </game-score>
+          <summary><![CDATA[3-R.Wilson complete to 16-T.Lockett. 16-T.Lockett runs 43 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/d7b88eb2-8da6-40de-b727-4a4fc939c2bb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:44" id="1ead21b0-614e-466b-a4d4-e4515a2534f8" points="1" quarter="2" team="SEA" type="extrapoint">
+          <game-score>
+            <team id="SF" points="0"/>
+            <team id="SEA" points="17"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/1ead21b0-614e-466b-a4d4-e4515a2534f8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:24" quarter="3" sequence="4" team="SF">
+        <score clock="01:26" id="878d19a4-fdcf-4079-84bc-f1efa6058faa" points="3" quarter="3" team="SF" type="fieldgoal">
+          <game-score>
+            <team id="SF" points="3"/>
+            <team id="SEA" points="17"/>
+          </game-score>
+          <summary><![CDATA[9-P.Dawson 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/878d19a4-fdcf-4079-84bc-f1efa6058faa.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:21" quarter="3" sequence="5" team="SEA">
+        <score clock="09:29" id="72d8f60e-4876-4acb-889d-58af2194c0c2" points="3" quarter="4" team="SEA" type="fieldgoal">
+          <game-score>
+            <team id="SF" points="3"/>
+            <team id="SEA" points="20"/>
+          </game-score>
+          <summary><![CDATA[4-S.Hauschka 46 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/SEA/SF/plays/72d8f60e-4876-4acb-889d-58af2194c0c2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="PHI" clock=":00" completed="2015-10-26T03:49:03+00:00" home="CAR" id="c113aff0-d5aa-420c-8dee-04ba7cfa8dcf" quarter="4" scheduled="2015-10-26T00:30:00+00:00" status="closed">
+    <team id="CAR" market="Carolina" name="Panthers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="27">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="6"/>
+      </scoring>
+    </team>
+    <team id="PHI" market="Philadelphia" name="Eagles" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="16">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="6"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="12:00" quarter="1" sequence="1" team="CAR">
+        <score clock="09:28" id="b974f8fa-2e07-4c6e-8dfe-652a307a646b" points="6" quarter="1" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="6"/>
+            <team id="PHI" points="0"/>
+          </game-score>
+          <summary><![CDATA[35-M.Tolbert runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/b974f8fa-2e07-4c6e-8dfe-652a307a646b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:24" id="05cd327a-757f-4def-b7af-2bd6d57b8d09" points="1" quarter="1" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="7"/>
+            <team id="PHI" points="0"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/05cd327a-757f-4def-b7af-2bd6d57b8d09.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:08" quarter="2" sequence="2" team="PHI">
+        <score clock="05:47" id="68546bca-cfad-4a6a-b3d1-38b902fb9982" points="3" quarter="2" team="PHI" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="7"/>
+            <team id="PHI" points="3"/>
+          </game-score>
+          <summary><![CDATA[6-C.Sturgis 52 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/68546bca-cfad-4a6a-b3d1-38b902fb9982.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:42" quarter="2" sequence="3" team="CAR">
+        <score clock="03:39" id="44f2decd-72ae-4edb-8ab2-4e076ab28274" points="6" quarter="2" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="13"/>
+            <team id="PHI" points="3"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/44f2decd-72ae-4edb-8ab2-4e076ab28274.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:33" id="c5c4f508-a543-433d-abab-f6b1486aa784" points="1" quarter="2" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="14"/>
+            <team id="PHI" points="3"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/c5c4f508-a543-433d-abab-f6b1486aa784.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:05" quarter="2" sequence="4" team="PHI">
+        <score clock=":08" id="d081b640-7efb-4fab-987e-f6524cb161a6" points="3" quarter="2" team="PHI" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="14"/>
+            <team id="PHI" points="6"/>
+          </game-score>
+          <summary><![CDATA[6-C.Sturgis 29 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/d081b640-7efb-4fab-987e-f6524cb161a6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="5" team="CAR">
+        <score clock="11:58" id="e19da0a7-29e7-404c-93e2-e4fea438158d" points="6" quarter="3" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="20"/>
+            <team id="PHI" points="6"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton complete to 35-M.Tolbert. 35-M.Tolbert runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/e19da0a7-29e7-404c-93e2-e4fea438158d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:50" id="0803a97f-5e9b-4d3b-8e88-e76eeb4c61ff" points="1" quarter="3" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="21"/>
+            <team id="PHI" points="6"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/0803a97f-5e9b-4d3b-8e88-e76eeb4c61ff.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:50" quarter="3" sequence="6" team="PHI">
+        <score clock="09:43" id="9238a929-d597-401e-bfd2-e67e2cd69371" points="6" quarter="3" team="PHI" type="touchdown">
+          <game-score>
+            <team id="CAR" points="21"/>
+            <team id="PHI" points="12"/>
+          </game-score>
+          <summary><![CDATA[24-R.Mathews runs 63 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/9238a929-d597-401e-bfd2-e67e2cd69371.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:32" id="5531c3ff-9bd3-480b-bf30-c046d1136a26" points="1" quarter="3" team="PHI" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="21"/>
+            <team id="PHI" points="13"/>
+          </game-score>
+          <summary><![CDATA[6-C.Sturgis extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/5531c3ff-9bd3-480b-bf30-c046d1136a26.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:40" quarter="3" sequence="7" team="PHI">
+        <score clock="05:51" id="568c0614-15a4-49e1-9573-c915239de5dc" points="3" quarter="3" team="PHI" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="21"/>
+            <team id="PHI" points="16"/>
+          </game-score>
+          <summary><![CDATA[6-C.Sturgis 24 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/568c0614-15a4-49e1-9573-c915239de5dc.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:58" quarter="4" sequence="8" team="CAR">
+        <score clock="09:04" id="f4d1231b-e6e4-4d3b-bf13-ec46d31eef58" points="3" quarter="4" team="CAR" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="24"/>
+            <team id="PHI" points="16"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/f4d1231b-e6e4-4d3b-bf13-ec46d31eef58.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:55" quarter="4" sequence="9" team="CAR">
+        <score clock=":23" id="9c5739fe-d1e2-458e-a892-f4e79bc1be14" points="3" quarter="4" team="CAR" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="27"/>
+            <team id="PHI" points="16"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano 29 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/PHI/CAR/plays/9c5739fe-d1e2-458e-a892-f4e79bc1be14.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="HOU" clock=":00" completed="2015-10-25T20:21:41+00:00" home="MIA" id="50f34134-5183-4e99-a38f-d3dec18a9afa" quarter="4" scheduled="2015-10-25T17:00:00+00:00" status="closed">
+    <team id="MIA" market="Miami" name="Dolphins" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="44">
+        <quarter number="1" points="21"/>
+        <quarter number="2" points="20"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <team id="HOU" market="Houston" name="Texans" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="26">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="13"/>
+        <quarter number="4" points="13"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:51" quarter="1" sequence="1" team="MIA">
+        <score clock="11:05" id="93bc388d-7874-449c-84e1-be7cfdd06346" points="6" quarter="1" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="6"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[17-R.Tannehill complete to 18-R.Matthews. 18-R.Matthews runs 53 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/93bc388d-7874-449c-84e1-be7cfdd06346.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:57" id="3b2706fb-f667-4245-9512-57e51d387803" points="1" quarter="1" team="MIA" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="7"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/3b2706fb-f667-4245-9512-57e51d387803.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:00" quarter="1" sequence="2" team="MIA">
+        <score clock="07:00" id="bf079d74-92f6-4438-894b-d22daf046c08" points="6" quarter="1" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="13"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[17-R.Tannehill complete to 14-J.Landry. 14-J.Landry runs 50 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/bf079d74-92f6-4438-894b-d22daf046c08.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:45" id="c5e0797c-5e75-485a-bc11-15196eb32929" points="1" quarter="1" team="MIA" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="14"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/c5e0797c-5e75-485a-bc11-15196eb32929.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:10" quarter="1" sequence="3" team="MIA">
+        <score clock="03:10" id="894f681b-0816-44d5-b20e-49cdb4defa68" points="6" quarter="1" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="20"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[17-R.Tannehill complete to 14-J.Landry. 14-J.Landry runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/894f681b-0816-44d5-b20e-49cdb4defa68.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:03" id="76ef85b4-0344-4bda-a3ff-ee6338cdf0dd" points="1" quarter="1" team="MIA" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="21"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/76ef85b4-0344-4bda-a3ff-ee6338cdf0dd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:00" quarter="1" sequence="4" team="MIA">
+        <score clock="14:22" id="4a129964-75ef-40cf-9145-4dd9d2cf0955" points="6" quarter="2" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="27"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[17-R.Tannehill complete to 26-L.Miller. 26-L.Miller runs 54 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/4a129964-75ef-40cf-9145-4dd9d2cf0955.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:10" id="53781488-7bc4-426a-954d-1b462fdfe8c9" points="1" quarter="2" team="MIA" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="28"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/53781488-7bc4-426a-954d-1b462fdfe8c9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:10" quarter="2" sequence="5" team="HOU">
+        <score clock="14:03" id="86076e55-16de-48b8-a4b6-0705eaa7497e" points="6" quarter="2" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="34"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[7-B.Hoyer incomplete. Intended for 87-C.Fiedorowicz, INTERCEPTED by 20-R.Jones at HOU 23. 20-R.Jones runs 23 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/86076e55-16de-48b8-a4b6-0705eaa7497e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:56" quarter="2" sequence="6" team="MIA">
+        <score clock="13:56" id="15f0753a-6a93-4ca9-a7a2-ff0fba2a1fec" points="1" quarter="2" team="MIA" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="35"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/15f0753a-6a93-4ca9-a7a2-ff0fba2a1fec.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:30" quarter="2" sequence="7" team="MIA">
+        <score clock="03:00" id="cff8ac6c-7671-4cfb-bf86-aab66be20cae" points="6" quarter="2" team="MIA" type="touchdown">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="0"/>
+          </game-score>
+          <summary><![CDATA[26-L.Miller runs 85 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/cff8ac6c-7671-4cfb-bf86-aab66be20cae.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:12" quarter="3" sequence="8" team="HOU">
+        <score clock="08:19" id="fcc1b005-6a16-4dcf-928f-f8d051c701e9" points="6" quarter="3" team="HOU" type="touchdown">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="6"/>
+          </game-score>
+          <summary><![CDATA[7-B.Hoyer complete to 23-A.Foster. 23-A.Foster runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/fcc1b005-6a16-4dcf-928f-f8d051c701e9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:41" quarter="3" sequence="9" team="HOU">
+        <score clock="01:50" id="c961b542-fa1e-4d1c-8391-3cc8e05cfcb3" points="6" quarter="3" team="HOU" type="touchdown">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="12"/>
+          </game-score>
+          <summary><![CDATA[23-A.Foster runs 2 yards for a touchdown. Team penalty on MIA, Offside, declined.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/c961b542-fa1e-4d1c-8391-3cc8e05cfcb3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:45" id="2e34f403-bd88-4112-8032-5c2f4c6c90fb" points="1" quarter="3" team="HOU" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="13"/>
+          </game-score>
+          <summary><![CDATA[8-N.Novak extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/2e34f403-bd88-4112-8032-5c2f4c6c90fb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:04" quarter="4" sequence="10" team="HOU">
+        <score clock="11:35" id="81f06289-a5b4-4aa3-ace7-13c8fac1aa8c" points="6" quarter="4" team="HOU" type="touchdown">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="19"/>
+          </game-score>
+          <summary><![CDATA[7-B.Hoyer complete to 85-N.Washington. 85-N.Washington runs 27 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/81f06289-a5b4-4aa3-ace7-13c8fac1aa8c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:27" id="17d668f3-be29-4d88-879d-f01221b196fb" points="1" quarter="4" team="HOU" type="extrapoint">
+          <game-score>
+            <team id="MIA" points="41"/>
+            <team id="HOU" points="20"/>
+          </game-score>
+          <summary><![CDATA[8-N.Novak extra point is good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/17d668f3-be29-4d88-879d-f01221b196fb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:27" quarter="4" sequence="11" team="MIA">
+        <score clock="07:46" id="e9570984-e117-4e70-a007-db0c53b0070c" points="3" quarter="4" team="MIA" type="fieldgoal">
+          <game-score>
+            <team id="MIA" points="44"/>
+            <team id="HOU" points="20"/>
+          </game-score>
+          <summary><![CDATA[3-A.Franks 53 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/e9570984-e117-4e70-a007-db0c53b0070c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:41" quarter="4" sequence="12" team="HOU">
+        <score clock="04:04" id="07302ac6-028d-4d4e-8dda-25f8434cd866" points="6" quarter="4" team="HOU" type="touchdown">
+          <game-score>
+            <team id="MIA" points="44"/>
+            <team id="HOU" points="26"/>
+          </game-score>
+          <summary><![CDATA[7-B.Hoyer complete to 85-N.Washington. 85-N.Washington runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/REG/7/HOU/MIA/plays/07302ac6-028d-4d4e-8dda-25f8434cd866.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at 2016-08-23 18:42:36 +0000--></games>

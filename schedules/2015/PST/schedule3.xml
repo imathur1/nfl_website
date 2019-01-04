@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<games season="2015" type="PST" week="3" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at 2016-07-08 01:29:20 +0000-->  <game away="ARI" clock=":00" completed="2016-01-25T02:58:29+00:00" home="CAR" id="ed927a9f-af06-4ddf-a012-ad5a8fb74111" quarter="4" scheduled="2016-01-24T23:40:00+00:00" status="closed">
+    <team id="CAR" market="Carolina" name="Panthers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="49">
+        <quarter number="1" points="17"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="15"/>
+      </scoring>
+    </team>
+    <team id="ARI" market="Arizona" name="Cardinals" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="15">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="8"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:26" quarter="1" sequence="1" team="CAR">
+        <score clock="09:35" id="b02f1058-fb15-4683-a0f2-affc714b0b8e" points="3" quarter="1" team="CAR" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="3"/>
+            <team id="ARI" points="0"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano 45 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/b02f1058-fb15-4683-a0f2-affc714b0b8e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:47" quarter="1" sequence="2" team="CAR">
+        <score clock="04:44" id="10399057-b329-4b7a-88e2-f2f93f8bbe28" points="6" quarter="1" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="9"/>
+            <team id="ARI" points="0"/>
+          </game-score>
+          <summary><![CDATA[19-T.Ginn runs 22 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/10399057-b329-4b7a-88e2-f2f93f8bbe28.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:31" id="e0648b8c-3049-4387-9b1d-78fdee25703f" points="1" quarter="1" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="10"/>
+            <team id="ARI" points="0"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/e0648b8c-3049-4387-9b1d-78fdee25703f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:48" quarter="1" sequence="3" team="CAR">
+        <score clock="01:03" id="52b30e6b-21bb-44f9-b5d4-ad2ad1d9b389" points="6" quarter="1" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="16"/>
+            <team id="ARI" points="0"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton complete to 10-P.Brown. 10-P.Brown runs 86 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/52b30e6b-21bb-44f9-b5d4-ad2ad1d9b389.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":49" id="9d573d1d-7519-4331-bfec-d44aad126e64" points="1" quarter="1" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="17"/>
+            <team id="ARI" points="0"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/9d573d1d-7519-4331-bfec-d44aad126e64.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:47" quarter="2" sequence="4" team="ARI">
+        <score clock="05:47" id="0046bc6c-73e4-46fe-a364-8de3ef2e1dee" points="6" quarter="2" team="ARI" type="touchdown">
+          <game-score>
+            <team id="CAR" points="17"/>
+            <team id="ARI" points="6"/>
+          </game-score>
+          <summary><![CDATA[31-D.Johnson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/0046bc6c-73e4-46fe-a364-8de3ef2e1dee.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:44" id="7b451d9c-258c-4a98-8da5-4ca8e485cdb1" points="1" quarter="2" team="ARI" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="17"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[7-C.Catanzaro extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/7b451d9c-258c-4a98-8da5-4ca8e485cdb1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:44" quarter="2" sequence="5" team="CAR">
+        <score clock="02:00" id="89f3bb08-32e6-415e-ae9e-055b015bc99c" points="6" quarter="2" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="23"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/89f3bb08-32e6-415e-ae9e-055b015bc99c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:56" id="06894c0c-156e-4c04-b18f-90e8126c73d3" points="1" quarter="2" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="24"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good. Team penalty on ARI, Illegal formation,.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/06894c0c-156e-4c04-b18f-90e8126c73d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="CAR">
+        <score clock="07:53" id="05e499b8-e23c-4090-980b-2812b337ca5c" points="3" quarter="3" team="CAR" type="fieldgoal">
+          <game-score>
+            <team id="CAR" points="27"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano 21 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/05e499b8-e23c-4090-980b-2812b337ca5c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:19" quarter="3" sequence="7" team="CAR">
+        <score clock="02:14" id="ded976b4-c071-4180-8d9e-572fd54ad80a" points="6" quarter="3" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="33"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton runs 12 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/ded976b4-c071-4180-8d9e-572fd54ad80a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:08" id="72cf128f-55a1-46bc-81f6-948e5c3f6bbb" points="1" quarter="3" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="34"/>
+            <team id="ARI" points="7"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/72cf128f-55a1-46bc-81f6-948e5c3f6bbb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:08" quarter="3" sequence="8" team="ARI">
+        <score clock="14:21" id="51054954-4339-4634-8d12-2f577cbecd5e" points="6" quarter="4" team="ARI" type="touchdown">
+          <game-score>
+            <team id="CAR" points="34"/>
+            <team id="ARI" points="13"/>
+          </game-score>
+          <summary><![CDATA[3-C.Palmer complete to 85-D.Fells. 85-D.Fells runs 21 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/51054954-4339-4634-8d12-2f577cbecd5e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:16" id="d948bf01-60b2-417a-bd1c-fd6f948fe9b7" points="2" quarter="4" team="ARI" type="conversion">
+          <game-score>
+            <team id="CAR" points="34"/>
+            <team id="ARI" points="15"/>
+          </game-score>
+          <summary><![CDATA[14-J.Nelson to CAR End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/d948bf01-60b2-417a-bd1c-fd6f948fe9b7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:38" quarter="4" sequence="9" team="CAR">
+        <score clock="05:30" id="e6379d50-720f-448e-9b80-460530c6bcb6" points="6" quarter="4" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="40"/>
+            <team id="ARI" points="15"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton complete to 17-D.Funchess. 17-D.Funchess runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/e6379d50-720f-448e-9b80-460530c6bcb6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:26" id="da44ac65-8962-43f7-a560-f8ad8ca0d697" points="2" quarter="4" team="CAR" type="conversion">
+          <game-score>
+            <team id="CAR" points="42"/>
+            <team id="ARI" points="15"/>
+          </game-score>
+          <summary><![CDATA[1-C.Newton complete to 35-M.Tolbert. 35-M.Tolbert to ARI End Zone for 1 yard. Conversion is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/da44ac65-8962-43f7-a560-f8ad8ca0d697.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:26" quarter="4" sequence="10" team="ARI">
+        <score clock="05:20" id="e7f8d8d2-5c0b-4459-bf8b-93f27f94487a" points="6" quarter="4" team="CAR" type="touchdown">
+          <game-score>
+            <team id="CAR" points="48"/>
+            <team id="ARI" points="15"/>
+          </game-score>
+          <summary><![CDATA[3-C.Palmer incomplete. Intended for 12-J.Brown, INTERCEPTED by 59-L.Kuechly at ARI 22. 59-L.Kuechly runs 22 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/e7f8d8d2-5c0b-4459-bf8b-93f27f94487a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:11" quarter="4" sequence="11" team="CAR">
+        <score clock="05:11" id="4ac0ccde-4536-400a-86da-7bc6c198bd1c" points="1" quarter="4" team="CAR" type="extrapoint">
+          <game-score>
+            <team id="CAR" points="49"/>
+            <team id="ARI" points="15"/>
+          </game-score>
+          <summary><![CDATA[9-G.Gano extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/ARI/CAR/plays/4ac0ccde-4536-400a-86da-7bc6c198bd1c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="NE" clock=":00" completed="2016-01-24T23:34:14+00:00" home="DEN" id="17aa0057-0f42-4ad5-99d2-6e2a532073ca" quarter="4" scheduled="2016-01-24T20:05:00+00:00" status="closed">
+    <team id="DEN" market="Denver" name="Broncos" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="20">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <team id="NE" market="New England" name="Patriots" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="18">
+        <quarter number="1" points="6"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="6"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:02" quarter="1" sequence="1" team="DEN">
+        <score clock="07:37" id="f2d9d3de-07a0-4b60-9aeb-0553bd3fd5c3" points="6" quarter="1" team="DEN" type="touchdown">
+          <game-score>
+            <team id="DEN" points="6"/>
+            <team id="NE" points="0"/>
+          </game-score>
+          <summary><![CDATA[18-P.Manning complete to 81-O.Daniels. 81-O.Daniels runs 21 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/f2d9d3de-07a0-4b60-9aeb-0553bd3fd5c3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:32" id="7f392c98-5ebf-40da-afc4-1f3f175e5720" points="1" quarter="1" team="DEN" type="extrapoint">
+          <game-score>
+            <team id="DEN" points="7"/>
+            <team id="NE" points="0"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/7f392c98-5ebf-40da-afc4-1f3f175e5720.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:23" quarter="1" sequence="2" team="NE">
+        <score clock="01:53" id="c389ac97-8004-414f-ae0f-c8ad39dc7ae6" points="6" quarter="1" team="NE" type="touchdown">
+          <game-score>
+            <team id="DEN" points="7"/>
+            <team id="NE" points="6"/>
+          </game-score>
+          <summary><![CDATA[39-S.Jackson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/c389ac97-8004-414f-ae0f-c8ad39dc7ae6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:35" quarter="2" sequence="3" team="DEN">
+        <score clock="13:51" id="ad986a04-56ee-4a5b-94a9-2953f2afd12d" points="6" quarter="2" team="DEN" type="touchdown">
+          <game-score>
+            <team id="DEN" points="13"/>
+            <team id="NE" points="6"/>
+          </game-score>
+          <summary><![CDATA[18-P.Manning complete to 81-O.Daniels. 81-O.Daniels runs 12 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/ad986a04-56ee-4a5b-94a9-2953f2afd12d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="13:46" id="455a50e6-1a13-4c70-9d7b-08156be0b550" points="1" quarter="2" team="DEN" type="extrapoint">
+          <game-score>
+            <team id="DEN" points="14"/>
+            <team id="NE" points="6"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus extra point is good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/455a50e6-1a13-4c70-9d7b-08156be0b550.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:46" quarter="2" sequence="4" team="NE">
+        <score clock="07:07" id="a0e61447-6631-4436-8372-6b58199523a9" points="3" quarter="2" team="NE" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="14"/>
+            <team id="NE" points="9"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski 46 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/a0e61447-6631-4436-8372-6b58199523a9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:46" quarter="2" sequence="5" team="DEN">
+        <score clock=":38" id="7deb55a2-2a21-4118-823b-3ada7bde4b08" points="3" quarter="2" team="DEN" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="17"/>
+            <team id="NE" points="9"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus 52 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/7deb55a2-2a21-4118-823b-3ada7bde4b08.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:15" quarter="3" sequence="6" team="NE">
+        <score clock="10:31" id="85342b1f-0fcd-451f-a662-ad0ee47d7a9e" points="3" quarter="3" team="NE" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="17"/>
+            <team id="NE" points="12"/>
+          </game-score>
+          <summary><![CDATA[3-S.Gostkowski 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/85342b1f-0fcd-451f-a662-ad0ee47d7a9e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="4" sequence="7" team="DEN">
+        <score clock="10:06" id="8d149886-cf1c-40b5-80ad-69fb6ec9f0df" points="3" quarter="4" team="DEN" type="fieldgoal">
+          <game-score>
+            <team id="DEN" points="20"/>
+            <team id="NE" points="12"/>
+          </game-score>
+          <summary><![CDATA[8-B.McManus 31 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/8d149886-cf1c-40b5-80ad-69fb6ec9f0df.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:52" quarter="4" sequence="8" team="NE">
+        <score clock=":17" id="786dba94-3d99-45ce-ba31-6e2fa32927d3" points="6" quarter="4" team="NE" type="touchdown">
+          <game-score>
+            <team id="DEN" points="20"/>
+            <team id="NE" points="18"/>
+          </game-score>
+          <summary><![CDATA[12-T.Brady complete to 87-R.Gronkowski. 87-R.Gronkowski runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2015/PST/3/NE/DEN/plays/786dba94-3d99-45ce-ba31-6e2fa32927d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at 2016-07-08 01:29:20 +0000--></games>

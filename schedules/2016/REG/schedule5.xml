@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 20:50:31 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="49037b4f-71c4-4e4d-8963-4f9b83e0b4bc" year="2016" type="REG" name="REG">
+  <week id="22588b33-b0da-435e-8454-758ed62bd3e2" sequence="5" title="5">
+    <game id="198fc0ad-e7e3-4ee4-94fd-838d77b4672c" status="closed" reference="56971" number="71" scheduled="2016-10-09T17:00:00+00:00" attendance="66385" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 57 F, Humidity: 60%, Wind: From NNW 9  mph">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="65050" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="5" sr_id="sr:competitor:4345"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="5" sr_id="sr:competitor:4427"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="31" away_points="13">
+        <quarter id="5bb2548f-43ab-443d-a5b7-59018c025fe4" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="2282b7aa-f240-4091-82eb-51432d371836" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="5ad7ac92-d05c-4194-bcb8-02a9a2c0fea7" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="610c0686-b920-44bf-bf86-6e94f2f0fc0d" number="4" sequence="4" home_points="14" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="25fde8b4-6e4e-468c-ba0a-a511530a303c" status="closed" reference="56970" number="70" scheduled="2016-10-09T17:00:00+00:00" attendance="66683" utc_offset="-6" entry_mode="INGEST" weather="Indoors Temp:  F, Wind:   mph">
+      <venue id="f5ff00d4-1ed8-4918-bf73-13d66d510f98" name="U.S. Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 S 5th St" capacity="66200" surface="turf" roof_type="dome" sr_id="sr:venue:18423"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="5" sr_id="sr:competitor:4423"/>
+      <away id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="5" sr_id="sr:competitor:4324"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="31" away_points="13">
+        <quarter id="5bea1a21-6c8f-413c-8191-9586b5e4c856" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="f6ef0227-b00c-4f24-bc99-e4ecac9a83ae" number="2" sequence="2" home_points="10" away_points="6"/>
+        <quarter id="c68f25e6-f7d5-4549-b355-3d9d7f42763c" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="b8d09635-2803-4ff7-a4a1-7457c875ee05" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="4203c1e2-95ac-4f5f-874a-1ad73191b34c" status="closed" reference="56976" number="76" scheduled="2016-10-10T00:30:00+00:00" attendance="78401" utc_offset="-6" entry_mode="INGEST" weather="Temp: 49 F, Wind: E 7 mph">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="80750" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="4" sr_id="sr:competitor:4420"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="5" sr_id="sr:competitor:4426"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="23" away_points="16">
+        <quarter id="6997103f-83bd-4f52-aeb0-dde6a2462e5e" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="09aba510-da24-417c-81af-e60c727ca704" number="2" sequence="2" home_points="10" away_points="6"/>
+        <quarter id="35e37201-4efa-42d5-8c1a-0bcfa563cdfe" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="1165c8cb-2d00-4cfa-a0fb-080901a34354" number="4" sequence="4" home_points="6" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="475369bd-2def-4188-bd4a-44c8b0a1c836" status="closed" reference="56972" number="72" scheduled="2016-10-09T20:05:00+00:00" attendance="76802" utc_offset="-7" entry_mode="INGEST" weather="Mostly Cloudy Temp: 72 F, Humidity: 18%, Wind: SE 5 mph">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Sports Authority Field at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="5" sr_id="sr:competitor:4418"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="5" sr_id="sr:competitor:4393"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="16" away_points="23">
+        <quarter id="27f2c026-c8eb-4e32-88f4-f89a21048235" number="1" sequence="1" home_points="0" away_points="10"/>
+        <quarter id="24ba64d0-68c0-4632-a618-12df687c804d" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="d341d57d-45c1-49d7-be8c-f81d59c7ca59" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="605484db-3501-4b02-857a-6844142a15cc" number="4" sequence="4" home_points="13" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="49df5382-156b-4345-9759-5d9b2902d318" status="closed" reference="56974" number="74" scheduled="2016-10-09T20:25:00+00:00" attendance="83679" utc_offset="-8" entry_mode="INGEST" weather="Sunny Temp: 91 F, Humidity: 18%, Wind: SW 5 mph mph">
+      <venue id="4de1fcde-7c65-4145-a874-3753bdd584b7" name="Los Angeles Memorial Coliseum" city="Los Angeles" state="CA" country="USA" zip="90037" address="3911 South Figueroa Street" capacity="93607" surface="turf" roof_type="outdoor"/>
+      <home id="2eff2a03-54d4-46ba-890e-2bc3925548f3" name="Los Angeles Rams" alias="LA" game_number="5" sr_id="sr:competitor:4387"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="5" sr_id="sr:competitor:4376"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="19" away_points="30">
+        <quarter id="ce626077-8ed1-4a35-9d74-f06bd684ca2c" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="0bc9b000-2ad6-41b8-ae93-a89e36919f9d" number="2" sequence="2" home_points="10" away_points="9"/>
+        <quarter id="1066218b-d758-46c9-bd8d-c93ff163ac28" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="1867ed6c-21ae-4412-be8c-8a08090c5ffb" number="4" sequence="4" home_points="3" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="4e0f2848-7b28-4dc7-988f-420a7ff571fc" status="closed" reference="56965" number="65" scheduled="2016-10-09T17:00:00+00:00" attendance="71318" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 62 F, Humidity: 53%, Wind: NNW 16 mph">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="5" sr_id="sr:competitor:4413"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="5" sr_id="sr:competitor:4432"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="10" away_points="16">
+        <quarter id="7a37e2b3-bba1-450a-9e80-a9946481db6c" number="1" sequence="1" home_points="7" away_points="6"/>
+        <quarter id="286fe15b-a411-48f4-89ed-2003f73a857b" number="2" sequence="2" home_points="3" away_points="0"/>
+        <quarter id="9bf91d7f-f159-4c05-87ca-3c08a449aa93" number="3" sequence="3" home_points="0" away_points="10"/>
+        <quarter id="208f1a15-d9e8-4a03-abd4-9c302bd61ddf" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="5573218e-dd07-4684-a19e-d880310a2c5f" status="closed" reference="56967" number="67" scheduled="2016-10-09T17:00:00+00:00" attendance="58047" utc_offset="-5" entry_mode="INGEST" weather="Controlled Temp: 68 F, Humidity: 70%, Wind:   mph">
+      <venue id="6e3bcf22-277d-4c06-b019-62aded51654f" name="Ford Field" city="Detroit" state="MI" country="USA" zip="48226" address="2000 Brush Street" capacity="65000" surface="artificial" roof_type="dome"/>
+      <home id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="5" sr_id="sr:competitor:4419"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="4" sr_id="sr:competitor:4428"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="24" away_points="23">
+        <quarter id="ef735762-5a6b-4fc8-a12c-0e93771e479b" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="5a625865-43dd-4da8-a221-714489e60933" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="0994ebdf-74fb-41ae-975b-f94105446472" number="3" sequence="3" home_points="0" away_points="10"/>
+        <quarter id="0dfe74a1-aee7-433f-aadb-d815dc1aa72b" number="4" sequence="4" home_points="3" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="8a1173bb-983a-43bc-bdde-d10ef4a99c75" status="closed" reference="56977" number="77" scheduled="2016-10-11T00:30:00+00:00" attendance="73425" utc_offset="-5" entry_mode="INGEST" weather="Clear Temp: 66 F, Humidity: 35%, Wind: NE 7 mph">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="73778" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="5" sr_id="sr:competitor:4415"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="5" sr_id="sr:competitor:4388"/>
+      <broadcast network="ESPN" satellite="206" internet="WatchESPN"/>
+      <scoring home_points="14" away_points="17">
+        <quarter id="ae7c33d8-f4e0-40ee-a03f-3ff9a2a2183d" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="cc22edd1-73c0-4681-8575-56cbfbaaeeaa" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="6de95547-8b0f-4a43-92d8-0b544fa27ae3" number="3" sequence="3" home_points="14" away_points="8"/>
+        <quarter id="cd3b7347-98f0-4a10-b16a-af2215ddd9ca" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="8d9d6ab9-3b78-4ff6-9198-52060887aeb6" status="closed" reference="56968" number="68" scheduled="2016-10-09T17:00:00+00:00" attendance="66622" utc_offset="-5" entry_mode="INGEST" weather="Mostly Sunny Temp: 60 F, Humidity: 59%, Wind: N 5 mph">
+      <venue id="6ed18563-53e0-46c2-a91d-12d73a16456d" name="Lucas Oil Stadium" city="Indianapolis" state="IN" country="USA" zip="46225" address="500 South Capitol Avenue" capacity="67000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="5" sr_id="sr:competitor:4421"/>
+      <away id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="5" sr_id="sr:competitor:4391"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="29" away_points="23">
+        <quarter id="f9c87213-6464-4a30-8940-c26b50785b74" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="10131d83-a364-4263-b99e-5c86b4da86a3" number="2" sequence="2" home_points="13" away_points="10"/>
+        <quarter id="6aee4dfa-5a50-4f75-bb78-f232c48856cb" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="fad80971-42f6-4af4-95b2-a7c4320a5a55" number="4" sequence="4" home_points="10" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="a419689e-9fb4-4c3c-b0e7-8b8f3d08015b" status="closed" reference="56975" number="75" scheduled="2016-10-09T20:25:00+00:00" attendance="54275" utc_offset="-8" entry_mode="INGEST" weather="Sunny Skies Temp: 75 F, Humidity: 39%, Wind: W 7 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53200" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="5" sr_id="sr:competitor:4390"/>
+      <away id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="5"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="34" away_points="31">
+        <quarter id="48a0304b-153c-4bce-be88-bf6684cfc4cb" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="e45dd80b-5bff-410d-9568-89f259821d3e" number="2" sequence="2" home_points="6" away_points="10"/>
+        <quarter id="edeabce8-487c-4838-91c2-318592c66a8e" number="3" sequence="3" home_points="18" away_points="14"/>
+        <quarter id="4f5d8024-97bf-412a-85b0-d229f584bd8f" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="a6421f60-ff28-4054-a1d7-459a35169ec8" status="closed" reference="56973" number="73" scheduled="2016-10-09T20:25:00+00:00" attendance="91653" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="5" sr_id="sr:competitor:4392"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="5" sr_id="sr:competitor:4416"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="28" away_points="14">
+        <quarter id="dc9f355f-898f-47a8-b749-a69c0469be8a" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="380dc5f7-d508-4a34-b61e-9699cd7e8062" number="2" sequence="2" home_points="14" away_points="0"/>
+        <quarter id="f2206773-b7f9-488d-be58-fc3131694c7c" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="58aaf948-8a3c-451e-92b5-26b935df8e44" number="4" sequence="4" home_points="0" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="c2af952e-af2e-49d4-9103-a43454af3f03" status="closed" reference="56964" number="64" scheduled="2016-10-07T00:25:00+00:00" attendance="70178" utc_offset="-8" entry_mode="INGEST" weather="Clear Temp: 75 F, Humidity: 34%, Wind: WNW 16 mph">
+      <venue id="24c71dbf-6469-46f1-8165-22005c295c8f" name="Levi's Stadium" city="Santa Clara" state="CA" country="USA" zip="95054" address="4900 Marie P DeBartolo Way" capacity="68500" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="5" sr_id="sr:competitor:4389"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="5" sr_id="sr:competitor:4412"/>
+      <broadcast network="CBS/NFL"/>
+      <scoring home_points="21" away_points="33">
+        <quarter id="cf6e93d7-903b-47b8-ad46-ea43af11866b" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="ddbdb2cd-4186-4f3e-97b7-4da0a228187e" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="91a00d22-c4b0-4552-b4e7-aefeaaf7f7ad" number="3" sequence="3" home_points="7" away_points="14"/>
+        <quarter id="084a1f31-80b6-4dbc-b12b-4c39dbebe8d1" number="4" sequence="4" home_points="7" away_points="12"/>
+      </scoring>
+    </game>
+    <game id="d19664ef-a0a7-461d-bf1d-a30b1378b25e" status="closed" reference="56966" number="66" scheduled="2016-10-09T17:00:00+00:00" attendance="67431" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 58 F, Humidity: 58%, Wind: North 13 mph">
+      <venue id="90c38d91-3774-4f5d-82ca-1c806828219f" name="FirstEnergy Stadium" city="Cleveland" state="OH" country="USA" zip="44114" address="100 Alfred Lerner Way" capacity="71516" surface="turf" roof_type="outdoor" sr_id="sr:venue:8177"/>
+      <home id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="5" sr_id="sr:competitor:4417"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="5" sr_id="sr:competitor:4424"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="13" away_points="33">
+        <quarter id="339ac944-434e-4569-be59-1befc89aac02" number="1" sequence="1" home_points="7" away_points="16"/>
+        <quarter id="18e3e469-46ee-4137-b330-1df15bbc780f" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="52ebbfee-5aed-4484-adfe-9a0c0108b99d" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="d77a6fd8-98f6-4fc9-b43d-bd5429965ce2" number="4" sequence="4" home_points="6" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="f1f19c96-cd88-4b7b-987f-9eb6ae9cf3d6" status="closed" reference="56969" number="69" scheduled="2016-10-09T17:00:00+00:00" attendance="64425" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 88 F, Humidity: 53%, Wind: NNE 15 mph">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="76100" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="5" sr_id="sr:competitor:4287"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="5" sr_id="sr:competitor:367364"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="17" away_points="30">
+        <quarter id="6d179ed9-65ab-4edb-a345-0dd936cce28e" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="51dd6b25-7626-4e2b-bf55-ba0f0581193e" number="2" sequence="2" home_points="14" away_points="14"/>
+        <quarter id="a3352b46-17c1-4b34-8dcf-0082920b3b82" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="448fae52-591a-4d61-9fc2-88dbd009e0cc" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 20:50:31 +0000 -->
