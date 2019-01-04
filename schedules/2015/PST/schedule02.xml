@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:51:20 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="279aae01-091e-4757-af17-0a3f36fc9592" year="2015" type="PST" name="PST">
+  <week id="458e185a-c21f-4bae-b887-d465edfbdb49" sequence="2" title="2">
+    <game id="28ae702e-a6aa-48a7-aea7-f995d00668bd" status="closed" reference="56828" number="261" scheduled="2016-01-16T21:35:00+00:00" attendance="66829" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 38 F, Humidity: 86%, Wind: WNW 6 mph">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="1" sr_id="sr:competitor:4424"/>
+      <away id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="2" sr_id="sr:competitor:4422"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="27" away_points="20">
+        <quarter id="563a50cc-0a15-458b-9573-23bf10512ed0" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="cd205cc7-c900-48d9-8679-ad1c71c986cb" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="39567409-d63d-4602-b186-cf066bcb6aa4" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="76bc86fd-146e-4dae-ad34-5ea3fcc46fbb" number="4" sequence="4" home_points="6" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="414982a2-7457-46cc-88fc-680df847274e" status="closed" reference="56830" number="263" scheduled="2016-01-17T18:05:00+00:00" attendance="74287" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 43 F, Humidity: 65%, Wind: NNE 7 mph">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="75419" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="1" sr_id="sr:competitor:4415"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="2" sr_id="sr:competitor:4430"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="31" away_points="24">
+        <quarter id="4cb7efd9-eca1-4f45-b723-0b1adbee7475" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="7b8b4332-843e-4796-97b0-e62fbcb34c6a" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="fce8bb8c-c6a6-454a-a845-9e572d8f2d0f" number="3" sequence="3" home_points="0" away_points="14"/>
+        <quarter id="c032bd0a-4c57-409c-b53b-a9ab140fc324" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="8d3efa3b-0139-4af6-9b6c-fa8e20f570f9" status="closed" reference="56829" number="262" scheduled="2016-01-17T01:15:00+00:00" attendance="65089" utc_offset="-7" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84" name="State Farm Stadium" city="Glendale" state="AZ" country="USA" zip="85305" address="One Cardinals Drive" capacity="63400" surface="turf" roof_type="retractable_dome"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="1" sr_id="sr:competitor:4412"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="2" sr_id="sr:competitor:4420"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="26" away_points="20">
+        <quarter id="aef3abf5-8d87-4a26-8279-d2b5032dcbe2" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="ad3effd2-4653-4738-8f8c-b886c25291a4" number="2" sequence="2" home_points="0" away_points="6"/>
+        <quarter id="a6c64976-8e08-4218-b5f0-0a027772ba71" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="ed91c67e-613a-4575-9be6-c82e3d63e62b" number="4" sequence="4" home_points="10" away_points="7"/>
+        <overtime id="620e2694-40b6-478e-a717-475f91e476d5" number="1" sequence="5" home_points="6" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="fc427f02-e5e3-4869-beeb-32f1cd0703e2" status="closed" reference="56831" number="264" scheduled="2016-01-17T21:40:00+00:00" attendance="76956" utc_offset="-7" entry_mode="INGEST" weather="Sunny, Gusts to 16 mph. Temp: 43 F, Humidity: 36%, Wind: NW 9 mph">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="1" sr_id="sr:competitor:4418"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="2" sr_id="sr:competitor:4345"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="23" away_points="16">
+        <quarter id="10daf645-bf24-4af3-aae4-bc5520bd971e" number="1" sequence="1" home_points="6" away_points="7"/>
+        <quarter id="30a6f4eb-3391-445f-9ed7-c5c78815eade" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="52b3f1fc-fbfe-4c62-a693-4c22b0c9e879" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="885fe488-3180-45e6-a575-62fd13463864" number="4" sequence="4" home_points="11" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:51:20 +0000 -->

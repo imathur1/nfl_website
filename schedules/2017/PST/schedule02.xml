@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:52:19 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="619b7505-fc8a-4d1e-ad86-c485031b7f81" year="2017" type="PST" name="PST">
+  <week id="6c7f04bc-2f21-4c2b-9d49-7ac16edb74f8" sequence="2" title="2">
+    <game id="3a484086-74b1-4b2d-b416-47b8f3d3be66" status="closed" reference="57495" number="262" scheduled="2018-01-14T01:15:00+00:00" attendance="65878" utc_offset="-5" entry_mode="INGEST" weather="Clear and Cold Temp: 24 F, Humidity: 61%, Wind: NW 12 mph" sr_id="sr:match:13497023">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="1" sr_id="sr:competitor:4424"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="2" sr_id="sr:competitor:367364"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="35" away_points="14">
+        <quarter id="9d1052d3-7876-46d5-a2aa-59f8d549f875" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="0fda2346-b0bc-4876-97ef-92f99517852e" number="2" sequence="2" home_points="21" away_points="0"/>
+        <quarter id="5ed6146c-8cfd-4dfb-81df-695ce6217156" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="e2fc7ca4-1900-4639-a95f-93e241d25eb5" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="516fb057-7048-479a-a386-500a57b032d3" status="closed" reference="57497" number="264" scheduled="2018-01-14T21:40:00+00:00" attendance="66612" utc_offset="-6" entry_mode="INGEST" weather="Indoors Temp:  F, Wind:   mph" sr_id="sr:match:13497813">
+      <venue id="f5ff00d4-1ed8-4918-bf73-13d66d510f98" name="U.S. Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 S 5th Street" capacity="66655" surface="artificial" roof_type="dome" sr_id="sr:venue:18423"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="1" sr_id="sr:competitor:4423"/>
+      <away id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="2" sr_id="sr:competitor:4425"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="29" away_points="24">
+        <quarter id="0fe97c6d-bde6-4eb1-92dc-0f2b8af71f63" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="e254e98d-7eca-481c-8703-2de15758da23" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="4a168e78-0617-40eb-996d-93a948e928a4" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="f160c626-296b-4f2c-b60c-50e1dfc0ecc2" number="4" sequence="4" home_points="12" away_points="17"/>
+      </scoring>
+    </game>
+    <game id="cb41ba50-78ff-4455-a729-038400b3c17d" status="closed" reference="57494" number="261" scheduled="2018-01-13T21:35:00+00:00" attendance="69596" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 32 F, Humidity: 44%, Wind: NW 16 mph" sr_id="sr:match:13493531">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="69596" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="1" sr_id="sr:competitor:4428"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="2" sr_id="sr:competitor:4393"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="15" away_points="10">
+        <quarter id="7872c19f-1eb7-4226-b3ab-d9d14e7017ad" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="e42ae963-7c6d-449a-86b3-d3f93ada19a2" number="2" sequence="2" home_points="9" away_points="7"/>
+        <quarter id="4435fa46-eefe-485e-b349-bbb24cc0b61c" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="479b7f83-a79f-426e-922b-ced011e0efe1" number="4" sequence="4" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="cd9498d2-bc04-43e2-985c-f980abbab154" status="closed" reference="57496" number="263" scheduled="2018-01-14T18:05:00+00:00" attendance="64524" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 18 F, Humidity: 55%, Wind: From ENE 2 mph" sr_id="sr:match:13497021">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="68400" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="1" sr_id="sr:competitor:4345"/>
+      <away id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="2" sr_id="sr:competitor:4386"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="42" away_points="45">
+        <quarter id="29549cdf-22d8-4976-bedf-7165b3f7a8be" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="ee10c36b-9129-4d28-b791-4b1b882792cd" number="2" sequence="2" home_points="14" away_points="14"/>
+        <quarter id="9586dde8-9502-4439-8f37-14e827d54b79" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="726d0e17-f11d-40c3-a493-dece464d3be5" number="4" sequence="4" home_points="21" away_points="17"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:52:19 +0000 -->

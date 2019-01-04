@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 16:32:19 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="3cf0e8ec-048d-4872-a706-b248c198831c" year="2017" type="REG" name="REG">
+  <week id="115af970-dbe9-4a0f-8343-549884be5557" sequence="16" title="16">
+    <game id="03a081dd-0102-4077-b423-de3e1dff7cc4" status="closed" reference="57459" number="226" scheduled="2017-12-24T01:30:00+00:00" attendance="78092" utc_offset="-6" entry_mode="INGEST" weather="Clear Temp: 10 F, Humidity: 67%, Wind: SW 6 mph" sr_id="sr:match:11539133">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="80750" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="15" sr_id="sr:competitor:4420"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="15" sr_id="sr:competitor:4423"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="0" away_points="16">
+        <quarter id="223bada3-6d84-4b04-992f-0265c956de0c" number="1" sequence="1" home_points="0" away_points="10"/>
+        <quarter id="068f8036-30d5-4ca6-8a32-15a5765caec6" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="2085ffd9-7d7a-4cd2-93f7-bf118963b7e9" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="86af3012-3bc0-4686-9918-f824f469ec85" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="06281b5e-de29-4edf-90f8-b7c1167cf02c" status="closed" reference="57469" number="236" scheduled="2017-12-24T21:05:00+00:00" attendance="70133" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 52 F, Humidity: 64%, Wind:  1 mph" sr_id="sr:match:11539169">
+      <venue id="24c71dbf-6469-46f1-8165-22005c295c8f" name="Levi's Stadium" city="Santa Clara" state="CA" country="USA" zip="95054" address="4900 Marie P DeBartolo Way" capacity="68500" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="15" sr_id="sr:competitor:4389"/>
+      <away id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="15" sr_id="sr:competitor:4386"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="44" away_points="33">
+        <quarter id="1c44da11-d0c9-4771-ab34-363eb853f8cd" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="7eb68015-dd18-40c8-be21-cc1cef78bac9" number="2" sequence="2" home_points="6" away_points="16"/>
+        <quarter id="c248d936-e1b3-4b02-b5c1-326a6b9e9a9c" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="d029d4aa-9999-4027-b114-98cbfe38efb0" number="4" sequence="4" home_points="21" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="30a50d91-b8e1-4cd7-b45c-a982a67f31c7" status="closed" reference="57471" number="238" scheduled="2017-12-24T21:25:00+00:00" attendance="92150" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph" sr_id="sr:match:11539173">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="15" sr_id="sr:competitor:4392"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="15" sr_id="sr:competitor:4430"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="12" away_points="21">
+        <quarter id="e0c8532f-68bb-45a2-aac3-75f67425d83d" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="7718977b-c18d-4eab-853f-8cd59d7ccf4e" number="2" sequence="2" home_points="9" away_points="7"/>
+        <quarter id="c7fa2c7b-bdaf-4bde-b9c6-12ac9272e8b9" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="bc78d392-307a-4249-8227-eff41c00d03b" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="3d37f762-90a1-429c-854e-2a32b3f873a7" status="closed" reference="57460" number="227" scheduled="2017-12-24T18:00:00+00:00" attendance="71463" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 55 F, Humidity: 63%, Wind: NE 6 mph" sr_id="sr:match:11539153">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="73778" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="15" sr_id="sr:competitor:4415"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="15" sr_id="sr:competitor:4388"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="22" away_points="19">
+        <quarter id="568b8127-f01c-48f1-8d0d-e184bf731ce0" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="4c006dad-4ea2-409a-b47c-088ceb3c05fc" number="2" sequence="2" home_points="9" away_points="6"/>
+        <quarter id="a2f1a483-db25-4f39-8aae-b9d60504ad19" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="aff829d9-1f3c-41f0-a616-c15ebf97d24a" number="4" sequence="4" home_points="7" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="46866731-e0a4-41ee-82ab-90d8253d088e" status="closed" reference="57466" number="233" scheduled="2017-12-24T18:00:00+00:00" attendance="77562" utc_offset="-5" entry_mode="INGEST" weather="Temp: 40 F, Humidity: 55%, Wind: N 6 mph" sr_id="sr:match:11539165">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="15" sr_id="sr:competitor:4427"/>
+      <away id="1f6dcffb-9823-43cd-9ff4-e7a8466749b5" name="Los Angeles Chargers" alias="LAC" game_number="15" sr_id="sr:competitor:4429"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="7" away_points="14">
+        <quarter id="35ae6d57-674a-4ac0-974b-b732af26f431" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="5e85c2fa-5c32-4c12-885d-024fb0f60715" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="264100f2-b88d-4a29-9ff8-1a46cb80c009" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="439df4ad-fbcd-4936-872f-a2eefbd3c868" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="47dd8e21-2102-4bc8-a37f-2b865b5c3012" status="closed" reference="57470" number="237" scheduled="2017-12-24T21:25:00+00:00" attendance="63850" utc_offset="-7" entry_mode="INGEST" weather="Clear Temp: 71 F, Humidity: 14%, Wind: SE 3 mph" sr_id="sr:match:11539177">
+      <venue id="f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84" name="University of Phoenix Stadium" city="Glendale" state="AZ" country="USA" zip="85305" address="One Cardinals Drive" capacity="63400" surface="turf" roof_type="retractable_dome"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="15" sr_id="sr:competitor:4412"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="15" sr_id="sr:competitor:4426"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="23" away_points="0">
+        <quarter id="b99834bf-150e-4ba6-a90d-90b7d92cecca" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="07dab36a-884a-4480-a306-0415e8a41b8e" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="ed64255c-ebe6-4d5f-b8a7-f50d8dcee625" number="3" sequence="3" home_points="6" away_points="0"/>
+        <quarter id="ad0b28fd-1fee-4f24-b08c-2c344c77d53f" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="5388b04a-3b86-40da-8ed2-6c6d2cc2edec" status="closed" reference="57472" number="239" scheduled="2017-12-25T21:30:00+00:00" attendance="71842" utc_offset="-6" entry_mode="INGEST" weather="Mostly Cloudy Temp: 51 F, Humidity: 56%, Wind: ESE 8 mph" sr_id="sr:match:11539181">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="71054" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="15" sr_id="sr:competitor:4324"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="15" sr_id="sr:competitor:4345"/>
+      <broadcast network="NBC/NFL" internet="Amazon"/>
+      <scoring home_points="6" away_points="34">
+        <quarter id="b704640a-1624-4ed7-9c64-badf88a5741f" number="1" sequence="1" home_points="0" away_points="10"/>
+        <quarter id="92a25b4c-8d39-4f07-a1ea-77e23e7a2044" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="924499b1-48e1-4ff2-80c3-03476d56d251" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="4c9665ac-5b0a-4b30-b4e2-a60c5905648b" number="4" sequence="4" home_points="6" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="5c981331-29d9-4c65-b4f2-5e1101295b3e" status="closed" reference="57468" number="235" scheduled="2017-12-24T18:00:00+00:00" attendance="72889" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 43 F, Humidity: 59%, Wind: NE 7 mph" sr_id="sr:match:11539157">
+      <venue id="7c11bb2d-4a53-4842-b842-0f1c63ed78e9" name="FedExField" city="Landover" state="MD" country="USA" zip="20785" address="1600 FedEx Way" capacity="83000" surface="turf" roof_type="outdoor"/>
+      <home id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="15" sr_id="sr:competitor:4432"/>
+      <away id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="15" sr_id="sr:competitor:4418"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="27" away_points="11">
+        <quarter id="174d88a2-cc44-49b2-a701-178579d24985" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="4583f65a-7ed6-4a71-b58b-553d475e390f" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="ba1e0881-53c1-4349-91b8-a632ac01a5ca" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="79e82a0d-f01a-4508-8b5f-72f131721968" number="4" sequence="4" home_points="14" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="9ea314e7-4e50-4488-a799-41724d0fcf0e" status="closed" reference="57461" number="228" scheduled="2017-12-24T18:00:00+00:00" attendance="58796" utc_offset="-6" entry_mode="INGEST" weather="Cloudy, light snow accumulating 1-3&quot; Temp: 24 F, Humidity: 83%, Wind: WNW 8 mph" sr_id="sr:match:11539149">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="15" sr_id="sr:competitor:4391"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="15" sr_id="sr:competitor:4417"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="20" away_points="3">
+        <quarter id="58744550-60f4-4c27-90ec-1c5ac6969efe" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="0b9600a8-1521-423f-a30d-b474666809cf" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="dbce0ca1-c82b-4413-aafc-1e7c37dd9ac4" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="d330cfc1-c457-4098-bb21-92ac76b985e0" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="dd32f408-dc48-4295-80b5-8782894bea53" status="closed" reference="57463" number="230" scheduled="2017-12-24T18:00:00+00:00" attendance="65325" utc_offset="-6" entry_mode="INGEST" weather="Cloudy Temp: 23 F, Humidity: 71%, Wind: NW 15 mph" sr_id="sr:match:11539141">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="79451" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="15" sr_id="sr:competitor:4422"/>
+      <away id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="15" sr_id="sr:competitor:4287"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="29" away_points="13">
+        <quarter id="2d527611-75ea-4f32-ad0b-ad931fb9af29" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="277b7d54-4827-4701-8a2b-2429dfabc937" number="2" sequence="2" home_points="17" away_points="10"/>
+        <quarter id="2f5728b4-233c-4ac3-8794-8fed8916bab4" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="bc41e7d5-7519-4963-a831-b7207addc28b" number="4" sequence="4" home_points="6" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="dd7f8df0-c5dc-4245-b88b-44e8f262843a" status="closed" reference="57458" number="225" scheduled="2017-12-23T21:30:00+00:00" attendance="70590" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 63 F, Humidity: 78%, Wind: SSW 14 mph" sr_id="sr:match:11539125">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="15" sr_id="sr:competitor:4413"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="15" sr_id="sr:competitor:4421"/>
+      <broadcast network="NFL" satellite="212"/>
+      <scoring home_points="23" away_points="16">
+        <quarter id="1c83c92c-0168-41aa-b786-e3741a7e79cb" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="3f43a279-6a1b-4a50-85ad-4f784b8117ca" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="c09d95f7-b47c-4548-8db4-799698091257" number="3" sequence="3" home_points="3" away_points="6"/>
+        <quarter id="e409be7b-6db8-4fdd-a7e0-fd796b51af8c" number="4" sequence="4" home_points="7" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="e0bf82c6-2fba-4712-b337-39ef547be27f" status="closed" reference="57473" number="240" scheduled="2017-12-26T01:30:00+00:00" attendance="69596" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 29 F, Humidity: 37%, Wind: W 15 mph" sr_id="sr:match:11539185">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="68532" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="15" sr_id="sr:competitor:4428"/>
+      <away id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="15" sr_id="sr:competitor:4390"/>
+      <broadcast network="ESPN" satellite="206" internet="WatchESPN"/>
+      <scoring home_points="19" away_points="10">
+        <quarter id="089d793a-8444-4484-95dd-262c26e2b261" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="6ed7cb47-3ccf-49f0-a106-20f4f8b1f39d" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="fc3fb3c9-770e-4759-bd61-fd0bd38319a0" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="3cde90e3-d816-4a85-854a-a12756755bd7" number="4" sequence="4" home_points="9" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="e4d20812-74a2-48ab-b0f7-f3d63acd354e" status="closed" reference="57465" number="232" scheduled="2017-12-24T18:00:00+00:00" attendance="73188" utc_offset="-6" entry_mode="INGEST" weather="Sunny Temp: 56 F, Humidity: 71%, Wind: WNW 4 mph" sr_id="sr:match:11539155">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="76468" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="15" sr_id="sr:competitor:4425"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="15" sr_id="sr:competitor:4393"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="23" away_points="13">
+        <quarter id="e20dd4c4-4deb-408e-a968-5b6677153409" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="f2840df9-a0d5-4544-bd7f-c971e7208cd2" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="fccd6afa-8dec-4507-abbb-cc11459b97e4" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="55b280f0-9fdb-4187-baad-abd9488354c7" number="4" sequence="4" home_points="3" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="ed2ead9e-7941-4854-a2a1-9684481a90ae" status="closed" reference="57462" number="229" scheduled="2017-12-24T18:00:00+00:00" attendance="47732" utc_offset="-5" entry_mode="INGEST" weather="Mostly Cloudy Temp: 35 F, Humidity: 76%, Wind: S 2 mph" sr_id="sr:match:11539139">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65535" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="15" sr_id="sr:competitor:4416"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="15" sr_id="sr:competitor:4419"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="26" away_points="17">
+        <quarter id="48a667ea-cc81-4950-b82d-608f46ba8e4b" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="6deade94-0109-4f5a-becf-a1a6c0c1b9ab" number="2" sequence="2" home_points="6" away_points="0"/>
+        <quarter id="b43bcadc-c65b-4034-ae99-c31a73d2a330" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="cc1bcdf9-24a9-4e2c-bcb7-23d2b4854ccf" number="4" sequence="4" home_points="13" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="ee225389-956f-490e-9dab-1fccfa6f4029" status="closed" reference="57464" number="231" scheduled="2017-12-24T18:00:00+00:00" attendance="65878" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 35 F, Humidity: 67%, Wind: North 7 mph" sr_id="sr:match:11539147">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="68756" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="15" sr_id="sr:competitor:4424"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="15" sr_id="sr:competitor:4376"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="37" away_points="16">
+        <quarter id="3e1cd7dc-70ee-433a-a3a8-90892b2d3ac6" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="fdda8400-ba44-4648-910e-075766970dbe" number="2" sequence="2" home_points="13" away_points="10"/>
+        <quarter id="5ee04dce-ed38-4e8e-9e63-5830b775ec48" number="3" sequence="3" home_points="10" away_points="3"/>
+        <quarter id="461367a5-4f76-493a-8f0e-dda6acdf779c" number="4" sequence="4" home_points="14" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="f3c823f1-8902-4271-b2b0-0d5859f4a830" status="closed" reference="57467" number="234" scheduled="2017-12-24T18:00:00+00:00" attendance="60097" utc_offset="-6" entry_mode="INGEST" weather="Cloudy Temp: 39 F, Humidity: 90%, Wind: WSW 11 mph" sr_id="sr:match:11539161">
+      <venue id="5295c1b7-c85c-49cb-9569-1707c65324e5" name="Nissan Stadium" city="Nashville" state="TN" country="USA" zip="37213" address="One Titans Way" capacity="69143" surface="turf" roof_type="outdoor"/>
+      <home id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="15" sr_id="sr:competitor:367364"/>
+      <away id="2eff2a03-54d4-46ba-890e-2bc3925548f3" name="Los Angeles Rams" alias="LA" game_number="15" sr_id="sr:competitor:4387"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="23" away_points="27">
+        <quarter id="5bc4d941-3710-4f8f-b82d-08138dd38a6e" number="1" sequence="1" home_points="3" away_points="6"/>
+        <quarter id="44f390df-9c51-4d59-b09d-3065a348c730" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="6556e37c-2447-4c09-a418-9dfa7b438feb" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="80c6efff-1ea0-44f3-8d7f-142255728c6a" number="4" sequence="4" home_points="3" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 16:32:19 +0000 -->

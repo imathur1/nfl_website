@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:51:29 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="659d2bd0-c43e-4bb0-8503-9d576911d029" year="2016" type="PRE" name="PRE">
+  <week id="acd0b2ac-8d64-4eac-8f34-365b807e996d" sequence="4" title="5">
+    <game id="1c2457b6-be9e-4cb8-8f0a-59d41855acc8" status="closed" reference="56900" number="56" scheduled="2016-09-01T23:30:00+00:00" attendance="55184" utc_offset="-5" entry_mode="INGEST" weather="Mostly Sunny Temp: 74 F, Humidity: 51%, Wind: N 13 mph">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65535" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="4" sr_id="sr:competitor:4416"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="5" sr_id="sr:competitor:4421"/>
+      <scoring home_points="10" away_points="13">
+        <quarter id="b9322b0c-1cdd-411c-8854-79465e466d91" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="4f17f86d-441a-4d91-830f-4d176a526cc5" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="ab6992d5-97db-4c05-87da-b83cef233444" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="522243c9-03d6-4976-b294-a05e0f02c807" number="4" sequence="4" home_points="7" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="3b186719-3353-4de1-97ba-b963f2de3d98" status="closed" reference="56892" number="64" scheduled="2016-09-01T23:00:00+00:00" attendance="48192" utc_offset="-5" entry_mode="INGEST" weather="Mostly Cloudy Temp: 88 F, Humidity: 70%, Wind: S 15 mph">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="76100" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="4" sr_id="sr:competitor:4287"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="4" sr_id="sr:competitor:367364"/>
+      <scoring home_points="10" away_points="21">
+        <quarter id="6af77d18-a30e-4961-9754-cf43f520bf14" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="5a2020c6-3049-4af6-b536-740fecf5c2c4" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="81e78465-924c-4abc-b3fd-77feb937c681" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="851f4412-2e89-4dd5-9724-f53982f6a657" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="3c0a58df-c112-4134-b1c2-0240b8e8dfa3" status="closed" reference="56890" number="62" scheduled="2016-09-02T02:00:00+00:00" attendance="47407" utc_offset="-8" entry_mode="INGEST" weather="Temp: 71 F, Humidity: 71%, Wind: WSW 8 mph">
+      <venue id="7ca47702-8951-45be-a4f5-3e7d78f8f399" name="Qualcomm Stadium" city="San Diego" state="CA" country="USA" zip="92108" address="9449 Friars Road" capacity="70561" surface="turf" roof_type="outdoor"/>
+      <home id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="4"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="4" sr_id="sr:competitor:4389"/>
+      <scoring home_points="21" away_points="31">
+        <quarter id="85e3c654-67cc-46d9-a603-0c86ccf10b27" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="5b31808e-34f8-4b7b-b8a1-4fcde6767ade" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="024d2772-b4ee-4ee7-92a6-613943514b6c" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="f5d7c617-2fd3-4857-91d7-344fa910d7e3" number="4" sequence="4" home_points="0" away_points="22"/>
+      </scoring>
+    </game>
+    <game id="3d58fd9c-d8ef-4d98-ac0d-b1b4b4e7de55" status="closed" reference="56894" number="50" scheduled="2016-09-02T00:00:00+00:00" attendance="73001" utc_offset="-6" entry_mode="INGEST" weather="Partly Cloudy Temp: 92 F, Humidity: 55%, Wind: NE 2 mph">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="76468" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="4" sr_id="sr:competitor:4425"/>
+      <away id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="4" sr_id="sr:competitor:4413"/>
+      <scoring home_points="14" away_points="23">
+        <quarter id="ce0490a4-afe3-4f20-99ad-9d29cc290020" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="f543e66f-3386-4d21-9821-7ff9219e32ef" number="2" sequence="2" home_points="0" away_points="16"/>
+        <quarter id="7a0e8f48-4ea9-4470-a2b7-3ddcffa5ee59" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="c90c50d0-c9cd-4b5f-a991-442159d7e2c4" number="4" sequence="4" home_points="8" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="5bef1a4a-a594-4fd8-93e8-e063ab68e970" status="closed" reference="56899" number="55" scheduled="2016-09-02T00:00:00+00:00" attendance="81016" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="4" sr_id="sr:competitor:4392"/>
+      <away id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="4" sr_id="sr:competitor:4324"/>
+      <scoring home_points="17" away_points="28">
+        <quarter id="d948ca2c-d45e-47d6-b2bc-38670e34b4ee" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="f89f5b39-a20c-42e7-a5b4-c82d64a8ecb6" number="2" sequence="2" home_points="3" away_points="14"/>
+        <quarter id="540bdcdb-9456-45dc-ba8e-d10f38ccc45c" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="8ae4cd21-ab49-4c59-8d8e-0f7ac1763a48" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="64834645-9d66-4ff3-8e3a-0f65f01865c0" status="closed" reference="56887" number="59" scheduled="2016-09-01T23:00:00+00:00" attendance="73880" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 76 F, Humidity: 76%, Wind: Calm  mph">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="4" sr_id="sr:competitor:4426"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="4" sr_id="sr:competitor:4424"/>
+      <broadcast network="NFL Network" satellite="212"/>
+      <scoring home_points="17" away_points="9">
+        <quarter id="c9d74fe1-c3b7-4cbb-82db-0acd3ae8271e" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="cc807555-2aa1-4bfb-8627-a5643211dcff" number="2" sequence="2" home_points="3" away_points="0"/>
+        <quarter id="18eff2e9-a671-4547-aae4-28f55eb5c61e" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="77a12fc1-f12c-4103-901a-8b0eb0fc5053" number="4" sequence="4" home_points="7" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="6f0f9607-5291-434d-9371-51a8a700b266" status="closed" reference="56896" number="52" scheduled="2016-09-02T00:00:00+00:00" attendance="63393" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 73 F, Humidity: 55%, Wind: North 13 mph">
+      <venue id="90c38d91-3774-4f5d-82ca-1c806828219f" name="FirstEnergy Stadium" city="Cleveland" state="OH" country="USA" zip="44114" address="100 Alfred Lerner Way" capacity="71516" surface="turf" roof_type="outdoor" sr_id="sr:venue:8177"/>
+      <home id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="4" sr_id="sr:competitor:4417"/>
+      <away id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="4" sr_id="sr:competitor:4391"/>
+      <scoring home_points="7" away_points="21">
+        <quarter id="d73993fc-48b9-4ad0-bda3-67823e2ecc4e" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="a1bd0179-96f6-4032-9fee-b1cdf380b654" number="2" sequence="2" home_points="0" away_points="9"/>
+        <quarter id="7234a9d4-def0-4e48-8b7c-1c81974ba7d5" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="1480042e-55a9-4bf8-a021-cec95291f986" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="6f8c0f15-bbb7-4c4f-b191-35841d8aa68a" status="closed" reference="56886" number="58" scheduled="2016-09-02T00:00:00+00:00" attendance="66262" utc_offset="-6" entry_mode="INGEST" weather="Indoors Temp:  F, Wind:   mph">
+      <venue id="f5ff00d4-1ed8-4918-bf73-13d66d510f98" name="U.S. Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 S 5th St" capacity="66200" surface="turf" roof_type="dome" sr_id="sr:venue:18423"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="4" sr_id="sr:competitor:4423"/>
+      <away id="2eff2a03-54d4-46ba-890e-2bc3925548f3" name="Los Angeles Rams" alias="LA" game_number="4" sr_id="sr:competitor:4387"/>
+      <scoring home_points="27" away_points="25">
+        <quarter id="0772bcee-954f-48a9-ae3b-f7424a440572" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="afe9af10-0880-46b9-b2de-2324ff4aa2ee" number="2" sequence="2" home_points="13" away_points="0"/>
+        <quarter id="9af24478-8b85-4118-b994-8878ed456f86" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="93ddba1a-994b-499f-8eed-f882661ef9ef" number="4" sequence="4" home_points="7" away_points="15"/>
+      </scoring>
+    </game>
+    <game id="770c5572-36d7-4346-874f-0a1875259843" status="closed" reference="56889" number="61" scheduled="2016-09-01T23:30:00+00:00" attendance="73274" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 73 F, Humidity: 92%, Wind: NE 7 mph">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="73778" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="4" sr_id="sr:competitor:4415"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="4" sr_id="sr:competitor:4345"/>
+      <scoring home_points="18" away_points="6">
+        <quarter id="b9a42bda-47d4-47e1-9ebf-525008c92c1a" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="d5430568-16e1-4853-b757-64005d0b151e" number="2" sequence="2" home_points="9" away_points="0"/>
+        <quarter id="f753a3f8-38ae-41e8-b438-a8fd9e6440bc" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="4b78f292-75e2-4fbb-af42-568081c022f7" number="4" sequence="4" home_points="3" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="8629cac8-24fc-40d6-8bc4-ae4e3056ae14" status="closed" reference="56891" number="63" scheduled="2016-09-02T02:00:00+00:00" attendance="53473" utc_offset="-8" entry_mode="INGEST" weather="Party Cloudy Temp: 63 F, Humidity: 71%, Wind: WSW 14 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53200" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="4" sr_id="sr:competitor:4390"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="4" sr_id="sr:competitor:4430"/>
+      <broadcast network="NFL Network" satellite="212"/>
+      <scoring home_points="21" away_points="23">
+        <quarter id="1570f04f-dc73-4ee5-9912-f3420ae05816" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="e9be6706-e080-48f6-b486-668fae6a6f4c" number="2" sequence="2" home_points="2" away_points="0"/>
+        <quarter id="68ffe470-a344-408d-84e2-32d221e21eef" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="cee5359d-9450-4dc6-b5e3-a08404a0ca81" number="4" sequence="4" home_points="16" away_points="20"/>
+      </scoring>
+    </game>
+    <game id="8fd94797-d3da-43a7-a3b6-f65ad07a79a1" status="closed" reference="56895" number="51" scheduled="2016-09-01T23:30:00+00:00" attendance="41076" utc_offset="-5" entry_mode="INGEST" weather="Controlled Climate Temp: 68 F, Humidity: 70%, Wind:   mph">
+      <venue id="6e3bcf22-277d-4c06-b019-62aded51654f" name="Ford Field" city="Detroit" state="MI" country="USA" zip="48226" address="2000 Brush Street" capacity="65000" surface="artificial" roof_type="dome"/>
+      <home id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="4" sr_id="sr:competitor:4419"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="4" sr_id="sr:competitor:4376"/>
+      <scoring home_points="31" away_points="0">
+        <quarter id="9a1acddf-ea75-4a0c-a897-19369d231e33" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="3200bb63-7e21-4b09-b6c8-1ee7b78de603" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="0269db6a-edee-451d-b7cd-da1bf6e75aca" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="5a1e1c01-8e62-45b6-9bf8-41766c32b221" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="90f358e1-27fa-4e12-a0e4-5031fd6ec50f" status="closed" reference="56888" number="60" scheduled="2016-09-01T23:00:00+00:00" attendance="69596" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 79 F, Humidity: 65%, Wind: N 10 mph">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="68532" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="4" sr_id="sr:competitor:4428"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="4" sr_id="sr:competitor:4427"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="14" away_points="6">
+        <quarter id="a442a30d-e3b0-4730-ad06-68116fbe940e" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="d57aa002-ced6-4b28-8ec9-0ef88ba523fd" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="7d5acad6-9b48-4e24-8c8a-e831b6a46c0f" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="cb8276a3-21a9-478e-a700-89e5d954ce68" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="9ca61d13-1cad-4de4-a151-4f11b31ec1bc" status="closed" reference="56893" number="65" scheduled="2016-09-01T00:00:00+00:00" attendance="42996" utc_offset="-5" entry_mode="INGEST" weather="Rain Temp: 75 F, Humidity: 92%, Wind: SE 6 mph">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="4" sr_id="sr:competitor:4388"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="4" sr_id="sr:competitor:4432"/>
+      <scoring home_points="13" away_points="20">
+        <quarter id="6da5cb28-641e-4d39-9bc0-f484f6ff308a" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="21f2ac59-4a53-4d1f-9557-196a153eac17" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="b1f8e088-fbe4-43d1-9f05-666f5bb970d1" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="6bafe4d6-91a8-4d9e-aa2e-15344a01cd7c" number="4" sequence="4" home_points="10" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="b1f91625-a794-44e3-bc18-c58f7fa7fe77" status="closed" reference="56885" number="57" scheduled="2016-09-01T23:00:00+00:00" attendance="67385" utc_offset="-5" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="216de6bf-bce0-409a-a9e7-90db8df1f7b9" name="Georgia Dome" city="Atlanta" state="GA" country="USA" zip="30313" address="One Georgia Dome Drive Northwest" capacity="74228" surface="artificial" roof_type="dome"/>
+      <home id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="4" sr_id="sr:competitor:4393"/>
+      <away id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="4" sr_id="sr:competitor:4386"/>
+      <scoring home_points="17" away_points="15">
+        <quarter id="60c9cfb1-69f7-49b0-827f-d46cbbd2cc3b" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="c59e1397-595e-4aa1-860c-a61736902a55" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="47cfd414-7e96-4045-bc95-96ec98c60700" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="2f04cbc0-2243-4f7c-88df-ac16ac0c63f9" number="4" sequence="4" home_points="0" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="dd22432f-b550-4e48-b162-c7bd0973773b" status="closed" reference="56898" number="54" scheduled="2016-09-02T00:00:00+00:00" attendance="70155" utc_offset="-6" entry_mode="INGEST" weather="Sunny Temp: 77 F, Humidity: 48%, Wind: Northeast 9 mph">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="79451" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="4" sr_id="sr:competitor:4422"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="5" sr_id="sr:competitor:4420"/>
+      <scoring home_points="17" away_points="7">
+        <quarter id="e7671c84-b267-47fb-85bb-32375434d43a" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="0ca0d2fe-8384-4490-835a-475c90b59d51" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="2ef63476-30c7-40e6-b90f-dab8e4a05ac1" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="f6caac21-e6d0-4497-b318-fcfcc49d1822" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="f4c771f3-b0c4-4c1a-b28d-9432d7b3fdee" status="closed" reference="56897" number="53" scheduled="2016-09-02T01:30:00+00:00" attendance="64551" utc_offset="-8" entry_mode="INGEST" weather="Indoor Temp:  F, Wind:   mph">
+      <venue id="f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84" name="University of Phoenix Stadium" city="Glendale" state="AZ" country="USA" zip="85305" address="One Cardinals Drive" capacity="63400" surface="turf" roof_type="retractable_dome"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="4" sr_id="sr:competitor:4412"/>
+      <away id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="4" sr_id="sr:competitor:4418"/>
+      <scoring home_points="38" away_points="17">
+        <quarter id="4d0599d5-8785-42e1-9735-a547c493e20a" number="1" sequence="1" home_points="7" away_points="10"/>
+        <quarter id="8e195656-ca54-4e15-a8a6-432642e76eaa" number="2" sequence="2" home_points="13" away_points="0"/>
+        <quarter id="b9494857-f3fe-4f3f-b491-925424ca5710" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="b8b8700f-1d0a-4134-9db1-f5d899359dfd" number="4" sequence="4" home_points="15" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:51:29 +0000 -->

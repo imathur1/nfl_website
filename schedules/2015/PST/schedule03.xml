@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:51:21 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="279aae01-091e-4757-af17-0a3f36fc9592" year="2015" type="PST" name="PST">
+  <week id="024e9507-ea5f-4348-8704-fc6a7634798b" sequence="3" title="3">
+    <game id="17aa0057-0f42-4ad5-99d2-6e2a532073ca" status="closed" reference="56832" number="265" scheduled="2016-01-24T20:05:00+00:00" attendance="77112" utc_offset="-7" entry_mode="INGEST" weather="Mostly Sunny  - Gusts to 12 mph Temp: 46 F, Humidity: 36%, Wind: N 6 mph">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="2" sr_id="sr:competitor:4418"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="2" sr_id="sr:competitor:4424"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="20" away_points="18">
+        <quarter id="97a2f685-9828-49b9-bd0c-27eadf629264" number="1" sequence="1" home_points="7" away_points="6"/>
+        <quarter id="a2159caa-28cf-4ecf-952b-f631c3468380" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="cac29e18-0623-4ebf-94f2-8668bfa9eb24" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="5df66aad-bdff-44c0-9ae8-92d4ed25c0be" number="4" sequence="4" home_points="3" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="ed927a9f-af06-4ddf-a012-ad5a8fb74111" status="closed" reference="56833" number="266" scheduled="2016-01-24T23:40:00+00:00" attendance="74294" utc_offset="-5" entry_mode="INGEST" weather="Clear Temp: 39 F, Humidity: 39%, Wind: SW 4 mph">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="75419" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="2" sr_id="sr:competitor:4415"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="2" sr_id="sr:competitor:4412"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="49" away_points="15">
+        <quarter id="8c98ade2-b9a3-486c-8369-b2ee32008714" number="1" sequence="1" home_points="17" away_points="0"/>
+        <quarter id="1897dc18-271f-4f55-903c-cff7f200f49b" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="498c7404-707d-4800-8c7f-7961fb81e605" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="c74935ad-df75-4989-8ea1-08b450bdeb6f" number="4" sequence="4" home_points="15" away_points="8"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:51:21 +0000 -->

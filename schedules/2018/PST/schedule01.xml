@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:45:18 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="38c98229-3687-4b4d-974c-38bf8c88f7f9" year="2018" type="PST" name="PST">
+  <week id="e9232517-eea0-460f-9a78-7296aa745b42" sequence="1" title="1">
+    <game id="562a191f-a9eb-4942-89bf-5f51d4f7074c" status="scheduled" reference="57823" number="257" scheduled="2019-01-05T21:35:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613809">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" sr_id="sr:competitor:4324"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" sr_id="sr:competitor:4421"/>
+      <broadcast network="ABC/ESPN" satellite="206" internet="WatchESPN"/>
+    </game>
+    <game id="e7ac4c14-1345-42be-b571-87b69874fac2" status="scheduled" reference="57825" number="259" scheduled="2019-01-06T18:05:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613661">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" sr_id="sr:competitor:4413"/>
+      <away id="1f6dcffb-9823-43cd-9ff4-e7a8466749b5" name="Los Angeles Chargers" alias="LAC" sr_id="sr:competitor:4429"/>
+      <broadcast network="CBS"/>
+    </game>
+    <game id="e9e0f6d8-f7a2-4489-b634-8e6936e36b7e" status="scheduled" reference="57826" number="260" scheduled="2019-01-06T21:40:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613663">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" sr_id="sr:competitor:4391"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" sr_id="sr:competitor:4428"/>
+      <broadcast network="NBC"/>
+    </game>
+    <game id="ef370e46-4f4e-461d-90ee-501c1594581a" status="scheduled" reference="57824" number="258" scheduled="2019-01-06T01:15:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613665">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" sr_id="sr:competitor:4392"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" sr_id="sr:competitor:4430"/>
+      <broadcast network="FOX"/>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:45:18 +0000 -->

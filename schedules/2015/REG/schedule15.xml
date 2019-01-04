@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 16:23:39 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="46aa2ca3-c2fc-455d-8256-1f7893a87113" year="2015" type="REG" name="REG">
+  <week id="9f7eaed4-c150-47b3-9b92-41f380b2de26" sequence="15" title="15">
+    <game id="117738a7-e03c-4670-b38a-d4ea79ec1f89" status="closed" reference="56717" number="215" scheduled="2015-12-20T18:02:47+00:00" attendance="66829" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 40 F, Humidity: 41%, Wind: West 12 mph">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="68756" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="14" sr_id="sr:competitor:4424"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="14" sr_id="sr:competitor:367364"/>
+      <broadcast network="CBS" satellite="707"/>
+      <scoring home_points="33" away_points="16">
+        <quarter id="6d8aecb6-8026-40b3-8d66-1e47f40395a4" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="111b1782-a389-40c0-b61d-0c3bcb1e7bbf" number="2" sequence="2" home_points="17" away_points="3"/>
+        <quarter id="6e2d9196-db12-498b-b810-c2f676b243b5" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="5c5fc4c6-4545-4721-b903-e0172e621042" number="4" sequence="4" home_points="6" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="13f8a94b-4ee1-413d-ba7a-6620f4bb47e3" status="closed" reference="56719" number="217" scheduled="2015-12-21T01:31:02+00:00" attendance="69596" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 37 F, Humidity: 54%, Wind: S 4 mph">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="68532" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="14" sr_id="sr:competitor:4428"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="14" sr_id="sr:competitor:4412"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="17" away_points="40">
+        <quarter id="3731bb2b-c710-4bae-853c-45578a6fa97a" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="527d23e2-e0ba-4df5-91ef-19a602627aba" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="c6d1c2f5-cb8a-4c30-90bf-0d094c249053" number="3" sequence="3" home_points="0" away_points="13"/>
+        <quarter id="de8530d1-b786-4288-9ee6-3cfa329139d8" number="4" sequence="4" home_points="7" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="2ca59c3d-edba-48b7-aab4-9aceab8cc517" status="closed" reference="56724" number="222" scheduled="2015-12-20T21:25:30+00:00" attendance="66676" utc_offset="-8" entry_mode="INGEST" weather="Fair Temp: 61 F, Humidity: 49%, Wind: WSW 11 mph">
+      <venue id="7ca47702-8951-45be-a4f5-3e7d78f8f399" name="Qualcomm Stadium" city="San Diego" state="CA" country="USA" zip="92108" address="9449 Friars Road" capacity="70561" surface="turf" roof_type="outdoor"/>
+      <home id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="14"/>
+      <away id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="14" sr_id="sr:competitor:4287"/>
+      <broadcast network="CBS" satellite="716"/>
+      <scoring home_points="30" away_points="14">
+        <quarter id="40e638de-abad-46a5-ae4c-9dcb189098e6" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="0d84d78b-862d-47ab-8072-2e2dc1678754" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="39931042-8005-4acc-962a-7a6405dd7978" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="ab0f1abf-7e31-4a7e-b8e0-5283a4c0f1d7" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="4f94c855-ef3f-4b1e-bdef-a4716146a11f" status="closed" reference="56723" number="221" scheduled="2015-12-20T21:26:43+00:00" attendance="67234" utc_offset="-5" entry_mode="INGEST" weather="Partly Cloudy Temp: 41 F, Humidity: 35%, Wind: From SSE 8 mph">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="65050" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="14" sr_id="sr:competitor:4345"/>
+      <away id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="14" sr_id="sr:competitor:4418"/>
+      <broadcast network="CBS" satellite="715"/>
+      <scoring home_points="34" away_points="27">
+        <quarter id="f13441dd-f63e-43be-9131-9de550e41cb4" number="1" sequence="1" home_points="7" away_points="14"/>
+        <quarter id="247cdb92-8309-4193-bebd-ab4a1c13f328" number="2" sequence="2" home_points="6" away_points="13"/>
+        <quarter id="bf7e134e-dbab-4827-87a9-bd08961e41c8" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="a5376a6d-e14a-4cf3-b694-93c159db1a84" number="4" sequence="4" home_points="14" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="5aee71b3-5a0f-4ec0-ba82-c5a8ed5d689c" status="closed" reference="56711" number="209" scheduled="2015-12-18T01:27:04+00:00" attendance="51295" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="e86a743f-ee77-490f-acfb-3187b7a9633e" name="Edward Jones Dome" city="St. Louis" state="MO" country="USA" zip="63101" address="701 Convention Plaza" capacity="66000" surface="artificial" roof_type="dome"/>
+      <home id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="14"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="14" sr_id="sr:competitor:4388"/>
+      <broadcast network="NFL" satellite="212"/>
+      <scoring home_points="31" away_points="23">
+        <quarter id="93c1558c-751c-4fe9-8d33-5d97ec640e55" number="1" sequence="1" home_points="14" away_points="3"/>
+        <quarter id="43755ab5-33a6-4390-ba9a-c556b7150669" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="42842d2c-0663-4259-93a5-e756004636bb" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="215f9c7e-bacd-4c6b-bb38-e7e3662786b1" number="4" sequence="4" home_points="3" away_points="17"/>
+      </scoring>
+    </game>
+    <game id="81818c1e-a262-4486-a798-8ebdc6b4e283" status="closed" reference="56720" number="218" scheduled="2015-12-20T18:02:51+00:00" attendance="80124" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 43 F, Humidity: 30%, Wind: West 3 mph">
+      <venue id="7c11bb2d-4a53-4842-b842-0f1c63ed78e9" name="FedExField" city="Landover" state="MD" country="USA" zip="20785" address="1600 FedEx Way" capacity="83000" surface="turf" roof_type="outdoor"/>
+      <home id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="14" sr_id="sr:competitor:4432"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="14" sr_id="sr:competitor:4376"/>
+      <broadcast network="FOX" satellite="708"/>
+      <scoring home_points="35" away_points="25">
+        <quarter id="d817836e-25ba-4fd1-9d7b-deabf7b04639" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="7bbfaa88-d77e-41ce-b2b6-885f86307b37" number="2" sequence="2" home_points="14" away_points="0"/>
+        <quarter id="2d33e68a-1ee3-424d-87a4-8a7f6c885d97" number="3" sequence="3" home_points="7" away_points="17"/>
+        <quarter id="38ea0d72-ed86-407e-b2ad-fb534628d410" number="4" sequence="4" home_points="7" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="8ef15332-36ad-4ed7-8e00-a189c7721e56" status="closed" reference="56725" number="223" scheduled="2015-12-20T21:25:41+00:00" attendance="70799" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 52 F, Humidity: 63%, Wind: East-Southeast 14 mph">
+      <venue id="24c71dbf-6469-46f1-8165-22005c295c8f" name="Levi's Stadium" city="Santa Clara" state="CA" country="USA" zip="95054" address="4900 Marie P DeBartolo Way" capacity="68500" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="14" sr_id="sr:competitor:4389"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="14" sr_id="sr:competitor:4416"/>
+      <broadcast network="CBS" satellite="712"/>
+      <scoring home_points="14" away_points="24">
+        <quarter id="bd019379-aef5-4f30-bc1d-14006b923f82" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="1e9216ca-d0a7-423c-a131-c5264b8bd721" number="2" sequence="2" home_points="0" away_points="21"/>
+        <quarter id="bec51704-21e7-40ed-91c5-061637798e0f" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="55af763a-f830-468c-9274-cde773dd1c74" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="941ba988-62a8-4ae6-b9c7-82d9cbcb85c4" status="closed" reference="56713" number="211" scheduled="2015-12-20T18:02:49+00:00" attendance="70791" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 41 F, Humidity: 35%, Wind: West 5 mph">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="14" sr_id="sr:competitor:4413"/>
+      <away id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="14" sr_id="sr:competitor:4422"/>
+      <broadcast network="CBS" satellite="705"/>
+      <scoring home_points="14" away_points="34">
+        <quarter id="b623e86e-5f40-48ef-b2c1-56d0ee4c508e" number="1" sequence="1" home_points="7" away_points="14"/>
+        <quarter id="9eb777f9-e157-4e01-9c3d-1d51dc18d071" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="ccf91ea5-d936-4945-876d-e45a353980f1" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="37b939a2-1f72-438d-9cbe-a450bf395cab" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="ab56612e-8012-4d2c-bf7b-68a0f9f0336f" status="closed" reference="56712" number="210" scheduled="2015-12-20T01:26:31+00:00" attendance="90345" utc_offset="-6" entry_mode="INGEST" weather="Clear Skies Temp: 61 F, Humidity: 39%, Wind: Southeast 9 miles per hour mph">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="14" sr_id="sr:competitor:4392"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="14" sr_id="sr:competitor:4427"/>
+      <broadcast network="NFL" satellite="212"/>
+      <scoring home_points="16" away_points="19">
+        <quarter id="7c8ebf79-ecd0-427b-8e21-6b67cbbb3d0d" number="1" sequence="1" home_points="3" away_points="6"/>
+        <quarter id="f2179ae8-16f4-48b0-8855-275d2f6575fb" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="9a955f1a-def3-483c-9df6-3ce97716730a" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="d966eb73-d158-4e70-960f-653e9a03e52a" number="4" sequence="4" home_points="3" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="acdfbb50-4a42-467e-b4ff-b3661a9ef43e" status="closed" reference="56716" number="214" scheduled="2015-12-20T18:02:31+00:00" attendance="52421" utc_offset="-6" entry_mode="INGEST" weather="Cloudy Temp: 36 F, Wind: North 3 mph">
+      <venue id="9a24227a-4b50-4f8b-b753-9f047e1b77a6" name="TCF Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55414" address="420 SE 23rd Avenue" capacity="52000" surface="artificial" roof_type="outdoor"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="14" sr_id="sr:competitor:4423"/>
+      <away id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="14" sr_id="sr:competitor:4391"/>
+      <broadcast network="FOX" satellite="710"/>
+      <scoring home_points="38" away_points="17">
+        <quarter id="70bc6427-d6e0-4a2f-b689-da9b32a33cf8" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="1ca3227d-dadc-4c00-acdd-e4c653f41023" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="888edcc5-0642-4988-8d87-ee106b54753c" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="b09f37bf-ce8b-42d4-a525-708e7f8f27f3" number="4" sequence="4" home_points="14" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="d56de5a7-ab09-4028-989e-20f80555621b" status="closed" reference="56721" number="219" scheduled="2015-12-20T21:05:18+00:00" attendance="55087" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 54 F, Humidity: 70%, Wind: SSE 18 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53200" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="14" sr_id="sr:competitor:4390"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="14" sr_id="sr:competitor:4420"/>
+      <broadcast network="FOX" satellite="713"/>
+      <scoring home_points="20" away_points="30">
+        <quarter id="3724da16-42a3-4826-9df7-515c076598bf" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="e5d874db-2107-42e5-a67e-892447f9318c" number="2" sequence="2" home_points="13" away_points="0"/>
+        <quarter id="052c006a-1ca5-449b-9ddc-189f9173f495" number="3" sequence="3" home_points="7" away_points="10"/>
+        <quarter id="89950235-28da-4530-bb71-764c7d27344c" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="d9607b52-382f-4687-95e2-f19874f87d15" status="closed" reference="56726" number="224" scheduled="2015-12-22T01:30:45+00:00" attendance="73017" utc_offset="-6" entry_mode="INGEST" weather="Rain Temp: 69 F, Humidity: 95%, Wind: SSE 5 mph">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="76468" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="14" sr_id="sr:competitor:4425"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="14" sr_id="sr:competitor:4419"/>
+      <broadcast network="ESPN" satellite="206" internet="WatchESPN"/>
+      <scoring home_points="27" away_points="35">
+        <quarter id="62f90428-1430-45dd-9322-317c0008616d" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="d2322998-17e4-4ae8-8e0b-21608b4f83f1" number="2" sequence="2" home_points="0" away_points="14"/>
+        <quarter id="d15bc246-b2fc-4e55-af61-6b7399d9374b" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="03e71bb4-d847-44a2-a2d4-39974e301859" number="4" sequence="4" home_points="17" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="e2664f1a-0eeb-4579-939b-4b3fee1d24c8" status="closed" reference="56714" number="212" scheduled="2015-12-20T18:02:47+00:00" attendance="66083" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 45 F, Humidity: 53%, Wind: S 15 mph">
+      <venue id="6ed18563-53e0-46c2-a91d-12d73a16456d" name="Lucas Oil Stadium" city="Indianapolis" state="IN" country="USA" zip="46225" address="500 South Capitol Avenue" capacity="67000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="14" sr_id="sr:competitor:4421"/>
+      <away id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="14" sr_id="sr:competitor:4324"/>
+      <broadcast network="CBS" satellite="706"/>
+      <scoring home_points="10" away_points="16">
+        <quarter id="d2b34db7-04c9-4327-9327-291d1394603d" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="7cdc006e-e3e5-415f-ad37-bd131cc1fe78" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="dd6b7783-9426-49da-bf67-2ce7ac88cbd7" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="17fb7a69-a6d0-4f36-89c4-bcf3ad4ad69b" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="e7576d93-fcc7-480e-a84f-a3a89d86fb0b" status="closed" reference="56722" number="220" scheduled="2015-12-20T21:06:18+00:00" attendance="69002" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 47 F, Humidity: 56%, Wind: S 10 mph">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="67000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="14" sr_id="sr:competitor:4430"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="14" sr_id="sr:competitor:4417"/>
+      <broadcast network="FOX" satellite="714"/>
+      <scoring home_points="30" away_points="13">
+        <quarter id="66b0d417-d633-42c1-970c-e7a8c89a849a" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="14c3ef19-9f0e-4ebf-a3cd-83ed3aff8029" number="2" sequence="2" home_points="13" away_points="3"/>
+        <quarter id="c75eb3a2-2db2-4b11-bd98-2dfd96b2c14b" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="b06d1983-fd5d-4cfa-87bd-0051a2e1f9d7" number="4" sequence="4" home_points="10" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="ee0c33e8-f7d1-4d45-82b2-3a3f4591e940" status="closed" reference="56715" number="213" scheduled="2015-12-20T18:02:49+00:00" attendance="64016" utc_offset="-5" entry_mode="INGEST" weather="Temp: 65 F, Humidity: 60%, Wind: NE 8 mph">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="EverBank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="14" sr_id="sr:competitor:4386"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="14" sr_id="sr:competitor:4393"/>
+      <broadcast network="FOX" satellite="709"/>
+      <scoring home_points="17" away_points="23">
+        <quarter id="246e8a2c-a13e-4570-8e22-88755b4807ba" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="755f41a0-f857-480d-a0d2-475e7e085812" number="2" sequence="2" home_points="3" away_points="10"/>
+        <quarter id="72d21c69-f510-4d51-80cf-24da0aceaba5" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="94d24068-1e4d-4598-a1e0-f1d995361072" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="ef895631-220e-4b96-865d-3302e9a5653f" status="closed" reference="56718" number="216" scheduled="2015-12-20T18:02:29+00:00" attendance="79436" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 41 F, Humidity: 37%, Wind: WNW 8 mph">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="14" sr_id="sr:competitor:4426"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="14" sr_id="sr:competitor:4415"/>
+      <broadcast network="FOX" satellite="711"/>
+      <scoring home_points="35" away_points="38">
+        <quarter id="79b39b1e-d540-434f-a9f2-f45c52d26f03" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="e9ca54c8-da70-4f78-8d42-a64e4aeb8ab6" number="2" sequence="2" home_points="0" away_points="14"/>
+        <quarter id="72f38ebc-2c73-4939-bdd6-311db4709f73" number="3" sequence="3" home_points="7" away_points="14"/>
+        <quarter id="30913b59-9b5c-4aec-b8f8-8f5a8d2938ec" number="4" sequence="4" home_points="21" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 16:23:39 +0000 -->

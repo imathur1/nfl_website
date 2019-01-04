@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:51:19 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="279aae01-091e-4757-af17-0a3f36fc9592" year="2015" type="PST" name="PST">
+  <week id="d5362d11-eaaf-486f-ad66-55ba3cc0578c" sequence="1" title="1">
+    <game id="3732ac85-8068-4ee9-a196-1836dd66fe40" status="closed" reference="56826" number="259" scheduled="2016-01-10T18:06:07+00:00" attendance="52090" utc_offset="-6" entry_mode="INGEST" weather="Clear Temp: -6 F, Wind: West 12 mph">
+      <venue id="9a24227a-4b50-4f8b-b753-9f047e1b77a6" name="TCF Bank Stadium" city="Minneapolis" state="MN" country="USA" zip="55414" address="420 SE 23rd Avenue" capacity="52000" surface="artificial" roof_type="outdoor"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="1" sr_id="sr:competitor:4423"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="1" sr_id="sr:competitor:4430"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="9" away_points="10">
+        <quarter id="6f787e30-fc54-4c6a-8628-d83e81c44b69" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="f0f18d0c-e2ec-4c8b-8ea4-3bf0f79d1566" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="70c2e013-75dc-49e7-8789-bd1d8527a11b" number="3" sequence="3" home_points="6" away_points="0"/>
+        <quarter id="d5801582-289b-4ca5-97bb-7aa144a74ef3" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="56f7b3b7-f4de-475e-999c-5820b48106c1" status="closed" reference="56825" number="258" scheduled="2016-01-10T01:15:00+00:00" attendance="63257" utc_offset="-5" entry_mode="INGEST" weather="Light Drizzle Temp: 51 F, Humidity: 82%, Wind: SE 5 mph">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65515" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="1" sr_id="sr:competitor:4416"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="1" sr_id="sr:competitor:4345"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="16" away_points="18">
+        <quarter id="e4493c4a-38f1-4024-922c-50fc8edc3ad3" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="3d5df1f9-c1b9-4b53-8253-21deeaebc6c7" number="2" sequence="2" home_points="0" away_points="6"/>
+        <quarter id="56afe9c4-1854-48e5-97a4-851c89573703" number="3" sequence="3" home_points="0" away_points="9"/>
+        <quarter id="a1d17544-e1af-4ac2-8f15-2c690a9ba4a5" number="4" sequence="4" home_points="16" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="b999cd2f-1463-45ff-a089-3ee074af80e2" status="closed" reference="56824" number="257" scheduled="2016-01-09T21:35:00+00:00" attendance="71800" utc_offset="-6" entry_mode="INGEST" weather="Sunny Temp: 54 F, Humidity: 56%, Wind: WNW 18 mph">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="1" sr_id="sr:competitor:4324"/>
+      <away id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="1" sr_id="sr:competitor:4422"/>
+      <broadcast network="ABC/ESPN" internet="WatchESPN"/>
+      <scoring home_points="0" away_points="30">
+        <quarter id="fc091df9-9c42-48e5-971b-4df3100172b7" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="7b511d43-ebf3-4a1c-bda1-c3c60bf0ab3f" number="2" sequence="2" home_points="0" away_points="6"/>
+        <quarter id="d18ef372-a9df-4ffc-bf8d-0f6efe3431f0" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="20ea7539-6acc-4d14-b8a7-1f5be72dc6ce" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="c9b0c978-2b2a-417d-b211-aeb941c064e8" status="closed" reference="56827" number="260" scheduled="2016-01-10T21:40:00+00:00" attendance="81367" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 61 F, Humidity: 47%, Wind: SW 14 mph">
+      <venue id="7c11bb2d-4a53-4842-b842-0f1c63ed78e9" name="FedExField" city="Landover" state="MD" country="USA" zip="20785" address="1600 FedEx Way" capacity="82000" surface="turf" roof_type="outdoor"/>
+      <home id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="1" sr_id="sr:competitor:4432"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="1" sr_id="sr:competitor:4420"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="18" away_points="35">
+        <quarter id="aedfa3be-170b-4d8a-8f5a-ebd28a365ba9" number="1" sequence="1" home_points="5" away_points="0"/>
+        <quarter id="88c9e1cd-9e8a-4707-8d0d-c18d15781146" number="2" sequence="2" home_points="6" away_points="17"/>
+        <quarter id="b754b921-5bf8-4fd4-ae57-2d0796c7d197" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="74789c45-8451-4bd0-b871-105c8c19863b" number="4" sequence="4" home_points="0" away_points="11"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:51:19 +0000 -->

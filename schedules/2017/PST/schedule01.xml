@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-04 17:52:18 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="619b7505-fc8a-4d1e-ad86-c485031b7f81" year="2017" type="PST" name="PST">
+  <week id="6ac0c35c-ae7d-410a-9a18-480117fd7e47" sequence="1" title="1">
+    <game id="00fdfbf6-62af-4336-b7ef-54482a0bd028" status="closed" reference="57490" number="257" scheduled="2018-01-06T21:35:00+00:00" attendance="73319" utc_offset="-6" entry_mode="INGEST" weather="Sunny Temp: 33 F, Humidity: 34%, Wind: Southeast 10 mph" sr_id="sr:match:13455975">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="76416" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="1" sr_id="sr:competitor:4422"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="1" sr_id="sr:competitor:367364"/>
+      <broadcast network="ABC/ESPN" satellite="206" internet="WatchESPN"/>
+      <scoring home_points="21" away_points="22">
+        <quarter id="6389f8fc-92cc-40a6-8677-1b756d6a2602" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="0bcfc98a-0e81-4bba-82a2-83c9f195fcc0" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="ce2ee0c5-0a1e-4b2d-9a30-4ccf8a8012fd" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="28115d33-fe6c-4b90-84b0-8cfd9c28ec24" number="4" sequence="4" home_points="0" away_points="12"/>
+      </scoring>
+    </game>
+    <game id="16a8a9ff-05b3-46b3-b815-e904b03033cb" status="closed" reference="57491" number="258" scheduled="2018-01-07T01:15:00+00:00" attendance="74300" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 62 F, Humidity: 84%, Wind: SSW 3 mph" sr_id="sr:match:13455973">
+      <venue id="4de1fcde-7c65-4145-a874-3753bdd584b7" name="Los Angeles Memorial Coliseum" city="Los Angeles" state="CA" country="USA" zip="90037" address="3911 South Figueroa Street" capacity="93607" surface="turf" roof_type="outdoor"/>
+      <home id="2eff2a03-54d4-46ba-890e-2bc3925548f3" name="Los Angeles Rams" alias="LA" game_number="1" sr_id="sr:competitor:4387"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="1" sr_id="sr:competitor:4393"/>
+      <broadcast network="NBC"/>
+      <scoring home_points="13" away_points="26">
+        <quarter id="3cac41f6-8a6a-4c0a-92f7-39df210a42cf" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="eff2210f-0219-41e6-9cf3-8ff305180cb6" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="0977d47d-77f5-47b3-b18f-004df73d8fd9" number="3" sequence="3" home_points="0" away_points="6"/>
+        <quarter id="2d54171d-a442-4df0-952c-cdfd78e5d1d9" number="4" sequence="4" home_points="3" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="cdf4f878-81c5-4057-abee-59b3884f760a" status="closed" reference="57493" number="260" scheduled="2018-01-07T21:40:00+00:00" attendance="73186" utc_offset="-6" entry_mode="INGEST" weather="Cloudy Temp: 63 F, Humidity: 60%, Wind: ESE 12 mph" sr_id="sr:match:13455979">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="1" sr_id="sr:competitor:4425"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="1" sr_id="sr:competitor:4415"/>
+      <broadcast network="FOX"/>
+      <scoring home_points="31" away_points="26">
+        <quarter id="1c0cc87c-d45a-414c-858c-3b6ee95002a9" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="03dfe8f1-52bc-4aca-8ebf-8273424dcee3" number="2" sequence="2" home_points="14" away_points="9"/>
+        <quarter id="13dcf334-759d-492a-9939-ec43fab78e19" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="2647ff11-ff73-488d-ad8d-ca21a24c011f" number="4" sequence="4" home_points="7" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="d604a4ff-37b2-4904-941c-1df3fc105b44" status="closed" reference="57492" number="259" scheduled="2018-01-07T18:05:00+00:00" attendance="69442" utc_offset="-5" entry_mode="INGEST" weather="Temp: 53 F, Humidity: 50%, Wind: NE 18 mph" sr_id="sr:match:13455977">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="TIAA Bank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="1" sr_id="sr:competitor:4386"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="1" sr_id="sr:competitor:4376"/>
+      <broadcast network="CBS"/>
+      <scoring home_points="10" away_points="3">
+        <quarter id="3a7f9250-2dfa-496e-987c-ae88636c99a8" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="0e88e66b-a609-4996-8258-4b5a1c564e39" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="07991843-a880-46fd-944c-512bff994394" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="bece937a-d45f-4b0a-8a53-6f1a303164b6" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-04 17:52:18 +0000 -->
