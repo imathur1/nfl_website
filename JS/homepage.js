@@ -8,21 +8,7 @@ const hoverPreWeek = document.getElementsByClassName('hoverPreWeek');
 const hoverRegWeek = document.getElementsByClassName('hoverRegWeek');
 const hoverPostRound = document.getElementsByClassName('hoverPostRound');
 const h1 = document.getElementsByTagName('h1');
-/*
-$('#1').click(function(){
-    $.ajax({
-        type: "POST",
-        url: "test.py",
-        data: "",
-        success: function(msg){
-            alert(msg);
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            alert("Some error occured");
-        }
-    });
-});
-*/
+
 function changePre(index) {
     type1[index].innerHTML = "WEEK";
     type1[index].style.top = "0%";

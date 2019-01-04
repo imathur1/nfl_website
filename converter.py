@@ -30,6 +30,7 @@ from datetime import date as dateName
 
 class Converter():
 
+    noData = False
     standings = {
     "Arizona Cardinals": [0, 0, 0],
     "Atlanta Falcons": [0, 0, 0],
@@ -216,57 +217,63 @@ class Converter():
         data = res.read()
         text = data.decode("utf-8")
         output = open("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml", "w")
-        output.write(text)
+        if text == "":
+            output.write("<text>NO DATA</text>")
+        else:
+            output.write(text)
         output.close()
 
     def appendInfo(self, games):
         output = open("HTML/" + str(self.startYear) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "a")
-        text = ''
-        count = 0
-        for i in games:
-            text += ' ' * 8 + '<div class="hiddenName">' + i[0][0] + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenName">' + i[1][0] + '</div>\n'
-            count += 2
-        for i in range(count, 32):
-            text += ' ' * 8 + '<div class="hiddenName">None</div>\n'
-        count = 0
-        for i in games:
-            text += ' ' * 8 + '<div class="hiddenScore">' + str(i[0][1]) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenScore">' + str(i[1][1]) + '</div>\n'
-            count += 2
-        for i in range(count, 32):
-            text += ' ' * 8 + '<div class="hiddenScore">None</div>\n'
-        count = 0
-        for i in games:
-            for j in i[0][2]:
-                text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
-            for j in i[1][2]:
-                text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
-            count += 2
-        for i in range(count, 32):
-            text += ' ' * 8 + '<div class="hiddenPoint">None</div>\n'
-        count = 0
-        for i in games:
-            text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
-            count += 2
-        for i in range(count, 32):
-            text += ' ' * 8 + '<div class="hiddenTime">None</div>\n'
-        count = 0
-        for i in games:
-            text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
-            count += 2
-        for i in range(count, 32):
-            text += ' ' * 8 + '<div class="hiddenDate">None</div>\n'
-        for i in Converter.standings:
-            text += ' ' * 8 + '<div class="hiddenStanding1">' + i + '</div>\n'
-        for i in Converter.standings:
-            text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
-            text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
+        if Converter.noData == True:
+            text = ' ' * 8 + '<div class="noData">NO DATA</div>\n'
+        else:
+            text = ''
+            count = 0
+            for i in games:
+                text += ' ' * 8 + '<div class="hiddenName">' + i[0][0] + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenName">' + i[1][0] + '</div>\n'
+                count += 2
+            for i in range(count, 32):
+                text += ' ' * 8 + '<div class="hiddenName">None</div>\n'
+            count = 0
+            for i in games:
+                text += ' ' * 8 + '<div class="hiddenScore">' + str(i[0][1]) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenScore">' + str(i[1][1]) + '</div>\n'
+                count += 2
+            for i in range(count, 32):
+                text += ' ' * 8 + '<div class="hiddenScore">None</div>\n'
+            count = 0
+            for i in games:
+                for j in i[0][2]:
+                    text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
+                for j in i[1][2]:
+                    text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
+                count += 2
+            for i in range(count, 32):
+                text += ' ' * 8 + '<div class="hiddenPoint">None</div>\n'
+            count = 0
+            for i in games:
+                text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
+                count += 2
+            for i in range(count, 32):
+                text += ' ' * 8 + '<div class="hiddenTime">None</div>\n'
+            count = 0
+            for i in games:
+                text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
+                count += 2
+            for i in range(count, 32):
+                text += ' ' * 8 + '<div class="hiddenDate">None</div>\n'
+            for i in Converter.standings:
+                text += ' ' * 8 + '<div class="hiddenStanding1">' + i + '</div>\n'
+            for i in Converter.standings:
+                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
         text += ' ' * 8 + '<script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/scorecards.js"></script>'
 
         output.write(text)
@@ -278,6 +285,8 @@ class Converter():
                 for j in Converter.standings[i]:
                     Converter.standings[i][index] = 0
                     index += 1
+
+        Converter.noData = False
 
     def convertDate(self, date):
         dayMapping = {0: "Mon", 1: "Tue", 2: "Wed", 3: "Thu", 4: "Fri", 5: "Sat", 6: "Sun"}
@@ -374,6 +383,9 @@ class Converter():
         tracker3 = 0
         tracker4 = 0
         for elem in tree.iter():
+            if elem.tag == "text":
+                Converter.noData = True
+                break
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}game": 
                 date = elem.attrib["scheduled"]
                 value, newDate = self.convertDate(date)

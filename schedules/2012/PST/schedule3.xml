@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<games season="2012" type="PST" week="3" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at Fri Feb 01 00:04:35 +0000 2013-->  <game away="BAL" clock=":00" completed="2013-01-21T02:47:52+00:00" home="NE" id="a13766b3-ee0b-4ba8-9b78-8787e7da6bc5" quarter="4" scheduled="2013-01-20T23:30:00+00:00" status="closed">
+    <team id="NE" market="New England" name="Patriots" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="13">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="BAL" market="Baltimore" name="Ravens" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="28">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="11:24" quarter="1" sequence="1" team="NE">
+        <score clock="06:25" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-S.Gostkowski 31 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/5e84292e-7fff-4899-9b64-c88726398e33.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":19" quarter="1" sequence="2" team="BAL">
+        <score clock="09:33" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[27-R.Rice runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/b11d4858-2edf-4b62-b13f-5c19ca9f30e7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:28" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/1f78311c-0600-480b-afd2-91b3041e42dd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:28" quarter="2" sequence="3" team="NE">
+        <score clock="04:22" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[12-T.Brady complete to 83-W.Welker. 83-W.Welker runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/09a4562e-7bc0-40c9-aab1-ad9c330c7ea5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:18" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/dca3b0cb-3b7d-4c86-9376-8050d3dd7c6b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:32" quarter="2" sequence="4" team="NE">
+        <score clock=":04" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[3-S.Gostkowski 25 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/64f16bf0-cab2-4807-9d6e-bd9879afed7f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:03" quarter="3" sequence="5" team="BAL">
+        <score clock="06:18" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[5-J.Flacco complete to 88-D.Pitta. 88-D.Pitta runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/e1a20708-fcb6-4b63-963f-5ac8f9b6e82b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:14" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/1f559233-4b3c-4d42-a719-3d562e7a86a0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:46" quarter="3" sequence="6" team="BAL">
+        <score clock="15:00" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[5-J.Flacco complete to 81-A.Boldin. 81-A.Boldin runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/a51d5151-241d-4a1a-aa9c-e7e419cfbd66.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:56" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/17954d2b-8ff2-4b09-84ba-bbe8ba1c7518.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:46" quarter="4" sequence="7" team="BAL">
+        <score clock="11:19" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[5-J.Flacco complete to 81-A.Boldin. 81-A.Boldin runs 11 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/14a5e8f3-79fe-4a85-90d4-a225600f23bd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:13" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/BAL/NE/plays/9a8986a6-fb51-4c15-b202-25f987b417a4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="SF" clock=":00" completed="2013-01-20T23:03:07+00:00" home="ATL" id="6d7d8252-f0b3-42e3-ac51-fead5f18e49f" quarter="4" scheduled="2013-01-20T20:00:00+00:00" status="closed">
+    <team id="ATL" market="Atlanta" name="Falcons" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="SF" market="San Francisco" name="49ers" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="28">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="ATL">
+        <score clock="11:32" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[2-M.Ryan complete to 11-J.Jones. 11-J.Jones runs 46 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/f6e20b4e-bfa0-493c-87ef-35f0645c567a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:24" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/3b1e6863-724f-43df-be4a-20ca76b1bb0d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:43" quarter="1" sequence="2" team="ATL">
+        <score clock="03:24" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-M.Bryant 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/6bfe5e32-f45e-4b55-bdf9-03bc84ed3141.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:49" quarter="1" sequence="3" team="ATL">
+        <score clock="15:00" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[2-M.Ryan complete to 11-J.Jones. 11-J.Jones runs 20 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/98bbd4f8-b910-4a39-a33c-0d3c43acb32f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:54" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/222f6099-d7d4-4c1b-aaca-e47c13bd91df.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:54" quarter="2" sequence="4" team="SF">
+        <score clock="08:14" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[23-L.James runs 15 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/dafd1093-ffa4-4fb0-8f2e-e443d43f4159.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:08" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-D.Akers extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/8f92b37f-1da1-429a-9290-918f170a587e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:24" quarter="2" sequence="5" team="SF">
+        <score clock="02:00" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[7-C.Kaepernick complete to 85-V.Davis. 85-V.Davis runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/d873da2d-e2f4-43e5-aad1-80c916a60d0f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:55" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-D.Akers extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/e65279de-b461-4eb5-bbe9-da456e0099a0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:55" quarter="2" sequence="6" team="ATL">
+        <score clock=":29" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[2-M.Ryan complete to 88-T.Gonzalez. 88-T.Gonzalez runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/4ffa7dcb-9c91-416d-8f36-8d2328262ef2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":25" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/479aa237-6b26-4256-be78-88eaac3ee545.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="7" team="SF">
+        <score clock="10:51" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[21-F.Gore runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/8e3b7bd2-61b4-4865-8d31-00f4c0c933ac.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:47" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[2-D.Akers extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/4d7c0269-d243-416c-bf18-2daab5fe1a14.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:46" quarter="4" sequence="8" team="SF">
+        <score clock="08:27" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[21-F.Gore runs 9 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/b8fd120d-b29a-4b12-89ba-07ef545ab081.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:23" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-D.Akers extra point is good.]]></summary>
+          <links>
+            <link href="/2012/PST/3/SF/ATL/plays/34513b64-0133-41a8-a7a8-ccf7dde77156.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at Fri Feb 01 00:04:35 +0000 2013--></games>

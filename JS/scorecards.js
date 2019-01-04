@@ -1,4 +1,5 @@
 const card = document.getElementsByClassName('card');
+const title = document.getElementsByClassName('title');
 const name1 = document.getElementsByClassName('name1');
 const name2 = document.getElementsByClassName('name2');
 const score1 = document.getElementsByClassName('score1');
@@ -22,6 +23,14 @@ const hiddenTime = document.getElementsByClassName('hiddenTime');
 const hiddenDate = document.getElementsByClassName('hiddenDate');
 const hiddenStanding1 = document.getElementsByClassName('hiddenStanding1');
 const hiddenStanding2 = document.getElementsByClassName('hiddenStanding2');
+
+const noData = document.getElementsByClassName('noData');
+if (noData.length === 1) {
+    title[0].style.display = "none";
+    for (var i = 0; i < card.length; i++) {
+        card[i].style.display = "none";
+    };
+};
 
 var num = 0;
 

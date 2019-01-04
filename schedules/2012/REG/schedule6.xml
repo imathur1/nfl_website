@@ -1,0 +1,1768 @@
+<?xml version="1.0"?>
+<games season="2012" type="REG" week="6" xmlns="http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd"><!--Generation started at Wed Jul 31 20:31:09 +0000 2013-->  <game away="DEN" clock=":00" completed="2012-10-16T03:48:10+00:00" home="SD" id="68a14c56-9902-4740-be6d-147f6e90cb1a" quarter="4" scheduled="2012-10-16T00:30:00+00:00" status="closed">
+    <team id="SD" market="San Diego" name="Chargers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="DEN" market="Denver" name="Broncos" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="35">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="14"/>
+        <quarter number="4" points="21"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="11:28" quarter="1" sequence="1" team="SD">
+        <score clock="09:03" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[9-N.Novak 32 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/c2a797c7-12c1-4fcc-9bc1-3f269bc35882.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:56" quarter="1" sequence="2" team="SD">
+        <score clock="08:23" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[17-P.Rivers complete to 85-A.Gates. 85-A.Gates runs 15 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/a8ffeaac-f183-4e12-b1f5-fabc71a599fc.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:16" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[9-N.Novak extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/8856adb6-8e95-47ca-a21e-ec427e6ac3bb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:41" quarter="2" sequence="3" team="DEN">
+        <score clock="06:15" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[18-P.Manning incomplete. Intended for 12-M.Willis, INTERCEPTED by 23-Q.Jammer at SD 20. 23-Q.Jammer runs 80 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/b0e2ea55-5692-4337-ae44-c1b9e0874dc1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:00" quarter="2" sequence="4" team="SD">
+        <score clock="06:00" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-N.Novak extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/9032a198-b9bb-48a1-a4fa-4fefaff2c572.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:20" quarter="2" sequence="5" team="SD">
+        <score clock=":29" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[17-P.Rivers complete to 85-A.Gates. 85-A.Gates runs 11 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/4f660ec5-4d5e-4aeb-88dd-064eef426573.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":24" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-N.Novak extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/d9a7e5b7-dc6f-4e1b-a167-21f89441a54b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="DEN">
+        <score clock="11:02" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[18-P.Manning complete to 88-D.Thomas. 88-D.Thomas runs 29 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/e3270f78-1dd9-41e2-8059-8d29671f925a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:56" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/02b3d171-d99c-422c-a865-4622c5402d80.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:56" quarter="3" sequence="7" team="SD">
+        <score clock="04:56" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[17-P.Rivers sacked at DEN 35 for -2 yards, FUMBLES (92-E.Dumervil). 32-T.Carter runs 65 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/c82689d2-0581-4d9c-9ce9-0c47e50753c9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:41" quarter="3" sequence="8" team="DEN">
+        <score clock="04:41" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/dca03a96-bdf9-4cef-8785-fc1df86ab45e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:47" quarter="3" sequence="9" team="DEN">
+        <score clock="13:40" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[18-P.Manning complete to 87-E.Decker. 87-E.Decker runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/ef0006ab-1605-483f-bb81-5d167a53deda.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="13:33" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/93cc256a-372d-46be-b899-2aa8d610ffcb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:11" quarter="4" sequence="10" team="DEN">
+        <score clock="09:09" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[18-P.Manning complete to 14-B.Stokley. 14-B.Stokley runs 21 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/eeef2a2f-c0bf-461e-9b85-8621c53dd098.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:03" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/4a1b54b9-bc5b-437a-8402-b8c14f800647.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:52" quarter="4" sequence="11" team="SD">
+        <score clock="02:15" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[17-P.Rivers incomplete. Intended for 11-E.Royal, INTERCEPTED by 25-C.Harris at SD 46. 25-C.Harris runs 46 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/2f8e24e9-7c89-49e7-83a3-021449497b5b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:05" quarter="4" sequence="12" team="DEN">
+        <score clock="02:05" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[5-M.Prater extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DEN/SD/plays/02ab70c1-d947-4a60-8403-54c52722d761.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="STL" clock=":00" completed="2012-10-14T20:10:27+00:00" home="MIA" id="7d3eef90-f40f-44f1-91f3-d4bc0b77e32d" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="MIA" market="Miami" name="Dolphins" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="17">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="STL" market="St. Louis" name="Rams" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="14">
+        <quarter number="1" points="6"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="8"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="STL">
+        <score clock="12:30" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-G.Zuerlein 48 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/8dddcaee-b3bf-49ac-9b29-2702c856b5a9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:46" quarter="1" sequence="2" team="STL">
+        <score clock="05:12" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-G.Zuerlein 32 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/26ca9817-881e-4b9c-a8f8-1d700fb0495b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:34" quarter="2" sequence="3" team="MIA">
+        <score clock="05:34" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[17-R.Tannehill complete to 14-M.Moore. 14-M.Moore runs 29 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/5a54093b-e62e-4451-a4cf-77fd91476839.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:34" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[5-D.Carpenter extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/585e2e40-a075-48e4-b7c4-6816d3489986.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:16" quarter="2" sequence="4" team="MIA">
+        <score clock="04:24" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[5-D.Carpenter 42 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/22d2df2e-5d0d-46db-8abe-372229659933.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="5" team="MIA">
+        <score clock="09:45" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[17-R.Tannehill complete to 80-A.Fasano. 80-A.Fasano runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/363749ba-0265-46c6-a78a-019999388fe7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:45" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[5-D.Carpenter extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/8740ca8c-71d5-42b8-b1c6-e5f3f8c2a874.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:03" quarter="4" sequence="6" team="STL">
+        <score clock="08:35" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[8-S.Bradford scrambles to the runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/52275c71-d933-49d1-a204-28e873d9a618.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:30" points="2" quarter="4" type="conversion">
+          <summary><![CDATA[8-S.Bradford complete to 39-S.Jackson. 39-S.Jackson to MIA End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/STL/MIA/plays/740b9f4e-40de-402b-9689-922742499b1f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="BUF" clock=":00" completed="2012-10-14T23:31:47+00:00" home="ARI" id="6641c92e-0b1c-4b7c-87ff-f4c7127fddbe" quarter="5" scheduled="2012-10-14T20:05:00+00:00" status="closed">
+    <team id="ARI" market="Arizona" name="Cardinals" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="16">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="3"/>
+        <quarter number="5" points="0"/>
+      </scoring>
+    </team>
+    <team id="BUF" market="Buffalo" name="Bills" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="19">
+        <quarter number="1" points="9"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="0"/>
+        <quarter number="5" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="14:45" quarter="1" sequence="1" team="ARI">
+        <score clock="13:55" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-J.Feely 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/2453aac6-7670-4948-b562-9de82533c1ca.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:39" quarter="1" sequence="2" team="ARI">
+        <score clock="08:55" points="2" quarter="1" type="safety">
+          <summary><![CDATA[4-K.Kolb sacked at ARI End Zone for -6 yards to ARI End Zone for no gain, safety (90-C.Kelsay).]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/31d30e6e-c881-404d-96ad-5cc8c6955973.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:36" quarter="1" sequence="3" team="BUF">
+        <score clock="03:42" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[28-C.Spiller runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/eed6f9aa-cb92-4346-b0e0-12254d1edd74.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:42" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[9-R.Lindell extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/a897b857-5528-4cff-8cc6-f2f1afcc76ed.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:25" quarter="2" sequence="4" team="ARI">
+        <score clock="04:53" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[4-K.Kolb complete to 11-L.Fitzgerald. 11-L.Fitzgerald runs 9 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/aadcf14e-b922-4460-a179-e1d2d141a1db.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:47" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-J.Feely extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/04c9a6bd-1503-437a-ac43-de224184d201.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:30" quarter="3" sequence="5" team="ARI">
+        <score clock="03:17" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[3-J.Feely 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/409e7f27-fe0d-41cd-b5b8-c79e3a3b60cd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:12" quarter="3" sequence="6" team="BUF">
+        <score clock=":35" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[22-F.Jackson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/e75fba95-46c2-4b9c-933e-6cc4ea4c7fb3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":32" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[9-R.Lindell extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/342f1074-881f-4e36-a306-01983963dfd0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:07" quarter="4" sequence="7" team="ARI">
+        <score clock="01:14" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[3-J.Feely 61 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/98a4bca0-fd87-4a83-bec6-832db2303c38.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:55" quarter="5" sequence="8" team="BUF">
+        <score clock="11:10" points="3" quarter="5" type="fieldgoal">
+          <summary><![CDATA[9-R.Lindell 25 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/BUF/ARI/plays/b02ce636-b6e6-4597-ad50-4e04eb07c394.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="NYG" clock=":00" completed="2012-10-14T23:27:24+00:00" home="SF" id="6f3162e8-f3ce-4670-8895-3c4552e4fb93" quarter="4" scheduled="2012-10-14T20:25:00+00:00" status="closed">
+    <team id="SF" market="San Francisco" name="49ers" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="3">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="0"/>
+      </scoring>
+    </team>
+    <team id="NYG" market="New York" name="Giants" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="26">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="13"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="07:27" quarter="1" sequence="1" team="SF">
+        <score clock="02:04" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[2-D.Akers 42 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/abc4f743-2191-41d8-aa50-09e5a473a93f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:54" quarter="2" sequence="2" team="NYG">
+        <score clock="10:09" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[10-E.Manning complete to 80-V.Cruz. 80-V.Cruz runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/5b274c2d-6fd5-49e9-908b-39dc507a61a0.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:04" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-L.Tynes extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/53bf3514-adc0-42ec-af8b-bf81cea2faf2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:30" quarter="2" sequence="3" team="NYG">
+        <score clock="03:00" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[9-L.Tynes 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/b184fd6f-bce8-4e63-b446-f013e37e3c76.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="4" team="NYG">
+        <score clock="11:53" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[44-A.Bradshaw runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/89f0cb96-1b21-4d64-8a1c-833ac8c2bb0b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:48" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[9-L.Tynes extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/e049605f-c689-4bb7-b5d6-c1074e3ea433.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:07" quarter="3" sequence="5" team="NYG">
+        <score clock="09:55" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[9-L.Tynes 30 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/623eb020-92dc-417c-96ca-f6db03d25846.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:43" quarter="3" sequence="6" team="NYG">
+        <score clock="06:14" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[9-L.Tynes 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/fcc8a4c0-6807-4d01-a377-517c679ae3e3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:06" quarter="4" sequence="7" team="NYG">
+        <score clock="02:00" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[9-L.Tynes 32 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NYG/SF/plays/53061c4e-02c0-4248-9e34-c82000d3d60d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="GB" clock=":00" completed="2012-10-15T03:43:56+00:00" home="HOU" id="bc40b1b8-1504-48a6-a6b5-08d5d60a383c" quarter="4" scheduled="2012-10-15T00:20:00+00:00" status="closed">
+    <team id="HOU" market="Houston" name="Texans" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="GB" market="Green Bay" name="Packers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="42">
+        <quarter number="1" points="14"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="13:38" quarter="1" sequence="1" team="GB">
+        <score clock="11:42" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 87-J.Nelson. 87-J.Nelson runs 41 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/110136f1-983c-46c2-ab73-0bd80d7dd764.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:34" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/4ca3e469-95b5-4b64-a655-ce97433016f5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:46" quarter="1" sequence="2" team="GB">
+        <score clock=":32" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 89-J.Jones. 89-J.Jones runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/2ff7c5a9-513d-4e84-ad51-6d2654c06d29.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":24" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/92e64736-a83d-4f1f-8811-3cdcf086a4ee.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":24" quarter="1" sequence="3" team="HOU">
+        <score clock="10:18" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[23-A.Foster runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/550aec57-00ee-43fc-a593-c7e48f7dcd22.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:13" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[17-S.Graham extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/781b4069-a785-4769-a96b-13cb37c2539f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:13" quarter="2" sequence="4" team="GB">
+        <score clock="06:52" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 87-J.Nelson. 87-J.Nelson runs 21 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/6c1f82c9-652c-49e9-880e-ab9202520eb4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:45" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/5a782c86-83e7-460f-9ac5-8674173a5187.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:45" quarter="2" sequence="5" team="HOU">
+        <score clock="02:19" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[17-S.Graham 51 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/b47b6541-e5e4-47c1-83c3-9d03f7b5f006.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="GB">
+        <score clock="08:22" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 87-J.Nelson. 87-J.Nelson runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/242b00d8-0745-4bf9-9cd4-e3131e9d3078.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:16" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/85b4317d-89e1-4bc3-ae46-9d0b476a10f9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:05" quarter="3" sequence="7" team="HOU">
+        <score clock=":21" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[23-A.Foster runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/5716ade5-6c74-43ba-bf19-301c6090135d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":17" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[17-S.Graham extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/5f870651-f00e-4926-a318-e7c14b4a2cb1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":17" quarter="3" sequence="8" team="GB">
+        <score clock="14:54" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 83-T.Crabtree. 83-T.Crabtree runs 48 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/9be2449b-31c3-4275-becd-675f5beabae7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:46" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/f88ad8a3-dc38-49bc-a32e-02d093db80e9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:34" quarter="4" sequence="9" team="GB">
+        <score clock="12:20" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[12-A.Rodgers complete to 89-J.Jones. 89-J.Jones runs 18 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/3445c8eb-5192-4303-86bb-7a7be15179f1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:16" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-M.Crosby extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/b72c13ad-28a0-4e4e-b3b7-3936a1d7f182.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:11" quarter="4" sequence="10" team="GB">
+        <score clock="05:35" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[8-T.Masthay punts 0 yards from GB 14 blocked by 50-B.Braman. 11-D.Posey runs no gain for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/88c4df9b-73c8-43ff-b0fe-193b1d9764b6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:30" quarter="4" sequence="11" team="HOU">
+        <score clock="05:30" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[17-S.Graham extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/GB/HOU/plays/c6193681-641e-4cee-b3da-1ec5a6fadfdb.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="NE" clock=":00" completed="2012-10-14T23:18:46+00:00" home="SEA" id="9b812e6c-4a2f-4b44-a9ae-ad2e99229913" quarter="4" scheduled="2012-10-14T20:05:00+00:00" status="closed">
+    <team id="SEA" market="Seattle" name="Seahawks" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <team id="NE" market="New England" name="Patriots" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="23">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="12:52" quarter="1" sequence="1" team="SEA">
+        <score clock="07:40" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-S.Hauschka 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/0256ce73-5d39-4986-9428-10cf29f6ab00.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:35" quarter="1" sequence="2" team="NE">
+        <score clock="06:00" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[12-T.Brady complete to 83-W.Welker. 83-W.Welker runs 46 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/87c4526f-21e7-4bb9-96d3-a1c4e34a86dd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:49" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/b205086d-3f40-46ed-bca6-19ae5a564daa.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:49" quarter="1" sequence="3" team="SEA">
+        <score clock="01:59" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[3-R.Wilson complete to 89-D.Baldwin. 89-D.Baldwin runs 24 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/a8a5de5a-66dc-4e09-817e-ca9285db1d02.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:50" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/17345777-04af-485b-969a-530cd015d9ef.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:50" quarter="1" sequence="4" team="NE">
+        <score clock="10:38" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[12-T.Brady complete to 81-A.Hernandez. 81-A.Hernandez runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/3c79a600-a095-4475-9638-e932e2aa6ef1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:33" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-S.Gostkowski extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/320cff86-8a98-47c0-b763-ae3ce0abd525.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:57" quarter="2" sequence="5" team="NE">
+        <score clock="02:15" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[3-S.Gostkowski 25 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/3a1bb019-b4dc-47a4-9bdc-62bdf51362a1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:04" quarter="3" sequence="6" team="NE">
+        <score clock="09:25" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[3-S.Gostkowski 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/55753910-7543-414b-9230-bf947a573892.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:31" quarter="4" sequence="7" team="NE">
+        <score clock="09:25" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[3-S.Gostkowski 35 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/c34a1d06-9e6e-4558-92bc-446c37f6f6f9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:21" quarter="4" sequence="8" team="SEA">
+        <score clock="07:26" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[3-R.Wilson complete to 17-B.Edwards. 17-B.Edwards runs 10 yards for a touchdown. Penalty on NE 37-A.Dennard, Pass interference, declined.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/96274519-5766-4295-b553-3002875a6d3e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:21" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/e7ea2531-747d-4700-a5f6-5151703c343b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:38" quarter="4" sequence="9" team="SEA">
+        <score clock="01:30" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[3-R.Wilson complete to 18-S.Rice. 18-S.Rice runs 46 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/435c7d48-326e-45ad-9cf7-95483ee9f01f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:18" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-S.Hauschka extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/NE/SEA/plays/4cc6e48f-8dc7-48b7-bd12-799d95bcfdd1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="IND" clock=":00" completed="2012-10-14T20:05:07+00:00" home="NYJ" id="4dea8474-b52f-4f39-9a51-3e4078c95771" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="NYJ" market="New York" name="Jets" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="35">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="21"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="IND" market="Indianapolis" name="Colts" remaining_challenges="2" remaining_timeouts="3">
+      <scoring points="9">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="09:15" quarter="1" sequence="1" team="IND">
+        <score clock="06:05" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-A.Vinatieri 20 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/cdc3620b-dd5f-4f88-a771-324708d9c49e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:02" quarter="1" sequence="2" team="NYJ">
+        <score clock="14:19" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[6-M.Sanchez complete to 84-S.Hill. 84-S.Hill runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/6a9c42d8-2fbf-4f74-8de6-1839a29450c5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:13" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/40bd40f9-37d0-41ce-a0bf-383ec54e2588.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:51" quarter="2" sequence="3" team="NYJ">
+        <score clock="09:52" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[23-S.Greene runs 10 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/f4ec5665-a7af-450b-a2a6-f5f123b388ca.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:47" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/30cef6fd-4555-4814-affd-0225432cc29e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:47" quarter="2" sequence="4" team="IND">
+        <score clock="06:11" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[4-A.Vinatieri 50 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/25caedd6-c563-49d8-90d6-98d144fd47a8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:06" quarter="2" sequence="5" team="NYJ">
+        <score clock=":32" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[6-M.Sanchez complete to 89-J.Hill. 89-J.Hill runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/8ac86f74-73c0-42f7-b0a9-10edbf27793c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":27" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/8c08ebb8-a0cb-42b2-a47e-306b66bc7af1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:30" quarter="3" sequence="6" team="NYJ">
+        <score clock="01:41" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[23-S.Greene runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/a1adadc0-b4ae-4b83-928c-60fdf5b81254.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:36" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/e592ad84-5736-4211-9e1e-06bc7fd3cd8d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:36" quarter="3" sequence="7" team="IND">
+        <score clock="14:45" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[4-A.Vinatieri 47 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/2ca72eee-8e78-4165-86d1-3a3b4608d2e5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:52" quarter="4" sequence="8" team="NYJ">
+        <score clock="01:18" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[23-S.Greene runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/baba90cb-3b3a-46f9-bef8-a23325397d9e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:05" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-N.Folk extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/IND/NYJ/plays/0dd792ab-7fdd-4848-b0b0-53245edee993.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="KC" clock=":00" completed="2012-10-14T20:07:27+00:00" home="TB" id="4665b393-f6d7-45be-bad5-1ac29d6de44f" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="TB" market="Tampa Bay" name="Buccaneers" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="38">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="14"/>
+        <quarter number="4" points="17"/>
+      </scoring>
+    </team>
+    <team id="KC" market="Kansas City" name="Chiefs" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="10">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock=":30" quarter="1" sequence="1" team="TB">
+        <score clock=":30" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[5-J.Freeman complete to 19-M.Williams. 19-M.Williams runs 62 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/a3cece2d-fe9e-454d-b645-a09c3af399c7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":18" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/f413aa96-d3a4-481c-afe5-12a433e5db0a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":18" quarter="1" sequence="2" team="KC">
+        <score clock="07:50" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[6-R.Succop 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/82622a06-61ff-4a21-9929-18bb65fad67a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="3" team="TB">
+        <score clock="12:54" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[5-J.Freeman complete to 83-V.Jackson. 83-V.Jackson runs 19 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/21d7c686-80e1-4e72-94f3-07170d7487d2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="12:46" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/662a41c9-0c62-46ec-9cbb-34d39be3508a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:46" quarter="3" sequence="4" team="KC">
+        <score clock="09:51" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[9-B.Quinn incomplete. Intended for 22-D.McCluster, INTERCEPTED by 20-R.Barber at TB 22. 20-R.Barber runs 78 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/2de5f28f-c7cd-4b11-b726-7b9336211680.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:36" quarter="3" sequence="5" team="TB">
+        <score clock="09:36" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/4630a2ab-b45c-415c-b2af-5eb8e8c3c334.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":39" quarter="3" sequence="6" team="TB">
+        <score clock="14:15" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[9-M.Koenen punts 0 yards from TB 18 blocked by 20-S.Draughn. 9-M.Koenen to TB 1, FUMBLES (20-S.Draughn). 99-E.Jones runs 11 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/fd013569-d07e-4d22-9971-d9bd2470ac1a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:01" quarter="4" sequence="7" team="KC">
+        <score clock="14:01" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[6-R.Succop extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/17b2dcbb-f331-480b-8abd-fe9110e89c3b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:01" quarter="4" sequence="8" team="TB">
+        <score clock="10:39" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[10-C.Barth 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/393236ed-a95a-49b7-9efe-99886721030a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:29" quarter="4" sequence="9" team="TB">
+        <score clock="06:51" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[5-J.Freeman complete to 83-V.Jackson. 83-V.Jackson runs 17 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/5af60eb4-fa5e-4a19-97cd-1c3abd80c53e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="06:51" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/b91458f8-2713-432f-b682-2e5146c8647b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:34" quarter="4" sequence="10" team="TB">
+        <score clock="02:00" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[27-L.Blount runs 12 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/ec6209a7-a0de-44dc-bffc-7e2df26e1c8b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:53" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[10-C.Barth extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/KC/TB/plays/84ab3911-c734-44d7-afff-2e13861102de.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="DAL" clock=":00" completed="2012-10-14T20:21:58+00:00" home="BAL" id="8b021915-33b7-4d74-9d08-a35484371aeb" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="BAL" market="Baltimore" name="Ravens" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="31">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="14"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <team id="DAL" market="Dallas" name="Cowboys" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="29">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="3"/>
+        <quarter number="3" points="10"/>
+        <quarter number="4" points="9"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="BAL">
+        <score clock="07:54" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[9-J.Tucker 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/e2854563-5d2d-4eff-8db3-9df72cb15283.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:50" quarter="1" sequence="2" team="DAL">
+        <score clock="03:18" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[28-F.Jones runs 22 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/5d1c3240-469f-41eb-b0e8-6d3ff0eb8110.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:18" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[5-D.Bailey extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/58c92701-74c8-49ad-9079-6bedf140fdd6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:31" quarter="1" sequence="3" team="DAL">
+        <score clock="11:33" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[5-D.Bailey 42 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/1647968b-7b5c-4177-9ba0-50ca4a3fbbb2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:29" quarter="2" sequence="4" team="BAL">
+        <score clock="07:33" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[27-R.Rice runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/121462cb-8d30-41a8-b0aa-5458e509525a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:29" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/c0689ecb-fdcf-4d62-bf7b-52986a8a61a9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:15" quarter="2" sequence="5" team="BAL">
+        <score clock="01:05" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[5-J.Flacco complete to 82-T.Smith. 82-T.Smith runs 19 yards for a touchdown. Penalty on DAL 24-M.Claiborne, Pass interference, declined.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/422ab89b-c3cb-4412-9097-fc92c75ae928.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":41" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/4eb9d906-9e1a-4734-8cfe-59a69993e4dd.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="6" team="DAL">
+        <score clock="11:42" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[5-D.Bailey 43 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/ea1f3f64-79cc-4596-95e7-55be34805062.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:37" quarter="3" sequence="7" team="BAL">
+        <score clock="11:37" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[5-D.Bailey kicks 73 yards from DAL 35. 12-J.Jones runs 108 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/d11051de-0395-4d98-8ad5-52f8f338e488.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="11:24" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/df4e01e1-acb0-4dae-a80c-3ce30c92c715.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:24" quarter="3" sequence="8" team="DAL">
+        <score clock="03:24" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[9-T.Romo complete to 88-D.Bryant. 88-D.Bryant runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/4439ffc6-655f-429b-b07e-fdd50a3de61c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:19" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[5-D.Bailey extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/00b0d45b-21ff-42d8-a13b-540fb5651c9a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:29" quarter="4" sequence="9" team="DAL">
+        <score clock="08:26" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[5-D.Bailey 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/b9cf80b2-4e6e-4745-a11a-3cbaf8e5430d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:22" quarter="4" sequence="10" team="BAL">
+        <score clock="04:45" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[27-R.Rice runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/3ebd5de2-b953-405e-9db6-6545c4ec039f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:41" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[9-J.Tucker extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/d9992d04-9b0d-4eaa-83b1-44145d5c5eee.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:41" quarter="4" sequence="11" team="DAL">
+        <score clock=":36" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[9-T.Romo complete to 88-D.Bryant. 88-D.Bryant runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DAL/BAL/plays/2569cd28-55be-4fa2-8d0e-ba4e54152261.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="CIN" clock=":00" completed="2012-10-14T20:13:16+00:00" home="CLE" id="79235c95-5451-46ad-bf37-17a0136182b9" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="CLE" market="Cleveland" name="Browns" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="34">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="6"/>
+        <quarter number="4" points="21"/>
+      </scoring>
+    </team>
+    <team id="CIN" market="Cincinnati" name="Bengals" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="24">
+        <quarter number="1" points="7"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="08:42" quarter="1" sequence="1" team="CIN">
+        <score clock="07:17" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[14-A.Dalton complete to 84-J.Gresham. 84-J.Gresham runs 55 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/4d33b709-4480-493f-9d22-d88fbc3fa15e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="07:17" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[2-M.Nugent extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/cd3091f5-fdb2-458b-a496-19cdf47077d3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:02" quarter="1" sequence="2" team="CLE">
+        <score clock="15:00" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[3-B.Weeden complete to 13-J.Gordon. 13-J.Gordon runs 71 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/4632e890-e13b-46de-9aec-254709b0053a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:51" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[4-P.Dawson extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/44631771-f862-4d9c-aa02-eedd4a2b5b8a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:11" quarter="2" sequence="3" team="CIN">
+        <score clock="02:00" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[14-A.Dalton complete to 18-A.Green. 18-A.Green runs 4 yards for a touchdown. Penalty on CLE 28-U.Young, Holding, declined.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/5787e674-cd33-4adb-aee3-ecb7f9ea701c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:00" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-M.Nugent extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/d80468f6-3339-4f98-af0d-bb6f9f8a0e30.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:53" quarter="3" sequence="4" team="CLE">
+        <score clock="08:30" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[4-P.Dawson 41 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/320a5713-4344-4cda-b626-390625b2a837.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:32" quarter="3" sequence="5" team="CLE">
+        <score clock="06:31" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[4-P.Dawson 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/f4341889-0235-42f3-99f5-23854da41955.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:13" quarter="3" sequence="6" team="CLE">
+        <score clock="15:00" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[20-M.Hardesty runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/853fe49b-76d2-4eb2-b3e8-d833e425ce44.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:56" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-P.Dawson extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/157fd561-2c19-48d5-b9b2-d73cf21e6694.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="14:56" quarter="4" sequence="7" team="CIN">
+        <score clock="11:15" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[2-M.Nugent 44 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/012c13f5-3a91-4fb1-a298-529804aeae47.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="11:11" quarter="4" sequence="8" team="CLE">
+        <score clock="08:05" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[3-B.Weeden complete to 82-B.Watson. 82-B.Watson runs 3 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/29cb4c0d-a5cf-4ae8-b12b-aa8f844d1eed.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:05" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-P.Dawson extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/db603c4b-3ecb-48c5-bf07-f5a8f2ce2e5b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:00" quarter="4" sequence="9" team="CIN">
+        <score clock="07:55" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[14-A.Dalton incomplete. Intended for 19-B.Tate, INTERCEPTED by 24-S.Brown at CIN 19. 24-S.Brown runs 19 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/6efd101a-d5b2-4e40-8efa-e8e5fb0ffcc2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:50" quarter="4" sequence="10" team="CLE">
+        <score clock="07:50" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-P.Dawson extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/5cb43f41-87d3-431b-bb17-48576c0cb6a6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:50" quarter="4" sequence="11" team="CIN">
+        <score clock="05:28" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[14-A.Dalton complete to 18-A.Green. 18-A.Green runs 57 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/96e679a1-c778-48c6-851d-cffe18563a60.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:28" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-M.Nugent extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/CIN/CLE/plays/d035d9f0-b30f-4b81-8dba-d5543535e1df.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="PIT" clock=":00" completed="2012-10-12T03:49:33+00:00" home="TEN" id="d6bb6e75-0041-4fed-ac20-8ee8c80a4000" quarter="4" scheduled="2012-10-12T00:20:00+00:00" status="closed">
+    <team id="TEN" market="Tennessee" name="Titans" remaining_challenges="1" remaining_timeouts="0">
+      <scoring points="26">
+        <quarter number="1" points="6"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <team id="PIT" market="Pittsburgh" name="Steelers" remaining_challenges="2" remaining_timeouts="1">
+      <scoring points="23">
+        <quarter number="1" points="10"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="TEN">
+        <score clock="10:58" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[2-R.Bironas 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/2b39addd-d4e2-49a9-8d02-c75a2ee3c00c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="10:53" quarter="1" sequence="2" team="PIT">
+        <score clock="07:28" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[6-S.Suisham 29 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/8805e185-37fc-47be-8a1a-d48123c68ff9.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:37" quarter="1" sequence="3" team="PIT">
+        <score clock="05:37" points="6" quarter="1" type="touchdown">
+          <summary><![CDATA[7-B.Roethlisberger complete to 17-M.Wallace. 17-M.Wallace runs 82 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/959fe6bb-03f2-4a0c-a259-0e597115e8b6.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:25" points="1" quarter="1" type="extrapoint">
+          <summary><![CDATA[6-S.Suisham extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/2d828a7e-ae31-46a8-8963-4ea4296213b2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:25" quarter="1" sequence="4" team="TEN">
+        <score clock="01:16" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[2-R.Bironas 38 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/1d0ec3ad-af36-45c7-9a28-0a1a7c873744.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="2" sequence="5" team="TEN">
+        <score clock="14:20" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[23-J.Harper runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/d2849584-1d4a-4c84-9738-b2a0772e497c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="14:14" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-R.Bironas extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/fcdd0e49-2a44-4051-9a40-f1b64858e3cf.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:31" quarter="2" sequence="6" team="TEN">
+        <score clock=":05" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[2-R.Bironas 47 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/2787eecf-7cc9-45d2-b9b2-f8063e7c15a1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="7" team="PIT">
+        <score clock="09:08" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[6-S.Suisham 28 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/393bca6a-d267-4432-a07a-49b6a831b616.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:16" quarter="3" sequence="8" team="PIT">
+        <score clock="13:39" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[20-B.Batch runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/3c8425f5-cf59-4dd4-a2dd-465eff48b979.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="13:34" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[6-S.Suisham extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/6f2a205c-6b20-4de8-946a-3a4de146507b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:56" quarter="4" sequence="9" team="PIT">
+        <score clock="08:23" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[6-S.Suisham 52 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/6398eeb9-79f0-4d82-b0f9-3a75a5263306.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:18" quarter="4" sequence="10" team="TEN">
+        <score clock="04:25" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[8-M.Hasselbeck complete to 18-K.Britt. 18-K.Britt runs 5 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/44da05ae-6e43-4a8f-aa86-0d56729c5d27.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="04:19" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-R.Bironas extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/b0c203fa-1598-4c82-bff5-21224c454136.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":49" quarter="4" sequence="11" team="TEN">
+        <score clock=":04" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[2-R.Bironas 40 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/PIT/TEN/plays/f6781932-333b-44f4-8d7c-140b889c8852.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="DET" clock=":00" completed="2012-10-14T20:51:34+00:00" home="PHI" id="476019b6-4227-40a5-a6ee-1e2add4aadb2" quarter="5" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="PHI" market="Philadelphia" name="Eagles" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="23">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="6"/>
+        <quarter number="4" points="10"/>
+        <quarter number="5" points="0"/>
+      </scoring>
+    </team>
+    <team id="DET" market="Detroit" name="Lions" remaining_challenges="1" remaining_timeouts="1">
+      <scoring points="26">
+        <quarter number="1" points="6"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="17"/>
+        <quarter number="5" points="3"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="11:58" quarter="1" sequence="1" team="DET">
+        <score clock="11:08" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-J.Hanson 46 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/ca30486c-a065-48d2-a465-4d1cf74aa932.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:43" quarter="1" sequence="2" team="DET">
+        <score clock="04:01" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[4-J.Hanson 34 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/784314a3-1ca4-45e8-b76a-c4eb13b60a46.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:44" quarter="2" sequence="3" team="PHI">
+        <score clock="01:21" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[7-M.Vick complete to 25-L.McCoy. 25-L.McCoy runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/8862ad17-7192-4046-b7b9-a7e51dfac77b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="01:16" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[6-A.Henery extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/4d4d6655-5506-44cd-9682-b4dca6ace64e.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="4" team="PHI">
+        <score clock="08:26" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[6-A.Henery 26 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/653a3f04-9986-4d07-a5da-13b96efe0c52.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="07:19" quarter="3" sequence="5" team="PHI">
+        <score clock="03:42" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[6-A.Henery 32 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/e33819cc-977d-4563-a362-9498358147d8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:50" quarter="3" sequence="6" team="PHI">
+        <score clock="13:42" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[6-A.Henery 49 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/159dd322-638c-4c73-9be5-ded3f200eda5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:39" quarter="4" sequence="7" team="DET">
+        <score clock="10:35" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[9-M.Stafford scrambles to the runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/ac81244f-3e75-4252-af6a-80ed73379187.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="10:30" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-J.Hanson extra point is good. Penalty on PHI 91-F.Cox, Personal Foul,.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/2928be41-0308-4cf0-b5ef-2639e92152c4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:47" quarter="4" sequence="8" team="PHI">
+        <score clock="05:30" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[7-M.Vick complete to 18-J.Maclin. 18-J.Maclin runs 70 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/f521dd97-c022-4263-9443-ce2dbc1177f5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="05:18" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[6-A.Henery extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/4f5a1bdb-ae8c-48c3-98b4-a33c974e08e5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:18" quarter="4" sequence="9" team="DET">
+        <score clock="03:38" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[9-M.Stafford complete to 13-N.Burleson. 13-N.Burleson runs 17 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/e84dfe25-e8b4-4d19-8a84-e798a38fd117.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="03:32" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[4-J.Hanson extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/42a632ba-b41d-4a78-9011-cb173a2e35d1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:27" quarter="4" sequence="10" team="DET">
+        <score clock=":05" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[4-J.Hanson 19 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/1605373e-f1fe-45bf-aba0-a43256b2914f.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="13:22" quarter="5" sequence="11" team="DET">
+        <score clock="11:00" points="3" quarter="5" type="fieldgoal">
+          <summary><![CDATA[4-J.Hanson 45 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/DET/PHI/plays/96dc5e8d-191a-402e-a673-ee2293068767.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="MIN" clock=":00" completed="2012-10-14T23:29:55+00:00" home="WAS" id="6f15d24f-4135-4e62-814e-0d13269dab08" quarter="4" scheduled="2012-10-14T20:25:00+00:00" status="closed">
+    <team id="WAS" market="Washington" name="Redskins" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="38">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="17"/>
+        <quarter number="3" points="7"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <team id="MIN" market="Minnesota" name="Vikings" remaining_challenges="2" remaining_timeouts="2">
+      <scoring points="26">
+        <quarter number="1" points="9"/>
+        <quarter number="2" points="0"/>
+        <quarter number="3" points="3"/>
+        <quarter number="4" points="14"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="15:00" quarter="1" sequence="1" team="MIN">
+        <score clock="11:35" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-B.Walsh 20 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/38702449-1f0b-40b4-b1d0-e02fd3d86bc5.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:34" quarter="1" sequence="2" team="MIN">
+        <score clock="06:21" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-B.Walsh 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/20cb64a6-255e-429e-881e-a0e2012b28a4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="05:33" quarter="1" sequence="3" team="MIN">
+        <score clock="01:52" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[3-B.Walsh 27 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/414591af-886e-49ee-88c8-495feeac90df.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="01:47" quarter="1" sequence="4" team="WAS">
+        <score clock="10:56" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[2-K.Forbath 50 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/871b01be-aa03-4526-9566-be5a7d2b4f21.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:03" quarter="2" sequence="5" team="WAS">
+        <score clock="02:29" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[46-A.Morris runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/170bcf47-3f36-462e-80d3-ca7bd2d08e9b.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:29" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/567cfe8c-9064-47aa-a0e7-f7b8f4a6298d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:20" quarter="2" sequence="6" team="WAS">
+        <score clock="02:20" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[10-R.Griffin III complete to 36-D.Young. 36-D.Young runs 6 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/e099ea9d-d89f-4084-945a-af8c07aa2f94.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:20" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[2-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/e406cfb6-0e5e-4dcc-a54f-abed045de5f3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="15:00" quarter="3" sequence="7" team="WAS">
+        <score clock="09:43" points="6" quarter="3" type="touchdown">
+          <summary><![CDATA[10-R.Griffin III scrambles to the runs 7 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/b5040f55-6718-4702-947c-8395259ba0c7.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:43" points="1" quarter="3" type="extrapoint">
+          <summary><![CDATA[2-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/8cdd8bb2-67bf-43ce-a883-2f19e08d01c1.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:37" quarter="3" sequence="8" team="MIN">
+        <score clock="04:23" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[3-B.Walsh 37 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/936f32bc-374e-4b1e-b992-553b30a3ce73.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":11" quarter="3" sequence="9" team="MIN">
+        <score clock="12:55" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[7-C.Ponder incomplete. Intended for 84-M.Jenkins, INTERCEPTED by 41-M.Williams at MIN 24. 41-M.Williams runs 24 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/f6462502-639b-48df-8f9e-9c328d186b57.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:40" quarter="4" sequence="10" team="WAS">
+        <score clock="12:40" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/dbf24912-df3c-45a5-ba97-cfaf5ce1c3ff.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="12:40" quarter="4" sequence="11" team="MIN">
+        <score clock="08:13" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[7-C.Ponder complete to 84-M.Jenkins. 84-M.Jenkins runs 9 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/7a286818-3cbc-404e-8adb-33074f94c646.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="08:02" points="2" quarter="4" type="conversion">
+          <summary><![CDATA[7-C.Ponder complete to 82-K.Rudolph. 82-K.Rudolph to WAS End Zone for 2 yards. Conversion is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/73bd5a71-ac51-47f7-a6d3-2d4da75afae8.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:18" quarter="4" sequence="12" team="MIN">
+        <score clock="03:42" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[7-C.Ponder complete to 82-K.Rudolph. 82-K.Rudolph runs 1 yard for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/b05c21e6-5bd1-4a10-a885-7b3d871f2f29.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="03:36" quarter="4" sequence="13" team="WAS">
+        <score clock="02:56" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[10-R.Griffin III scrambles to the runs 76 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/007326fd-061f-4740-b1d9-99afc1b20bae.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:56" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[2-K.Forbath extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/MIN/WAS/plays/d8b68e53-8d93-4c9b-8a74-4d90911fc9ad.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+  <game away="OAK" clock=":00" completed="2012-10-14T20:16:10+00:00" home="ATL" id="cd72fefe-4c33-42ca-9dc3-e44e56bc5a2c" quarter="4" scheduled="2012-10-14T17:00:00+00:00" status="closed">
+    <team id="ATL" market="Atlanta" name="Falcons" remaining_challenges="2" remaining_timeouts="0">
+      <scoring points="23">
+        <quarter number="1" points="0"/>
+        <quarter number="2" points="7"/>
+        <quarter number="3" points="6"/>
+        <quarter number="4" points="10"/>
+      </scoring>
+    </team>
+    <team id="OAK" market="Oakland" name="Raiders" remaining_challenges="1" remaining_timeouts="2">
+      <scoring points="20">
+        <quarter number="1" points="3"/>
+        <quarter number="2" points="10"/>
+        <quarter number="3" points="0"/>
+        <quarter number="4" points="7"/>
+      </scoring>
+    </team>
+    <scoring_drives>
+      <drive clock="04:48" quarter="1" sequence="1" team="OAK">
+        <score clock=":28" points="3" quarter="1" type="fieldgoal">
+          <summary><![CDATA[11-S.Janikowski 52 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/80756d2d-b67e-4ffb-aef2-a7faa59a6305.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":24" quarter="1" sequence="2" team="ATL">
+        <score clock="09:56" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[2-M.Ryan complete to 84-R.White. 84-R.White runs 4 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/d4b5868e-f213-4afc-8499-c2ad9f556606.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="09:56" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/3affc61a-f83b-4ac8-a1f7-ad93e2608738.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="09:51" quarter="2" sequence="3" team="OAK">
+        <score clock="04:15" points="3" quarter="2" type="fieldgoal">
+          <summary><![CDATA[11-S.Janikowski 22 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/c7ae746e-2795-4558-979c-a081c5cef392.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:44" quarter="2" sequence="4" team="OAK">
+        <score clock="02:00" points="6" quarter="2" type="touchdown">
+          <summary><![CDATA[3-C.Palmer complete to 17-D.Moore. 17-D.Moore runs 25 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/006f9b48-c05a-4d38-9df7-b0aaf193410a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock="02:00" points="1" quarter="2" type="extrapoint">
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/4a86fb60-97b8-4488-a560-3d04fa2b31e3.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="08:35" quarter="3" sequence="5" team="ATL">
+        <score clock="05:11" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[3-M.Bryant 41 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/8bc49441-837a-4b80-aaaa-9f8c0a42619d.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="04:24" quarter="3" sequence="6" team="ATL">
+        <score clock="02:35" points="3" quarter="3" type="fieldgoal">
+          <summary><![CDATA[3-M.Bryant 20 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/82b0b895-31f2-49aa-a0b7-c7df269499a2.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="06:19" quarter="4" sequence="7" team="OAK">
+        <score clock="02:55" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[3-C.Palmer incomplete. INTERCEPTED by 22-A.Samuel at ATL 21. 22-A.Samuel runs 79 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/adbdb1c7-40d7-4562-9e4f-fcdeda043e7c.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:40" quarter="4" sequence="8" team="ATL">
+        <score clock="02:40" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[3-M.Bryant extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/2af10ba4-c35c-4ce6-8777-91344d1e34e4.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock="02:40" quarter="4" sequence="9" team="OAK">
+        <score clock=":44" points="6" quarter="4" type="touchdown">
+          <summary><![CDATA[20-D.McFadden runs 2 yards for a touchdown.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/1d356bba-7824-484f-b1ed-78ead90579bc.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+        <score clock=":44" points="1" quarter="4" type="extrapoint">
+          <summary><![CDATA[11-S.Janikowski extra point is good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/7596e6ff-53fe-436f-b215-be5e6fac4b3a.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+      <drive clock=":40" quarter="4" sequence="10" team="ATL">
+        <score clock=":06" points="3" quarter="4" type="fieldgoal">
+          <summary><![CDATA[3-M.Bryant 55 yards Field Goal is Good.]]></summary>
+          <links>
+            <link href="/2012/REG/6/OAK/ATL/plays/3199f8c7-964f-4d3f-a921-1a54929c1e81.xml" rel="summary" type="application/xml"/>
+          </links>
+        </score>
+      </drive>
+    </scoring_drives>
+  </game>
+<!--Generation finished at Wed Jul 31 20:31:11 +0000 2013--></games>
