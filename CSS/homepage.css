@@ -2,10 +2,11 @@ body {
     background-color: #fff;
     color: #fff;
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .year {
-    color: #000;
+    color: #fff;
     text-align: center;
     letter-spacing: 6px;
     font-size: 60px;
@@ -77,14 +78,6 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     width: 100%;
-}
-
-.divider {
-    width: 94%;
-    border: 4px solid #000;
-    border-radius: 6px;
-    margin-bottom: 2.5%;
-    margin-left: 3%;
 }
 
 a {

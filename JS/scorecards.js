@@ -26,6 +26,47 @@ const hiddenDate = document.getElementsByClassName('hiddenDate');
 const hiddenStanding1 = document.getElementsByClassName('hiddenStanding1');
 const hiddenStanding2 = document.getElementsByClassName('hiddenStanding2');
 
+const doubleRow = document.getElementsByClassName('doubleRow');
+const wallpapers = [
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/49erWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/bearWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/bengalWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/billWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/broncoWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/brownWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/buccaneerWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/cardinalWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/coltWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/chiefWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargerWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/cowboyWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/dolphinWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/eagleWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/giantWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/jaguarWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/falconWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/jetWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/packerWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/lionWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/patriotWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/pantherWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/raiderWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/redskinWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/saintWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/seahawkWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/ravenWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/ramWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/texanWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/titanWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/vikingWallpaper.png",
+    "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelerWallpaper.png"
+];
+
+for (var i = 0; i < doubleRow.length; i++){
+    var random = Math.floor(Math.random() * 32);
+    doubleRow[i].style.backgroundImage = 'url(' + wallpapers[random] + ')';
+};
+
 const noData = document.getElementsByClassName('noData');
 if (noData.length === 1) {
     title[0].style.display = "none";
