@@ -107,6 +107,21 @@ function createStanding() {
 };
 
 function changeHTML() {
+    var odd = 0;
+    for (var i = 0; i < card.length; i++) {
+        if (card[i].style.display != "none") {
+            odd ++;
+        };
+    };
+    if (odd % 2 != 0) {
+        for (var i = card.length - 1; i >= 0; i--) {
+            if (card[i].style.display != "none") {
+                card[i].style.marginLeft = "32%";
+                break;
+            };
+        }; 
+    };
+
     var count = 0;
     for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
