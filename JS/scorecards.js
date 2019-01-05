@@ -26,7 +26,7 @@ const hiddenDate = document.getElementsByClassName('hiddenDate');
 const hiddenStanding1 = document.getElementsByClassName('hiddenStanding1');
 const hiddenStanding2 = document.getElementsByClassName('hiddenStanding2');
 
-const doubleRow = document.getElementsByClassName('doubleRow');
+const row = document.getElementsByClassName('row');
 const wallpapers = [
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/49erWallpaper.png",
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/bearWallpaper.png",
@@ -62,9 +62,9 @@ const wallpapers = [
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelerWallpaper.png"
 ];
 
-for (var i = 0; i < doubleRow.length; i++){
+for (var i = 0; i < row.length; i++){
     var random = Math.floor(Math.random() * 32);
-    doubleRow[i].style.backgroundImage = 'url(' + wallpapers[random] + ')';
+    row[i].style.backgroundImage = 'url(' + wallpapers[random] + ')';
 };
 
 const noData = document.getElementsByClassName('noData');
@@ -161,7 +161,7 @@ function changeHTML() {
     if (odd % 2 != 0) {
         for (var i = card.length - 1; i >= 0; i--) {
             if (card[i].style.display != "none") {
-                card[i].style.marginLeft = "32%";
+                card[i].style.marginLeft = "29.5%";
                 break;
             };
         }; 
