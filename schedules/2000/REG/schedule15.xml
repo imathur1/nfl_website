@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:39:34 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="f7e1774e-36d4-4306-9a96-a5ab5a86ea53" year="2000" type="REG" name="REG">
+  <week id="4e89fca9-4540-45f8-ab0c-2c808b792532" sequence="15" title="15">
+    <game id="37b2b3a7-e89b-41ce-a22e-025ee60d1b40" status="closed" scheduled="2000-12-10T18:02:45+00:00" attendance="59854" utc_offset="-6" entry_mode="INGEST" weather="Partly cloudy, temperature falling. Temp: 25 F, Humidity: 74%, Wind: NW 13 mph">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="81435" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="14" sr_id="sr:competitor:4420"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="14" sr_id="sr:competitor:4419"/>
+      <scoring home_points="26" away_points="13">
+        <quarter id="0a260caf-0fb7-4912-85d3-981b6128c95c" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="9f68385f-7d09-4d1a-b84c-6d04a3ee5551" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="fd251d00-4fa5-4825-a862-a6a62ba4e3a9" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="d3537e80-56b9-431d-90c6-9f3907809b75" number="4" sequence="4" home_points="17" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="3b4248e5-fb32-4175-95c2-4e36279853ba" status="closed" scheduled="2000-12-10T21:05:27+00:00" attendance="75218" utc_offset="-7" entry_mode="INGEST" weather="Cloudy Temp: 22 F, Humidity: 91%, Wind: East 10 mph">
+      <venue id="bea622bc-d61d-4ffd-ac6d-4f8f241414e4" name="Mile High Stadium" city="Denver" state="CO" zip="80204" address="2755 West 17th Avenue" capacity="76273" surface="turf" roof_type="outdoor"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="14" sr_id="sr:competitor:4418"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="14" sr_id="sr:competitor:4430"/>
+      <scoring home_points="31" away_points="24">
+        <quarter id="7fa4851a-dfd5-4429-b104-7ba8a77d5a3a" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="733f076c-a3d7-4a0d-939b-babcfa8ce16b" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="f4cddc01-c4b5-4ae7-b938-1d56b9819bb4" number="3" sequence="3" home_points="10" away_points="7"/>
+        <quarter id="62de251f-c4e8-42ca-9b71-b7c91c2949cd" number="4" sequence="4" home_points="7" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="3f5242de-2db1-47ba-aa2f-d5193ea831ae" status="closed" scheduled="2000-12-10T18:03:45+00:00" attendance="78164" utc_offset="-5" entry_mode="INGEST" weather="Mostly Cloudy Temp: 37 F, Humidity: 67%, Wind: Variable 7 mph">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="14" sr_id="sr:competitor:4426"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="14" sr_id="sr:competitor:4345"/>
+      <scoring home_points="30" away_points="10">
+        <quarter id="150eafd9-c829-40a8-96a5-392ab4fbdfb7" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="d227e38a-b0ef-4a84-a032-fdc391419eca" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="d7dcb68a-83d7-4614-a4e0-79d81446f5bc" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="334bfda2-19e3-495a-871b-8c1b6f1f5093" number="4" sequence="4" home_points="10" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="44ae3fe8-2435-404a-95ff-453cb1b364fa" status="closed" scheduled="2000-12-10T18:02:39+00:00" attendance="74307" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 73 F, Humidity: 96%, Wind: Variable 5 mph">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="14" sr_id="sr:competitor:4287"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="14" sr_id="sr:competitor:4388"/>
+      <scoring home_points="13" away_points="16">
+        <quarter id="27f06c29-bcac-472a-8766-850774bef958" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="dfa8ae73-9048-41af-886e-c6bd9f40c808" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="439d0ee8-9b82-4b46-bbf6-0bee36f31f08" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="d63ca5a7-8e4b-460d-ac61-7d830fa36ed5" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="7735a674-6bc7-4eaf-9c41-c7d48720d2a0" status="closed" scheduled="2000-12-10T18:02:13+00:00" attendance="77481" utc_offset="-6" entry_mode="INGEST" weather="Overcast Temp: 30 F, Humidity: 85%, Wind: NW 13 mph">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="76416" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="14" sr_id="sr:competitor:4422"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="14" sr_id="sr:competitor:4415"/>
+      <scoring home_points="15" away_points="14">
+        <quarter id="8606ec89-9120-474e-9232-d49700ea1e09" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="db095ede-f782-49b2-b498-04b20ea2ddaa" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="2317f399-3a20-4c93-855c-e00341580669" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="0912fde1-c6d4-478c-ab19-28f3d0f71aa2" number="4" sequence="4" home_points="9" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="9f57ce68-0d10-436c-9dbc-4ad3375f2efd" status="closed" scheduled="2000-12-10T18:03:21+00:00" attendance="72318" utc_offset="-5" entry_mode="INGEST" weather="Temp: 33 F, Wind: South 6-12 mph">
+      <venue id="90c38d91-3774-4f5d-82ca-1c806828219f" name="FirstEnergy Stadium" city="Cleveland" state="OH" country="USA" zip="44114" address="100 Alfred Lerner Way" capacity="67895" surface="turf" roof_type="outdoor" sr_id="sr:venue:8177"/>
+      <home id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="15" sr_id="sr:competitor:4417"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="15" sr_id="sr:competitor:4428"/>
+      <scoring home_points="24" away_points="35">
+        <quarter id="ef045bc0-0b51-4e2b-a27e-7f4b982556d4" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="20afb038-40cd-49dd-b831-b10150056edc" number="2" sequence="2" home_points="14" away_points="14"/>
+        <quarter id="7435ce8b-2863-4194-9b8e-62ec5e14aa19" number="3" sequence="3" home_points="0" away_points="14"/>
+        <quarter id="da78e2b6-7f40-4388-8f49-ea24216cb8ec" number="4" sequence="4" home_points="10" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="a16999d5-3904-4f60-bc84-47a30a0b1abe" status="closed" scheduled="2000-12-10T18:03:29+00:00" attendance="66944" utc_offset="-6" entry_mode="INGEST" weather="Cloudy, chance of flurries. Temp: 36 F, Humidity: 85%, Wind: NW 12 mph">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="14" sr_id="sr:competitor:4391"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="14" sr_id="sr:competitor:4424"/>
+      <scoring home_points="24" away_points="17">
+        <quarter id="c1fbef86-09f2-483b-967c-d689758519ad" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="74ecb442-5509-41ef-bd91-c6d26ac85b1b" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="12aa3c61-3fd6-4760-9b3b-50c742439c0d" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="a4e9ea69-fcdf-49f2-83a9-f2c6a02a13ee" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="a7ea79d9-5140-46d9-9477-005ab03eacb3" status="closed" scheduled="2000-12-10T21:15:47+00:00" attendance="63467" utc_offset="-6" entry_mode="INGEST" weather="Partly Cloudy Skies Temp: 66 F, Humidity: 72%, Wind: 15 North mph">
+      <venue id="58a73652-bc9b-45d9-938c-7736c3c5d280" name="Texas Stadium" city="Irving" state="TX" zip="75061" address="2401 East Airport Freeway" capacity="65675" surface="artificial" roof_type="outdoor"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="14" sr_id="sr:competitor:4392"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="14" sr_id="sr:competitor:4432"/>
+      <scoring home_points="32" away_points="13">
+        <quarter id="7004f3de-5e83-40b8-8192-5cdd6b2d0488" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="066d2357-238b-452d-a49e-32cb32aa5ffb" number="2" sequence="2" home_points="6" away_points="7"/>
+        <quarter id="76c35ddf-65ff-4ad4-aac4-49ca26ce2282" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="e1bd4850-306a-4abc-a002-118186e32f41" number="4" sequence="4" home_points="10" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="a821fc34-4eee-495b-aaee-934b16b73556" status="closed" scheduled="2000-12-10T00:00:00+00:00" attendance="62632" utc_offset="-8" entry_mode="INGEST" weather="Overcast Skies Temp: 54 F, Humidity: 74%, Wind: W 9 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53286" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="14" sr_id="sr:competitor:4390"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="14" sr_id="sr:competitor:4427"/>
+      <scoring home_points="31" away_points="7">
+        <quarter id="aab79964-505a-4da9-b499-b5db771c03e5" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="86c741bc-eab9-4eb5-ba39-f7e9eebc632b" number="2" sequence="2" home_points="21" away_points="0"/>
+        <quarter id="a3c190c0-44a2-45b2-87b6-187592eee960" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="f06ef296-8ef1-4cd9-bf3c-f43d4138b230" number="4" sequence="4" home_points="10" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="ab0cf4de-72eb-49dc-aa75-a619da4a146f" status="closed" scheduled="2000-12-12T02:10:10+00:00" attendance="56671" utc_offset="-5" entry_mode="INGEST" weather="Temp: 72 F, Wind:   mph">
+      <venue id="8cb20830-5bb3-4bf2-aacb-492a0d90df10" name="RCA Dome" city="Indianapolis" state="IN" zip="46225" address="100 South Capitol Avenue" capacity="55531" surface="artificial" roof_type="dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="14" sr_id="sr:competitor:4421"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="14" sr_id="sr:competitor:4376"/>
+      <scoring home_points="44" away_points="20">
+        <quarter id="b536f7a2-d38f-4611-964b-cd0c35c2a2ea" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="e515675c-d7ba-4be2-b26a-76b6e1536c20" number="2" sequence="2" home_points="6" away_points="3"/>
+        <quarter id="1c65be8c-4708-4dde-a22e-1b79baa34c67" number="3" sequence="3" home_points="14" away_points="6"/>
+        <quarter id="3a4f0651-59e9-4b05-842c-cad303483879" number="4" sequence="4" home_points="21" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="c170356c-2ed7-470b-83c3-6ad3c3d597ab" status="closed" scheduled="2000-12-10T18:02:57+00:00" attendance="68805" utc_offset="-5" entry_mode="INGEST" weather="Light Rain likely - light NE winds Temp: 39 F, Humidity: 62%, Wind: NE 2 mph">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="14" sr_id="sr:competitor:4413"/>
+      <away id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="14"/>
+      <scoring home_points="24" away_points="3">
+        <quarter id="df1f31d0-32e6-4953-8d21-2d149033bf5a" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="9e99a420-9066-4a45-87af-4b3fff49ab34" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="d1deebeb-4d91-4a40-a06a-8d726f1ffdd3" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="0e0991e9-6abc-4d5e-a3d5-bf27f8d7408c" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="c1c695bd-4cdf-40b8-966a-90ca6fb762b1" status="closed" scheduled="2000-12-10T21:15:27+00:00" attendance="67892" utc_offset="-8" entry_mode="INGEST" weather="Overcast, chance of showers Temp: 55 F, Humidity: 80%, Wind: West 13 mph">
+      <venue id="6701808c-c329-482b-9834-2d29cb3185ff" name="Candlestick Park" city="San Francisco" state="CA" country="USA" zip="94124" address="602 Jamestown Avenue" capacity="69732" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="14" sr_id="sr:competitor:4389"/>
+      <away id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="14" sr_id="sr:competitor:4425"/>
+      <scoring home_points="27" away_points="31">
+        <quarter id="5ce394a8-7777-4052-9ea9-771a18697221" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="0c58adb6-ca87-4929-8b49-2acce08c1599" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="28d53a25-321b-460e-a252-a34ac35e5ad2" number="3" sequence="3" home_points="0" away_points="11"/>
+        <quarter id="80f1a39d-2919-4795-8545-817fe5e70092" number="4" sequence="4" home_points="13" away_points="17"/>
+      </scoring>
+    </game>
+    <game id="c46d9bf4-a5d0-457b-ab85-b05a708d3615" status="closed" scheduled="2000-12-10T21:16:05+00:00" attendance="66273" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="e86a743f-ee77-490f-acfb-3187b7a9633e" name="Edward Jones Dome" city="St. Louis" state="MO" country="USA" zip="63101" address="701 Convention Plaza" capacity="66000" surface="artificial" roof_type="dome"/>
+      <home id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="14"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="14" sr_id="sr:competitor:4423"/>
+      <scoring home_points="40" away_points="29">
+        <quarter id="04c025bc-a65f-4def-a326-4f23332350e2" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="9f810cef-1d0a-4377-9d9f-0401aabcbee9" number="2" sequence="2" home_points="6" away_points="7"/>
+        <quarter id="56d82ad9-9bd4-40e5-a9cf-557b7124add7" number="3" sequence="3" home_points="13" away_points="14"/>
+        <quarter id="fec6d628-58b3-4899-a124-e387215585b1" number="4" sequence="4" home_points="7" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="e02ea727-008b-477b-b9ef-f6c160dc76e5" status="closed" scheduled="2000-12-10T18:02:21+00:00" attendance="53472" utc_offset="-5" entry_mode="INGEST" weather="0% Rain Temp: 61 F, Wind: North 6 mph mph">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="TIAA Bank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="14" sr_id="sr:competitor:4386"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="14" sr_id="sr:competitor:4412"/>
+      <scoring home_points="44" away_points="10">
+        <quarter id="9700cfcb-d05f-4267-8529-2d8728de53e9" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="070d0ec0-f0a0-47db-ae1f-2e3577409d31" number="2" sequence="2" home_points="17" away_points="3"/>
+        <quarter id="e8c4cd70-9a76-4215-ab36-1dd21bcdd0a0" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="4476b211-891f-43c1-a47f-da0ac8810861" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="e66bda8c-1ecb-43ba-a961-a34e51647ac1" status="closed" scheduled="2000-12-10T18:04:05+00:00" attendance="68498" utc_offset="-6" entry_mode="INGEST" weather="Mostly Cloudy Temp: 52 F, Humidity: 80%, Wind: South 7 mph">
+      <venue id="5295c1b7-c85c-49cb-9569-1707c65324e5" name="Nissan Stadium" city="Nashville" state="TN" country="USA" zip="37213" address="One Titans Way" capacity="69143" surface="turf" roof_type="outdoor"/>
+      <home id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="14" sr_id="sr:competitor:367364"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="14" sr_id="sr:competitor:4416"/>
+      <scoring home_points="35" away_points="3">
+        <quarter id="6e8a5678-4de9-4e87-924e-6143a1bad21f" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="cb84ace8-038a-44f2-b56b-2c6a4cd9654a" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="1f90f589-7072-4ee1-8fa1-af02b0fe96e2" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="1c2c3d58-3282-4a83-aeee-30c1e905c120" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:39:34 +0000 -->

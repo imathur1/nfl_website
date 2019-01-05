@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:34:09 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="01335d6d-e8f5-4b55-b803-7ee187ad2d00" year="2011" type="REG" name="REG">
+  <week id="72a70dd6-fb48-4bc9-92ff-54b3a19789bd" sequence="14" title="14">
+    <game id="02f6add1-0237-4c39-b57c-2e21050479b2" status="closed" scheduled="2011-12-11T21:05:52+00:00" attendance="76487" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="13" sr_id="sr:competitor:4418"/>
+      <away id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="13" sr_id="sr:competitor:4391"/>
+      <scoring home_points="13" away_points="10">
+        <quarter id="95a42df8-2752-4f08-a8db-2bbd281f70e6" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="18c3cc01-bf31-422e-b617-1fb28f9980c0" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="b4f3141b-0ae5-48f1-9737-fa568460e436" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="2e13d0b4-87fb-4e9c-bad2-a5246b9a4460" number="4" sequence="4" home_points="10" away_points="3"/>
+        <overtime id="3714a79b-1d6a-4e80-8400-6596adecb6d6" number="1" sequence="5" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="0a111502-0640-4bd2-8461-2cef70a8e49e" status="closed" scheduled="2011-12-11T21:16:03+00:00" attendance="70524" utc_offset="-6" entry_mode="INGEST">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="81435" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="13" sr_id="sr:competitor:4420"/>
+      <away id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="13" sr_id="sr:competitor:4390"/>
+      <scoring home_points="46" away_points="16">
+        <quarter id="57ed4165-f2a8-40c8-99b7-b322f7cc195c" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="52e14fb1-6267-4be9-8c95-45e14c7cd676" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="d912bef3-c203-4b42-88ee-110bea4d3520" number="3" sequence="3" home_points="12" away_points="7"/>
+        <quarter id="f55aa0d9-dd77-433a-a52e-af8f0cbc8558" number="4" sequence="4" home_points="3" away_points="9"/>
+      </scoring>
+    </game>
+    <game id="0cb57bc7-d5e8-4ae8-80a1-e0418e9c06f4" status="closed" scheduled="2011-12-11T21:05:39+00:00" attendance="60808" utc_offset="-7" entry_mode="INGEST">
+      <venue id="f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84" name="State Farm Stadium" city="Glendale" state="AZ" country="USA" zip="85305" address="One Cardinals Drive" capacity="63400" surface="turf" roof_type="retractable_dome"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="13" sr_id="sr:competitor:4412"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="13" sr_id="sr:competitor:4389"/>
+      <scoring home_points="21" away_points="19">
+        <quarter id="dc7ff35e-3ba4-43a4-affb-49f9eed9bb7f" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="844d6bb9-69d9-4cff-ad65-5b561ee49c2c" number="2" sequence="2" home_points="7" away_points="9"/>
+        <quarter id="30fb2067-cb78-41fd-9f5b-ebb8c5068a57" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="c9a8d146-e4ed-4116-a520-71a001036a9f" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="183ed1ef-bf28-471c-be28-be35d8b17147" status="closed" scheduled="2011-12-11T21:15:37+00:00" attendance="62494" utc_offset="-8" entry_mode="INGEST">
+      <venue id="7ca47702-8951-45be-a4f5-3e7d78f8f399" name="Qualcomm Stadium" city="San Diego" state="CA" country="USA" zip="92108" address="9449 Friars Road" capacity="70561" surface="turf" roof_type="outdoor"/>
+      <home id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="13"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="13" sr_id="sr:competitor:4376"/>
+      <scoring home_points="37" away_points="10">
+        <quarter id="1ccf1deb-ba5d-419f-9908-f6979bf3f900" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="647c16fc-9381-4849-a185-07f6a117a3d3" number="2" sequence="2" home_points="9" away_points="0"/>
+        <quarter id="66ed05c4-0e4d-4f15-84f1-53b85bc128fb" number="3" sequence="3" home_points="14" away_points="10"/>
+        <quarter id="c5dbda56-98dc-4829-a1ca-08c8346216f2" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="1f6268bf-707a-45f1-8fe9-0d06be428a39" status="closed" scheduled="2011-12-09T01:29:17+00:00" attendance="60754" utc_offset="-5" entry_mode="INGEST">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="68400" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="13" sr_id="sr:competitor:4345"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="13" sr_id="sr:competitor:4417"/>
+      <scoring home_points="14" away_points="3">
+        <quarter id="fda4e883-37f5-4ee4-ace1-8452672ec9c2" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="4f607a91-9a8a-43c7-9227-33b531a40783" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="8193d04b-3c2c-41c5-ada1-c54ad43cc7e0" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="3ee2bbf7-ad11-4c86-9367-a5e5811ff1c1" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="4afcda68-f6a5-4bea-9dcd-1a54e031e439" status="closed" scheduled="2011-12-11T18:03:02+00:00" attendance="63988" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6e3bcf22-277d-4c06-b019-62aded51654f" name="Ford Field" city="Detroit" state="MI" country="USA" zip="48226" address="2000 Brush Street" capacity="65000" surface="artificial" roof_type="dome"/>
+      <home id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="13" sr_id="sr:competitor:4419"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="13" sr_id="sr:competitor:4423"/>
+      <scoring home_points="34" away_points="28">
+        <quarter id="4294afac-7be3-41ea-ab8c-2d9d3b1c8f9b" number="1" sequence="1" home_points="21" away_points="7"/>
+        <quarter id="3fdb6ab6-80e2-4232-82cf-bcefa8b87583" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="0c2bcfcd-56e6-4b51-9e08-becf88c9c4a2" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="374cc646-1239-4428-9725-dcc383a68c57" number="4" sequence="4" home_points="3" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="5abd3571-0073-48d6-a4b6-0860d6531a6b" status="closed" scheduled="2011-12-11T18:03:24+00:00" attendance="62562" utc_offset="-5" entry_mode="INGEST">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="TIAA Bank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="13" sr_id="sr:competitor:4386"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="13" sr_id="sr:competitor:4388"/>
+      <scoring home_points="41" away_points="14">
+        <quarter id="f5c78b23-c36c-4224-85f2-bc8957ca9da6" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="bdb98e18-da40-4d89-b829-5b13f174c2ab" number="2" sequence="2" home_points="28" away_points="7"/>
+        <quarter id="60f49efe-b262-4f08-ba95-1a58969f1852" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="0788246e-608e-4c54-8b84-6ae9b7ed3220" number="4" sequence="4" home_points="13" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="7338d30d-5b13-4e40-b3b2-bd46f22da4ec" status="closed" scheduled="2011-12-11T18:04:17+00:00" attendance="72680" utc_offset="-5" entry_mode="INGEST">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="75419" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="13" sr_id="sr:competitor:4415"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="13" sr_id="sr:competitor:4393"/>
+      <scoring home_points="23" away_points="31">
+        <quarter id="0ccf4e20-0ecb-46af-93f0-50cb8bef381a" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="b8bd58af-02b0-4642-bfe9-41f999eb0543" number="2" sequence="2" home_points="16" away_points="0"/>
+        <quarter id="a275b3bc-eae5-4eb9-a405-0b373607cd34" number="3" sequence="3" home_points="0" away_points="10"/>
+        <quarter id="02c7b71d-d69c-45f0-b8c6-a46059ed9859" number="4" sequence="4" home_points="0" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="7b6c6d95-f9cf-46d8-9af6-b86c23f694f0" status="closed" scheduled="2011-12-11T18:03:26+00:00" attendance="67823" utc_offset="-5" entry_mode="INGEST">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="13" sr_id="sr:competitor:4287"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="13" sr_id="sr:competitor:4428"/>
+      <scoring home_points="10" away_points="26">
+        <quarter id="90ac1e9a-79bb-4d65-9061-37a989138a68" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="7a99902d-aff1-4b21-b94d-e22a561b5dbf" number="2" sequence="2" home_points="0" away_points="24"/>
+        <quarter id="69ab1b2b-5651-4709-9111-6ef1ed0d7ecf" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="83355af7-37e3-48d4-a440-b57c7995c57f" number="4" sequence="4" home_points="0" away_points="2"/>
+      </scoring>
+    </game>
+    <game id="88f2d976-c9ae-4e1e-8743-f294d26f0623" status="closed" scheduled="2011-12-11T18:02:37+00:00" attendance="79088" utc_offset="-5" entry_mode="INGEST">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="13" sr_id="sr:competitor:4427"/>
+      <away id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="13" sr_id="sr:competitor:4422"/>
+      <scoring home_points="37" away_points="10">
+        <quarter id="06436403-6bcd-449e-b560-a8c8dd51339e" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="c8d4ac5e-d3c4-438d-8302-53a50300f6a2" number="2" sequence="2" home_points="21" away_points="0"/>
+        <quarter id="bb6c156c-9798-4707-88fb-a31111b4c1b7" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="cf3af33e-aa34-48c2-9001-e2715366111b" number="4" sequence="4" home_points="2" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="a843cc29-c6d2-4e93-b6fa-382fd76a63e0" status="closed" scheduled="2011-12-12T01:30:44+00:00" attendance="95952" utc_offset="-6" entry_mode="INGEST">
+      <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="13" sr_id="sr:competitor:4392"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="13" sr_id="sr:competitor:4426"/>
+      <scoring home_points="34" away_points="37">
+        <quarter id="5099db53-6f33-405b-8f1a-93bf0b5fdca3" number="1" sequence="1" home_points="7" away_points="5"/>
+        <quarter id="d2f91870-2b76-419a-896c-2ef8662f661a" number="2" sequence="2" home_points="10" away_points="10"/>
+        <quarter id="52ad8e05-a0b5-4df9-b8e7-876ca89ebf2a" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="1147e9fa-165d-499f-ba47-412c3b499b56" number="4" sequence="4" home_points="14" away_points="15"/>
+      </scoring>
+    </game>
+    <game id="afbf439a-a77a-4405-a69b-be5f923cafff" status="closed" scheduled="2011-12-11T18:03:49+00:00" attendance="69143" utc_offset="-6" entry_mode="INGEST">
+      <venue id="5295c1b7-c85c-49cb-9569-1707c65324e5" name="Nissan Stadium" city="Nashville" state="TN" country="USA" zip="37213" address="One Titans Way" capacity="69143" surface="turf" roof_type="outdoor"/>
+      <home id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="13" sr_id="sr:competitor:367364"/>
+      <away id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="13" sr_id="sr:competitor:4425"/>
+      <scoring home_points="17" away_points="22">
+        <quarter id="3bffcce5-167b-49f9-9671-c1dae4935b4e" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="a6dfa8a5-76f4-4f1a-85f7-fe59dbae67a4" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="2c6a0038-d063-45f6-a04c-92d4691dcea9" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="640ada3f-9d6a-4f69-bc77-fb97c895d644" number="4" sequence="4" home_points="7" away_points="13"/>
+      </scoring>
+    </game>
+    <game id="bd2681c3-4810-4413-a7f9-c5c278f13103" status="closed" scheduled="2011-12-11T18:02:50+00:00" attendance="77825" utc_offset="-5" entry_mode="INGEST">
+      <venue id="7c11bb2d-4a53-4842-b842-0f1c63ed78e9" name="FedExField" city="Landover" state="MD" country="USA" zip="20785" address="1600 FedEx Way" capacity="82000" surface="turf" roof_type="outdoor"/>
+      <home id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="13" sr_id="sr:competitor:4432"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="13" sr_id="sr:competitor:4424"/>
+      <scoring home_points="27" away_points="34">
+        <quarter id="e02dbc74-611c-434d-b1af-dfe4c79412d5" number="1" sequence="1" home_points="10" away_points="14"/>
+        <quarter id="96c4f355-a9c3-442e-b82c-377dfdb25dca" number="2" sequence="2" home_points="10" away_points="6"/>
+        <quarter id="c0be248e-3df8-4882-95ae-6594c17c9d01" number="3" sequence="3" home_points="7" away_points="14"/>
+        <quarter id="71bf2866-3f45-40a7-bf2e-29514e22f678" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="dce0cb90-0658-4436-9c2c-8c61e5205043" status="closed" scheduled="2011-12-13T01:40:08+00:00" attendance="66577" utc_offset="-8" entry_mode="INGEST">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="13" sr_id="sr:competitor:4430"/>
+      <away id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="13"/>
+      <scoring home_points="30" away_points="13">
+        <quarter id="e08c4c32-202a-4f83-98f8-e3f021801bbe" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="a3bfdc4a-a55c-4113-98d0-596d9a5c25af" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="3237b5cf-fdd4-48f5-a147-f18aba44c827" number="3" sequence="3" home_points="10" away_points="3"/>
+        <quarter id="f53fe80b-957e-4493-92a7-a7a926726af7" number="4" sequence="4" home_points="10" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="df06477d-da9d-4093-b6dc-e2cc0c9e80f2" status="closed" scheduled="2011-12-11T18:02:46+00:00" attendance="41202" utc_offset="-5" entry_mode="INGEST">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65515" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="13" sr_id="sr:competitor:4416"/>
+      <away id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="13" sr_id="sr:competitor:4324"/>
+      <scoring home_points="19" away_points="20">
+        <quarter id="24994829-6ea6-472c-b88c-f9b52f0f0003" number="1" sequence="1" home_points="6" away_points="3"/>
+        <quarter id="632c5a92-0fcf-4cab-91ef-9589a28a63a2" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="93a9fa04-accf-4302-ba6b-c1436d9d4114" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="1b93ec0d-39fd-4204-a28f-503574bb1349" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="dff258d1-4396-411b-9791-21111d0b5585" status="closed" scheduled="2011-12-11T18:04:01+00:00" attendance="71187" utc_offset="-5" entry_mode="INGEST">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="13" sr_id="sr:competitor:4413"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="13" sr_id="sr:competitor:4421"/>
+      <scoring home_points="24" away_points="10">
+        <quarter id="ff5af68a-b3ce-465b-9961-75f442a2779d" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="c7eaadac-5303-4972-ae53-0d1f0077d111" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="eaa520d9-8cae-439e-9d7c-2365092fced5" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="990e1d20-2294-4a53-8385-a163823d0976" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:34:09 +0000 -->

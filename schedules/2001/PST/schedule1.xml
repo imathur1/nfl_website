@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:40:23 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="dc538d40-963e-4687-9081-33cc159bfbff" year="2001" type="PST" name="PST">
+  <week id="8bafeca5-27e3-41ed-8234-7cdb6dfbc16e" sequence="1" title="1">
+    <game id="107f843e-3d9f-4886-98bd-a8a05bf63c69" status="closed" scheduled="2002-01-13T02:06:00+00:00" attendance="61503" utc_offset="-8" entry_mode="INGEST" weather="Clear Skies Temp: 53 F, Humidity: 60%, Wind: NW 8 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53286" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="1" sr_id="sr:competitor:4390"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="1" sr_id="sr:competitor:4427"/>
+      <scoring home_points="38" away_points="24">
+        <quarter id="9cc94b5b-c527-4aeb-87ad-d839e2f2a7c2" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="f1de20a0-812d-472f-a237-e199bcb439b7" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="c79b477e-5902-4eef-9b2d-042e42bad2cf" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="c40abf45-65cc-4f9f-9f8a-c6274a55055a" number="4" sequence="4" home_points="22" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="99b48aa2-fffc-4a69-a1f0-bb26c589a2bc" status="closed" scheduled="2002-01-13T21:05:35+00:00" attendance="72251" utc_offset="-5" entry_mode="INGEST">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="1" sr_id="sr:competitor:4287"/>
+      <away id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="1" sr_id="sr:competitor:4413"/>
+      <scoring home_points="3" away_points="20">
+        <quarter id="55ae0b46-fa84-49f1-92f8-b848e14ddd66" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="2da78bc0-34c1-4bc9-a7cf-f36bafba478b" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="dfa5f4ac-d4e1-4661-8fe0-058604ae289a" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="2935a891-a1f2-45a4-953c-f7ec94a8eb75" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="a358fa2b-f65c-4fb2-a827-5b7d97a9016b" status="closed" scheduled="2002-01-13T17:35:59+00:00" attendance="59825" utc_offset="-6" entry_mode="INGEST">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="81435" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="1" sr_id="sr:competitor:4420"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="1" sr_id="sr:competitor:4389"/>
+      <scoring home_points="25" away_points="15">
+        <quarter id="a640e7d9-7c9f-46a2-84f1-c333ba440141" number="1" sequence="1" home_points="6" away_points="0"/>
+        <quarter id="ee0696da-b27d-4c74-9fbe-579d050102c3" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="424704fd-8da5-4b46-b361-83aa0aabe4c9" number="3" sequence="3" home_points="9" away_points="0"/>
+        <quarter id="88f54caa-93c9-499c-8d95-727b65734e2e" number="4" sequence="4" home_points="10" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="f2eef567-aa1c-414e-baf3-2ac55bfa839f" status="closed" scheduled="2002-01-12T21:38:33+00:00" attendance="65847" utc_offset="-5" entry_mode="INGEST" weather="Clear Temp: 46 F, Humidity: 55%, Wind: SSW 10 mph">
+      <venue id="905f3091-107b-4e7d-af70-2e3822c09aee" name="Veterans Stadium" city="Philadelphia" state="PA" zip="19148" address="3501 South Broad Street" capacity="65352" surface="artificial" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="1" sr_id="sr:competitor:4428"/>
+      <away id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="1" sr_id="sr:competitor:4388"/>
+      <scoring home_points="31" away_points="9">
+        <quarter id="a43ab262-9f40-446f-a1a2-73f8d59ba7b7" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="54355a18-de73-460c-8b99-da2d631e67dc" number="2" sequence="2" home_points="14" away_points="6"/>
+        <quarter id="34aff8e6-2dbe-4f20-aab1-232df2a046fe" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="44b50e13-d511-4ee7-8289-98e56b45137f" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:40:23 +0000 -->

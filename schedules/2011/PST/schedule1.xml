@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:34:16 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="1a42be6c-dfa1-44a7-bba1-8a82a7500ea6" year="2011" type="PST" name="PST">
+  <week id="c0f251ed-3363-4a34-901d-ed296ca874c2" sequence="1" title="1">
+    <game id="3cab9296-429d-4e4d-9b93-add4e1ef10ea" status="closed" scheduled="2012-01-08T18:06:22+00:00" attendance="79909" utc_offset="-5" entry_mode="INGEST">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="1" sr_id="sr:competitor:4426"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="1" sr_id="sr:competitor:4393"/>
+      <scoring home_points="24" away_points="2">
+        <quarter id="8ae87640-268e-4957-8c9d-7d9cee243cbb" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="27652b32-d3f7-4755-9c8a-08fa727f3ef9" number="2" sequence="2" home_points="7" away_points="2"/>
+        <quarter id="20b80c7a-d2af-4db4-ba39-b9aefc759c8a" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="17b5f77b-9e35-440f-a533-cc5493a635bd" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="c98093ba-9710-4a0c-99db-c3018f70dfa6" status="closed" scheduled="2012-01-07T21:37:15+00:00" attendance="71725" utc_offset="-6" entry_mode="INGEST">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="1" sr_id="sr:competitor:4324"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="1" sr_id="sr:competitor:4416"/>
+      <scoring home_points="31" away_points="10">
+        <quarter id="5b3dbdf1-59e5-4bfe-881e-1a70acd94a7c" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="ce6573f9-c2ba-43b7-b9e2-6180fdb4aae5" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="13f217d6-88ad-4178-b74a-5045b8d75801" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="e8a79833-8f0e-43cf-bbbf-6ffdf41b026c" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="cc9ac715-bc71-406d-97ce-e60b86ba213a" status="closed" scheduled="2012-01-08T21:40:42+00:00" attendance="75970" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="1" sr_id="sr:competitor:4418"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="1" sr_id="sr:competitor:4345"/>
+      <scoring home_points="29" away_points="23">
+        <quarter id="eb42be79-be7b-49c8-a15c-6e2e211c1c88" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="9cccc509-375f-4e86-b499-ef4be7657a2f" number="2" sequence="2" home_points="20" away_points="0"/>
+        <quarter id="2edd2da5-a69c-45aa-a941-81887ba5354c" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="a82382f2-de26-4223-a95f-e5bb06c97d14" number="4" sequence="4" home_points="3" away_points="10"/>
+        <overtime id="21cda5c2-209a-41a0-bf36-de52d8a7f420" number="1" sequence="5" home_points="6" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="e1f0755f-9f08-4631-8d63-c6c336143b3b" status="closed" scheduled="2012-01-08T01:09:19+00:00" attendance="73038" utc_offset="-6" entry_mode="INGEST">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="1" sr_id="sr:competitor:4425"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="1" sr_id="sr:competitor:4419"/>
+      <scoring home_points="45" away_points="28">
+        <quarter id="d6b61d95-3f97-4c64-9611-75d439fe6017" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="d4f53f70-6531-404d-94c1-0f7706cb3b0a" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="76de38f6-281d-46b4-8c10-1a4e6ce4972f" number="3" sequence="3" home_points="14" away_points="7"/>
+        <quarter id="3220cd64-e9c1-492c-970f-0ece143ae999" number="4" sequence="4" home_points="21" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:34:16 +0000 -->

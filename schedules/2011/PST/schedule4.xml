@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:34:20 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="1a42be6c-dfa1-44a7-bba1-8a82a7500ea6" year="2011" type="PST" name="PST">
+  <week id="1e517698-e992-4a5c-993d-748ca4ab9ba4" sequence="4" title="4">
+    <game id="d3668e15-6743-4106-8527-636ab9d6de32" status="closed" scheduled="2012-02-05T23:30:31+00:00" attendance="68658" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6ed18563-53e0-46c2-a91d-12d73a16456d" name="Lucas Oil Stadium" city="Indianapolis" state="IN" country="USA" zip="46225" address="500 South Capitol Avenue" capacity="67000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="3" sr_id="sr:competitor:4424"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="4" sr_id="sr:competitor:4426"/>
+      <scoring home_points="17" away_points="21">
+        <quarter id="c39703d3-59e8-41a2-ad95-98dae26814e5" number="1" sequence="1" home_points="0" away_points="9"/>
+        <quarter id="a528f4c5-aef4-47ba-a84b-fd9bbc36ddfb" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="84d633b0-b27e-4994-a6fb-249d95775393" number="3" sequence="3" home_points="7" away_points="6"/>
+        <quarter id="9b88b0b9-f1e1-4a85-a7fe-36cffba4cbee" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:34:20 +0000 -->

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:33:05 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="854cc6a0-3fdc-4239-b950-191672a5dbee" year="2010" type="REG" name="REG">
+  <week id="06c88ea4-2fa5-485d-a055-46cb81354b43" sequence="3" title="3">
+    <game id="02c542a0-2253-4262-80bd-4aa57ce77f06" status="closed" scheduled="2010-09-26T17:03:54+00:00" attendance="68188" utc_offset="-6" entry_mode="INGEST">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="76416" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="3" sr_id="sr:competitor:4422"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="3" sr_id="sr:competitor:4389"/>
+      <scoring home_points="31" away_points="10">
+        <quarter id="fbc569b7-ec9a-4ce7-879a-0644624a135d" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="5bfaa93f-da3c-4c70-86bb-8be9e79610c7" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="20256c3b-dcde-404e-817f-5abe0709e050" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="4f4c133d-3a72-4116-b95d-ceec76b24611" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="04352bbe-4e21-43ca-aa09-358cb76aa9d0" status="closed" scheduled="2010-09-26T17:03:15+00:00" attendance="61036" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="3" sr_id="sr:competitor:4388"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="3" sr_id="sr:competitor:4345"/>
+      <scoring home_points="13" away_points="38">
+        <quarter id="2f94a3dd-af41-4300-8c5e-372df0d53fb4" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="d595b538-5dfa-4c52-aaa4-d18fa28d20a1" number="2" sequence="2" home_points="3" away_points="21"/>
+        <quarter id="c5ef74d7-1828-4c3b-9f11-366227e08803" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="879a0cfa-a83c-4191-a570-50e9a7454081" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="24b0fdef-1d77-4b4b-8e1b-6d940332806a" status="closed" scheduled="2010-09-26T17:03:03+00:00" attendance="70051" utc_offset="-6" entry_mode="INGEST">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="3" sr_id="sr:competitor:4425"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="3" sr_id="sr:competitor:4393"/>
+      <scoring home_points="24" away_points="27">
+        <quarter id="535c9910-29a9-4ce2-af46-f4b2088f8f14" number="1" sequence="1" home_points="14" away_points="7"/>
+        <quarter id="b939b087-638d-45f2-b367-d395ed881cd1" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="0a2cb784-cfb2-415f-87a5-82fd789ee7e8" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="905afbcb-4769-4222-8f6c-ea64441d701a" number="4" sequence="4" home_points="3" away_points="7"/>
+        <overtime id="b15b2470-6f41-4015-a613-d50e401ba8b4" number="1" sequence="5" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="25fbcc62-ffec-4d73-9c41-2125571588dd" status="closed" scheduled="2010-09-26T17:03:14+00:00" attendance="68756" utc_offset="-5" entry_mode="INGEST">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="3" sr_id="sr:competitor:4424"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="3" sr_id="sr:competitor:4376"/>
+      <scoring home_points="38" away_points="30">
+        <quarter id="7a5e0da2-2c06-413b-945e-0ed43b470d81" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="403aa859-166c-4c98-9346-5688bf517f47" number="2" sequence="2" home_points="10" away_points="13"/>
+        <quarter id="7942fbff-80e3-4680-a471-7ee5b049fb90" number="3" sequence="3" home_points="14" away_points="7"/>
+        <quarter id="4046726d-3230-4a09-8280-0fea08214fda" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="2833edb1-ecef-49cc-842c-bfdeefed2c32" status="closed" scheduled="2010-09-26T20:05:33+00:00" attendance="63256" utc_offset="-5" entry_mode="INGEST">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="TIAA Bank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="3" sr_id="sr:competitor:4386"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="3" sr_id="sr:competitor:4428"/>
+      <scoring home_points="3" away_points="28">
+        <quarter id="249bbcab-c3cc-4d98-a224-a4063ada020d" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="10ed283e-25b6-4e7b-a671-b053d8ac4303" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="23c1cf92-d83c-4153-bbfe-6c4b6012ff39" number="3" sequence="3" home_points="0" away_points="14"/>
+        <quarter id="e8fc3982-4355-46b2-b3b7-a6b0e6a5ee80" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="37a54112-3519-411a-a319-789a30532945" status="closed" scheduled="2010-09-26T20:15:43+00:00" attendance="67106" utc_offset="-8" entry_mode="INGEST">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="3" sr_id="sr:competitor:4430"/>
+      <away id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="3"/>
+      <scoring home_points="27" away_points="20">
+        <quarter id="bd9e305c-b653-47d9-bc44-cebd3b829d2a" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="412aee4a-cb9a-41e4-a088-90ae2920a835" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="2cf451ca-a6d0-4f78-adb8-e0617b7ec14c" number="3" sequence="3" home_points="7" away_points="12"/>
+        <quarter id="65e9f7f7-02c9-42c9-b918-1ded98cab045" number="4" sequence="4" home_points="10" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="6cc06dcf-5cd1-4dad-a6fd-2fc0f5ce32b2" status="closed" scheduled="2010-09-26T17:03:33+00:00" attendance="71119" utc_offset="-5" entry_mode="INGEST">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="3" sr_id="sr:competitor:4413"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="3" sr_id="sr:competitor:4417"/>
+      <scoring home_points="24" away_points="17">
+        <quarter id="04a72889-1cb0-4e8c-ae93-8441b412a268" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="295462c7-df0d-4fcb-bb4e-71dc7214064a" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="05368386-d2ee-44bc-a62a-9ff5d9cc58bb" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="47616251-636c-4fa2-bab7-4a3e485f7754" number="4" sequence="4" home_points="10" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="6faab056-c0e6-4cdf-b97c-60b42c7e516f" status="closed" scheduled="2010-09-26T20:15:49+00:00" attendance="62439" utc_offset="-7" entry_mode="INGEST">
+      <venue id="f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84" name="State Farm Stadium" city="Glendale" state="AZ" country="USA" zip="85305" address="One Cardinals Drive" capacity="63400" surface="turf" roof_type="retractable_dome"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="3" sr_id="sr:competitor:4412"/>
+      <away id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="3" sr_id="sr:competitor:4390"/>
+      <scoring home_points="24" away_points="23">
+        <quarter id="97cd2822-9466-4444-ab77-545167a90cc0" number="1" sequence="1" home_points="10" away_points="13"/>
+        <quarter id="f542972f-832a-4318-853d-ad2aeab9d5cf" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="52d8a1b7-43e8-4b7f-9283-6d6b4e451409" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="f30d6081-f038-4616-82dd-ba6206b5bbc7" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="92d4ec9c-2bbb-4153-a28e-b46dfb15a9a3" status="closed" scheduled="2010-09-26T17:02:29+00:00" attendance="78386" utc_offset="-5" entry_mode="INGEST">
+      <venue id="5d4c85c7-d84e-4e10-bd6a-8a15ebecca5c" name="MetLife Stadium" city="East Rutherford" state="NJ" country="USA" zip="07073" address="One MetLife Stadium Drive" capacity="82500" surface="artificial" roof_type="outdoor" sr_id="sr:venue:1981"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="3" sr_id="sr:competitor:4426"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="3" sr_id="sr:competitor:367364"/>
+      <scoring home_points="10" away_points="29">
+        <quarter id="5d250787-a702-40af-8296-11af5e62e506" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="16a2b10e-3e68-4687-ad28-4275d5d6736a" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="4e4a142e-0bea-445f-905a-5e878d23f7ad" number="3" sequence="3" home_points="0" away_points="9"/>
+        <quarter id="f06fb3d8-8ee2-4519-b755-798f6083433e" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="95a8938c-8139-4780-8a0c-4494df34929a" status="closed" scheduled="2010-09-28T00:40:48+00:00" attendance="62179" utc_offset="-6" entry_mode="INGEST">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="3" sr_id="sr:competitor:4391"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="3" sr_id="sr:competitor:4420"/>
+      <scoring home_points="20" away_points="17">
+        <quarter id="9f896548-0567-4f48-b663-3fb8d8ec5efc" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="6412d635-66b8-411f-ae8c-ff220673ac6c" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="70e3a00c-ba33-4848-8e1e-2d1bb564327c" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="a5ac9134-09a9-4502-aed9-c6b7f43f9969" number="4" sequence="4" home_points="13" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="9b6736c0-550e-419d-9feb-b7a1049df321" status="closed" scheduled="2010-09-26T20:06:09+00:00" attendance="52370" utc_offset="-6" entry_mode="INGEST">
+      <venue id="e86a743f-ee77-490f-acfb-3187b7a9633e" name="Edward Jones Dome" city="St. Louis" state="MO" country="USA" zip="63101" address="701 Convention Plaza" capacity="66000" surface="artificial" roof_type="dome"/>
+      <home id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="3"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="3" sr_id="sr:competitor:4432"/>
+      <scoring home_points="30" away_points="16">
+        <quarter id="6c8c33b3-330e-456d-ab85-addbcbf85da2" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="88eda489-8abb-4ba4-a55d-f1a063d3acb2" number="2" sequence="2" home_points="0" away_points="13"/>
+        <quarter id="9df0d3a4-1dcd-4751-a32c-e8badff48050" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="3361efa6-fd26-48fa-98e9-8bd0625b9aca" number="4" sequence="4" home_points="9" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="aa8890d2-3eb1-4bd9-a300-c52092a5b327" status="closed" scheduled="2010-09-26T20:16:09+00:00" attendance="76401" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="3" sr_id="sr:competitor:4418"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="3" sr_id="sr:competitor:4421"/>
+      <scoring home_points="13" away_points="27">
+        <quarter id="63a31a87-be5f-4555-b616-92df188b944f" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="290ad53d-ad34-4ae9-b809-8ab534811393" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="ee5131fd-6550-42df-a76d-92ce5a561e0f" number="3" sequence="3" home_points="10" away_points="7"/>
+        <quarter id="413bcc8e-c514-4105-addd-d14e01fe26ec" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="c1873131-985a-4558-9f89-db225513340c" status="closed" scheduled="2010-09-26T17:03:23+00:00" attendance="72887" utc_offset="-5" entry_mode="INGEST">
+      <venue id="39be9ed4-3292-49ac-8699-a381de3a4969" name="Bank of America Stadium" city="Charlotte" state="NC" country="USA" zip="28202" address="800 South Mint Street" capacity="75419" surface="turf" roof_type="outdoor"/>
+      <home id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="3" sr_id="sr:competitor:4415"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="3" sr_id="sr:competitor:4416"/>
+      <scoring home_points="7" away_points="20">
+        <quarter id="8c09d848-17ef-4b26-8425-da8be6201c37" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="98aa6fc6-79a3-406a-a51d-7e822df2857b" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="26665f7f-9fa5-48ed-bf7f-d6003ae4de11" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="12a65acc-2661-4454-88cf-325f497ba5ef" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="cba9d48e-a0e8-4758-88fb-933ceacdbffc" status="closed" scheduled="2010-09-26T17:02:45+00:00" attendance="63377" utc_offset="-6" entry_mode="INGEST">
+      <venue id="1fede74c-50a2-4036-a1c0-b4d1e53ca98c" name="Mall of America Field" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 South 5th Street" capacity="64111" surface="artificial" roof_type="dome"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="3" sr_id="sr:competitor:4423"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="3" sr_id="sr:competitor:4419"/>
+      <scoring home_points="24" away_points="10">
+        <quarter id="970cea10-596a-4226-809a-6a6dee6757f2" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="fadba0cf-1ccb-451b-88f5-90250e18271c" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="5d3abc7a-de12-44a4-a279-a47e1ac9c04a" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="e28ea351-906d-438d-b8a4-9d5843f0bcd0" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="db767d4f-36b0-4ef6-836c-5525f558daa8" status="closed" scheduled="2010-09-26T17:03:12+00:00" attendance="71456" utc_offset="-6" entry_mode="INGEST">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="3" sr_id="sr:competitor:4324"/>
+      <away id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="3" sr_id="sr:competitor:4392"/>
+      <scoring home_points="13" away_points="27">
+        <quarter id="df05e245-6a0e-45f0-9e60-e5654a3f6bc6" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="84a6e8a3-2049-4d7e-ac1c-c56dc31d833e" number="2" sequence="2" home_points="3" away_points="10"/>
+        <quarter id="b23161e3-f545-4ce6-810a-1391cc7e5cc5" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="a340c343-b25a-451c-98e3-125654e8d9de" number="4" sequence="4" home_points="10" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="e1e80898-02a6-4dfc-bd03-ef87d25f70b5" status="closed" scheduled="2010-09-27T00:30:53+00:00" attendance="70481" utc_offset="-5" entry_mode="INGEST">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="3" sr_id="sr:competitor:4287"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="3" sr_id="sr:competitor:4427"/>
+      <scoring home_points="23" away_points="31">
+        <quarter id="b8a1f305-ba2d-4bd7-9f7f-d90f4d924426" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="5d07e472-8634-447a-8070-eacef0219a2e" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="dc8ddc37-4721-4bcb-97b6-36374c35fe89" number="3" sequence="3" home_points="10" away_points="7"/>
+        <quarter id="14f5e546-9a73-4781-b08a-c5a5f88c78f7" number="4" sequence="4" home_points="3" away_points="10"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:33:05 +0000 -->

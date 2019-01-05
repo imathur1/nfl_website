@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:30:36 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="8b383dbc-88ae-45b4-af94-a70729a6a9b3" year="2006" type="PST" name="PST">
+  <week id="202965f8-15fc-4783-9291-2e81ad5e2f98" sequence="4" title="4">
+    <game id="e8ecf304-13cb-467e-a6a9-91da084999ac" status="closed" scheduled="2007-02-04T23:27:17+00:00" attendance="74512" utc_offset="-5" entry_mode="INGEST">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="3" sr_id="sr:competitor:4391"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="4" sr_id="sr:competitor:4421"/>
+      <scoring home_points="17" away_points="29">
+        <quarter id="8ab4f882-3152-443f-a233-2a8285d7f84d" number="1" sequence="1" home_points="14" away_points="6"/>
+        <quarter id="aea19f85-d406-40fe-ab25-5523756cd387" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="48f728e2-7cf9-4576-9e35-f86a0f125323" number="3" sequence="3" home_points="3" away_points="6"/>
+        <quarter id="e44b4e8d-f5e4-4c35-931b-7bf0c3602ae5" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:30:36 +0000 -->

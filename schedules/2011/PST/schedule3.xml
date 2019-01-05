@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:34:19 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="1a42be6c-dfa1-44a7-bba1-8a82a7500ea6" year="2011" type="PST" name="PST">
+  <week id="269367a0-f89f-48b9-95a0-dec8e1139525" sequence="3" title="3">
+    <game id="3a83e159-0f05-4efa-8251-f356d212fb6b" status="closed" scheduled="2012-01-22T20:06:40+00:00" attendance="68756" utc_offset="-5" entry_mode="INGEST">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="2" sr_id="sr:competitor:4424"/>
+      <away id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="2" sr_id="sr:competitor:4413"/>
+      <scoring home_points="23" away_points="20">
+        <quarter id="5913108d-92c5-4b3b-b24d-bbe82c61d98d" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="97832f0b-5d97-478b-9039-c4b8991e6434" number="2" sequence="2" home_points="10" away_points="10"/>
+        <quarter id="b0d043d0-df63-40eb-a0a6-b43a304dc60d" number="3" sequence="3" home_points="3" away_points="10"/>
+        <quarter id="d42709c1-e7fe-49f8-ad1f-894dfaa140f2" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="fe2fd75e-b4e0-4c44-ac82-c9ea65d2e699" status="closed" scheduled="2012-01-22T23:41:49+00:00" attendance="69732" utc_offset="-8" entry_mode="INGEST">
+      <venue id="6701808c-c329-482b-9834-2d29cb3185ff" name="Candlestick Park" city="San Francisco" state="CA" country="USA" zip="94124" address="602 Jamestown Avenue" capacity="69732" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="2" sr_id="sr:competitor:4389"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="3" sr_id="sr:competitor:4426"/>
+      <scoring home_points="17" away_points="20">
+        <quarter id="d15a8cc6-98f4-48c3-8467-e745123913fb" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="3cf3f4da-17c0-4ef8-b442-3123b90e1c20" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="77196223-c3ca-4e8a-92dc-666f14731000" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="d5edd0bf-cc29-47ee-9c3e-1096a99f1ded" number="4" sequence="4" home_points="3" away_points="7"/>
+        <overtime id="2ea2fb1f-b0ef-40cc-b337-cae465c8706e" number="1" sequence="5" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:34:19 +0000 -->

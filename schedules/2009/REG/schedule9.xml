@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:32:34 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="937588b0-cfa6-4d7e-9186-cddaad9c08f5" year="2009" type="REG" name="REG">
+  <week id="7b15bc52-29f6-483d-b317-f080cd7ba23a" sequence="9" title="9">
+    <game id="0bc669ac-721d-4e82-b7f9-a2a2cbfb17a2" status="closed" scheduled="2009-11-08T21:05:19+00:00" attendance="70011" utc_offset="-6" entry_mode="INGEST">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="8" sr_id="sr:competitor:4425"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="8" sr_id="sr:competitor:4415"/>
+      <scoring home_points="30" away_points="20">
+        <quarter id="18600f29-0e33-4667-9a3b-e8fd5462871f" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="b7da8b55-3459-4aa4-a66c-10bfc56856cb" number="2" sequence="2" home_points="6" away_points="3"/>
+        <quarter id="2ffef693-948f-42fa-8afb-b08385f8d670" number="3" sequence="3" home_points="14" away_points="3"/>
+        <quarter id="ef61d82d-1052-41d9-9050-10eb113c778f" number="4" sequence="4" home_points="10" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="14a9b119-198e-4868-bb11-897f82396f1c" status="closed" scheduled="2009-11-08T18:04:55+00:00" attendance="67982" utc_offset="-5" entry_mode="INGEST">
+      <venue id="216de6bf-bce0-409a-a9e7-90db8df1f7b9" name="Georgia Dome" city="Atlanta" state="GA" country="USA" zip="30313" address="One Georgia Dome Drive Northwest" capacity="74228" surface="artificial" roof_type="dome"/>
+      <home id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="8" sr_id="sr:competitor:4393"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="8" sr_id="sr:competitor:4432"/>
+      <scoring home_points="31" away_points="17">
+        <quarter id="3504fd14-0243-498c-9b2a-d7e33fbba05e" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="703fd367-8270-46cc-94a6-76cc86c125a5" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="8544e55e-40fd-4766-860a-54cdb17bdcd1" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="0d4e81fc-8588-4595-9af7-4946751164b5" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="1d232bc2-fe97-4cac-b635-1ffcab43749d" status="closed" scheduled="2009-11-08T21:14:22+00:00" attendance="69732" utc_offset="-8" entry_mode="INGEST">
+      <venue id="6701808c-c329-482b-9834-2d29cb3185ff" name="Candlestick Park" city="San Francisco" state="CA" country="USA" zip="94124" address="602 Jamestown Avenue" capacity="69732" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="8" sr_id="sr:competitor:4389"/>
+      <away id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="8" sr_id="sr:competitor:367364"/>
+      <scoring home_points="27" away_points="34">
+        <quarter id="43f2b81f-3f2a-486d-bdd4-923cb45fa063" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="b6d8f4ee-3b69-41d4-b4ec-0ee04c9356ef" number="2" sequence="2" home_points="14" away_points="7"/>
+        <quarter id="5005e7fe-8ede-4572-a85e-ec4e10aafbbc" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="9f9ea0bd-d051-4be9-ab89-8d138c80ab8f" number="4" sequence="4" home_points="10" away_points="17"/>
+      </scoring>
+    </game>
+    <game id="20d5b013-67a3-41bd-b218-3e88569ad427" status="closed" scheduled="2009-11-08T21:15:49+00:00" attendance="78774" utc_offset="-5" entry_mode="INGEST">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="9" sr_id="sr:competitor:4426"/>
+      <away id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="8"/>
+      <scoring home_points="20" away_points="21">
+        <quarter id="5be97227-6e70-4ae4-bac8-87d90d338809" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="bfda6bcf-cba6-429a-b61c-b53dc3f50e0c" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="c27aa30e-c5fa-4a88-8094-13e2e500ac05" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="38a7485a-d29b-42f5-8a85-db97921562da" number="4" sequence="4" home_points="13" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="444ba2c4-1ee6-47f6-990a-7f493f0b9e8f" status="closed" scheduled="2009-11-09T01:31:08+00:00" attendance="69144" utc_offset="-5" entry_mode="INGEST">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="69596" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="8" sr_id="sr:competitor:4428"/>
+      <away id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="8" sr_id="sr:competitor:4392"/>
+      <scoring home_points="16" away_points="20">
+        <quarter id="d32c161e-938d-4c54-b1b5-24e4b64c15b8" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="daf473f6-5113-42ad-b3ed-04870fc860ae" number="2" sequence="2" home_points="6" away_points="3"/>
+        <quarter id="b0f2f61b-e981-4289-8ab4-36559b149e09" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="be69438d-5742-4974-91e2-aeedf106f2bc" number="4" sequence="4" home_points="3" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="4eff5e07-b448-4462-b044-be26ab515020" status="closed" scheduled="2009-11-08T18:02:45+00:00" attendance="64313" utc_offset="-5" entry_mode="INGEST">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65515" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="8" sr_id="sr:competitor:4416"/>
+      <away id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="8" sr_id="sr:competitor:4413"/>
+      <scoring home_points="17" away_points="7">
+        <quarter id="a394db09-a54f-4e06-8143-bcb1569bdfd7" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="a6bad1f2-80a5-4062-8b35-5e69123f4c2e" number="2" sequence="2" home_points="3" away_points="0"/>
+        <quarter id="51cc45f2-ddad-450d-b2c0-9a9db6d9b5c9" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="600ddf8b-cf41-44b0-8d82-e20ab9e59a8c" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="83c9739a-c86e-400f-94b6-d3b8f68a57ab" status="closed" scheduled="2009-11-08T18:03:10+00:00" attendance="62309" utc_offset="-6" entry_mode="INGEST">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="8" sr_id="sr:competitor:4391"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="8" sr_id="sr:competitor:4412"/>
+      <scoring home_points="21" away_points="41">
+        <quarter id="6e393a5d-03d2-4a71-a300-f7f9a342c3ba" number="1" sequence="1" home_points="7" away_points="14"/>
+        <quarter id="7d0ec0c4-9367-44e8-933a-ab1793a14a6c" number="2" sequence="2" home_points="0" away_points="17"/>
+        <quarter id="82579f3b-87f8-4a23-845a-4aa432e1c54b" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="42a727c1-f374-44a7-97b7-63958f5e7839" number="4" sequence="4" home_points="14" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="88cb7d91-98c7-436d-8432-853cc44ce9cb" status="closed" scheduled="2009-11-10T01:41:07+00:00" attendance="76716" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="8" sr_id="sr:competitor:4418"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="8" sr_id="sr:competitor:4345"/>
+      <scoring home_points="10" away_points="28">
+        <quarter id="9769dfd6-4dcc-4a94-ac84-14cf327ec0ff" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="7bc8d679-5f9d-463e-bd01-7df36c2e8e3e" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="9152b309-3ed9-4892-8e1f-474c32beafd7" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="43147e4c-9903-4632-8480-9b567d67b769" number="4" sequence="4" home_points="0" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="968a2b7e-d5bd-4508-ab90-4d1dae8c0eb2" status="closed" scheduled="2009-11-08T18:04:03+00:00" attendance="45546" utc_offset="-5" entry_mode="INGEST">
+      <venue id="4c5c036d-dd3d-4183-b595-71a43a97560f" name="TIAA Bank Field" city="Jacksonville" state="FL" country="USA" zip="32202" address="One EverBank Field Drive" capacity="67246" surface="turf" roof_type="outdoor"/>
+      <home id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="8" sr_id="sr:competitor:4386"/>
+      <away id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="8" sr_id="sr:competitor:4422"/>
+      <scoring home_points="24" away_points="21">
+        <quarter id="b1e1498d-e001-47d5-9a56-16d1b0cd2b91" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="2b3bc4e5-0614-4b23-9570-6885f6ede207" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="57fd02c0-3e7d-47b7-bad5-4658a1fdd4fb" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="0bdaa0ec-6848-40a6-80ef-4e1c23df2176" number="4" sequence="4" home_points="7" away_points="15"/>
+      </scoring>
+    </game>
+    <game id="a1f26918-e9bd-412c-aaeb-402ac7bd2414" status="closed" scheduled="2009-11-08T18:02:31+00:00" attendance="68756" utc_offset="-5" entry_mode="INGEST">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="8" sr_id="sr:competitor:4424"/>
+      <away id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="8" sr_id="sr:competitor:4287"/>
+      <scoring home_points="27" away_points="17">
+        <quarter id="afaaab70-fddc-4dd8-8b88-a8fc7685af5d" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="7f129066-50ed-4d18-9ede-ef560ead1d29" number="2" sequence="2" home_points="9" away_points="7"/>
+        <quarter id="07bb948a-f03b-4b3d-9457-9ac36d618182" number="3" sequence="3" home_points="8" away_points="7"/>
+        <quarter id="53d8e199-ed53-4f4d-b818-f37171cc07d2" number="4" sequence="4" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="b5382567-3154-420b-b309-927b30acfc46" status="closed" scheduled="2009-11-08T18:03:00+00:00" attendance="62994" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="8" sr_id="sr:competitor:4388"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="8" sr_id="sr:competitor:4420"/>
+      <scoring home_points="38" away_points="28">
+        <quarter id="5c5187a5-d00a-46c0-8465-e92670917273" number="1" sequence="1" home_points="7" away_points="14"/>
+        <quarter id="8330dbc3-7efa-4f16-84ca-4104b52333e5" number="2" sequence="2" home_points="10" away_points="7"/>
+        <quarter id="1c4b05b9-87fd-4c7f-b47a-61966ff7683b" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="59eb6ec4-a164-4cc1-852d-07ecbc451e79" number="4" sequence="4" home_points="21" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="b6aba84c-a142-42a0-8bf0-50a45511ad83" status="closed" scheduled="2009-11-08T18:02:30+00:00" attendance="66033" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6ed18563-53e0-46c2-a91d-12d73a16456d" name="Lucas Oil Stadium" city="Indianapolis" state="IN" country="USA" zip="46225" address="500 South Capitol Avenue" capacity="67000" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="8" sr_id="sr:competitor:4421"/>
+      <away id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="9" sr_id="sr:competitor:4324"/>
+      <scoring home_points="20" away_points="17">
+        <quarter id="642a1789-bb03-44da-8c43-09aeb6490a7a" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="6a4910f5-a919-4bc6-9ff0-6111d22afcda" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="12965429-97cd-4bf5-845b-612c63b41506" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="1911a09f-cf99-4e60-8113-bf095565c403" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="d52e3648-04b0-4558-b3f5-bc2259033e43" status="closed" scheduled="2009-11-08T21:05:56+00:00" attendance="67003" utc_offset="-8" entry_mode="INGEST">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="8" sr_id="sr:competitor:4430"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="8" sr_id="sr:competitor:4419"/>
+      <scoring home_points="32" away_points="20">
+        <quarter id="a071a94d-1c6d-4180-823d-c13546c2da44" number="1" sequence="1" home_points="0" away_points="17"/>
+        <quarter id="aa944b22-28ab-41ce-9b1b-a4670922cb11" number="2" sequence="2" home_points="13" away_points="0"/>
+        <quarter id="99dee68d-2676-4565-bc31-37ddbbef92c9" number="3" sequence="3" home_points="9" away_points="0"/>
+        <quarter id="d2ea280e-5290-415e-9da2-36da94937389" number="4" sequence="4" home_points="10" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:32:34 +0000 -->

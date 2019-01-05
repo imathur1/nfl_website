@@ -5,7 +5,6 @@ from operator import itemgetter
 from datetime import date as dateName
 
 # Navigation bar
-# Centering if odd number of games
 # Pictures
 # Link videos
 # Host on server 
@@ -207,7 +206,10 @@ class Converter():
         data = res.read()
         text = data.decode("utf-8")
         output = open("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml", "w")
-        output.write(text)
+        if text == "":
+            output.write("<text>NO DATA</text>")
+        else:
+            output.write(text)
         output.close()
 
     def makeInfo2(self):
@@ -311,6 +313,9 @@ class Converter():
         games = []
         tree = ET.parse("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week)+ ".xml")
         for elem in tree.iter():
+            if elem.tag == "text":
+                Converter.noData = True
+                break
             if elem.tag == "{http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd}game": 
                 date = elem.attrib["scheduled"]
                 value, newDate = self.convertDate(date)
@@ -450,14 +455,78 @@ class Converter():
                 else:
                     Converter.standings[records[0]][2] += 1
                     Converter.standings[records[1]][2] += 1
-
         
         games.sort(key = itemgetter(2))
         self.appendInfo(games)
 
-def makeCalls(startYear, endYear, switch):
+def makeHomepage():
+    file = open("HTML/homepage.html", "w")
+    text = """!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/homepage.css">
+    </head>
+    <body>"""
+    i = 2018
+    while i >= 2000:
+        text += """        <div class="year">""" + str(i) + """ NFL SEASON</div>
+        <div class="pre">
+            <div class="type1">PRE</div>
+            <h1>SEASON</h1>
+            <div class="preWeeks">
+                <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard1.html">1</a></div>
+                <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard2.html">2</a></div>
+                <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard3.html">3</a></div>
+                <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard4.html">4</a></div>
+                </div>
+        </div>
+        <div class="reg">
+            <div class="type2">REGULAR</div>
+            <h1>SEASON</h1>
+            <div class="regWeeks">
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard1.html">1</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard2.html">2</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard3.html">3</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard4.html">4</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard5.html">5</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard6.html">6</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard7.html">7</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """REG/scorecard8.html">8</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard9.html">9</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard10.html">10</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard11.html">11</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard12.html">12</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard13.html">13</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard14.html">14</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard15.html">15</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard16.html">16</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard17.html">17</a></div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="type3">POST</div>
+            <h1>SEASON</h1>
+            <div class="postRounds">
+                <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard1.html">Wild Card</a></div>
+                <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard2.html">Divisional</a></div>
+                <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard3.html">Conference Championships</a></div>
+                <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard4.html">Super Bowl</a></div>
+            </div> 
+        </div>
+    </div>
+    <div class="divider"></div>"""
+        i -= 1
+    text += """        <script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/homepage.js"></script>
+    </body>
+</html>"""
+    file.write(text)
+    file.close()
+
+def makeCalls(startYear, endYear):
     while startYear <= endYear:
-        if startYear <= switch:
+        if startYear <= 2015 and startYear >= 2012:
             type = "PRE"
             week = 1
             while week <= 4:
@@ -505,7 +574,8 @@ def makeCalls(startYear, endYear, switch):
         startYear += 1
 
 def main():
-    makeCalls(2013, 2013, 2015)
+    makeHomepage()
+    makeCalls(2000, 2000)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:30:29 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="fc736c47-38cf-4c39-9c9a-f8d6274e60f5" year="2006" type="REG" name="REG">
+  <week id="176a0299-9455-498c-91a2-bdc8883c2ca2" sequence="17" title="17">
+    <game id="0c411a67-46fa-4b75-893c-45a97650e968" status="closed" scheduled="2006-12-31T18:02:54+00:00" attendance="63008" utc_offset="-6" entry_mode="INGEST">
+      <venue id="58a73652-bc9b-45d9-938c-7736c3c5d280" name="Texas Stadium" city="Irving" state="TX" zip="75061" address="2401 East Airport Freeway" capacity="65675" surface="artificial" roof_type="outdoor"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="16" sr_id="sr:competitor:4392"/>
+      <away id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="16" sr_id="sr:competitor:4419"/>
+      <scoring home_points="31" away_points="39">
+        <quarter id="25359c8b-5487-4072-a05f-b83cc4245d3a" number="1" sequence="1" home_points="0" away_points="13"/>
+        <quarter id="4fc42f5d-e4aa-4d21-8e96-889b69ae67ab" number="2" sequence="2" home_points="14" away_points="7"/>
+        <quarter id="c421436e-e5f1-4c57-b07f-5c1712604322" number="3" sequence="3" home_points="10" away_points="10"/>
+        <quarter id="d2ac8530-3084-436e-8bb2-dcff0d8188d7" number="4" sequence="4" home_points="7" away_points="9"/>
+      </scoring>
+    </game>
+    <game id="29326faa-e895-4a02-8dd9-f4c3843332cc" status="closed" scheduled="2006-12-31T21:16:11+00:00" attendance="70913" utc_offset="-5" entry_mode="INGEST">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="16" sr_id="sr:competitor:4413"/>
+      <away id="768c92aa-75ff-4a43-bcc0-f2798c2e1724" name="Buffalo Bills" alias="BUF" game_number="16" sr_id="sr:competitor:4376"/>
+      <scoring home_points="19" away_points="7">
+        <quarter id="ae96bec6-5c24-4ef7-b5ed-1ea99f8e80ba" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="4f123c68-2bc7-4030-ab82-ab3246178e2b" number="2" sequence="2" home_points="3" away_points="0"/>
+        <quarter id="60dbae35-a60b-4bbd-8a59-ffded53ffe5b" number="3" sequence="3" home_points="10" away_points="7"/>
+        <quarter id="45f9fbdf-44f6-4263-9d64-821f4d2c773f" number="4" sequence="4" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="31d5e01f-60e9-4ec9-bd9f-0fec018fff4e" status="closed" scheduled="2006-12-31T21:16:10+00:00" attendance="75555" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="16" sr_id="sr:competitor:4418"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="16" sr_id="sr:competitor:4389"/>
+      <scoring home_points="23" away_points="26">
+        <quarter id="805b82c9-4b21-4a1e-a56c-646d2f94e692" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="964e0082-5d6a-49b6-a7be-ab35f2c8fea6" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="6864bc2f-3ed2-425d-837e-47b5a664d4c3" number="3" sequence="3" home_points="3" away_points="14"/>
+        <quarter id="76c35b08-8c60-4398-ba23-e6ccad680391" number="4" sequence="4" home_points="7" away_points="6"/>
+        <overtime id="2e94756e-114f-4c16-b899-870db1379be6" number="1" sequence="5" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="355992f9-2f5c-4344-97ec-0fbb2dafcbfd" status="closed" scheduled="2006-12-31T18:03:37+00:00" attendance="69569" utc_offset="-6" entry_mode="INGEST">
+      <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
+      <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="16" sr_id="sr:competitor:4425"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="16" sr_id="sr:competitor:4415"/>
+      <scoring home_points="21" away_points="31">
+        <quarter id="0cf88445-e2d5-4be5-afe1-921bd33b4f61" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="7d4e1555-553c-4b5a-ad20-735d007fc61e" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="ab674b51-099a-4937-842d-07c25751c664" number="3" sequence="3" home_points="7" away_points="14"/>
+        <quarter id="161b89af-c386-4331-920d-134c55c6e41b" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="44739258-5af4-4a58-8cc2-a510e98f307a" status="closed" scheduled="2006-12-31T01:05:04+00:00" attendance="86141" utc_offset="-5" entry_mode="INGEST">
+      <venue id="7c11bb2d-4a53-4842-b842-0f1c63ed78e9" name="FedExField" city="Landover" state="MD" country="USA" zip="20785" address="1600 FedEx Way" capacity="82000" surface="turf" roof_type="outdoor"/>
+      <home id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="16" sr_id="sr:competitor:4432"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="16" sr_id="sr:competitor:4426"/>
+      <scoring home_points="28" away_points="34">
+        <quarter id="a83b1aba-deb9-4e66-9455-2d1139da2562" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="998ff4b7-b7d8-4784-8770-7ade0af659f2" number="2" sequence="2" home_points="0" away_points="17"/>
+        <quarter id="e28fb362-b147-41f8-87a1-456e57945374" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="f08cb423-2c5e-4407-8363-bf0c20d193f1" number="4" sequence="4" home_points="14" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="51aca509-d5e4-4788-9e1c-8739d390cb8d" status="closed" scheduled="2006-12-31T21:15:29+00:00" attendance="66492" utc_offset="-8" entry_mode="INGEST">
+      <venue id="7ca47702-8951-45be-a4f5-3e7d78f8f399" name="Qualcomm Stadium" city="San Diego" state="CA" country="USA" zip="92108" address="9449 Friars Road" capacity="70561" surface="turf" roof_type="outdoor"/>
+      <home id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="16"/>
+      <away id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="16" sr_id="sr:competitor:4412"/>
+      <scoring home_points="27" away_points="20">
+        <quarter id="bc3c5bb3-e932-4bdc-a129-84197a866243" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="429222b3-5ec8-4954-88da-ca15d07ae3ba" number="2" sequence="2" home_points="14" away_points="0"/>
+        <quarter id="05ecc44e-9c3b-42ef-9c97-6a0f06162636" number="3" sequence="3" home_points="10" away_points="3"/>
+        <quarter id="0abcab7a-c693-420a-8c9d-5d82aa87e0a8" number="4" sequence="4" home_points="0" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="85f64469-5498-49cc-b34a-f453be37a9f2" status="closed" scheduled="2006-12-31T18:02:54+00:00" attendance="78039" utc_offset="-5" entry_mode="INGEST">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="16" sr_id="sr:competitor:4427"/>
+      <away id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="16" sr_id="sr:competitor:4390"/>
+      <scoring home_points="23" away_points="3">
+        <quarter id="2ec1a45e-6417-4776-b86a-8180b832ea6a" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="8b28f180-f0fd-4bef-a5bd-bc02cb4495c6" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="9d6872c3-817a-45a3-a2b6-6b14795e65f5" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="57b77f6e-7898-461c-b9ae-5005b6f04130" number="4" sequence="4" home_points="10" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="8ff68a45-5da1-43e1-9870-eb007453df1c" status="closed" scheduled="2006-12-31T18:02:55+00:00" attendance="63557" utc_offset="-6" entry_mode="INGEST">
+      <venue id="1fede74c-50a2-4036-a1c0-b4d1e53ca98c" name="Mall of America Field" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 South 5th Street" capacity="64111" surface="artificial" roof_type="dome"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="16" sr_id="sr:competitor:4423"/>
+      <away id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="16"/>
+      <scoring home_points="21" away_points="41">
+        <quarter id="ff982b1a-a8d2-46ac-b8c7-862487491ecc" number="1" sequence="1" home_points="7" away_points="10"/>
+        <quarter id="ecf20563-7e86-4eb2-922f-6677aacae05c" number="2" sequence="2" home_points="0" away_points="14"/>
+        <quarter id="03b7bd08-7ed2-45d6-a765-b9a03f8f7738" number="3" sequence="3" home_points="0" away_points="10"/>
+        <quarter id="785e2cd3-64a2-4618-ad68-b96fa4b34b48" number="4" sequence="4" home_points="14" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="9a13da2b-338f-4cfc-ab78-d7b65e1d745d" status="closed" scheduled="2006-12-31T18:02:40+00:00" attendance="69143" utc_offset="-6" entry_mode="INGEST">
+      <venue id="5295c1b7-c85c-49cb-9569-1707c65324e5" name="Nissan Stadium" city="Nashville" state="TN" country="USA" zip="37213" address="One Titans Way" capacity="69143" surface="turf" roof_type="outdoor"/>
+      <home id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="16" sr_id="sr:competitor:367364"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="16" sr_id="sr:competitor:4424"/>
+      <scoring home_points="23" away_points="40">
+        <quarter id="2a564fd0-cbe7-4da1-9841-4ae7c3024149" number="1" sequence="1" home_points="3" away_points="9"/>
+        <quarter id="198c8d87-17e5-4326-b7d6-4d5646765408" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="9651dcbb-e410-43fb-a464-8a75c7827e10" number="3" sequence="3" home_points="13" away_points="7"/>
+        <quarter id="8ae92fd3-3698-4dc7-85e7-bace3f6c63f9" number="4" sequence="4" home_points="0" away_points="14"/>
+      </scoring>
+    </game>
+    <game id="ad2cc23d-c847-4d6f-89cb-0e601172052a" status="closed" scheduled="2006-12-31T18:03:47+00:00" attendance="77500" utc_offset="-6" entry_mode="INGEST">
+      <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="76416" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
+      <home id="6680d28d-d4d2-49f6-aace-5292d3ec02c2" name="Kansas City Chiefs" alias="KC" game_number="16" sr_id="sr:competitor:4422"/>
+      <away id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="16" sr_id="sr:competitor:4386"/>
+      <scoring home_points="35" away_points="30">
+        <quarter id="48b4d652-a1e5-4902-9b73-6c8f20e038e1" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="1c30bcb2-56f1-41b2-b807-023ffb28c605" number="2" sequence="2" home_points="14" away_points="10"/>
+        <quarter id="9dce7608-8f75-4b11-acd2-92cf8ef14116" number="3" sequence="3" home_points="14" away_points="14"/>
+        <quarter id="4537eefe-4dc8-4953-900a-154a69edac42" number="4" sequence="4" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="ca72010a-922a-4255-96e5-a36f8b9a9526" status="closed" scheduled="2006-12-31T21:16:03+00:00" attendance="57310" utc_offset="-5" entry_mode="INGEST">
+      <venue id="8cb20830-5bb3-4bf2-aacb-492a0d90df10" name="RCA Dome" city="Indianapolis" state="IN" zip="46225" address="100 South Capitol Avenue" capacity="55531" surface="artificial" roof_type="dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="16" sr_id="sr:competitor:4421"/>
+      <away id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="16" sr_id="sr:competitor:4287"/>
+      <scoring home_points="27" away_points="22">
+        <quarter id="bbf40cf7-3531-4135-b495-39421c1f0723" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="7b28e533-4496-4549-aa0e-63ea25f1ebb1" number="2" sequence="2" home_points="17" away_points="3"/>
+        <quarter id="c3511b72-b806-4960-adfd-6c54b1a20cba" number="3" sequence="3" home_points="3" away_points="6"/>
+        <quarter id="a524d97c-b4fd-4918-8e8d-9603e30f23dd" number="4" sequence="4" home_points="7" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="cbbbb000-3d75-4238-b677-7c5621c3c2d7" status="closed" scheduled="2006-12-31T18:03:17+00:00" attendance="65660" utc_offset="-5" entry_mode="INGEST">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="16" sr_id="sr:competitor:4388"/>
+      <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="16" sr_id="sr:competitor:4430"/>
+      <scoring home_points="7" away_points="23">
+        <quarter id="41dd466b-756e-402f-a7a6-69c03615aad7" number="1" sequence="1" home_points="0" away_points="10"/>
+        <quarter id="a557acfe-580b-43ac-a3eb-1c2f0d71d304" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="a0005cf0-6142-407c-9880-472f4fdd5bbe" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="a4c32297-e224-44b6-92cc-e3e6a95a492a" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="d2acc737-1137-41f8-a891-bdb9dcf53845" status="closed" scheduled="2006-12-31T21:15:18+00:00" attendance="69341" utc_offset="-5" entry_mode="INGEST">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="69596" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="16" sr_id="sr:competitor:4428"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="16" sr_id="sr:competitor:4393"/>
+      <scoring home_points="24" away_points="17">
+        <quarter id="33698313-f423-4ab2-9e4b-e9b245f2c48f" number="1" sequence="1" home_points="10" away_points="7"/>
+        <quarter id="b2e0f1f5-5d67-45e0-a5fe-a39f2f502f90" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="4774b77e-1ebb-4db8-8b78-bcf6e0953a43" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="fc1bd46d-4709-46a7-a43d-2535439543e3" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="d56cc82d-c113-4c84-8574-8f66220061e7" status="closed" scheduled="2006-12-31T18:03:15+00:00" attendance="66049" utc_offset="-5" entry_mode="INGEST">
+      <venue id="b87a1595-d3c8-48ea-8a53-0aab6378a64a" name="Paul Brown Stadium" city="Cincinnati" state="OH" country="USA" zip="45202" address="One Paul Brown Stadium" capacity="65515" surface="artificial" roof_type="outdoor"/>
+      <home id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="16" sr_id="sr:competitor:4416"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="16" sr_id="sr:competitor:4345"/>
+      <scoring home_points="17" away_points="23">
+        <quarter id="de976431-5ddc-4632-8e1f-9e88dece5eb8" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="0f35a5ed-fa6a-4529-b1e5-0cad689287b2" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="094d7854-0f4b-4c51-b2a3-d42afb9b15b0" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="4f05f1c7-46ef-487b-881d-b067f597ae1a" number="4" sequence="4" home_points="14" away_points="10"/>
+        <overtime id="dcb39af5-ac0d-42bf-9e2f-6dfd78444a3f" number="1" sequence="5" home_points="0" away_points="6"/>
+      </scoring>
+    </game>
+    <game id="f2aae051-218d-46de-9a7d-ffea198d2128" status="closed" scheduled="2006-12-31T18:02:33+00:00" attendance="70097" utc_offset="-6" entry_mode="INGEST">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="16" sr_id="sr:competitor:4324"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="16" sr_id="sr:competitor:4417"/>
+      <scoring home_points="14" away_points="6">
+        <quarter id="725cb094-497c-472a-8d05-74e3ff7045c4" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="3726095c-2951-4420-bce9-4629c17e4a65" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="95056734-3772-4ea8-9cf7-04675baf1e71" number="3" sequence="3" home_points="14" away_points="0"/>
+        <quarter id="60e6724d-7143-4bdf-a6b5-1dda5288be5b" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="f9050afb-4602-4c60-a6a3-f17fec4d1053" status="closed" scheduled="2007-01-01T01:15:50+00:00" attendance="62287" utc_offset="-6" entry_mode="INGEST">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="16" sr_id="sr:competitor:4391"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="16" sr_id="sr:competitor:4420"/>
+      <scoring home_points="7" away_points="26">
+        <quarter id="2cb99edf-8a89-4151-b140-728f6cc051bc" number="1" sequence="1" home_points="0" away_points="13"/>
+        <quarter id="563c8756-6a87-490b-8f93-b8bd8f34555b" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="f7488f4a-5214-4f50-b040-7ee39da5da6b" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="7d7f0143-e799-4197-b7bb-47d7b060765a" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:30:29 +0000 -->

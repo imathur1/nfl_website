@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:39:43 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="de45af6e-29d1-4407-85a3-832ddb3eeb2c" year="2000" type="PST" name="PST">
+  <week id="485997cc-061e-4530-9b6d-4553d2ada664" sequence="3" title="3">
+    <game id="86113f0c-874f-421b-98db-377b544e960d" status="closed" scheduled="2001-01-14T17:36:57+00:00" attendance="79310" utc_offset="-5" entry_mode="INGEST" weather="Mostly Cloudy Temp: 35 F, Humidity: 76%, Wind: E 5 mph">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="2" sr_id="sr:competitor:4426"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="2" sr_id="sr:competitor:4423"/>
+      <scoring home_points="41" away_points="0">
+        <quarter id="d256f258-4224-4737-aa22-1429b002e8c1" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="c316c663-c4c2-493d-9cc6-e418b2cc4b87" number="2" sequence="2" home_points="20" away_points="0"/>
+        <quarter id="261db795-4ba7-4aa1-8e52-50f5f1572668" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="0abc748a-7970-482c-af8b-7bf6df53f86e" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="f3ce2ba8-afd7-4028-aea4-c1293ce7469c" status="closed" scheduled="2001-01-14T00:00:00+00:00" attendance="62784" utc_offset="-8" entry_mode="INGEST" weather="Partly cloudy skies. Temp: 56 F, Humidity: 60%, Wind: NW 12 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53286" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="2" sr_id="sr:competitor:4390"/>
+      <away id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="3" sr_id="sr:competitor:4413"/>
+      <scoring home_points="3" away_points="16">
+        <quarter id="8d46bb3e-f787-4be9-bb49-f1131c700da2" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="5e1ab000-cc6a-4981-a97a-504b679b909a" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="2199b94c-2a08-46f8-9da7-1861eeba35e8" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="c48d4329-43ef-4ab1-917f-0da141e88070" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:39:43 +0000 -->

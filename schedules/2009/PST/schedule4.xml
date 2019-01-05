@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-05 13:32:55 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="1112ffd0-256a-458f-9a68-75633519699b" year="2009" type="PST" name="PST">
+  <week id="d43b326d-6856-44ef-b034-d61b60a78fb2" sequence="4" title="4">
+    <game id="0ede792f-e323-44f7-8ccb-2457118d7981" status="closed" scheduled="2010-02-07T23:31:08+00:00" attendance="74059" utc_offset="-5" entry_mode="INGEST">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="3" sr_id="sr:competitor:4421"/>
+      <away id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="3" sr_id="sr:competitor:4425"/>
+      <scoring home_points="17" away_points="31">
+        <quarter id="46463a16-2ba5-4778-b8c4-94139e17b0d1" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="d152eee7-9b3a-4409-927c-2fa2b97213ca" number="2" sequence="2" home_points="0" away_points="6"/>
+        <quarter id="bbcb4bad-2589-47c9-b628-f9d53921a633" number="3" sequence="3" home_points="7" away_points="10"/>
+        <quarter id="917508d4-02ed-4533-a320-649867df86e9" number="4" sequence="4" home_points="0" away_points="15"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-05 13:32:55 +0000 -->
