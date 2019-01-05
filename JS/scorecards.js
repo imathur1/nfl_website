@@ -15,6 +15,8 @@ const quarter = document.getElementsByClassName('quarter');
 const quarter1 = document.getElementsByClassName('quarter1');
 const quarter2 = document.getElementsByClassName('quarter2');
 const quarterHidden = document.getElementsByClassName('quarter-hidden');
+const img1 = document.getElementsByClassName('img1');
+const img2 = document.getElementsByClassName('img2');
 
 const hiddenName = document.getElementsByClassName('hiddenName');
 const hiddenScore = document.getElementsByClassName('hiddenScore');
@@ -94,15 +96,17 @@ function createStanding() {
     };
 
     for (var i = 0; i < hiddenStanding1.length; i++) {
-        if (standings[i].length === 2) {
-            standings[i][1][0] = hiddenStanding2[i * 3].innerHTML;
-            standings[i][1][1] = hiddenStanding2[i * 3 + 1].innerHTML;
-            standings[i][1][2] = hiddenStanding2[i * 3 + 2].innerHTML;
+        if (standings[i].length === 3) {
+            standings[i][1][0] = hiddenStanding2[i * 4].innerHTML;
+            standings[i][1][1] = hiddenStanding2[i * 4 + 1].innerHTML;
+            standings[i][1][2] = hiddenStanding2[i * 4 + 2].innerHTML;
+            standings[i][1][3] = hiddenStanding2[i * 4 + 3].innerHTML;
         } else {
-            var newList = [hiddenStanding2[i * 3].innerHTML, hiddenStanding2[i * 3 + 1].innerHTML, hiddenStanding2[i * 3 + 2].innerHTML];
+            var newList = [hiddenStanding2[i * 4].innerHTML, hiddenStanding2[i * 4 + 1].innerHTML, hiddenStanding2[i * 4 + 2].innerHTML, hiddenStanding2[i * 4 + 3].innerHTML];
             standings[i].push(newList);
         };
     };
+
     return standings;
 };
 
@@ -129,6 +133,19 @@ function changeHTML() {
         name2[i].innerHTML = info[i][1][0];
         score1[i].innerHTML = info[i][0][1];  
         score2[i].innerHTML = info[i][1][1];
+        var rem = 0;
+        var rem2 = 0;
+        for (var j = 0; j < standings.length; j++) {
+            if (standings[j][0] === name1[i].innerHTML) {
+                rem = j;
+            };
+            if (standings[j][0] === name2[i].innerHTML) {
+                rem2 = j;
+            };
+        };
+
+        img1[i].src = standings[rem][1][3];
+        img2[i].src = standings[rem2][1][3];
         
         for (var j = 0; j < standings.length; j++){
             if (standings[j][0] === name1[i].innerHTML){

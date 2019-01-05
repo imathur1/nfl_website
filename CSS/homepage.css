@@ -11,17 +11,18 @@ body {
     font-size: 60px;
     font-family: 'Oswald';
     margin-bottom: 2.5%;
+    margin-left: 0.75%;
 }
 
 .pre, .reg, .post, .hoverPre, .hoverReg, .hoverPost {
     display: inline-block;
-    width: 20%;
-    height: 200px;
+    width: 25%;
+    height: 32.5%;
     background-color: #000;
     border: 3px solid #00ffbc;
     box-shadow: 12px 16px 24px #000;
     border-radius: 6px;
-    margin-left: 9.5%;
+    margin-left: 5.75%;
     margin-bottom: 5%;
 }
 
@@ -35,10 +36,20 @@ body {
     font-size: 40px;
     color: #00ffbc;
     position: relative;
-    top: 20%;
+    top: 25%;
 }
 
-.preWeeks, .regWeeks, .postRounds {
+.preWeeks {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.regWeeks {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.postRounds {
     text-align: center;
 }
 
@@ -50,25 +61,30 @@ body {
     display: none;
 }
 
+.hoverRegWeek {
+    margin-bottom: 5%;
+}
+
 .hoverPostRound {
-    font-size: 24px;
     width: 100%;
+    margin-bottom: 1%;
 }
 
 h1 {
     font-family: 'Oswald';
     position: relative;
+    top: 10%;
     text-align: center;
     letter-spacing: 2px;
     width: 100%;
 }
 
 .divider {
-    width: 90%;
+    width: 94%;
     border: 4px solid #000;
     border-radius: 6px;
     margin-bottom: 2.5%;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 a {

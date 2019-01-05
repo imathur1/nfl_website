@@ -6,21 +6,8 @@ from datetime import date as dateName
 
 # Navigation bar
 # Pictures
-# Link videos
+# Background image(s)? wallpaper
 # Host on server 
-# Styling, different colors, blue, dark blue
-# Back button, next button
-
-# Tweak shadow
-# display: inline-block;
-# width: 20%;
-# height: 200px;
-# background-color: #000;
-# border: 0px solid #00ffbc;
-# box-shadow: 12px 16px 24px #000;
-# border-radius: 6px;
-# margin-left: 9.5%;
-# margin-bottom: 5%;
 
 # NFL Official
 # Key: 5dbyzszswdjteg4ab663g837
@@ -31,40 +18,40 @@ class Converter():
 
     noData = False
     standings = {
-    "Arizona Cardinals": [0, 0, 0],
-    "Atlanta Falcons": [0, 0, 0],
-    "Baltimore Ravens": [0, 0, 0],
-    "Buffalo Bills": [0, 0, 0],
-    "Carolina Panthers": [0, 0, 0],
-    "Chicago Bears": [0, 0, 0],
-    "Cincinnati Bengals": [0, 0, 0],
-    "Cleveland Browns": [0, 0, 0],
-    "Dallas Cowboys": [0, 0, 0],
-    "Denver Broncos": [0, 0, 0],
-    "Detroit Lions": [0, 0, 0],
-    "Green Bay Packers": [0, 0, 0],
-    "Houston Texans": [0, 0, 0],
-    "Indianapolis Colts": [0, 0, 0],
-    "Jacksonville Jaguars": [0, 0, 0],
-    "Kansas City Chiefs": [0, 0, 0],
-    "Los Angeles Chargers": [0, 0, 0],
-    "Los Angeles Rams": [0, 0, 0],
-    "Miami Dolphins": [0, 0, 0],
-    "Minnesota Vikings": [0, 0, 0],
-    "New England Patriots": [0, 0, 0],
-    "New Orleans Saints": [0, 0, 0],
-    "New York Giants": [0, 0, 0],
-    "New York Jets": [0, 0, 0],
-    "Oakland Raiders": [0, 0, 0],
-    "Philadelphia Eagles": [0, 0, 0],
-    "Pittsburgh Steelers": [0, 0, 0],
-    "San Diego Chargers": [0, 0, 0],
-    "San Francisco 49ers": [0, 0, 0],
-    "Seattle Seahawks": [0, 0, 0],
-    "St. Louis Rams": [0, 0, 0],
-    "Tampa Bay Buccaneers": [0, 0, 0],
-    "Tennessee Titans": [0, 0, 0],
-    "Washington Redskins": [0, 0, 0]
+    "Arizona Cardinals": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/cardinals.png"],
+    "Atlanta Falcons": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/falcons.png"],
+    "Baltimore Ravens": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/ravens.png"],
+    "Buffalo Bills": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/bills.png"],
+    "Carolina Panthers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/panthers.png"],
+    "Chicago Bears": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"],
+    "Cincinnati Bengals": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/bengals.png"],
+    "Cleveland Browns": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/browns.png"],
+    "Dallas Cowboys": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/cowboys.png"],
+    "Denver Broncos": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/broncos.png"],
+    "Detroit Lions": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/lions.png"],
+    "Green Bay Packers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png"],
+    "Houston Texans": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/texans.png"],
+    "Indianapolis Colts": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/colts.png"],
+    "Jacksonville Jaguars": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/jaguars.png"],
+    "Kansas City Chiefs": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/chiefs.png"],
+    "Los Angeles Chargers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargers.png"],
+    "Los Angeles Rams": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/rams.png"],
+    "Miami Dolphins": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/dolphins.png"],
+    "Minnesota Vikings": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/rams.png"],
+    "New England Patriots": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/patriots.png"],
+    "New Orleans Saints": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/saints.png"],
+    "New York Giants": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/giants.png"],
+    "New York Jets": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/jets.png"],
+    "Oakland Raiders": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/raiders.png"],
+    "Philadelphia Eagles": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/eagles.png"],
+    "Pittsburgh Steelers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelers.png"],
+    "San Diego Chargers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargers.png"],
+    "San Francisco 49ers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/49ers.png"],
+    "Seattle Seahawks": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/seahawks.png"],
+    "St. Louis Rams": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/rams.png"],
+    "Tampa Bay Buccaneers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/buccaneers.png"],
+    "Tennessee Titans": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/titans.png"],
+    "Washington Redskins": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/redskins.png"]
     }
 
     def __init__(self, startYear, type, week):
@@ -82,6 +69,8 @@ class Converter():
                 title = "CONFERENCE CHAMPIONSHIPS"
             else:
                 title = "SUPER BOWL"
+        elif self.type == "PRE":
+            title = "PRESEASON WEEK " + str(self.week)
         else:
             title = "WEEK " + str(self.week)
 
@@ -101,15 +90,11 @@ class Converter():
             <div class="card">
                 <div class="date">Sun, 16/12</div>
                 <div class="result">Final</div>
-                <div class="score1">54</div>
-                <div class="score2">53</div>
-                <div class="dash">-</div>
+                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
                 <div class="name1">Chicago Bears</div>
                 <div class="name2">Green Bay Packers</div>
-                <div class="empty"></div>
                 <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div> 
-                <div class="empty"></div>  
+                <div class="record2">(15 - 1)</div>  
                 <div class="table">
                     <div class="scoring-header">
                         <ul>
@@ -149,15 +134,11 @@ class Converter():
             <div class="card">
                 <div class="date">Sun, 16/12</div>
                 <div class="result">Final</div>
-                <div class="score1">54</div>
-                <div class="score2">53</div>
-                <div class="dash">-</div>
+                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
                 <div class="name1">Chicago Bears</div>
                 <div class="name2">Green Bay Packers</div>
-                <div class="empty"></div>
                 <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div> 
-                <div class="empty"></div>  
+                <div class="record2">(15 - 1)</div>  
                 <div class="table">
                     <div class="scoring-header">
                         <ul>
@@ -276,8 +257,8 @@ class Converter():
                 text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
                 text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
                 text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
+                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
         text += ' ' * 8 + '<script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/scorecards.js"></script>'
-
         output.write(text)
         output.close()
 
@@ -285,7 +266,8 @@ class Converter():
             for i in Converter.standings:
                 index = 0
                 for j in Converter.standings[i]:
-                    Converter.standings[i][index] = 0
+                    if index != 3:
+                        Converter.standings[i][index] = 0
                     index += 1
 
         Converter.noData = False
@@ -493,7 +475,7 @@ def makeHomepage():
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard5.html">5</a></div>
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard6.html">6</a></div>
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard7.html">7</a></div>
-                <div class="hoverRegWeek"><a href=\"""" + str(i) + """REG/scorecard8.html">8</a></div>
+                <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard8.html">8</a></div>
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard9.html">9</a></div>
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard10.html">10</a></div>
                 <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard11.html">11</a></div>
@@ -515,8 +497,9 @@ def makeHomepage():
                 <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard4.html">Super Bowl</a></div>
             </div> 
         </div>
-    </div>
-    <div class="divider"></div>"""
+    </div>"""
+        if i != 2000: 
+            text += """      <div class="divider"></div>"""
         i -= 1
     text += """        <script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/homepage.js"></script>
     </body>
@@ -531,21 +514,21 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo2()
+                #converter.makeInfo2()
                 converter.convertInfo2()  
                 week += 1
             type = "REG"
             week = 1
             while week <= 17:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo2()
+                #converter.makeInfo2()
                 converter.convertInfo2()  
                 week += 1
             type = "PST"
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo2()
+                #converter.makeInfo2()
                 converter.convertInfo2()  
                 week += 1
         else:
@@ -553,7 +536,7 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo()
+                #converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
         
@@ -561,21 +544,21 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 17:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo()
+                #converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
             type = "PST"
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo()
+                #converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
         startYear += 1
 
 def main():
     makeHomepage()
-    makeCalls(2000, 2000)
+    makeCalls(2000, 2018)
 
 if __name__ == '__main__':
     main()
