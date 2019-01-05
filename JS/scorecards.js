@@ -195,7 +195,7 @@ function changeHTML() {
             name2[i].style.color = "#00ffbc";
             score2[i].style.color = "#00ffbc";
             teamName2[i].style.color = "#00ffbc";
-            for (var k = 0; k < value; k++){
+            for (var k = 0; k < value - temp; k++){
                 quarter1[i * 5 + k].style.color = "#00ffbc";
                 quarter2[i * 5 + k].style.color = "#00ffbc";
                 quarter1[i * 5 + k].innerHTML = info[i][0][2][k];

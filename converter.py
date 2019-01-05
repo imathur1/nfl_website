@@ -378,10 +378,6 @@ class Converter():
         self.makeHTMLTemplate()
         games = []
         tree = ET.parse("Schedules/" + str(self.startYear) + "/" + self.type + "/schedule" + str(self.week) + ".xml")
-        tracker = 0
-        tracker2 = 0
-        tracker3 = 0
-        tracker4 = 0
         for elem in tree.iter():
             if elem.tag == "text":
                 Converter.noData = True
@@ -394,8 +390,14 @@ class Converter():
                 away = []
                 homePointsByQuarter = []
                 awayPointsByQuarter = []
-                count = 0
+                tracker = 0
+                tracker2 = 0
+                tracker3 = 1
             elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}team":
+                if tracker3 == 1:
+                    tracker3 = 0
+                else:
+                    tracker3 = 1
                 try:
                     message = elem.attrib['market']
                     message += " " + elem.attrib['name']
@@ -418,53 +420,37 @@ class Converter():
             elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}quarter":
                 if tracker3 == 0:
                     homePointsByQuarter.append(int(elem.attrib['points']))
-                    tracker3 = 1
                 else:
                     awayPointsByQuarter.append(int(elem.attrib['points']))
-                    tracker3 = 0
-                    count += 1
-                    if count == 4:
-                        homeSum = sum(homePointsByQuarter)
-                        homePointsByQuarter.append(homeSum)
-                        home.append(homePointsByQuarter)
-                        awaySum = sum(awayPointsByQuarter)
-                        awayPointsByQuarter.append(awaySum)
-                        away.append(awayPointsByQuarter)
-                        games.append([home, away, [value, newDate]])
+            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}scoring_drives":
+                homeSum = sum(homePointsByQuarter)
+                homePointsByQuarter.append(homeSum)
+                if len(homePointsByQuarter) == 6:
+                    temp = homePointsByQuarter[4]
+                    homePointsByQuarter[4] = homePointsByQuarter[5]
+                    homePointsByQuarter[5] = temp
+                home.append(homePointsByQuarter)
 
-                        if homeSum > awaySum:
-                            Converter.standings[records[0]][0] += 1
-                            Converter.standings[records[1]][1] += 1
-                        elif homeSum < awaySum:
-                            Converter.standings[records[0]][1] += 1
-                            Converter.standings[records[1]][0] += 1    
-                        else:
-                            Converter.standings[records[0]][2] += 1
-                            Converter.standings[records[1]][2] += 1
-            elif elem.tag == "{http://feed.elasticstats.com/schema/nfl/boxscore-v1.0.xsd}overtime":
-                if tracker4 == 0:
-                    home[2].append(int(elem.attrib['points']))
-                    homeSum = sum(home[2])
-                    home[2][4] += int(elem.attrib['points'])
-                    tracker4 = 1
+                awaySum = sum(awayPointsByQuarter)
+                awayPointsByQuarter.append(awaySum)
+                if len(awayPointsByQuarter) == 6:
+                    temp = awayPointsByQuarter[4]
+                    awayPointsByQuarter[4] = awayPointsByQuarter[5]
+                    awayPointsByQuarter[5] = temp
+                away.append(awayPointsByQuarter)
+
+                games.append([home, away, [value, newDate]])
+
+                if homeSum > awaySum:
+                    Converter.standings[records[0]][0] += 1
+                    Converter.standings[records[1]][1] += 1
+                elif homeSum < awaySum:
+                    Converter.standings[records[0]][1] += 1
+                    Converter.standings[records[1]][0] += 1    
                 else:
-                    away[2].append(int(elem.attrib['points']))
-                    awaySum = sum(away[2])
-                    away[2][4] += int(elem.attrib['away_points'])
-                    tracker4 = 0
+                    Converter.standings[records[0]][2] += 1
+                    Converter.standings[records[1]][2] += 1
 
-                    if homeSum > awaySum:
-                        Converter.standings[records[0]][0] += 1
-                        Converter.standings[records[1]][1] += 1
-                        Converter.standings[records[0]][2] -= 1
-                        Converter.standings[records[1]][2] -= 1
-                    elif homeSum < awaySum:
-                        Converter.standings[records[0]][1] += 1
-                        Converter.standings[records[1]][0] += 1
-                        Converter.standings[records[0]][2] -= 1
-                        Converter.standings[records[1]][2] -= 1        
-                    else:
-                        pass
         
         games.sort(key = itemgetter(2))
         self.appendInfo(games)
@@ -519,7 +505,7 @@ def makeCalls(startYear, endYear, switch):
         startYear += 1
 
 def main():
-    makeCalls(2012, 2012, 2015)
+    makeCalls(2013, 2013, 2015)
 
 if __name__ == '__main__':
     main()
