@@ -46,9 +46,14 @@ const wallpapers = [
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelerWallpaper.png"
 ];
 
+var previous = -1;
 for (var i = 0; i < everyTwo.length; i++){
     var random = Math.floor(Math.random() * 32);
-    everyTwo[i].style.backgroundImage = 'url(' + wallpapers[random] + ')';
+    while (random === previous) {
+        random = Math.floor(Math.random() * 32);
+    };
+    everyTwo[i].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[random] + ')';
+    previous = random;
 };
 
 function changePre(index) {

@@ -62,9 +62,14 @@ const wallpapers = [
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelerWallpaper.png"
 ];
 
-for (var i = 0; i < row.length; i++){
+var previous = -1;
+for (var i = 0; i < row.length; i ++){
     var random = Math.floor(Math.random() * 32);
-    row[i].style.backgroundImage = 'url(' + wallpapers[random] + ')';
+    while (random === previous) {
+        random = Math.floor(Math.random() * 32);
+    };
+    row[i].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[random] + ')';
+    previous = random;
 };
 
 const noData = document.getElementsByClassName('noData');
@@ -76,7 +81,6 @@ if (noData.length === 1) {
 };
 
 var num = 0;
-
 function createInfo() {
     var teams = []
     for (var i = 0; i < hiddenName.length; i++) {
@@ -87,7 +91,6 @@ function createInfo() {
             card[Math.floor(i / 2)].style.display = 'none';
         };
     };
-
     var index = 0;
     for (var i = 0; i < hiddenScore.length; i++) {
         if (hiddenScore[i].innerHTML != "None") {
@@ -168,6 +171,10 @@ function changeHTML() {
     };
 
     var count = 0;
+    if (num % 8 != 0) {
+        row[Math.floor(num / 8)].style.height = "891px";
+    };
+
     for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
         name1[i].innerHTML = info[i][0][0];  
@@ -212,23 +219,23 @@ function changeHTML() {
             result[count].innerHTML = 'Final/OT';
             overtime = true;
             for (var k = 0; k < value - 1; k++){
-                quarter[i * 5 + k].style.left = "2.5%";
-                quarter1[i * 5 + k].style.left = "2.5%";
-                quarter2[i * 5 + k].style.left = "2.5%";
-                teamName[i].style.right = "3.5%";
-                teamName1[i].style.right = "3.5%";
-                teamName2[i].style.right = "3.5%";
+                quarter[i * 5 + k].style.left = "6%";
+                quarter1[i * 5 + k].style.left = "6%";
+                quarter2[i * 5 + k].style.left = "6%";
+                teamName[i].style.right = "7.5%";
+                teamName1[i].style.right = "7.5%";
+                teamName2[i].style.right = "7.5%";
                 if (k === 3){
                     quarterHidden[i * 3].style.display = "inline-block";
                     quarterHidden[i * 3].style.position = "relative";
-                    quarterHidden[i * 3].style.left = "2.5%";
+                    quarterHidden[i * 3].style.left = "6%";
                     quarterHidden[i * 3 + 1].style.display = "inline-block";
                     quarterHidden[i * 3 + 1].style.position = "relative";
-                    quarterHidden[i * 3 + 1].style.left = "2.5%";
+                    quarterHidden[i * 3 + 1].style.left = "6%";
                     quarterHidden[i * 3 + 1].innerHTML = info[i][0][2][5];
                     quarterHidden[i * 3 + 2].style.display = "inline-block";
                     quarterHidden[i * 3 + 2].style.position = "relative";
-                    quarterHidden[i * 3 + 2].style.left = "2.5%";
+                    quarterHidden[i * 3 + 2].style.left = "6%";
                     quarterHidden[i * 3 + 2].innerHTML = info[i][1][2][5];   
                 };
             };
