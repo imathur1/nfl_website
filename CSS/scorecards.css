@@ -5,12 +5,55 @@ body {
     margin: 0;
 }
 
+.nav {
+    background-color: black;
+    height: 7.5%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+/*
+.main {
+    position: relative;
+    top: 7.5%;
+}
+*/
+.logo {
+    margin-left: 7.5%;
+    height: 85%;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    cursor: pointer;
+}
+
 .title {
+    display: inline-block;
+    position: relative;
+    bottom: 20%;
+    font-size: 22px;
+    font-family: 'Oswald', 'sans-serif';
+    margin-left: 0.25%;
+}
+
+.home {
+    float: right;
+    font-size: 20px;
+    font-family: 'Oswald', 'sans-serif';
+    margin-right: 7.5%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.year {
     color: #000;
     text-align: center;
     letter-spacing: 6px;
     font-size: 60px;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
+    padding-top: 3.75%;
 }
 
 .card {
@@ -68,7 +111,7 @@ body {
 
 .score1 {
     float: left;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     font-size: 60px;
     text-align: center;
     width: 12.5%;
@@ -76,7 +119,7 @@ body {
 
 .dash {
     float: left;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     width: 12.5%;
     text-align: center;
     font-size: 60px;
@@ -84,7 +127,7 @@ body {
 
 .score2 {
     float: left;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     font-size: 60px;
     text-align: center;
     width: 12.5%;
@@ -178,7 +221,7 @@ li {
 
 .noData {
     font-size: 100px;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     color: #000;
     text-align: center;
     margin-top: 15%;

@@ -1,8 +1,79 @@
 body {
     background-color: #fff;
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sans-serif';
     margin: 0;
+}
+
+.nav {
+    background-color: black;
+    height: 7.5%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.dropdown {
+    display: none;
+    width: 25%;
+    position: absolute;
+    background-color: #000;
+    z-index: 1;
+    margin-left: 72.5%;
+    font-family: 'Oswald', 'sans-serif';
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid #00ffbc;
+    border-radius: 6px;
+}
+
+.line {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.main {
+    position: relative;
+    top: 7.5%;
+}
+
+.logo {
+    margin-left: 7.5%;
+    height: 85%;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    cursor: pointer;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    bottom: 20%;
+    font-size: 22px;
+    font-family: 'Oswald', 'sans-serif';
+    margin-left: 0.25%;
+}
+
+.home {
+    float: right;
+    font-size: 20px;
+    font-family: 'Oswald', 'sans-serif';
+    margin-right: 2.5%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.season {
+    font-size: 20px;
+    float: right;
+    font-family: 'Oswald', 'sans-serif';
+    margin-right: 7.5%;
+    margin-top: 1%;
+    cursor: pointer;
 }
 
 .year {
@@ -10,7 +81,7 @@ body {
     text-align: center;
     letter-spacing: 6px;
     font-size: 60px;
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     margin-bottom: 2.5%;
     margin-left: 0.75%;
 }
@@ -32,7 +103,7 @@ body {
 }
 
 .type1, .type2, .type3 {
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     text-align: center;
     font-size: 40px;
     color: #00ffbc;
@@ -55,7 +126,7 @@ body {
 }
 
 .hoverPreWeek, .hoverRegWeek, .hoverPostRound {
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     font-size: 28px;
     width: 15%;
     text-align: center;
@@ -72,7 +143,7 @@ body {
 }
 
 h1 {
-    font-family: 'Oswald';
+    font-family: 'Oswald', 'sans-serif';
     position: relative;
     top: 10%;
     text-align: center;

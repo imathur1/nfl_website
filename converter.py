@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
-# Navigation bar
+# fix year bug
 # Host on server 
 
 # NFL Official
@@ -35,7 +35,7 @@ class Converter():
     "Los Angeles Chargers": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargers.png"],
     "Los Angeles Rams": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/rams.png"],
     "Miami Dolphins": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/dolphins.png"],
-    "Minnesota Vikings": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/rams.png"],
+    "Minnesota Vikings": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/vikings.png"],
     "New England Patriots": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/patriots.png"],
     "New Orleans Saints": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/saints.png"],
     "New York Giants": [0, 0, 0, "/Users/ishaan/Coding/Projects/NFL_Website/Images/giants.png"],
@@ -76,192 +76,198 @@ class Converter():
         text = """<!DOCTYPE html>
 <html>
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/scorecards.css">
     </head>
     <body>
-        <div class="title">""" + str(self.startYear) +  """ NFL """ + str(title) + """</div>
+        <div class="nav">
+            <img class="logo" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/nfl.png">
+            <div class="title">NFL SCORECARDS</div>
+            <div class="home">Home</div>
+        </div>
+        <div class="main">
+            <div class="year">""" + str(self.startYear) +  """ NFL """ + str(title) + """</div>
         """
         for i in range(4):
-            text += """ <div class="row">
-            <div class="card">
-                <div class="date">Sun, 16/12</div>
-                <div class="result">Final</div>
-                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
-                <div class="name1">Chicago Bears</div>
-                <div class="name2">Green Bay Packers</div>
-                <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div>  
-                <div class="table">
-                    <div class="scoring-header">
-                        <ul>
-                            <li class="team-name">Team</li>
-                            <li class='quarter'>1</li>
-                            <li class="quarter">2</li>
-                            <li class="quarter">3</li>
-                            <li class="quarter">4</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter">T</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name1">Chicago Bears</li>
-                            <li class='quarter1'>17</li>
-                            <li class="quarter1">17</li>
-                            <li class="quarter1">7</li>
-                            <li class="quarter1">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter1">54</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name2">Green Bay Packers</li>
-                            <li class='quarter2'>17</li>
-                            <li class="quarter2">17</li>
-                            <li class="quarter2">6</li>
-                            <li class="quarter2">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter2">53</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="date">Sun, 16/12</div>
-                <div class="result">Final</div>
-                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
-                <div class="name1">Chicago Bears</div>
-                <div class="name2">Green Bay Packers</div>
-                <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div>  
-                <div class="table">
-                    <div class="scoring-header">
-                        <ul>
-                            <li class="team-name">Team</li>
-                            <li class='quarter'>1</li>
-                            <li class="quarter">2</li>
-                            <li class="quarter">3</li>
-                            <li class="quarter">4</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter">T</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name1">Chicago Bears</li>
-                            <li class='quarter1'>17</li>
-                            <li class="quarter1">17</li>
-                            <li class="quarter1">7</li>
-                            <li class="quarter1">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter1">54</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name2">Green Bay Packers</li>
-                            <li class='quarter2'>17</li>
-                            <li class="quarter2">17</li>
-                            <li class="quarter2">6</li>
-                            <li class="quarter2">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter2">53</li>
-                        </ul>
+            text += """     <div class="row">
+                <div class="card">
+                    <div class="date">Sun, 16/12</div>
+                    <div class="result">Final</div>
+                    <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
+                    <div class="name1">Chicago Bears</div>
+                    <div class="name2">Green Bay Packers</div>
+                    <div class="record1">(16 - 0)</div>
+                    <div class="record2">(15 - 1)</div>  
+                    <div class="table">
+                        <div class="scoring-header">
+                            <ul>
+                                <li class="team-name">Team</li>
+                                <li class='quarter'>1</li>
+                                <li class="quarter">2</li>
+                                <li class="quarter">3</li>
+                                <li class="quarter">4</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter">T</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name1">Chicago Bears</li>
+                                <li class='quarter1'>17</li>
+                                <li class="quarter1">17</li>
+                                <li class="quarter1">7</li>
+                                <li class="quarter1">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter1">54</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name2">Green Bay Packers</li>
+                                <li class='quarter2'>17</li>
+                                <li class="quarter2">17</li>
+                                <li class="quarter2">6</li>
+                                <li class="quarter2">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter2">53</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="date">Sun, 16/12</div>
-                <div class="result">Final</div>
-                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
-                <div class="name1">Chicago Bears</div>
-                <div class="name2">Green Bay Packers</div>
-                <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div>  
-                <div class="table">
-                    <div class="scoring-header">
-                        <ul>
-                            <li class="team-name">Team</li>
-                            <li class='quarter'>1</li>
-                            <li class="quarter">2</li>
-                            <li class="quarter">3</li>
-                            <li class="quarter">4</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter">T</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name1">Chicago Bears</li>
-                            <li class='quarter1'>17</li>
-                            <li class="quarter1">17</li>
-                            <li class="quarter1">7</li>
-                            <li class="quarter1">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter1">54</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name2">Green Bay Packers</li>
-                            <li class='quarter2'>17</li>
-                            <li class="quarter2">17</li>
-                            <li class="quarter2">6</li>
-                            <li class="quarter2">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter2">53</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="date">Sun, 16/12</div>
-                <div class="result">Final</div>
-                <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
-                <div class="name1">Chicago Bears</div>
-                <div class="name2">Green Bay Packers</div>
-                <div class="record1">(16 - 0)</div>
-                <div class="record2">(15 - 1)</div>  
-                <div class="table">
-                    <div class="scoring-header">
-                        <ul>
-                            <li class="team-name">Team</li>
-                            <li class='quarter'>1</li>
-                            <li class="quarter">2</li>
-                            <li class="quarter">3</li>
-                            <li class="quarter">4</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter">T</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name1">Chicago Bears</li>
-                            <li class='quarter1'>17</li>
-                            <li class="quarter1">17</li>
-                            <li class="quarter1">7</li>
-                            <li class="quarter1">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter1">54</li>
-                        </ul>
-                    </div>
-                    <div class="scoring">
-                        <ul>
-                            <li class="team-name2">Green Bay Packers</li>
-                            <li class='quarter2'>17</li>
-                            <li class="quarter2">17</li>
-                            <li class="quarter2">6</li>
-                            <li class="quarter2">13</li>
-                            <li class="quarter-hidden">OT</li>
-                            <li class="quarter2">53</li>
-                        </ul>
+                <div class="card">
+                    <div class="date">Sun, 16/12</div>
+                    <div class="result">Final</div>
+                    <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
+                    <div class="name1">Chicago Bears</div>
+                    <div class="name2">Green Bay Packers</div>
+                    <div class="record1">(16 - 0)</div>
+                    <div class="record2">(15 - 1)</div>  
+                    <div class="table">
+                        <div class="scoring-header">
+                            <ul>
+                                <li class="team-name">Team</li>
+                                <li class='quarter'>1</li>
+                                <li class="quarter">2</li>
+                                <li class="quarter">3</li>
+                                <li class="quarter">4</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter">T</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name1">Chicago Bears</li>
+                                <li class='quarter1'>17</li>
+                                <li class="quarter1">17</li>
+                                <li class="quarter1">7</li>
+                                <li class="quarter1">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter1">54</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name2">Green Bay Packers</li>
+                                <li class='quarter2'>17</li>
+                                <li class="quarter2">17</li>
+                                <li class="quarter2">6</li>
+                                <li class="quarter2">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter2">53</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>"""
+                <div class="card">
+                    <div class="date">Sun, 16/12</div>
+                    <div class="result">Final</div>
+                    <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
+                    <div class="name1">Chicago Bears</div>
+                    <div class="name2">Green Bay Packers</div>
+                    <div class="record1">(16 - 0)</div>
+                    <div class="record2">(15 - 1)</div>  
+                    <div class="table">
+                        <div class="scoring-header">
+                            <ul>
+                                <li class="team-name">Team</li>
+                                <li class='quarter'>1</li>
+                                <li class="quarter">2</li>
+                                <li class="quarter">3</li>
+                                <li class="quarter">4</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter">T</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name1">Chicago Bears</li>
+                                <li class='quarter1'>17</li>
+                                <li class="quarter1">17</li>
+                                <li class="quarter1">7</li>
+                                <li class="quarter1">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter1">54</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name2">Green Bay Packers</li>
+                                <li class='quarter2'>17</li>
+                                <li class="quarter2">17</li>
+                                <li class="quarter2">6</li>
+                                <li class="quarter2">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter2">53</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="date">Sun, 16/12</div>
+                    <div class="result">Final</div>
+                    <img class="img1" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/packers.png">
+                    <div class="name1">Chicago Bears</div>
+                    <div class="name2">Green Bay Packers</div>
+                    <div class="record1">(16 - 0)</div>
+                    <div class="record2">(15 - 1)</div>  
+                    <div class="table">
+                        <div class="scoring-header">
+                            <ul>
+                                <li class="team-name">Team</li>
+                                <li class='quarter'>1</li>
+                                <li class="quarter">2</li>
+                                <li class="quarter">3</li>
+                                <li class="quarter">4</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter">T</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name1">Chicago Bears</li>
+                                <li class='quarter1'>17</li>
+                                <li class="quarter1">17</li>
+                                <li class="quarter1">7</li>
+                                <li class="quarter1">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter1">54</li>
+                            </ul>
+                        </div>
+                        <div class="scoring">
+                            <ul>
+                                <li class="team-name2">Green Bay Packers</li>
+                                <li class='quarter2'>17</li>
+                                <li class="quarter2">17</li>
+                                <li class="quarter2">6</li>
+                                <li class="quarter2">13</li>
+                                <li class="quarter-hidden">OT</li>
+                                <li class="quarter2">53</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>"""
         file.write(text)
         file.close()        
     
@@ -294,56 +300,59 @@ class Converter():
     def appendInfo(self, games):
         output = open("HTML/" + str(self.startYear) + "/" + self.type + "/scorecard" + str(self.week) + ".html", "a")
         if Converter.noData == True:
-            text = ' ' * 8 + '<div class="noData">NO DATA</div>\n'
+            text = ' ' * 12 + '<div class="noData">NO DATA</div>\n'
         else:
             text = ''
             count = 0
             for i in games:
-                text += ' ' * 8 + '<div class="hiddenName">' + i[0][0] + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenName">' + i[1][0] + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenName">' + i[0][0] + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenName">' + i[1][0] + '</div>\n'
                 count += 2
             for i in range(count, 32):
-                text += ' ' * 8 + '<div class="hiddenName">None</div>\n'
+                text += ' ' * 12 + '<div class="hiddenName">None</div>\n'
             count = 0
             for i in games:
-                text += ' ' * 8 + '<div class="hiddenScore">' + str(i[0][1]) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenScore">' + str(i[1][1]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenScore">' + str(i[0][1]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenScore">' + str(i[1][1]) + '</div>\n'
                 count += 2
             for i in range(count, 32):
-                text += ' ' * 8 + '<div class="hiddenScore">None</div>\n'
+                text += ' ' * 12 + '<div class="hiddenScore">None</div>\n'
             count = 0
             for i in games:
                 for j in i[0][2]:
-                    text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
+                    text += ' ' * 12 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenPoint">STOP</div>\n'
                 for j in i[1][2]:
-                    text += ' ' * 8 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenPoint">STOP</div>\n'
+                    text += ' ' * 12 + '<div class="hiddenPoint">' + str(j) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenPoint">STOP</div>\n'
                 count += 2
             for i in range(count, 32):
-                text += ' ' * 8 + '<div class="hiddenPoint">None</div>\n'
+                text += ' ' * 12 + '<div class="hiddenPoint">None</div>\n'
             count = 0
             for i in games:
-                text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
+                text += ' ' * 21 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenTime">' + str(i[2][0]) + '</div>\n'
                 count += 2
             for i in range(count, 32):
-                text += ' ' * 8 + '<div class="hiddenTime">None</div>\n'
+                text += ' ' * 12 + '<div class="hiddenTime">None</div>\n'
             count = 0
             for i in games:
-                text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenDate">' + i[2][1] + '</div>\n'
                 count += 2
             for i in range(count, 32):
-                text += ' ' * 8 + '<div class="hiddenDate">None</div>\n'
+                text += ' ' * 12 + '<div class="hiddenDate">None</div>\n'
             for i in Converter.standings:
-                text += ' ' * 8 + '<div class="hiddenStanding1">' + i + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenStanding1">' + i + '</div>\n'
             for i in Converter.standings:
-                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
-                text += ' ' * 8 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
-        text += ' ' * 8 + '<script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/scorecards.js"></script>'
+                text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][0]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][1]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
+                text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
+        text += """        </div>
+        <script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/scorecards.js"></script>
+    </body>
+</html>"""
         output.write(text)
         output.close()
 
@@ -530,105 +539,135 @@ def makeHomepage():
     file = open("HTML/homepage.html", "w")
     text = """<html>
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/homepage.css">
     </head>
-    <body>"""
+    <body>
+        <div class="nav">
+            <img class="logo" src="/Users/ishaan/Coding/Projects/NFL_Website/Images/nfl.png">
+            <div class="title">NFL SCORECARDS</div>
+            <div class="season">Year</div>
+            <div class="dropdown">
+                <p class="line">2018</p>
+                <p class="line">2017</p>
+                <p class="line">2016</p>
+                <p class="line">2015</p>
+                <p class="line">2014</p>
+                <p class="line">2013</p>
+                <p class="line">2012</p>
+                <p class="line">2011</p>
+                <p class="line">2010</p>
+                <p class="line">2009</p>
+                <p class="line">2008</p>
+                <p class="line">2007</p>
+                <p class="line">2006</p>
+                <p class="line">2005</p>
+                <p class="line">2004</p>
+                <p class="line">2003</p>
+                <p class="line">2002</p>
+                <p class="line">2001</p>
+            </div>
+            <div class="home">Home</div>
+        </div>
+        <div id="home"></div>  
+        <div class="main">"""
     i = 2018
     while i >= 2001:
-        text += """\n        <div class="everyTwo">
-            <div class="year">""" + str(i) + """ NFL SEASON</div>
-            <div class="pre">
-                <div class="type1">PRE</div>
-                <h1>SEASON</h1>
-                <div class="preWeeks">
-                    <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard1.html">1</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard2.html">2</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard3.html">3</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard4.html">4</a></div>
-                </div>
-            </div>
-            <div class="reg">
-                <div class="type2">REGULAR</div>
-                <h1>SEASON</h1>
-                <div class="regWeeks">
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard1.html">1</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard2.html">2</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard3.html">3</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard4.html">4</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard5.html">5</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard6.html">6</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard7.html">7</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard8.html">8</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard9.html">9</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard10.html">10</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard11.html">11</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard12.html">12</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard13.html">13</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard14.html">14</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard15.html">15</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard16.html">16</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard17.html">17</a></div>
-                </div>
-            </div>
-            <div class="post">
-                <div class="type3">POST</div>
-                <h1>SEASON</h1>
-                <div class="postRounds">
-                    <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard1.html">Wild Card</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard2.html">Divisional</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard3.html">Conference Championships</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard4.html">Super Bowl</a></div>
-                </div> 
-            </div>
-            <div class="year">""" + str(i - 1) + """ NFL SEASON</div>
-            <div class="pre">
-                <div class="type1">PRE</div>
-                <h1>SEASON</h1>
-                <div class="preWeeks">
-                    <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard1.html">1</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard2.html">2</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard3.html">3</a></div>
-                    <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard4.html">4</a></div>
+        text += """  
+            <div class="everyTwo">
+                <div class="year">""" + str(i) + """ NFL SEASON</div>
+                <div class="pre">
+                    <div class="type1">PRE</div>
+                    <h1>SEASON</h1>
+                    <div class="preWeeks">
+                        <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard1.html">1</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard2.html">2</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard3.html">3</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i) + """/PRE/scorecard4.html">4</a></div>
                     </div>
-            </div>
-            <div class="reg">
-                <div class="type2">REGULAR</div>
-                <h1>SEASON</h1>
-                <div class="regWeeks">
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard1.html">1</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard2.html">2</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard3.html">3</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard4.html">4</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard5.html">5</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard6.html">6</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard7.html">7</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard8.html">8</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard9.html">9</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard10.html">10</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard11.html">11</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard12.html">12</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard13.html">13</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard14.html">14</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard15.html">15</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard16.html">16</a></div>
-                    <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard17.html">17</a></div>
                 </div>
-            </div>
-            <div class="post">
-                <div class="type3">POST</div>
-                <h1>SEASON</h1>
-                <div class="postRounds">
-                    <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard1.html">Wild Card</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard2.html">Divisional</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard3.html">Conference Championships</a></div>
-                    <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard4.html">Super Bowl</a></div>
-                </div> 
-            </div>
-        </div>"""
+                <div class="reg">
+                    <div class="type2">REGULAR</div>
+                    <h1>SEASON</h1>
+                    <div class="regWeeks">
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard1.html">1</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard2.html">2</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard3.html">3</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard4.html">4</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard5.html">5</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard6.html">6</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard7.html">7</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard8.html">8</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard9.html">9</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard10.html">10</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard11.html">11</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard12.html">12</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard13.html">13</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard14.html">14</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard15.html">15</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard16.html">16</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i) + """/REG/scorecard17.html">17</a></div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="type3">POST</div>
+                    <h1>SEASON</h1>
+                    <div class="postRounds">
+                        <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard1.html">Wild Card</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard2.html">Divisional</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard3.html">Conference Championships</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i) + """/PST/scorecard4.html">Super Bowl</a></div>
+                    </div> 
+                </div>
+                <div class="year">""" + str(i - 1) + """ NFL SEASON</div>
+                <div class="pre">
+                    <div class="type1">PRE</div>
+                    <h1>SEASON</h1>
+                    <div class="preWeeks">
+                        <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard1.html">1</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard2.html">2</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard3.html">3</a></div>
+                        <div class="hoverPreWeek"><a href=\"""" + str(i - 1) + """/PRE/scorecard4.html">4</a></div>
+                        </div>
+                </div>
+                <div class="reg">
+                    <div class="type2">REGULAR</div>
+                    <h1>SEASON</h1>
+                    <div class="regWeeks">
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard1.html">1</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard2.html">2</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard3.html">3</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard4.html">4</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard5.html">5</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard6.html">6</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard7.html">7</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard8.html">8</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard9.html">9</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard10.html">10</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard11.html">11</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard12.html">12</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard13.html">13</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard14.html">14</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard15.html">15</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard16.html">16</a></div>
+                        <div class="hoverRegWeek"><a href=\"""" + str(i - 1) + """/REG/scorecard17.html">17</a></div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="type3">POST</div>
+                    <h1>SEASON</h1>
+                    <div class="postRounds">
+                        <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard1.html">Wild Card</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard2.html">Divisional</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard3.html">Conference Championships</a></div>
+                        <div class="hoverPostRound"><a href=\"""" + str(i - 1) + """/PST/scorecard4.html">Super Bowl</a></div>
+                    </div> 
+                </div>
+            </div>"""
         i -= 2
     text += """        <script type="text/javascript" src="/Users/ishaan/Coding/Projects/NFL_Website/JS/homepage.js"></script>
+        </div>
     </body>
 </html>"""
     file.write(text)

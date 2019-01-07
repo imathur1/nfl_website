@@ -10,6 +10,55 @@ const hoverPostRound = document.getElementsByClassName('hoverPostRound');
 const h1 = document.getElementsByTagName('h1');
 const everyTwo = document.getElementsByClassName('everyTwo');
 const year = document.getElementsByClassName('year');
+const home = document.getElementsByClassName('home');
+const season = document.getElementsByClassName('season');
+const dropdown = document.getElementsByClassName('dropdown');
+const line = document.getElementsByClassName('line');
+
+home[0].onmouseover = function() {
+    home[0].style.color = "#00ffbc";
+};
+
+home[0].onmouseout = function() {
+    home[0].style.color = "#fff";
+};
+home[0].onclick = function() {
+    window.scroll({
+       top: 0,
+       left: 0,
+       behavior: 'smooth'
+    });
+};
+
+season[0].onmouseover = function() {
+    season[0].style.color = "#00ffbc";
+    dropdown[0].style.display = "block";
+};
+dropdown[0].onmouseover = function() {
+    season[0].style.color = "#00ffbc";
+    dropdown[0].style.display = "block";
+};
+dropdown[0].onmouseout = function() {
+    dropdown[0].style.display = "none";
+    season[0].style.color = "#fff";
+};
+
+for (let i = 0; i < line.length; i++) {
+    line[i].onmouseover = function() {
+        line[i].style.color = "#00ffbc";
+        line[i].style.cursor = "pointer";
+        line[i].onclick = function() {
+            window.scroll({
+               top: 450 * i,
+               left: 0,
+               behavior: 'smooth' 
+            });
+        };
+    };
+    line[i].onmouseout = function() {
+        line[i].style.color = "#fff";
+    };
+};
 
 const wallpapers = [
     "/Users/ishaan/Coding/Projects/NFL_Website/Images/49erWallpaper.png",
@@ -60,6 +109,7 @@ function changePre(index) {
     type1[index].innerHTML = "WEEK";
     type1[index].style.top = "0%";
     pre[index].style.position = "absolute";
+    pre[index].style.height = "3.07%";
     reg[index].style.marginLeft = "37.5%";
     h1[3 * index].style.display = "none";
     for (var i = 0; i < hoverPreWeek.length / pre.length; i++) {
@@ -70,6 +120,7 @@ function resetPre(index) {
     type1[index].innerHTML = "PRE";
     type1[index].style.top = "25%";
     pre[index].style.position = "relative";
+    pre[index].style.height = "32.5%";
     reg[index].style.marginLeft = "5.75%";
     h1[3 * index].style.display = "block";
     h1[3 * index].style.textAlign = "center";
@@ -82,6 +133,7 @@ function changeReg(index) {
     type2[index].innerHTML = "WEEK";
     type2[index].style.top = "0%";
     reg[index].style.position = "absolute";
+    reg[index].style.height = "3.07%";
     post[index].style.marginLeft = "37.5%";
     h1[1 + 3 * index].style.display = "none";
     for (var i = 0; i < hoverRegWeek.length / reg.length; i++) {
@@ -93,6 +145,7 @@ function resetReg(index) {
     type2[index].style.top = "25%";
     reg[index].style.position = "relative";
     post[index].style.marginLeft = "5.75%";
+    reg[index].style.height = "32.5%";
     h1[1 + 3 * index].style.display = "block";
     h1[1 + 3 * index].style.textAlign = "center";
     for (var i = 0; i < hoverRegWeek.length / reg.length; i++) {
@@ -103,6 +156,7 @@ function resetReg(index) {
 function changePost(index) {
     type3[index].innerHTML = "ROUND";
     type3[index].style.top = "0%";
+    post[index].style.height = "3.07%";
     post[index].style.position = "absolute";
     h1[2 + 3 * index].style.display = "none";
     for (var i = 0; i < hoverPostRound.length / post.length; i++) {
@@ -112,7 +166,8 @@ function changePost(index) {
 function resetPost(index) {
     type3[index].innerHTML = "POST";
     type3[index].style.top = "25%";
-    reg[index].style.position = "relative";
+    post[index].style.position = "relative";
+    post[index].style.height = "32.5%";
     h1[2 + 3 * index].style.display = "block";
     h1[2 + 3 * index].style.textAlign = "center";
     for (var i = 0; i < hoverPostRound.length / post.length; i++) {
