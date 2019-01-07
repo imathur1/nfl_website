@@ -14,6 +14,7 @@ const home = document.getElementsByClassName('home');
 const season = document.getElementsByClassName('season');
 const dropdown = document.getElementsByClassName('dropdown');
 const line = document.getElementsByClassName('line');
+const nav = document.getElementsByClassName('nav');
 
 home[0].onmouseover = function() {
     home[0].style.color = "#00ffbc";
@@ -39,6 +40,10 @@ dropdown[0].onmouseover = function() {
     dropdown[0].style.display = "block";
 };
 dropdown[0].onmouseout = function() {
+    dropdown[0].style.display = "none";
+    season[0].style.color = "#fff";
+};
+nav[0].onmouseout = function() {
     dropdown[0].style.display = "none";
     season[0].style.color = "#fff";
 };

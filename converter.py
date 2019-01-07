@@ -4,7 +4,6 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
-# fix year bug
 # Host on server 
 
 # NFL Official
