@@ -176,6 +176,11 @@ function changeHTML() {
         for (var i = card.length - 1; i >= 0; i--) {
             if (card[i].style.display != "none") {
                 card[i].style.marginLeft = "29.5%";
+                name1[i].style.bottom = "-4%";
+                name2[i].style.bottom = "-4%";
+                record1[i].style.marginTop = "3%";
+                record2[i].style.marginTop = "3%";
+                card[i].style.height = "40%";
                 break;
             };
         }; 
