@@ -78,6 +78,7 @@ class Converter():
         <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
         <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/scorecards.css">
+        <title>NFL Scorecards | Week """ + str(self.week) + """</title>
     </head>
     <body>
         <div class="nav">
@@ -541,6 +542,7 @@ def makeHomepage():
         <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
         <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/Users/ishaan/Coding/Projects/NFL_Website/CSS/homepage.css">
+        <title>NFL Scorecards</title>
     </head>
     <body>
         <div class="nav">
@@ -723,7 +725,7 @@ def makeCalls(startYear, endYear):
 
 def main():
     makeHomepage()
-    makeCalls(2002, 2005)
+    makeCalls(2001, 2018)
 
 if __name__ == '__main__':
     main()
