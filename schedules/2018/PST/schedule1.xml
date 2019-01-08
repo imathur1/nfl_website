@@ -1,32 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
-<!-- Generation started @ 2019-01-04 20:52:18 +0000 -->
+<!-- Generation started @ 2019-01-07 14:50:05 +0000 -->
 <season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="38c98229-3687-4b4d-974c-38bf8c88f7f9" year="2018" type="PST" name="PST">
   <week id="e9232517-eea0-460f-9a78-7296aa745b42" sequence="1" title="1">
-    <game id="562a191f-a9eb-4942-89bf-5f51d4f7074c" status="scheduled" reference="57823" number="257" scheduled="2019-01-05T21:35:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613809">
+    <game id="562a191f-a9eb-4942-89bf-5f51d4f7074c" status="closed" reference="57823" number="257" scheduled="2019-01-05T21:35:00+00:00" attendance="71798" utc_offset="-6" entry_mode="INGEST" weather="Sunny Temp: 71 F, Humidity: 32%, Wind: SSW 5 mph" sr_id="sr:match:16613809">
       <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
       <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" sr_id="sr:competitor:4324"/>
       <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" sr_id="sr:competitor:4421"/>
       <broadcast network="ABC/ESPN" satellite="206" internet="WatchESPN"/>
+      <scoring home_points="7" away_points="21">
+        <quarter id="e03cc382-fd2f-4b1f-b10c-c9a8b93ef73b" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="35e1981c-ef67-4634-91fe-bc435e7a86be" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="219eb6f1-1be8-4bd0-801b-9bb0629a4afe" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="1e1a858e-5d4d-4a14-b1df-4bc4dac1df83" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
     </game>
-    <game id="e7ac4c14-1345-42be-b571-87b69874fac2" status="scheduled" reference="57825" number="259" scheduled="2019-01-06T18:05:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613661">
+    <game id="e7ac4c14-1345-42be-b571-87b69874fac2" status="closed" reference="57825" number="259" scheduled="2019-01-06T18:05:00+00:00" attendance="70432" utc_offset="-5" entry_mode="INGEST" weather="Sunny Temp: 52 F, Humidity: 58%, Wind: WNW 12 mph" sr_id="sr:match:16613661">
       <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
       <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" sr_id="sr:competitor:4413"/>
       <away id="1f6dcffb-9823-43cd-9ff4-e7a8466749b5" name="Los Angeles Chargers" alias="LAC" sr_id="sr:competitor:4429"/>
       <broadcast network="CBS"/>
+      <scoring home_points="17" away_points="23">
+        <quarter id="bf58c9b7-6e89-4080-a8a5-c27ff4837678" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="8d1fc907-ec65-49db-b04b-5ef2df76d503" number="2" sequence="2" home_points="0" away_points="6"/>
+        <quarter id="407daf1e-0add-4fda-b71b-ced5ba0fd297" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="5d3917e3-0330-4f19-b6b7-33a00a2d5506" number="4" sequence="4" home_points="14" away_points="11"/>
+      </scoring>
     </game>
-    <game id="e9e0f6d8-f7a2-4489-b634-8e6936e36b7e" status="scheduled" reference="57826" number="260" scheduled="2019-01-06T21:40:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613663">
+    <game id="e9e0f6d8-f7a2-4489-b634-8e6936e36b7e" status="closed" reference="57826" number="260" scheduled="2019-01-06T21:40:00+00:00" attendance="62462" utc_offset="-6" entry_mode="INGEST" weather="Mostly Cloudy Temp: 39 F, Humidity: 68%, Wind: ENE 12 mph" sr_id="sr:match:16613663">
       <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
       <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" sr_id="sr:competitor:4391"/>
       <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" sr_id="sr:competitor:4428"/>
       <broadcast network="NBC"/>
+      <scoring home_points="15" away_points="16">
+        <quarter id="d99fb937-aa85-4360-a9ae-a91e2c02a508" number="1" sequence="1" home_points="0" away_points="3"/>
+        <quarter id="930dbc26-d1e9-497c-9cea-1c7b8162c719" number="2" sequence="2" home_points="6" away_points="0"/>
+        <quarter id="c86e6566-0213-47d4-aa38-f28e70789c25" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="3b80cfb0-318d-410f-9294-3e7f6bce670a" number="4" sequence="4" home_points="9" away_points="6"/>
+      </scoring>
     </game>
-    <game id="ef370e46-4f4e-461d-90ee-501c1594581a" status="scheduled" reference="57824" number="258" scheduled="2019-01-06T01:15:00+00:00" entry_mode="INGEST" sr_id="sr:match:16613665">
+    <game id="ef370e46-4f4e-461d-90ee-501c1594581a" status="closed" reference="57824" number="258" scheduled="2019-01-06T01:15:00+00:00" attendance="94327" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph" sr_id="sr:match:16613665">
       <venue id="1e84213a-ff1f-4c9d-a003-8ee782b25a40" name="AT&amp;T Stadium" city="Arlington" state="TX" country="USA" zip="76011" address="One Legends Way" capacity="80000" surface="artificial" roof_type="retractable_dome"/>
       <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" sr_id="sr:competitor:4392"/>
       <away id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" sr_id="sr:competitor:4430"/>
       <broadcast network="FOX"/>
+      <scoring home_points="24" away_points="22">
+        <quarter id="228fa7ea-e00b-4f43-8447-547d33b608dd" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="c371b323-9f14-4adf-a253-2565b690ddef" number="2" sequence="2" home_points="7" away_points="6"/>
+        <quarter id="896b09fc-328f-4073-885e-f80c8b8c21a9" number="3" sequence="3" home_points="0" away_points="8"/>
+        <quarter id="6343d717-9e52-42c6-ba40-125c98268493" number="4" sequence="4" home_points="14" away_points="8"/>
+      </scoring>
     </game>
   </week>
 </season>
-<!-- Generation ended @ 2019-01-04 20:52:18 +0000 -->
+<!-- Generation ended @ 2019-01-07 14:50:05 +0000 -->

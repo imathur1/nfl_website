@@ -1,1 +1,52 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:47:27 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="d42f62b3-9e00-4617-8355-135917237420" year="2005" type="PST" name="PST">
+  <week id="7f2a9d31-b130-4c80-bc9d-c818c0cb8892" sequence="2" title="2">
+    <game id="3b2fdf81-e2ac-4b41-ae38-4b48a8b3cb17" status="closed" scheduled="2006-01-15T18:06:36+00:00" attendance="57449" utc_offset="-5" entry_mode="INGEST">
+      <venue id="8cb20830-5bb3-4bf2-aacb-492a0d90df10" name="RCA Dome" city="Indianapolis" state="IN" zip="46225" address="100 South Capitol Avenue" capacity="55531" surface="artificial" roof_type="dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="1" sr_id="sr:competitor:4421"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="2" sr_id="sr:competitor:4345"/>
+      <scoring home_points="18" away_points="21">
+        <quarter id="a3cf9798-a0ab-4f94-81ca-d45ea0a021ae" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="e3cf2291-6742-47b2-bdb7-a510b7c02a00" number="2" sequence="2" home_points="3" away_points="0"/>
+        <quarter id="4b3f9c9a-f21f-4737-873d-bdcfabeb84c2" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="9436d8b4-ce55-4c75-aa31-14c3026d905b" number="4" sequence="4" home_points="15" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="6a5dde81-70dc-48f6-b51b-a463ac44f191" status="closed" scheduled="2006-01-15T01:16:34+00:00" attendance="76238" utc_offset="-7" entry_mode="INGEST">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="1" sr_id="sr:competitor:4418"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="2" sr_id="sr:competitor:4424"/>
+      <scoring home_points="27" away_points="13">
+        <quarter id="70c013c4-b927-440f-ae0d-64981593dc67" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="2af3f5d5-403a-4280-9864-14b4d126540e" number="2" sequence="2" home_points="10" away_points="3"/>
+        <quarter id="97a394b3-3284-4ac2-a3f2-2dbed4f41bf7" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="77cba2e5-7f5d-49c3-8b44-4a9d9eb44261" number="4" sequence="4" home_points="10" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="85869c59-3eb9-4aa7-b144-d448b600c72a" status="closed" scheduled="2006-01-14T21:35:22+00:00" attendance="67551" utc_offset="-8" entry_mode="INGEST">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="1" sr_id="sr:competitor:4430"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="2" sr_id="sr:competitor:4432"/>
+      <scoring home_points="20" away_points="10">
+        <quarter id="1a136898-c5b1-47d2-98ee-46a791933d82" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="98160bd7-bcb1-43d0-a3d0-36f533391419" number="2" sequence="2" home_points="7" away_points="3"/>
+        <quarter id="9d057eed-77c9-494b-a042-4d030b1b1552" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="ba040ea8-73da-4968-87c5-a97fdc99459e" number="4" sequence="4" home_points="6" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="89bcbddb-4649-47c5-8c4f-0b07dbf41917" status="closed" scheduled="2006-01-15T21:41:40+00:00" attendance="62209" utc_offset="-6" entry_mode="INGEST">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="1" sr_id="sr:competitor:4391"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="2" sr_id="sr:competitor:4415"/>
+      <scoring home_points="21" away_points="29">
+        <quarter id="177cfd1e-36f2-47f0-a9f2-05241dddda1e" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="ec6a6c2f-8518-4ed7-b0df-6b2f4e8997a7" number="2" sequence="2" home_points="7" away_points="9"/>
+        <quarter id="1c8a9736-a5b3-4537-ba0c-b0408053b6a2" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="8ba98127-177f-479a-94ab-7b289766afe3" number="4" sequence="4" home_points="7" away_points="6"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:47:27 +0000 -->

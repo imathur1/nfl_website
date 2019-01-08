@@ -107,6 +107,7 @@ for (var i = 0; i < everyTwo.length; i++){
         random = Math.floor(Math.random() * 32);
     };
     everyTwo[i].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[random] + ')';
+    everyTwo[i].style.backgroundSize = "cover";
     previous = random;
 };
 

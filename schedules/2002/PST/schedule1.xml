@@ -1,1 +1,52 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:46:52 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="501981c3-5ca0-4baa-babb-add9e6b8501f" year="2002" type="PST" name="PST">
+  <week id="ec64a98e-b533-4df7-a6c3-1348da7c9158" sequence="1" title="1">
+    <game id="1b162b52-6637-4c56-9891-72ecf5b50d54" status="closed" scheduled="2003-01-05T21:47:11+00:00" attendance="66318" utc_offset="-8" entry_mode="INGEST" weather="sunny Temp: 53 F, Humidity: 96%, Wind: north 5 mph">
+      <venue id="6701808c-c329-482b-9834-2d29cb3185ff" name="Candlestick Park" city="San Francisco" state="CA" country="USA" zip="94124" address="602 Jamestown Avenue" capacity="69732" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="1" sr_id="sr:competitor:4389"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="1" sr_id="sr:competitor:4426"/>
+      <scoring home_points="39" away_points="38">
+        <quarter id="3546c771-a5cb-4153-8a7e-3c719e3caa48" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="ed621f12-2345-428b-b87b-255aea1c3874" number="2" sequence="2" home_points="7" away_points="21"/>
+        <quarter id="f913c3c0-b479-4b03-ad98-555528d9a89e" number="3" sequence="3" home_points="8" away_points="10"/>
+        <quarter id="e430a797-2155-4852-8842-dacec2ae325a" number="4" sequence="4" home_points="17" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="98cfc11b-9aad-46fa-9f62-689ad6c073c1" status="closed" scheduled="2003-01-05T01:09:01+00:00" attendance="65358" utc_offset="-6" entry_mode="INGEST" weather="Fallling temps., chance of flurries. Temp: 31 F, Humidity: 65%, Wind: SE 5 mph">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="81435" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="1" sr_id="sr:competitor:4420"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="1" sr_id="sr:competitor:4393"/>
+      <scoring home_points="7" away_points="27">
+        <quarter id="99460c46-3a17-478b-a25f-a5129a8b9205" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="68e4390b-9d48-44e7-b0ca-6f31955645a7" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="76e92736-ea50-4fb4-b152-d12736e6c4c3" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="70f87b99-aba7-42b1-b342-7a1f153f1296" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="ae74f3a3-32fa-44f6-9261-165fd5f2f4c9" status="closed" scheduled="2003-01-04T21:41:17+00:00" attendance="78524" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 35 F, Humidity: 75%, Wind: NW 10 mph">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="1" sr_id="sr:competitor:4427"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="1" sr_id="sr:competitor:4421"/>
+      <scoring home_points="41" away_points="0">
+        <quarter id="8981a495-7871-45d5-9470-61a5ec6e798d" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="48c79a69-738b-4dcb-a45c-39aa8de1bc0f" number="2" sequence="2" home_points="17" away_points="0"/>
+        <quarter id="ca86fac8-0665-49ea-9ede-35fc709d07a3" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="9d6acb80-775a-4d8b-b72c-965f5206ca51" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="c1f53f41-8019-460b-81a4-0ae5cb26a31d" status="closed" scheduled="2003-01-05T18:14:12+00:00" attendance="62595" utc_offset="-5" entry_mode="INGEST" weather="Light snow Temp: 27 F, Humidity: 90%, Wind: NE 5.2 kts mph">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="68400" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="1" sr_id="sr:competitor:4345"/>
+      <away id="d5a2eb42-8065-4174-ab79-0a6fa820e35e" name="Cleveland Browns" alias="CLE" game_number="1" sr_id="sr:competitor:4417"/>
+      <scoring home_points="36" away_points="33">
+        <quarter id="74765f77-3b14-4360-b132-a56e47e5adbd" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="92cd6ba5-0993-4ff8-8190-a4cd40f5a743" number="2" sequence="2" home_points="7" away_points="10"/>
+        <quarter id="9120aad9-8041-402c-b478-f666e8033e9c" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="41180ff2-bd03-471d-aac4-4f9e533ce027" number="4" sequence="4" home_points="22" away_points="9"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:46:52 +0000 -->

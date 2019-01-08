@@ -308,6 +308,7 @@ function changeHTML() {
                 superbowl++;
             };
             row[0].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[superbowl][1] + ')';
+            row[0].style.backgroundSize = "cover";
         } else {
             var superbowl = 0;
             for (var i = 0; i < wallpapers.length; i++) {
@@ -317,6 +318,7 @@ function changeHTML() {
                 superbowl++;
             };
             row[0].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[superbowl][1] + ')';
+            row[0].style.backgroundSize = "cover";
         };
     } else {
         for (var i = 0; i < row.length; i ++){
@@ -325,6 +327,7 @@ function changeHTML() {
                 random = Math.floor(Math.random() * 32);
             };
             row[i].style.background = 'linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(' + wallpapers[random][1] + ')';
+            row[i].style.backgroundSize = "cover";
             previous = random;
         };
     };

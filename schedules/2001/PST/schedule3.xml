@@ -1,1 +1,30 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:46:47 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="dc538d40-963e-4687-9081-33cc159bfbff" year="2001" type="PST" name="PST">
+  <week id="0cd0ab88-ec9b-4500-ba61-615d383e2dfb" sequence="3" title="3">
+    <game id="3263a18e-be01-488b-b324-541f32f52a30" status="closed" scheduled="2002-01-27T17:42:54+00:00" attendance="64704" utc_offset="-5" entry_mode="INGEST" weather="Partly Sunny Temp: 50 F, Humidity: 50%, Wind: SW 16 mph">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="68400" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="2" sr_id="sr:competitor:4345"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="2" sr_id="sr:competitor:4424"/>
+      <scoring home_points="17" away_points="24">
+        <quarter id="c1855860-a0a4-4d87-a81e-c3dc3fd160e2" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="82791f68-2de9-42b5-bd90-38ce78f61dfd" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="cdd0f408-1cd3-49ff-bd00-0ee34da5edcb" number="3" sequence="3" home_points="14" away_points="7"/>
+        <quarter id="b8c8977c-794e-44fc-a489-f58b3f79f5d7" number="4" sequence="4" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="7c774b08-97df-4e00-b9cd-64249dd83649" status="closed" scheduled="2002-01-27T21:27:06+00:00" attendance="66502" utc_offset="-6" entry_mode="INGEST" weather="Temp:  F, Wind:   mph">
+      <venue id="e86a743f-ee77-490f-acfb-3187b7a9633e" name="Edward Jones Dome" city="St. Louis" state="MO" country="USA" zip="63101" address="701 Convention Plaza" capacity="66000" surface="artificial" roof_type="dome"/>
+      <home id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="2"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="3" sr_id="sr:competitor:4428"/>
+      <scoring home_points="29" away_points="24">
+        <quarter id="36618aef-27ed-4580-aa4f-fc35e268ec19" number="1" sequence="1" home_points="10" away_points="3"/>
+        <quarter id="5e0881c9-3324-4fd8-9e71-5056d030e1e1" number="2" sequence="2" home_points="3" away_points="14"/>
+        <quarter id="6d99986b-2285-4fcc-bf15-88469e2047ed" number="3" sequence="3" home_points="9" away_points="0"/>
+        <quarter id="08617cf9-7df5-41d1-ad24-7044171f7c6e" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:46:47 +0000 -->

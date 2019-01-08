@@ -1,1 +1,53 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:47:14 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="4efdacd8-592f-4ccc-8ec4-22aa8e1bfbaa" year="2004" type="PST" name="PST">
+  <week id="fdf51e09-44a0-456c-9904-27b86d0d24f3" sequence="1" title="1">
+    <game id="2ae41a9f-c6df-46b6-91d8-ef9e621a795c" status="closed" scheduled="2005-01-09T21:40:08+00:00" attendance="71075" utc_offset="-6" entry_mode="INGEST" weather="Cloudy.  Freezing drizzle advisory. Temp: 26 F, Humidity: 85%, Wind: S 4 mph">
+      <venue id="5a60dd3a-302c-41c6-ab0f-dd335c1103c2" name="Lambeau Field" city="Green Bay" state="WI" country="USA" zip="54304" address="1265 Lombardi Avenue" capacity="81435" surface="turf" roof_type="outdoor" sr_id="sr:venue:8183"/>
+      <home id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="1" sr_id="sr:competitor:4420"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="1" sr_id="sr:competitor:4423"/>
+      <scoring home_points="17" away_points="31">
+        <quarter id="7fe833e0-1996-4a71-b275-80acb9183f8d" number="1" sequence="1" home_points="3" away_points="17"/>
+        <quarter id="3ae5064c-81fc-4ed1-924c-b48e9aa7541b" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="f3006c90-cd2f-4f74-a861-a0858dc9b31b" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="71f705ab-4667-4820-b75b-01db4e65ecc7" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="6ac433dc-ebc2-4625-bb1c-c9a6279a6784" status="closed" scheduled="2005-01-09T01:14:47+00:00" attendance="67536" utc_offset="-8" entry_mode="INGEST" weather="Slight drizzle Temp: 55 F, Humidity: 86%, Wind: WSW 8 mph">
+      <venue id="7ca47702-8951-45be-a4f5-3e7d78f8f399" name="Qualcomm Stadium" city="San Diego" state="CA" country="USA" zip="92108" address="9449 Friars Road" capacity="70561" surface="turf" roof_type="outdoor"/>
+      <home id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="1"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="1" sr_id="sr:competitor:4427"/>
+      <scoring home_points="17" away_points="20">
+        <quarter id="db692f3f-6e79-423a-8743-4d27ba998bbb" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="6baeb47f-8d3d-406f-bf1c-6133f1e91baf" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="9fc2e705-724a-4176-b904-a80d8f15c7af" number="3" sequence="3" home_points="0" away_points="10"/>
+        <quarter id="379b7355-4b2b-4e2e-a1dd-36407dc6220f" number="4" sequence="4" home_points="10" away_points="0"/>
+        <overtime id="fd613a9a-3cbb-4b6a-a707-761c245b40ad" number="1" sequence="5" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="726a8ccf-c097-4979-b68a-1a200ec8fab1" status="closed" scheduled="2005-01-08T21:37:26+00:00" attendance="65397" utc_offset="-8" entry_mode="INGEST" weather="Partly cloudy Temp: 45 F, Humidity: 49%, Wind: SE 9 mph">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="1" sr_id="sr:competitor:4430"/>
+      <away id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="1"/>
+      <scoring home_points="20" away_points="27">
+        <quarter id="f96afa5e-7e56-432e-8fa2-d7c61f0729a7" number="1" sequence="1" home_points="3" away_points="7"/>
+        <quarter id="36503e94-7dae-4c3e-b49b-d032e6f2cdd0" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="6f4d7d34-e18a-4e54-b9ef-b29b5f2c805a" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="1fae969b-dd37-44e9-86b6-76351fbc51f5" number="4" sequence="4" home_points="7" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="c4786e4b-6741-4dce-a2bd-4b4720db3d77" status="closed" scheduled="2005-01-09T18:07:25+00:00" attendance="56609" utc_offset="-5" entry_mode="INGEST" weather="Dome Temp:  F, Wind:   mph">
+      <venue id="8cb20830-5bb3-4bf2-aacb-492a0d90df10" name="RCA Dome" city="Indianapolis" state="IN" zip="46225" address="100 South Capitol Avenue" capacity="55531" surface="artificial" roof_type="dome"/>
+      <home id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="1" sr_id="sr:competitor:4421"/>
+      <away id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="1" sr_id="sr:competitor:4418"/>
+      <scoring home_points="49" away_points="24">
+        <quarter id="959b2544-c03b-431c-93f2-77f5c3a4ffdb" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="5f4d0adc-0fd0-4826-8eae-291c3890db2e" number="2" sequence="2" home_points="21" away_points="3"/>
+        <quarter id="867545ac-ec96-40bd-9784-ffaa4c168288" number="3" sequence="3" home_points="0" away_points="14"/>
+        <quarter id="4eff0888-8fa8-416b-a9d5-33c69e18895b" number="4" sequence="4" home_points="14" away_points="7"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:47:14 +0000 -->

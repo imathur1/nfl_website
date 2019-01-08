@@ -1,1 +1,53 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:47:16 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="4efdacd8-592f-4ccc-8ec4-22aa8e1bfbaa" year="2004" type="PST" name="PST">
+  <week id="ff0bdf4f-d9ee-43c2-a871-e49a62802c43" sequence="2" title="2">
+    <game id="16b1fb30-983d-402f-a335-1a7eee278f4c" status="closed" scheduled="2005-01-15T21:37:06+00:00" attendance="64915" utc_offset="-5" entry_mode="INGEST" weather="Fair Temp: 28 F, Humidity: 39%, Wind: SSW 5 mph">
+      <venue id="7349a2e6-0ac9-410b-8bd2-ca58c9f7aa34" name="Heinz Field" city="Pittsburgh" state="PA" country="USA" zip="15212" address="100 Art Rooney Avenue" capacity="68400" surface="turf" roof_type="outdoor"/>
+      <home id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="1" sr_id="sr:competitor:4345"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="2" sr_id="sr:competitor:4427"/>
+      <scoring home_points="20" away_points="17">
+        <quarter id="b25d2255-848c-4576-81f2-4a0a14c48d07" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="2e66ddc5-c144-4c3b-b991-d6daa36ab04a" number="2" sequence="2" home_points="0" away_points="10"/>
+        <quarter id="de141878-7ed7-45fb-b74b-5660f18cc173" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="cc5ddd60-2d3e-4f22-93ed-98b89e9688d0" number="4" sequence="4" home_points="7" away_points="0"/>
+        <overtime id="1a548305-324e-4909-85b6-7d0cea83aab3" number="1" sequence="5" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="79f1efde-45cd-45d4-9ba5-748fe6ffd96c" status="closed" scheduled="2005-01-16T21:46:32+00:00" attendance="68756" utc_offset="-5" entry_mode="INGEST" weather="Cloudy, cold, snow Temp: 25 F, Humidity: 77%, Wind: NNW 7 mph">
+      <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
+      <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="1" sr_id="sr:competitor:4424"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="2" sr_id="sr:competitor:4421"/>
+      <scoring home_points="20" away_points="3">
+        <quarter id="afc17559-c48e-4351-a9b2-2af346cf9a42" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="22f2da3d-3a6d-40db-9ddf-bdcaf4181a44" number="2" sequence="2" home_points="6" away_points="3"/>
+        <quarter id="2d09f804-5426-484c-9a08-a098b23157ab" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="40985504-515c-4300-9ef3-3c742db8cbc2" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="99cdf836-ac10-496c-b801-776945c2fb0b" status="closed" scheduled="2005-01-16T18:05:52+00:00" attendance="67722" utc_offset="-5" entry_mode="INGEST" weather="Cloudy Temp: 31 F, Humidity: 44%, Wind: NE 16 mph">
+      <venue id="4fa8c29c-6626-464c-8540-314ed7535e1b" name="Lincoln Financial Field" city="Philadelphia" state="PA" country="USA" zip="19148" address="1020 Pattison Avenue" capacity="69596" surface="turf" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="1" sr_id="sr:competitor:4428"/>
+      <away id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="2" sr_id="sr:competitor:4423"/>
+      <scoring home_points="27" away_points="14">
+        <quarter id="ca4867ba-ec6f-45f4-b9de-597ed1d6da18" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="cf24ca02-1a9e-4ee2-9aa6-c6725e199a07" number="2" sequence="2" home_points="14" away_points="7"/>
+        <quarter id="7e106e57-d4f2-48ef-b320-de6c9fc4d753" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="94c7eb0b-67a8-4592-8f90-503ce2f065bc" number="4" sequence="4" home_points="6" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="d8fdb228-4101-46b3-bee0-03941d4b9dfd" status="closed" scheduled="2005-01-16T01:23:45+00:00" attendance="70709" utc_offset="-5" entry_mode="INGEST" weather="Indoor Temp:  F, Wind:   mph">
+      <venue id="216de6bf-bce0-409a-a9e7-90db8df1f7b9" name="Georgia Dome" city="Atlanta" state="GA" country="USA" zip="30313" address="One Georgia Dome Drive Northwest" capacity="74228" surface="artificial" roof_type="dome"/>
+      <home id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="1" sr_id="sr:competitor:4393"/>
+      <away id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="2"/>
+      <scoring home_points="47" away_points="17">
+        <quarter id="664eeb54-e3e4-415e-bc4c-c6248301a548" number="1" sequence="1" home_points="14" away_points="7"/>
+        <quarter id="f42c959d-0746-4933-b7d7-02bc51fa989c" number="2" sequence="2" home_points="14" away_points="10"/>
+        <quarter id="c8e4a87e-b48d-4c53-a7d5-4e106cc487a8" number="3" sequence="3" home_points="10" away_points="0"/>
+        <quarter id="0c4f6340-18ef-475e-a383-9d6310e683ce" number="4" sequence="4" home_points="9" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:47:16 +0000 -->

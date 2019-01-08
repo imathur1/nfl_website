@@ -1,1 +1,53 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-07 14:46:54 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="501981c3-5ca0-4baa-babb-add9e6b8501f" year="2002" type="PST" name="PST">
+  <week id="2216cf25-4d3e-4676-aa12-3809ceaa83eb" sequence="2" title="2">
+    <game id="064108ff-3555-41af-a25a-fa00a15f4538" status="closed" scheduled="2003-01-12T01:21:45+00:00" attendance="66452" utc_offset="-5" entry_mode="INGEST" weather="Clear Temp: 29 F, Humidity: 35%, Wind: West 10 mph">
+      <venue id="905f3091-107b-4e7d-af70-2e3822c09aee" name="Veterans Stadium" city="Philadelphia" state="PA" zip="19148" address="3501 South Broad Street" capacity="65352" surface="artificial" roof_type="outdoor"/>
+      <home id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="1" sr_id="sr:competitor:4428"/>
+      <away id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="2" sr_id="sr:competitor:4393"/>
+      <scoring home_points="20" away_points="6">
+        <quarter id="4a497e4c-41bb-40ee-8ed7-06b0b1acf790" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="4246a386-ef81-42dd-8c85-2dc24cfd1762" number="2" sequence="2" home_points="3" away_points="6"/>
+        <quarter id="7635d16c-038a-4055-b0d2-2ceaa7e34e31" number="3" sequence="3" home_points="0" away_points="0"/>
+        <quarter id="e7689902-71d3-45ec-9764-08253fb47e5c" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="2b4ce39e-be55-4e12-a0dd-a9fec7010ac8" status="closed" scheduled="2003-01-12T21:45:24+00:00" attendance="62207" utc_offset="-8" entry_mode="INGEST" weather="Mostly Cloudy Temp: 61 F, Humidity: 72%, Wind: South 13 mph">
+      <venue id="ba1ad00f-9130-462c-93f9-5612a0015117" name="Oakland Alameda Coliseum" city="Oakland" state="CA" country="USA" zip="94621" address="7000 Coliseum Way" capacity="53286" surface="turf" roof_type="outdoor" sr_id="sr:venue:8095"/>
+      <home id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="1" sr_id="sr:competitor:4390"/>
+      <away id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="2" sr_id="sr:competitor:4427"/>
+      <scoring home_points="30" away_points="10">
+        <quarter id="d864ddaf-9859-4660-a396-2370e3555b44" number="1" sequence="1" home_points="3" away_points="3"/>
+        <quarter id="597d29f8-a287-44ab-9e13-056deb87f7c6" number="2" sequence="2" home_points="7" away_points="7"/>
+        <quarter id="953c4011-e19c-4c7e-9c82-165efe32b5fb" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="9812662f-d641-4d8f-8074-39e28323f2a0" number="4" sequence="4" home_points="13" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="8279b72e-fa32-46ec-8e69-6f6a69926b91" status="closed" scheduled="2003-01-12T18:07:22+00:00" attendance="65599" utc_offset="-5" entry_mode="INGEST" weather="Partly cloudy, cool, chance of rain late Temp: 54 F, Humidity: 34%, Wind: NE 10 mph">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="1" sr_id="sr:competitor:4388"/>
+      <away id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="2" sr_id="sr:competitor:4389"/>
+      <scoring home_points="31" away_points="6">
+        <quarter id="e862585b-53cf-43a9-9b42-98f42ebbcd6d" number="1" sequence="1" home_points="7" away_points="3"/>
+        <quarter id="2ccc94f6-ebb9-4a32-ac9e-4f1518fa9cd4" number="2" sequence="2" home_points="21" away_points="3"/>
+        <quarter id="c2581587-5ebb-4477-bb8c-54559de90106" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="0e432210-cab4-41f6-966d-62459f139680" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="bd780f17-59b1-4a29-be33-4097db0bee8f" status="closed" scheduled="2003-01-11T21:37:23+00:00" attendance="68809" utc_offset="-6" entry_mode="INGEST" weather="Sunny &amp; Cold Temp: 34 F, Humidity: 31%, Wind: WNW 9 MPH mph">
+      <venue id="5295c1b7-c85c-49cb-9569-1707c65324e5" name="Nissan Stadium" city="Nashville" state="TN" country="USA" zip="37213" address="One Titans Way" capacity="69143" surface="turf" roof_type="outdoor"/>
+      <home id="d26a1ca5-722d-4274-8f97-c92e49c96315" name="Tennessee Titans" alias="TEN" game_number="1" sr_id="sr:competitor:367364"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="2" sr_id="sr:competitor:4345"/>
+      <scoring home_points="34" away_points="31">
+        <quarter id="f213530c-0b20-4214-92b4-e2c7356736e3" number="1" sequence="1" home_points="14" away_points="0"/>
+        <quarter id="52de6436-a909-4e24-a463-dbc4d767892c" number="2" sequence="2" home_points="0" away_points="13"/>
+        <quarter id="82f06484-cb19-4e3d-8d2f-ab012a9f6946" number="3" sequence="3" home_points="14" away_points="7"/>
+        <quarter id="83b701ca-ea4a-4c0f-a5ec-dfc0324b32ab" number="4" sequence="4" home_points="3" away_points="11"/>
+        <overtime id="2a9abee4-5c27-44f0-9a94-3a635647106c" number="1" sequence="5" home_points="3" away_points="0"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-07 14:46:54 +0000 -->

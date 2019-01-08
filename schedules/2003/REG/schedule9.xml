@@ -1,1 +1,163 @@
-<h1>Developer Over Rate</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
+<!-- Generation started @ 2019-01-08 09:58:49 +0000 -->
+<season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="e896d423-c7db-4fc3-9df8-a6eb9c377bb0" year="2003" type="REG" name="REG">
+  <week id="db541391-1af8-4e4c-bd91-5a0913e63d0a" sequence="9" title="9">
+    <game id="084f6dab-3f68-4c61-80a7-4b88235488df" status="closed" scheduled="2003-11-02T21:17:09+00:00" attendance="67812" utc_offset="-8" entry_mode="INGEST" weather="Partly Cloudy Temp: 58 F, Humidity: 55%, Wind: West 12 mph mph">
+      <venue id="6701808c-c329-482b-9834-2d29cb3185ff" name="Candlestick Park" city="San Francisco" state="CA" country="USA" zip="94124" address="602 Jamestown Avenue" capacity="69732" surface="turf" roof_type="outdoor"/>
+      <home id="f0e724b0-4cbf-495a-be47-013907608da9" name="San Francisco 49ers" alias="SF" game_number="9" sr_id="sr:competitor:4389"/>
+      <away id="39f349de-6463-4803-ad70-f1e0f144f5ed" name="St. Louis Rams" alias="STL" game_number="8"/>
+      <scoring home_points="30" away_points="10">
+        <quarter id="dc9015f2-8743-4edc-b51c-baf5a0960e3c" number="1" sequence="1" home_points="14" away_points="3"/>
+        <quarter id="d0e49927-9220-4655-8b74-0b42aba9e646" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="bbbfa8a9-49b2-4e79-8323-e705bb7fe116" number="3" sequence="3" home_points="6" away_points="0"/>
+        <quarter id="c3fe1d65-1849-44e7-a7a2-60bde0eea4d2" number="4" sequence="4" home_points="0" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="12b09e99-16b2-4011-ae2a-b736295c5843" status="closed" scheduled="2003-11-02T18:02:39+00:00" attendance="61500" utc_offset="-6" entry_mode="INGEST" weather="Cloudy, occasional showers. Temp: 57 F, Humidity: 96%, Wind: SW Calm  mph">
+      <venue id="d7866605-5ac6-4b3a-90e8-760cc5a26b75" name="Soldier Field" city="Chicago" state="IL" country="USA" zip="60605" address="1410 South Museum Campus Drive" capacity="61500" surface="turf" roof_type="outdoor"/>
+      <home id="7b112545-38e6-483c-a55c-96cf6ee49cb8" name="Chicago Bears" alias="CHI" game_number="8" sr_id="sr:competitor:4391"/>
+      <away id="9dbb9060-ba0f-4920-829e-16d4d9246b5d" name="San Diego Chargers" alias="SD" game_number="8"/>
+      <scoring home_points="20" away_points="7">
+        <quarter id="a8eca958-5d0d-4243-a507-3817dba2ca75" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="3845bd62-6fe2-4767-8411-86e367d98120" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="692eefce-3130-420e-885f-d5a1173bd19e" number="3" sequence="3" home_points="3" away_points="0"/>
+        <quarter id="9513f734-a004-43d5-9e07-821d0621112e" number="4" sequence="4" home_points="7" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="19f91766-ad8d-46e5-ac43-e6c0328ab35e" status="closed" scheduled="2003-11-02T21:05:32+00:00" attendance="23531" utc_offset="-7" entry_mode="INGEST" weather="Temp: 75 F, Humidity: 38%, Wind: West 9 mph">
+      <venue id="65848608-57ac-4161-ac78-c709ecdc6543" name="Sun Devil Stadium" city="Tempe" state="AZ" zip="85281" address="500 East Veterans Way" capacity="64248" surface="turf" roof_type="outdoor"/>
+      <home id="de760528-1dc0-416a-a978-b510d20692ff" name="Arizona Cardinals" alias="ARI" game_number="8" sr_id="sr:competitor:4412"/>
+      <away id="ad4ae08f-d808-42d5-a1e6-e9bc4e34d123" name="Cincinnati Bengals" alias="CIN" game_number="8" sr_id="sr:competitor:4416"/>
+      <scoring home_points="17" away_points="14">
+        <quarter id="4893a623-9822-48b7-b01f-fdd514f82d1e" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="15ab75a4-f790-4389-9370-732fc45141ce" number="2" sequence="2" home_points="3" away_points="7"/>
+        <quarter id="538fd879-59bb-4795-9e02-a27fddc7c55b" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="884b7f9e-abe7-4494-ae85-e90e21caf25a" number="4" sequence="4" home_points="0" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="31b9826b-9aba-43d2-ae71-22844e716654" status="closed" scheduled="2003-11-02T18:03:08+00:00" attendance="61561" utc_offset="-5" entry_mode="INGEST" weather="Controlled Climate Temp: 71 F, Humidity: 68%, Wind:   mph">
+      <venue id="6e3bcf22-277d-4c06-b019-62aded51654f" name="Ford Field" city="Detroit" state="MI" country="USA" zip="48226" address="2000 Brush Street" capacity="65000" surface="artificial" roof_type="dome"/>
+      <home id="c5a59daa-53a7-4de0-851f-fb12be893e9e" name="Detroit Lions" alias="DET" game_number="8" sr_id="sr:competitor:4419"/>
+      <away id="1c1cec48-6352-4556-b789-35304c1a6ae1" name="Oakland Raiders" alias="OAK" game_number="8" sr_id="sr:competitor:4390"/>
+      <scoring home_points="23" away_points="13">
+        <quarter id="a0611302-a69c-4f62-90c2-6416c6ed6a03" number="1" sequence="1" home_points="10" away_points="0"/>
+        <quarter id="b28b9186-da03-496a-b47d-c0a55669b1e8" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="48fe2f07-8c27-4c69-a430-adfafce4eebb" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="24e6d712-a5b9-43df-8e66-9b1970fbbac8" number="4" sequence="4" home_points="6" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="3a24172c-7618-4abe-a786-9c4b2b8b7415" status="closed" scheduled="2003-11-02T18:03:02+00:00" attendance="78132" utc_offset="-5" entry_mode="INGEST" weather="Clear skies Temp: 66 F, Humidity: 70%, Wind: South 5 mph">
+      <venue id="41397549-49d0-4e0f-aad3-6c82cf0214a7" name="Giants Stadium" city="East Rutherford" state="NJ" zip="07073" address="50 Route 120" capacity="80242" surface="artificial" roof_type="outdoor"/>
+      <home id="5fee86ae-74ab-4bdd-8416-42a9dd9964f3" name="New York Jets" alias="NYJ" game_number="8" sr_id="sr:competitor:4427"/>
+      <away id="04aa1c9d-66da-489d-b16a-1dee3f2eec4d" name="New York Giants" alias="NYG" game_number="8" sr_id="sr:competitor:4426"/>
+      <scoring home_points="28" away_points="31">
+        <quarter id="8a788ce0-afe4-42ee-a572-7a51d283b16a" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="d6fa9c38-475a-4da8-aaa1-59dcfd79487d" number="2" sequence="2" home_points="0" away_points="13"/>
+        <quarter id="10bcfc73-0fd2-4098-96b6-9a720d909751" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="5cd8dc4b-94ad-4559-b07b-7e5533ce1569" number="4" sequence="4" home_points="14" away_points="8"/>
+        <overtime id="94a7a1fc-4d74-45e9-b4e6-65f3babe7c20" number="1" sequence="5" home_points="0" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="41fc175f-a426-426f-a4e1-289cd7c2bf5e" status="closed" scheduled="2003-11-02T18:02:36+00:00" attendance="73258" utc_offset="-5" entry_mode="INGEST" weather="Partly Sunny Temp: 82 F, Humidity: 64%, Wind: NE 14 mph">
+      <venue id="50a5c833-1570-4c38-abc7-7914cf87dbde" name="Hard Rock Stadium" city="Miami Gardens" state="FL" country="USA" zip="33056" address="2269 Northwest 199th Street" capacity="65326" surface="turf" roof_type="outdoor" sr_id="sr:venue:20269"/>
+      <home id="4809ecb0-abd3-451d-9c4a-92a90b83ca06" name="Miami Dolphins" alias="MIA" game_number="8" sr_id="sr:competitor:4287"/>
+      <away id="82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9" name="Indianapolis Colts" alias="IND" game_number="8" sr_id="sr:competitor:4421"/>
+      <scoring home_points="17" away_points="23">
+        <quarter id="0ecd5373-a2f8-44de-81d4-e9a20236412e" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="c44485ae-6d03-4320-8f81-bc32eeef9a38" number="2" sequence="2" home_points="0" away_points="9"/>
+        <quarter id="b9518e08-afaf-4d50-8857-c40168741dd1" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="f237eea8-5c52-4db6-b18b-980cf126f817" number="4" sequence="4" home_points="3" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="6ab9d4e8-26ac-47e2-8d87-a68d5bbe52be" status="closed" scheduled="2003-11-03T01:38:09+00:00" attendance="64482" utc_offset="-6" entry_mode="INGEST" weather="64 Temp:  F, Wind:   mph">
+      <venue id="1fede74c-50a2-4036-a1c0-b4d1e53ca98c" name="Mall of America Field" city="Minneapolis" state="MN" country="USA" zip="55415" address="900 South 5th Street" capacity="64111" surface="artificial" roof_type="dome"/>
+      <home id="33405046-04ee-4058-a950-d606f8c30852" name="Minnesota Vikings" alias="MIN" game_number="8" sr_id="sr:competitor:4423"/>
+      <away id="a20471b4-a8d9-40c7-95ad-90cc30e46932" name="Green Bay Packers" alias="GB" game_number="8" sr_id="sr:competitor:4420"/>
+      <scoring home_points="27" away_points="30">
+        <quarter id="230e7170-fbb5-476d-99a2-7e241657c4c7" number="1" sequence="1" home_points="7" away_points="6"/>
+        <quarter id="68ce5eb9-20be-418c-be73-8683255a0cc8" number="2" sequence="2" home_points="7" away_points="14"/>
+        <quarter id="6db14f59-b06a-40ca-a430-db5d09066b76" number="3" sequence="3" home_points="6" away_points="0"/>
+        <quarter id="aa94c907-67c8-4e7c-b906-f5d946e40c06" number="4" sequence="4" home_points="7" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="70c63dc8-3d88-4cdc-a306-06ef52868854" status="closed" scheduled="2003-11-02T18:02:22+00:00" attendance="65524" utc_offset="-5" entry_mode="INGEST" weather="Partly cloudy, warm, breezy Temp: 82 F, Humidity: 62%, Wind: NE 9-15 mph">
+      <venue id="6fccc39c-80bc-4c81-83d9-2d5a848c8c09" name="Raymond James Stadium" city="Tampa" state="FL" country="USA" zip="33607" address="4201 North Dale Mabry Highway" capacity="65890" surface="turf" roof_type="outdoor"/>
+      <home id="4254d319-1bc7-4f81-b4ab-b5e6f3402b69" name="Tampa Bay Buccaneers" alias="TB" game_number="8" sr_id="sr:competitor:4388"/>
+      <away id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" game_number="9" sr_id="sr:competitor:4425"/>
+      <scoring home_points="14" away_points="17">
+        <quarter id="de632ada-4a4c-4ac9-9fdf-ff23fcbc3724" number="1" sequence="1" home_points="0" away_points="0"/>
+        <quarter id="d702766d-7df6-4260-b0ac-a9db5431f854" number="2" sequence="2" home_points="0" away_points="7"/>
+        <quarter id="674b2f71-a565-46d5-a268-5300c1bbace2" number="3" sequence="3" home_points="0" away_points="7"/>
+        <quarter id="da213c99-a86c-4eee-b696-65790c60f7e1" number="4" sequence="4" home_points="14" away_points="3"/>
+      </scoring>
+    </game>
+    <game id="7b81c117-e5ea-4464-9f21-7a860c97956c" status="closed" scheduled="2003-11-02T18:02:53+00:00" attendance="70052" utc_offset="-6" entry_mode="INGEST" weather="Mostly Cloudy Temp: 81 F, Humidity: 74%, Wind: SE 9 mph">
+      <venue id="6a72e5ca-33d0-40af-8e6b-b32a4d3d9346" name="NRG Stadium" city="Houston" state="TX" country="USA" zip="77054" address="One Reliant Park" capacity="72220" surface="artificial" roof_type="retractable_dome"/>
+      <home id="82d2d380-3834-4938-835f-aec541e5ece7" name="Houston Texans" alias="HOU" game_number="8" sr_id="sr:competitor:4324"/>
+      <away id="f14bf5cc-9a82-4a38-bc15-d39f75ed5314" name="Carolina Panthers" alias="CAR" game_number="8" sr_id="sr:competitor:4415"/>
+      <scoring home_points="14" away_points="10">
+        <quarter id="81e361eb-da71-41e4-a8f6-57138c86a4c6" number="1" sequence="1" home_points="0" away_points="7"/>
+        <quarter id="866efd0f-a3a4-4ad6-ad41-00e6d5fae6fc" number="2" sequence="2" home_points="0" away_points="0"/>
+        <quarter id="2201a206-a6d1-4fd6-ae1d-c9f41d60d78c" number="3" sequence="3" home_points="7" away_points="3"/>
+        <quarter id="d5c6d389-9251-43e4-8712-31f2e811497a" number="4" sequence="4" home_points="7" away_points="0"/>
+      </scoring>
+    </game>
+    <game id="883a55f4-5433-4262-aee8-a4b706162b8f" status="closed" scheduled="2003-11-02T18:02:09+00:00" attendance="69486" utc_offset="-5" entry_mode="INGEST" weather="Sunny, Great day for football Temp: 71 F, Humidity: 66%, Wind:  0 mph">
+      <venue id="d54faae0-0314-484f-8604-9d8dd08e1149" name="M&amp;T Bank Stadium" city="Baltimore" state="MD" country="USA" zip="21230" address="1101 Russell Street" capacity="71008" surface="turf" roof_type="outdoor" sr_id="sr:venue:8169"/>
+      <home id="ebd87119-b331-4469-9ea6-d51fe3ce2f1c" name="Baltimore Ravens" alias="BAL" game_number="8" sr_id="sr:competitor:4413"/>
+      <away id="f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de" name="Jacksonville Jaguars" alias="JAC" game_number="8" sr_id="sr:competitor:4386"/>
+      <scoring home_points="24" away_points="17">
+        <quarter id="eba98ae9-afd6-4c47-9a25-1058e3852e74" number="1" sequence="1" home_points="7" away_points="0"/>
+        <quarter id="7a36eb75-d18d-4afb-9807-208612976188" number="2" sequence="2" home_points="0" away_points="3"/>
+        <quarter id="943099d2-0881-4221-9c1d-442a267a7ff9" number="3" sequence="3" home_points="6" away_points="7"/>
+        <quarter id="9578810c-389c-4bdc-8b12-a39b7367adf4" number="4" sequence="4" home_points="11" away_points="7"/>
+      </scoring>
+    </game>
+    <game id="ab8d2712-773b-4540-ad55-e6c112f4589f" status="closed" scheduled="2003-11-02T21:15:00+00:00" attendance="70064" utc_offset="-5" entry_mode="INGEST" weather="Indoor Temp: 73 F, Wind:   mph">
+      <venue id="216de6bf-bce0-409a-a9e7-90db8df1f7b9" name="Georgia Dome" city="Atlanta" state="GA" country="USA" zip="30313" address="One Georgia Dome Drive Northwest" capacity="74228" surface="artificial" roof_type="dome"/>
+      <home id="e6aa13a4-0055-48a9-bc41-be28dc106929" name="Atlanta Falcons" alias="ATL" game_number="8" sr_id="sr:competitor:4393"/>
+      <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" game_number="8" sr_id="sr:competitor:4428"/>
+      <scoring home_points="16" away_points="23">
+        <quarter id="06706cfd-143d-4b75-833d-80ce0e77b10b" number="1" sequence="1" home_points="0" away_points="10"/>
+        <quarter id="97003ade-410f-4482-af5e-f9d518c9578d" number="2" sequence="2" home_points="13" away_points="0"/>
+        <quarter id="53c00663-26eb-4786-82b3-6a9765817c38" number="3" sequence="3" home_points="0" away_points="3"/>
+        <quarter id="a4fcbd98-0af6-4156-81c1-f8d196e1f872" number="4" sequence="4" home_points="3" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="ccf4988c-4038-4ec3-9f0d-78d08700887b" status="closed" scheduled="2003-11-02T21:16:18+00:00" attendance="64002" utc_offset="-6" entry_mode="INGEST" weather="Cloudy skies Temp: 79 F, Humidity: 67%, Wind: South 10-15 mph">
+      <venue id="58a73652-bc9b-45d9-938c-7736c3c5d280" name="Texas Stadium" city="Irving" state="TX" zip="75061" address="2401 East Airport Freeway" capacity="65675" surface="artificial" roof_type="outdoor"/>
+      <home id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" game_number="8" sr_id="sr:competitor:4392"/>
+      <away id="22052ff7-c065-42ee-bc8f-c4691c50e624" name="Washington Redskins" alias="WAS" game_number="8" sr_id="sr:competitor:4432"/>
+      <scoring home_points="21" away_points="14">
+        <quarter id="25053606-d94c-46c1-acdf-13fa5f47de99" number="1" sequence="1" home_points="0" away_points="6"/>
+        <quarter id="80ad9c37-6de8-42a1-b12d-935d6b59d013" number="2" sequence="2" home_points="7" away_points="0"/>
+        <quarter id="3ff1b6a3-2d32-4750-a0d7-d96645f791ba" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="0839655d-d3f1-436c-b743-54db30411b6b" number="4" sequence="4" home_points="7" away_points="8"/>
+      </scoring>
+    </game>
+    <game id="e0290fdc-e8d5-48a6-a76b-043e17c2912c" status="closed" scheduled="2003-11-02T21:05:36+00:00" attendance="66507" utc_offset="-8" entry_mode="INGEST" weather="Sunny Temp: 44 F, Humidity: 68%, Wind: S 8 mph">
+      <venue id="c6b9e5df-c9e4-434c-b3e6-83928f11cbda" name="CenturyLink Field" city="Seattle" state="WA" country="USA" zip="98134" address="800 Occidental Avenue South" capacity="68000" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2291"/>
+      <home id="3d08af9e-c767-4f88-a7dc-b920c6d2b4a8" name="Seattle Seahawks" alias="SEA" game_number="8" sr_id="sr:competitor:4430"/>
+      <away id="cb2f9f1f-ac67-424e-9e72-1475cb0ed398" name="Pittsburgh Steelers" alias="PIT" game_number="8" sr_id="sr:competitor:4345"/>
+      <scoring home_points="23" away_points="16">
+        <quarter id="76282ca6-e186-430e-a77a-1abb3b2c51e0" number="1" sequence="1" home_points="3" away_points="0"/>
+        <quarter id="74e69b34-ddc5-4de5-a6b1-a172acab2ff9" number="2" sequence="2" home_points="3" away_points="3"/>
+        <quarter id="b7de6731-e663-42da-bc01-3482766a6bb9" number="3" sequence="3" home_points="3" away_points="3"/>
+        <quarter id="e26dde51-93c1-4538-915c-977560d2e731" number="4" sequence="4" home_points="14" away_points="10"/>
+      </scoring>
+    </game>
+    <game id="fd7bf322-2f33-4246-9ed3-e2f55a769a2b" status="closed" scheduled="2003-11-04T02:09:02+00:00" attendance="76203" utc_offset="-7" entry_mode="INGEST" weather="Foggy Temp: 35 F, Humidity: 100%, Wind:  0 mph">
+      <venue id="6589e61d-ef1e-4e30-91b5-9acd2072b8a0" name="Broncos Stadium at Mile High" city="Denver" state="CO" country="USA" zip="80204" address="1701 Mile High Stadium Circle" capacity="76125" surface="turf" roof_type="outdoor" sr_id="sr:venue:30961"/>
+      <home id="ce92bd47-93d5-4fe9-ada4-0fc681e6caa0" name="Denver Broncos" alias="DEN" game_number="9" sr_id="sr:competitor:4418"/>
+      <away id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" game_number="9" sr_id="sr:competitor:4424"/>
+      <scoring home_points="26" away_points="30">
+        <quarter id="80750bb8-c13d-4875-b701-91ee2ea74fd2" number="1" sequence="1" home_points="7" away_points="7"/>
+        <quarter id="da2fc351-c7aa-4046-bf11-e7ee6606ef90" number="2" sequence="2" home_points="10" away_points="6"/>
+        <quarter id="33372025-e2c1-41a1-b19b-a338ca3570ad" number="3" sequence="3" home_points="7" away_points="7"/>
+        <quarter id="181436e1-0723-4a72-a976-2c8f3cfcdfaa" number="4" sequence="4" home_points="2" away_points="10"/>
+      </scoring>
+    </game>
+  </week>
+</season>
+<!-- Generation ended @ 2019-01-08 09:58:49 +0000 -->
