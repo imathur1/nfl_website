@@ -54,7 +54,7 @@ for (let i = 0; i < line.length; i++) {
         line[i].style.cursor = "pointer";
         line[i].onclick = function() {
             window.scroll({
-               top: 450 * i,
+               top: (screen.height * 0.5) * i,
                left: 0,
                behavior: 'smooth' 
             });
