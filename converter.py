@@ -536,7 +536,7 @@ class Converter():
         self.appendInfo(games)
 
 def makeHomepage():
-    file = open("index.html", "w")
+    file = open("HTML/index.html", "w")
     text = """<html>
     <head>
         <link href='/Users/ishaan/Coding/Projects/NFL_Website/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
