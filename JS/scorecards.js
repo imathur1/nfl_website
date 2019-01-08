@@ -27,6 +27,7 @@ const hiddenStanding1 = document.getElementsByClassName('hiddenStanding1');
 const hiddenStanding2 = document.getElementsByClassName('hiddenStanding2');
 
 const home = document.getElementsByClassName('home');
+const nav = document.getElementsByClassName('nav');
 
 const row = document.getElementsByClassName('row');
 const wallpapers = [
@@ -159,6 +160,12 @@ function createStanding() {
 };
 
 function changeHTML() {
+    if (num === 0) {
+        nav[0].style.position = "relative";
+        nav[0].style.bottom = "92.5%";
+        nav[0].style.position = "absolute";
+    };
+
     var odd = 0;
     for (var i = 0; i < card.length; i++) {
         if (card[i].style.display != "none") {
