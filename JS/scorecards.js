@@ -190,6 +190,7 @@ function changeHTML() {
     if (num % 8 != 0) {
         var remainder = Number(num / 8) + 1;
         var real = (remainder - num) / 2 + 1; 
+        console.log(real);
         var checker = 0;
         while (checker != 2) {
             if (card[card.length - real].style.display != "none") {
