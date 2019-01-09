@@ -4,8 +4,6 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
-# Host on server 
-
 # NFL Official
 # Key: 5dbyzszswdjteg4ab663g837
 # NFL Classic
