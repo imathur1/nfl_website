@@ -191,11 +191,11 @@ function changeHTML() {
         row[Math.floor(num / 8)].style.height = "891px";
         for (var i = 1; i < 5; i++) {
             if (card[card.length - i].style.display != "none") {
-                name1[name1.length - i].style.bottom = "-4%";
-                name2[name2.length - i].style.bottom = "-4%";
-                record[record1.length - 1].style.marginTop = "3%";
-                record2[record2.length - i].style.marginTop = "3%";
-                card[card.length - i].style.height = "40%";
+                name1[name1.length - 3].style.bottom = "-4%";
+                name2[name2.length - 3].style.bottom = "-4%";
+                record[record1.length - 3].style.marginTop = "3%";
+                record2[record2.length - 3].style.marginTop = "3%";
+                card[card.length - 3].style.height = "40%";
             };
         };
     };
