@@ -18,9 +18,6 @@ const quarterHidden = document.getElementsByClassName('quarter-hidden');
 const img1 = document.getElementsByClassName('img1');
 const img2 = document.getElementsByClassName('img2');
 
-lazyload(img1);
-lazyload(img2);
-
 const hiddenName = document.getElementsByClassName('hiddenName');
 const hiddenScore = document.getElementsByClassName('hiddenScore');
 const hiddenPoint = document.getElementsByClassName('hiddenPoint');

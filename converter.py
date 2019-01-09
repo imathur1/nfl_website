@@ -667,7 +667,8 @@ def makeHomepage():
                 </div>
             </div>"""
         i -= 2
-    text += """        <script type="text/javascript" src="https://imathur1.github.io/JS/homepage.js"></script>
+    text += """        <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+        <script type="text/javascript" src="https://imathur1.github.io/JS/homepage.js"></script>
         </div>
     </body>
 </html>"""
