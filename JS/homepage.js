@@ -100,8 +100,6 @@ const wallpapers = [
     "https://imathur1.github.io/Images/steelerWallpaper.png"
 ];
 
-lazyload(everyTwo);
-
 var previous = -1;
 for (var i = 0; i < everyTwo.length; i++){
     var random = Math.floor(Math.random() * 32);
