@@ -31,40 +31,40 @@ const nav = document.getElementsByClassName('nav');
 
 const row = document.getElementsByClassName('row');
 const wallpapers = [
-    ["San Francisco 49ers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/49erWallpaper.png"],
-    ["Chicago Bears", "/Users/ishaan/Coding/Projects/NFL_Website/Images/bearWallpaper.png"],
-    ["Cincinnati Bengals", "/Users/ishaan/Coding/Projects/NFL_Website/Images/bengalWallpaper.png"],
-    ["Buffalo Bills", "/Users/ishaan/Coding/Projects/NFL_Website/Images/billWallpaper.png"],
-    ["Denver Broncos", "/Users/ishaan/Coding/Projects/NFL_Website/Images/broncoWallpaper.png"],
-    ["Cleveland Browns", "/Users/ishaan/Coding/Projects/NFL_Website/Images/brownWallpaper.png"],
-    ["Tampa Bay Buccaneers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/buccaneerWallpaper.png"],
-    ["Arizona Cardinals", "/Users/ishaan/Coding/Projects/NFL_Website/Images/cardinalWallpaper.png"],
-    ["Indianapolis Colts", "/Users/ishaan/Coding/Projects/NFL_Website/Images/coltWallpaper.png"],
-    ["Kansas City Chiefs", "/Users/ishaan/Coding/Projects/NFL_Website/Images/chiefWallpaper.png"],
-    ["Los Angeles Chargers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargerWallpaper.png"],
-    ["Dallas Cowboys", "/Users/ishaan/Coding/Projects/NFL_Website/Images/cowboyWallpaper.png"],
-    ["Miami Dolphins", "/Users/ishaan/Coding/Projects/NFL_Website/Images/dolphinWallpaper.png"],
-    ["Philadelphia Eagles", "/Users/ishaan/Coding/Projects/NFL_Website/Images/eagleWallpaper.png"],
-    ["New York Giants", "/Users/ishaan/Coding/Projects/NFL_Website/Images/giantWallpaper.png"],
-    ["Jacksonville Jaguars", "/Users/ishaan/Coding/Projects/NFL_Website/Images/jaguarWallpaper.png"],
-    ["Atlanta Falcons", "/Users/ishaan/Coding/Projects/NFL_Website/Images/falconWallpaper.png"],
-    ["New York Jets", "/Users/ishaan/Coding/Projects/NFL_Website/Images/jetWallpaper.png"],
-    ["Green Bay Packers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/packerWallpaper.png"],
-    ["Detroit Lions", "/Users/ishaan/Coding/Projects/NFL_Website/Images/lionWallpaper.png"],
-    ["New England Patriots", "/Users/ishaan/Coding/Projects/NFL_Website/Images/patriotWallpaper.png"],
-    ["Carolina Panthers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/pantherWallpaper.png"],
-    ["Oakland Raiders", "/Users/ishaan/Coding/Projects/NFL_Website/Images/raiderWallpaper.png"],
-    ["Washington Redskins", "/Users/ishaan/Coding/Projects/NFL_Website/Images/redskinWallpaper.png"],
-    ["New Orleans Saints", "/Users/ishaan/Coding/Projects/NFL_Website/Images/saintWallpaper.png"],
-    ["Seattle Seahawks", "/Users/ishaan/Coding/Projects/NFL_Website/Images/seahawkWallpaper.png"],
-    ["Baltimore Ravens", "/Users/ishaan/Coding/Projects/NFL_Website/Images/ravenWallpaper.png"],
-    ["Los Angeles Rams", "/Users/ishaan/Coding/Projects/NFL_Website/Images/ramWallpaper.png"],
-    ["Houston Texans", "/Users/ishaan/Coding/Projects/NFL_Website/Images/texanWallpaper.png"],
-    ["Tennessee Titans", "/Users/ishaan/Coding/Projects/NFL_Website/Images/titanWallpaper.png"],
-    ["Minnesota Vikings", "/Users/ishaan/Coding/Projects/NFL_Website/Images/vikingWallpaper.png"],
-    ["Pittsburgh Steelers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/steelerWallpaper.png"],
-    ["St. Louis Rams", "/Users/ishaan/Coding/Projects/NFL_Website/Images/ramWallpaper.png"],
-    ["San Diego Chargers", "/Users/ishaan/Coding/Projects/NFL_Website/Images/chargerWallpaper.png"]
+    ["San Francisco 49ers", "https://imathur1.github.io/Images/49erWallpaper.png"],
+    ["Chicago Bears", "https://imathur1.github.io/Images/bearWallpaper.png"],
+    ["Cincinnati Bengals", "https://imathur1.github.io/Images/bengalWallpaper.png"],
+    ["Buffalo Bills", "https://imathur1.github.io/Images/billWallpaper.png"],
+    ["Denver Broncos", "https://imathur1.github.io/Images/broncoWallpaper.png"],
+    ["Cleveland Browns", "https://imathur1.github.io/Images/brownWallpaper.png"],
+    ["Tampa Bay Buccaneers", "https://imathur1.github.io/Images/buccaneerWallpaper.png"],
+    ["Arizona Cardinals", "https://imathur1.github.io/Images/cardinalWallpaper.png"],
+    ["Indianapolis Colts", "https://imathur1.github.io/Images/coltWallpaper.png"],
+    ["Kansas City Chiefs", "https://imathur1.github.io/Images/chiefWallpaper.png"],
+    ["Los Angeles Chargers", "https://imathur1.github.io/Images/chargerWallpaper.png"],
+    ["Dallas Cowboys", "https://imathur1.github.io/Images/cowboyWallpaper.png"],
+    ["Miami Dolphins", "https://imathur1.github.io/Images/dolphinWallpaper.png"],
+    ["Philadelphia Eagles", "https://imathur1.github.io/Images/eagleWallpaper.png"],
+    ["New York Giants", "https://imathur1.github.io/Images/giantWallpaper.png"],
+    ["Jacksonville Jaguars", "https://imathur1.github.io/Images/jaguarWallpaper.png"],
+    ["Atlanta Falcons", "https://imathur1.github.io/Images/falconWallpaper.png"],
+    ["New York Jets", "https://imathur1.github.io/Images/jetWallpaper.png"],
+    ["Green Bay Packers", "https://imathur1.github.io/Images/packerWallpaper.png"],
+    ["Detroit Lions", "https://imathur1.github.io/Images/lionWallpaper.png"],
+    ["New England Patriots", "https://imathur1.github.io/Images/patriotWallpaper.png"],
+    ["Carolina Panthers", "https://imathur1.github.io/Images/pantherWallpaper.png"],
+    ["Oakland Raiders", "https://imathur1.github.io/Images/raiderWallpaper.png"],
+    ["Washington Redskins", "https://imathur1.github.io/Images/redskinWallpaper.png"],
+    ["New Orleans Saints", "https://imathur1.github.io/Images/saintWallpaper.png"],
+    ["Seattle Seahawks", "https://imathur1.github.io/Images/seahawkWallpaper.png"],
+    ["Baltimore Ravens", "https://imathur1.github.io/Images/ravenWallpaper.png"],
+    ["Los Angeles Rams", "https://imathur1.github.io/Images/ramWallpaper.png"],
+    ["Houston Texans", "https://imathur1.github.io/Images/texanWallpaper.png"],
+    ["Tennessee Titans", "https://imathur1.github.io/Images/titanWallpaper.png"],
+    ["Minnesota Vikings", "https://imathur1.github.io/Images/vikingWallpaper.png"],
+    ["Pittsburgh Steelers", "https://imathur1.github.io/Images/steelerWallpaper.png"],
+    ["St. Louis Rams", "https://imathur1.github.io/Images/ramWallpaper.png"],
+    ["San Diego Chargers", "https://imathur1.github.io/Images/chargerWallpaper.png"]
 ];
 
 home[0].onmouseover = function() {
@@ -74,7 +74,7 @@ home[0].onmouseout = function() {
     home[0].style.color = "#fff";
 };
 home[0].onclick = function() {
-    location.href = "/Users/ishaan/Coding/Projects/NFL_Website/HTML/homepage.html";
+    location.href = "https://imathur1.github.io/HTML/homepage.html";
 };
 
 const noData = document.getElementsByClassName('noData');
