@@ -188,7 +188,7 @@ function changeHTML() {
 
     var count = 0;
     if (num % 8 != 0) {
-        row[Math.floor(num / 8) * 4 + i].style.height = "1150px";
+        row[Math.floor(num / 8)].style.height = "1150px";
         for (var i = 0; i < 4; i++) {
             name1[Math.floor(num / 8) * 4 + i].style.bottom = "-4%";
             name2[Math.floor(num / 8) * 4 + i].style.bottom = "-4%";
