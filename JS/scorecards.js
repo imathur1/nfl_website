@@ -180,7 +180,7 @@ function changeHTML() {
                 name2[i].style.bottom = "-4%";
                 record1[i].style.marginTop = "3%";
                 record2[i].style.marginTop = "3%";
-                card[i].style.height = "40%";
+                card[i].style.height = "35%";
                 break;
             };
         }; 
@@ -188,7 +188,7 @@ function changeHTML() {
 
     var count = 0;
     if (num % 8 != 0) {
-        row[Math.floor(num / 8)].style.height = "1080px";
+        row[Math.floor(num / 8)].style.height = "1150px";
     };
 
     for (var i = 0; i < num / 2; i++){
