@@ -186,13 +186,12 @@ function changeHTML() {
         }; 
     };
 
+    var remainder = Number(num / 8) + 1;
+    var real = (remainder - num) / 2 + 1; 
+    console.log(real);
+
     var count = 0;
     if (num % 8 != 0) {
-        var remainder = Number(num / 8) + 1;
-        var real = (remainder - num) / 2 + 1; 
-        console.log(real);
-        var checker = 0;
-
         row[Math.floor(num / 8)].style.height = "891px";
     };
 
