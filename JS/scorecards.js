@@ -180,7 +180,7 @@ function changeHTML() {
                 name2[i].style.bottom = "-4%";
                 record1[i].style.marginTop = "3%";
                 record2[i].style.marginTop = "3%";
-                card[i].style.height = "35%";
+                card[i].style.height = "30%";
                 break;
             };
         }; 
