@@ -77,6 +77,7 @@ class Converter():
         <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://imathur1.github.io/CSS/scorecards.css">
         <title>NFL Scorecards | Week """ + str(self.week) + """</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://imathur1.github.io/HTML/favicon.ico" />
     </head>
     <body>
         <div class="nav">
@@ -541,6 +542,7 @@ def makeHomepage():
         <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://imathur1.github.io/CSS/homepage.css">
         <title>NFL Scorecards</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://imathur1.github.io/HTML/favicon.ico" />
     </head>
     <body>
         <div class="nav">
