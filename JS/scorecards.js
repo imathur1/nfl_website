@@ -188,16 +188,13 @@ function changeHTML() {
 
     var count = 0;
     if (num % 8 != 0) {
-        for (var i = card.length - 1; i >= 0; i--) {
-            if (card[i].style.display != "none") {
-                name1[i].style.bottom = "-4%";
-                name2[i].style.bottom = "-4%";
-                record1[i].style.marginTop = "3%";
-                record2[i].style.marginTop = "3%";
-                card[i].style.height = "40%";
-                break;
-            };
-        }; 
+
+        name1[name1.length - 3].style.bottom = "-4%";
+        name2[name2.length - 3].style.bottom = "-4%";
+        record1[record1.length - 3].style.marginTop = "3%";
+        record2[record2.length - 3].style.marginTop = "3%";
+        card[card.length - 3].style.height = "40%";
+
         row[Math.floor(num / 8)].style.height = "891px";
     };
 
