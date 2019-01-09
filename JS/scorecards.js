@@ -74,7 +74,7 @@ home[0].onmouseout = function() {
     home[0].style.color = "#fff";
 };
 home[0].onclick = function() {
-    location.href = "https://imathur1.github.io/HTML/homepage.html";
+    location.href = "https://imathur1.github.io/HTML/index.html";
 };
 
 const noData = document.getElementsByClassName('noData');
