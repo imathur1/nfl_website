@@ -113,7 +113,7 @@ for (var i = 0; i < everyTwo.length; i++){
 
 function changePre(index) {
     type1[index].innerHTML = "WEEK";
-    type1[index].style.top = "0%";
+    type1[index].style.marginTop = "0%";
     pre[index].style.position = "absolute";
     pre[index].style.height = "3.07%";
     reg[index].style.marginLeft = "37.5%";
@@ -124,7 +124,7 @@ function changePre(index) {
 };
 function resetPre(index) {
     type1[index].innerHTML = "PRE";
-    type1[index].style.top = "25%";
+    type1[index].style.marginTop = "25%";
     pre[index].style.position = "relative";
     pre[index].style.height = "32.5%";
     reg[index].style.marginLeft = "5.75%";
@@ -137,7 +137,7 @@ function resetPre(index) {
 
 function changeReg(index) {
     type2[index].innerHTML = "WEEK";
-    type2[index].style.top = "0%";
+    type2[index].style.marginTop = "0%";
     reg[index].style.position = "absolute";
     reg[index].style.height = "3.07%";
     post[index].style.marginLeft = "37.5%";
@@ -148,7 +148,7 @@ function changeReg(index) {
 };
 function resetReg(index) {
     type2[index].innerHTML = "REGULAR";
-    type2[index].style.top = "25%";
+    type2[index].style.marginTop = "25%";
     reg[index].style.position = "relative";
     post[index].style.marginLeft = "5.75%";
     reg[index].style.height = "32.5%";
@@ -161,7 +161,7 @@ function resetReg(index) {
 
 function changePost(index) {
     type3[index].innerHTML = "ROUND";
-    type3[index].style.top = "0%";
+    type3[index].style.marginTop = "0%";
     post[index].style.height = "3.07%";
     post[index].style.position = "absolute";
     h1[2 + 3 * index].style.display = "none";
@@ -171,7 +171,7 @@ function changePost(index) {
 };
 function resetPost(index) {
     type3[index].innerHTML = "POST";
-    type3[index].style.top = "25%";
+    type3[index].style.marginTop = "25%";
     post[index].style.position = "relative";
     post[index].style.height = "32.5%";
     h1[2 + 3 * index].style.display = "block";
