@@ -193,7 +193,7 @@ function changeHTML() {
             if (card[card.length - i].style.display != "none") {
                 name1[name1.length - 3].style.bottom = "-4%";
                 name2[name2.length - 3].style.bottom = "-4%";
-                record[record1.length - 3].style.marginTop = "3%";
+                record1[record1.length - 3].style.marginTop = "3%";
                 record2[record2.length - 3].style.marginTop = "3%";
                 card[card.length - 3].style.height = "40%";
             };
