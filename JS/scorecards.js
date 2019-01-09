@@ -187,18 +187,7 @@ function changeHTML() {
     };
 
     var count = 0;
-    if (num % 8 != 0) {
-        row[Math.floor(num / 8)].style.height = "891px";
-        for (var i = 1; i < 5; i++) {
-            if (card[card.length - i].style.display != "none") {
-                name1[name1.length - 3].style.bottom = "-4%";
-                name2[name2.length - 3].style.bottom = "-4%";
-                record1[record1.length - 3].style.marginTop = "3%";
-                record2[record2.length - 3].style.marginTop = "3%";
-                card[card.length - 3].style.height = "40%";
-            };
-        };
-    };
+
 
     for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
