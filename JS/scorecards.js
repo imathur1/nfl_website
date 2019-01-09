@@ -197,11 +197,11 @@ function changeHTML() {
         record2[record2.length - real].style.marginTop = "3%";
         card[card.length - real].style.height = "40%";
 
-        name1[name1.length - real - 1].style.bottom = "-4%";
-        name2[name2.length - real - 1].style.bottom = "-4%";
-        record1[record1.length - real - 1].style.marginTop = "3%";
-        record2[record2.length - real - 1].style.marginTop = "3%";
-        card[card.length - real - 1].style.height = "40%";
+        name1[name1.length - real + 1].style.bottom = "-4%";
+        name2[name2.length - real + 1].style.bottom = "-4%";
+        record1[record1.length - real + 1].style.marginTop = "3%";
+        record2[record2.length - real + 1].style.marginTop = "3%";
+        card[card.length - real + 1].style.height = "40%";
 
         row[Math.floor(num / 8)].style.height = "891px";
     };
