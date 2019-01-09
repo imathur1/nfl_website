@@ -75,14 +75,14 @@ class Converter():
         text = """<!DOCTYPE html>
 <html>
     <head>
-        <link href='imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
-        <link href='imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="imathur1.github.io/CSS/scorecards.css">
+        <link href='https://imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://https://imathur1.github.io/CSS/scorecards.css">
         <title>NFL Scorecards | Week """ + str(self.week) + """</title>
     </head>
     <body>
         <div class="nav">
-            <img class="logo" src="imathur1.github.io/Images/nfl.png">
+            <img class="logo" src="https://imathur1.github.io/Images/nfl.png">
             <div class="title">NFL SCORECARDS</div>
             <div class="home">Home</div>
         </div>
@@ -94,7 +94,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="imathur1.github.io/Images/packers.png">
+                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -138,7 +138,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="imathur1.github.io/Images/packers.png">
+                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -182,7 +182,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="imathur1.github.io/Images/packers.png">
+                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -226,7 +226,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="imathur1.github.io/Images/packers.png">
+                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -350,7 +350,7 @@ class Converter():
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
         text += """        </div>
-        <script type="text/javascript" src="imathur1.github.io/JS/scorecards.js"></script>
+        <script type="text/javascript" src="https://imathur1.github.io/JS/scorecards.js"></script>
     </body>
 </html>"""
         output.write(text)
@@ -539,14 +539,14 @@ def makeHomepage():
     file = open("HTML/index.html", "w")
     text = """<html>
     <head>
-        <link href='imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
-        <link href='imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="imathur1.github.io/CSS/homepage.css">
+        <link href='https://imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://imathur1.github.io/CSS/homepage.css">
         <title>NFL Scorecards</title>
     </head>
     <body>
         <div class="nav">
-            <img class="logo" src="imathur1.github.io/Images/nfl.png">
+            <img class="logo" src="https://imathur1.github.io/Images/nfl.png">
             <div class="title">NFL SCORECARDS</div>
             <div class="season">Year</div>
             <div class="dropdown">
@@ -667,7 +667,7 @@ def makeHomepage():
                 </div>
             </div>"""
         i -= 2
-    text += """        <script type="text/javascript" src="imathur1.github.io/JS/homepage.js"></script>
+    text += """        <script type="text/javascript" src="https://imathur1.github.io/JS/homepage.js"></script>
         </div>
     </body>
 </html>"""
