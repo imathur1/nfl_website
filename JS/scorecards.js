@@ -190,18 +190,18 @@ function changeHTML() {
     if (num % 8 != 0) {
         var remainder = Number(num / 8) + 1;
         var real = (remainder - num) / 2 + 1; 
-    
-        name1[name1.length - real].style.bottom = "-4%";
-        name2[name2.length - real].style.bottom = "-4%";
-        record1[record1.length - real].style.marginTop = "3%";
-        record2[record2.length - real].style.marginTop = "3%";
-        card[card.length - real].style.height = "40%";
-
-        name1[name1.length - real + 1].style.bottom = "-4%";
-        name2[name2.length - real + 1].style.bottom = "-4%";
-        record1[record1.length - real + 1].style.marginTop = "3%";
-        record2[record2.length - real + 1].style.marginTop = "3%";
-        card[card.length - real + 1].style.height = "40%";
+        var checker = 0;
+        while (checker != 2) {
+            if (card[card.length - real].style.display != "none") {
+                name1[name1.length - real].style.bottom = "-4%";
+                name2[name2.length - real].style.bottom = "-4%";
+                record1[record1.length - real].style.marginTop = "3%";
+                record2[record2.length - real].style.marginTop = "3%";
+                card[card.length - real].style.height = "40%";
+                checker++;
+            };
+            real++;
+        };
 
         row[Math.floor(num / 8)].style.height = "891px";
     };
