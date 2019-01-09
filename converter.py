@@ -350,7 +350,7 @@ class Converter():
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
         text += """        </div>
-        
+        <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
         <script type="text/javascript" src="https://imathur1.github.io/JS/scorecards.js"></script>
     </body>
 </html>"""
