@@ -124,7 +124,7 @@ function changePre(index) {
 };
 function resetPre(index) {
     type1[index].innerHTML = "PRE";
-    type1[index].style.marginTop = "15%";
+    type1[index].style.marginTop = "20%";
     pre[index].style.position = "relative";
     pre[index].style.height = "32.5%";
     reg[index].style.marginLeft = "5.75%";
@@ -148,7 +148,7 @@ function changeReg(index) {
 };
 function resetReg(index) {
     type2[index].innerHTML = "REGULAR";
-    type2[index].style.marginTop = "15%";
+    type2[index].style.marginTop = "20%";
     reg[index].style.position = "relative";
     post[index].style.marginLeft = "5.75%";
     reg[index].style.height = "32.5%";
@@ -171,7 +171,7 @@ function changePost(index) {
 };
 function resetPost(index) {
     type3[index].innerHTML = "POST";
-    type3[index].style.marginTop = "15%";
+    type3[index].style.marginTop = "20%";
     post[index].style.position = "relative";
     post[index].style.height = "32.5%";
     h1[2 + 3 * index].style.display = "block";
