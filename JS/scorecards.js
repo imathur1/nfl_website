@@ -176,27 +176,12 @@ function changeHTML() {
         for (var i = card.length - 1; i >= 0; i--) {
             if (card[i].style.display != "none") {
                 card[i].style.marginLeft = "29.5%";
-                name1[i].style.bottom = "-4%";
-                name2[i].style.bottom = "-4%";
-                record1[i].style.marginTop = "3%";
-                record2[i].style.marginTop = "3%";
-                /*card[i].style.height = "32%";*/
                 break;
             };
         }; 
     };
 
     var count = 0;
-    if (num % 8 != 0) {
-        row[Math.floor(num / 8)].style.height = "1150px";
-        for (var i = 0; i < 4; i++) {
-            name1[Math.floor(num / 8) * 4 + i].style.bottom = "-4%";
-            name2[Math.floor(num / 8) * 4 + i].style.bottom = "-4%";
-            record1[Math.floor(num / 8) * 4 + i].style.marginTop = "3%";
-            record2[Math.floor(num / 8) * 4 + i].style.marginTop = "3%";
-        };
-    };
-
     for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
         name1[i].innerHTML = info[i][0][0];  
