@@ -18,13 +18,13 @@ class Converter():
     "Baltimore Ravens": [0, 0, 0, "https://imathur1.github.io/Images/ravens.png"],
     "Buffalo Bills": [0, 0, 0, "https://imathur1.github.io/Images/bills.png"],
     "Carolina Panthers": [0, 0, 0, "https://imathur1.github.io/Images/panthers.png"],
-    "Chicago Bears": [0, 0, 0, "https://imathur1.github.io/Images/bears.png"],
+    "Chicago Bears": [0, 0, 0, ""],
     "Cincinnati Bengals": [0, 0, 0, "https://imathur1.github.io/Images/bengals.png"],
     "Cleveland Browns": [0, 0, 0, "https://imathur1.github.io/Images/browns.png"],
     "Dallas Cowboys": [0, 0, 0, "https://imathur1.github.io/Images/cowboys.png"],
     "Denver Broncos": [0, 0, 0, "https://imathur1.github.io/Images/broncos.png"],
     "Detroit Lions": [0, 0, 0, "https://imathur1.github.io/Images/lions.png"],
-    "Green Bay Packers": [0, 0, 0, "https://imathur1.github.io/Images/packers.png"],
+    "Green Bay Packers": [0, 0, 0, ""],
     "Houston Texans": [0, 0, 0, "https://imathur1.github.io/Images/texans.png"],
     "Indianapolis Colts": [0, 0, 0, "https://imathur1.github.io/Images/colts.png"],
     "Jacksonville Jaguars": [0, 0, 0, "https://imathur1.github.io/Images/jaguars.png"],
@@ -93,7 +93,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
+                    <img class="img1" src=""><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -137,7 +137,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
+                    <img class="img1" src=""><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -181,7 +181,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
+                    <img class="img1" src=""><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
@@ -225,7 +225,7 @@ class Converter():
                 <div class="card">
                     <div class="date">Sun, 16/12</div>
                     <div class="result">Final</div>
-                    <img class="img1" src="https://imathur1.github.io/Images/bears.png"><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="https://imathur1.github.io/Images/packers.png">
+                    <img class="img1" src=""><div class="score1">54</div><div class="dash">-</div><div class="score2">53</div><img class="img2" src="">
                     <div class="name1">Chicago Bears</div>
                     <div class="name2">Green Bay Packers</div>
                     <div class="record1">(16 - 0)</div>
