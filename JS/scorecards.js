@@ -182,6 +182,10 @@ function changeHTML() {
     };
 
     var count = 0;
+    if (num != 8) {
+        row[row.length - 1].style.height = "100%";
+    };
+
     for (var i = 0; i < num / 2; i++){
         date[i].innerHTML = info[i][2][1];
         name1[i].innerHTML = info[i][0][0];  
