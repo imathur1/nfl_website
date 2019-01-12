@@ -183,7 +183,7 @@ function changeHTML() {
 
     var count = 0;
     if (num != 8) {
-        row[row.length - 1].style.height = "100%";
+        row[row.length - 1].style.height = screen.height;
     };
 
     for (var i = 0; i < num / 2; i++){
