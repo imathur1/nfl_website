@@ -724,15 +724,10 @@ def makeCalls(startYear, endYear):
                 week += 1
         startYear += 1
 
-def makeRecentCalls():
-    converter = Converter(2018, "PST", 2)
-    converter.makeInfo()
-    converter.convertInfo()  
-
 def main():
     makeHomepage()
     makeCalls(2001, 2018)
-    #makeRecentCalls()
+
 
 if __name__ == '__main__':
     main()
