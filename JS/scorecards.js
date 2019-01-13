@@ -176,7 +176,7 @@ function changeHTML() {
         for (var i = card.length - 1; i >= 0; i--) {
             if (card[i].style.display != "none") {
                 card[i].style.marginLeft = "29.5%";
-                row[Math.floor(i / 2)].style.height = screen.height + "px";
+                row[Math.floor(i / 4)].style.height = screen.height + "px";
                 break;
             };
         }; 
