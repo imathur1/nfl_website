@@ -115,7 +115,8 @@ function changePre(index) {
     type1[index].innerHTML = "WEEK";
     type1[index].style.marginTop = "0%";
     pre[index].style.position = "absolute";
-
+    pre[index].style.height = "3.07%";
+    reg[index].style.marginLeft = "37.5%";
     h1[3 * index].style.display = "none";
     for (var i = 0; i < hoverPreWeek.length / pre.length; i++) {
         hoverPreWeek[4 * index + i].style.display = "inline-block";
@@ -125,7 +126,8 @@ function resetPre(index) {
     type1[index].innerHTML = "PRE";
     type1[index].style.marginTop = "22.5%";
     pre[index].style.position = "relative";
-
+    pre[index].style.height = "32.5%";
+    reg[index].style.marginLeft = "5.75%";
     h1[3 * index].style.display = "block";
     h1[3 * index].style.textAlign = "center";
     for (var i = 0; i < hoverPreWeek.length / pre.length; i++) {
@@ -137,7 +139,8 @@ function changeReg(index) {
     type2[index].innerHTML = "WEEK";
     type2[index].style.marginTop = "0%";
     reg[index].style.position = "absolute";
-
+    reg[index].style.height = "3.07%";
+    post[index].style.marginLeft = "37.5%";
     h1[1 + 3 * index].style.display = "none";
     for (var i = 0; i < hoverRegWeek.length / reg.length; i++) {
         hoverRegWeek[17 * index + i].style.display = "inline-block";
@@ -147,7 +150,8 @@ function resetReg(index) {
     type2[index].innerHTML = "REGULAR";
     type2[index].style.marginTop = "22.5%";
     reg[index].style.position = "relative";
-
+    post[index].style.marginLeft = "5.75%";
+    reg[index].style.height = "32.5%";
     h1[1 + 3 * index].style.display = "block";
     h1[1 + 3 * index].style.textAlign = "center";
     for (var i = 0; i < hoverRegWeek.length / reg.length; i++) {
@@ -158,7 +162,7 @@ function resetReg(index) {
 function changePost(index) {
     type3[index].innerHTML = "ROUND";
     type3[index].style.marginTop = "0%";
-    
+    post[index].style.height = "3.07%";
     post[index].style.position = "absolute";
     h1[2 + 3 * index].style.display = "none";
     for (var i = 0; i < hoverPostRound.length / post.length; i++) {
@@ -169,7 +173,7 @@ function resetPost(index) {
     type3[index].innerHTML = "POST";
     type3[index].style.marginTop = "22.5%";
     post[index].style.position = "relative";
-    
+    post[index].style.height = "32.5%";
     h1[2 + 3 * index].style.display = "block";
     h1[2 + 3 * index].style.textAlign = "center";
     for (var i = 0; i < hoverPostRound.length / post.length; i++) {
