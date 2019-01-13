@@ -731,8 +731,8 @@ def makeRecentCalls():
 
 def main():
     makeHomepage()
-    makeCalls(2001, 2018)
-    #makeRecentCalls()
+    #makeCalls(2001, 2018)
+    makeRecentCalls()
 
 if __name__ == '__main__':
     main()
