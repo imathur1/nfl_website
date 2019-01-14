@@ -707,7 +707,6 @@ def makeCalls(startYear, endYear):
                 #converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
-        
             type = "REG"
             week = 1
             while week <= 17:
@@ -726,8 +725,7 @@ def makeCalls(startYear, endYear):
 
 def main():
     makeHomepage()
-    makeCalls(2001, 2018)
-
+    makeCalls(2018, 2018)
 
 if __name__ == '__main__':
     main()

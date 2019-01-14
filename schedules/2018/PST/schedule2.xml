@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nfl/premium/schedule-v5.0.xsl"?>
-<!-- Generation started @ 2019-01-13 04:19:21 +0000 -->
+<!-- Generation started @ 2019-01-14 15:14:04 +0000 -->
 <season xmlns="http://feed.elasticstats.com/schema/nfl/premium/schedule-v5.0.xsd" id="38c98229-3687-4b4d-974c-38bf8c88f7f9" year="2018" type="PST" name="PST">
   <week id="ffb0a242-623f-4c39-89b7-c633bcdbead7" sequence="2" title="2">
-    <game id="6e2d30ad-a125-4708-9540-ee2ddc119cec" status="complete" reference="57828" number="262" scheduled="2019-01-13T01:15:00+00:00" attendance="77187" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 57 F, Humidity: 74%, Wind: SSW 1 mph" sr_id="sr:match:16657761">
+    <game id="6e2d30ad-a125-4708-9540-ee2ddc119cec" status="closed" reference="57828" number="262" scheduled="2019-01-13T01:15:00+00:00" attendance="77187" utc_offset="-8" entry_mode="INGEST" weather="Cloudy Temp: 57 F, Humidity: 74%, Wind: SSW 1 mph" sr_id="sr:match:16657761">
       <venue id="4de1fcde-7c65-4145-a874-3753bdd584b7" name="Los Angeles Memorial Coliseum" city="Los Angeles" state="CA" country="USA" zip="90037" address="3911 South Figueroa Street" capacity="93607" surface="turf" roof_type="outdoor"/>
       <home id="2eff2a03-54d4-46ba-890e-2bc3925548f3" name="Los Angeles Rams" alias="LA" sr_id="sr:competitor:4387"/>
       <away id="e627eec7-bbae-4fa4-8e73-8e1d6bc5c060" name="Dallas Cowboys" alias="DAL" sr_id="sr:competitor:4392"/>
@@ -15,17 +15,29 @@
         <quarter id="63efef9a-2b32-4087-8084-4f7fe4dc66ee" number="4" sequence="4" home_points="7" away_points="7"/>
       </scoring>
     </game>
-    <game id="79647590-6d12-44d9-9b24-6929038103e0" status="scheduled" reference="57829" number="263" scheduled="2019-01-13T18:05:00+00:00" entry_mode="INGEST" sr_id="sr:match:16657663">
+    <game id="79647590-6d12-44d9-9b24-6929038103e0" status="closed" reference="57829" number="263" scheduled="2019-01-13T18:05:00+00:00" attendance="65878" utc_offset="-5" entry_mode="INGEST" weather="Sunny and cold Temp: 26 F, Humidity: 43%, Wind: NNE 3 mph" sr_id="sr:match:16657663">
       <venue id="e43310b1-cb82-4df9-8be5-e9b39637031b" name="Gillette Stadium" city="Foxborough" state="MA" country="USA" zip="02035" address="One Patriot Place" capacity="66829" surface="artificial" roof_type="outdoor" sr_id="sr:venue:2379"/>
       <home id="97354895-8c77-4fd4-a860-32e62ea7382a" name="New England Patriots" alias="NE" sr_id="sr:competitor:4424"/>
       <away id="1f6dcffb-9823-43cd-9ff4-e7a8466749b5" name="Los Angeles Chargers" alias="LAC" sr_id="sr:competitor:4429"/>
       <broadcast network="CBS"/>
+      <scoring home_points="41" away_points="28">
+        <quarter id="27766505-c201-48cd-98cb-814fb3030b79" number="1" sequence="1" home_points="14" away_points="7"/>
+        <quarter id="927fb758-30ea-4c89-9cc1-96e03e84f44c" number="2" sequence="2" home_points="21" away_points="0"/>
+        <quarter id="27657508-3f10-42c8-a3f0-27d84a7b4a90" number="3" sequence="3" home_points="3" away_points="7"/>
+        <quarter id="b1083b50-0e17-4ace-8e17-553e73214412" number="4" sequence="4" home_points="3" away_points="14"/>
+      </scoring>
     </game>
-    <game id="82d1b289-4619-4378-8af7-792c747ba690" status="scheduled" reference="57830" number="264" scheduled="2019-01-13T21:40:00+00:00" entry_mode="INGEST" sr_id="sr:match:16657763">
+    <game id="82d1b289-4619-4378-8af7-792c747ba690" status="closed" reference="57830" number="264" scheduled="2019-01-13T21:40:00+00:00" attendance="73027" utc_offset="-6" entry_mode="INGEST" weather="Indoors Temp: 49 F, Humidity: 79%, Wind: NNW 9 mph" sr_id="sr:match:16657763">
       <venue id="3c85d89a-ec66-4983-acd5-1381d6c8673a" name="Mercedes-Benz Superdome" city="New Orleans" state="LA" country="USA" zip="70112" address="1500 Sugar Bowl Drive" capacity="73208" surface="artificial" roof_type="dome"/>
       <home id="0d855753-ea21-4953-89f9-0e20aff9eb73" name="New Orleans Saints" alias="NO" sr_id="sr:competitor:4425"/>
       <away id="386bdbf9-9eea-4869-bb9a-274b0bc66e80" name="Philadelphia Eagles" alias="PHI" sr_id="sr:competitor:4428"/>
       <broadcast network="FOX"/>
+      <scoring home_points="20" away_points="14">
+        <quarter id="ad4289a7-26a1-41c9-8bf6-c4f4921c435f" number="1" sequence="1" home_points="0" away_points="14"/>
+        <quarter id="043685db-52d3-4a6d-866f-a005058dfc84" number="2" sequence="2" home_points="10" away_points="0"/>
+        <quarter id="b9db439b-34ac-4e4b-8281-4144671b5657" number="3" sequence="3" home_points="7" away_points="0"/>
+        <quarter id="4ad309f5-7d3e-4304-835e-00d41c8a22f3" number="4" sequence="4" home_points="3" away_points="0"/>
+      </scoring>
     </game>
     <game id="d8fc67ef-6e0a-44d5-bb01-b3d6fd86d500" status="closed" reference="57827" number="261" scheduled="2019-01-12T21:35:00+00:00" attendance="76765" utc_offset="-6" entry_mode="INGEST" weather="Temp: 32 F, Humidity: 85%, Wind: Northwest 13 mph" sr_id="sr:match:16653663">
       <venue id="2ec4c411-dac2-403d-b091-6b6aa4a0a914" name="Arrowhead Stadium" city="Kansas City" state="MO" country="USA" zip="64129" address="One Arrowhead Drive" capacity="76416" surface="turf" roof_type="outdoor" sr_id="sr:venue:8189"/>
@@ -41,4 +53,4 @@
     </game>
   </week>
 </season>
-<!-- Generation ended @ 2019-01-13 04:19:21 +0000 -->
+<!-- Generation ended @ 2019-01-14 15:14:04 +0000 -->
