@@ -696,7 +696,7 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo2()
+                #converter.makeInfo2()
                 converter.convertInfo2()  
                 week += 1
         else:
@@ -718,7 +718,7 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                #converter.makeInfo()
+                converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
         startYear += 1
