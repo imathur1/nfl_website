@@ -31,40 +31,40 @@ const nav = document.getElementsByClassName('nav');
 
 const row = document.getElementsByClassName('row');
 const wallpapers = [
-    ["San Francisco 49ers", "https://imathur1.github.io/Images/49erWallpaper.png"],
-    ["Chicago Bears", "https://imathur1.github.io/Images/bearWallpaper.png"],
-    ["Cincinnati Bengals", "https://imathur1.github.io/Images/bengalWallpaper.png"],
-    ["Buffalo Bills", "https://imathur1.github.io/Images/billWallpaper.png"],
-    ["Denver Broncos", "https://imathur1.github.io/Images/broncoWallpaper.png"],
-    ["Cleveland Browns", "https://imathur1.github.io/Images/brownWallpaper.png"],
-    ["Tampa Bay Buccaneers", "https://imathur1.github.io/Images/buccaneerWallpaper.png"],
-    ["Arizona Cardinals", "https://imathur1.github.io/Images/cardinalWallpaper.png"],
-    ["Indianapolis Colts", "https://imathur1.github.io/Images/coltWallpaper.png"],
-    ["Kansas City Chiefs", "https://imathur1.github.io/Images/chiefWallpaper.png"],
-    ["Los Angeles Chargers", "https://imathur1.github.io/Images/chargerWallpaper.png"],
-    ["Dallas Cowboys", "https://imathur1.github.io/Images/cowboyWallpaper.png"],
-    ["Miami Dolphins", "https://imathur1.github.io/Images/dolphinWallpaper.png"],
-    ["Philadelphia Eagles", "https://imathur1.github.io/Images/eagleWallpaper.png"],
-    ["New York Giants", "https://imathur1.github.io/Images/giantWallpaper.png"],
-    ["Jacksonville Jaguars", "https://imathur1.github.io/Images/jaguarWallpaper.png"],
-    ["Atlanta Falcons", "https://imathur1.github.io/Images/falconWallpaper.png"],
-    ["New York Jets", "https://imathur1.github.io/Images/jetWallpaper.png"],
-    ["Green Bay Packers", "https://imathur1.github.io/Images/packerWallpaper.png"],
-    ["Detroit Lions", "https://imathur1.github.io/Images/lionWallpaper.png"],
-    ["New England Patriots", "https://imathur1.github.io/Images/patriotWallpaper.png"],
-    ["Carolina Panthers", "https://imathur1.github.io/Images/pantherWallpaper.png"],
-    ["Oakland Raiders", "https://imathur1.github.io/Images/raiderWallpaper.png"],
-    ["Washington Redskins", "https://imathur1.github.io/Images/redskinWallpaper.png"],
-    ["New Orleans Saints", "https://imathur1.github.io/Images/saintWallpaper.png"],
-    ["Seattle Seahawks", "https://imathur1.github.io/Images/seahawkWallpaper.png"],
-    ["Baltimore Ravens", "https://imathur1.github.io/Images/ravenWallpaper.png"],
-    ["Los Angeles Rams", "https://imathur1.github.io/Images/ramWallpaper.png"],
-    ["Houston Texans", "https://imathur1.github.io/Images/texanWallpaper.png"],
-    ["Tennessee Titans", "https://imathur1.github.io/Images/titanWallpaper.png"],
-    ["Minnesota Vikings", "https://imathur1.github.io/Images/vikingWallpaper.png"],
-    ["Pittsburgh Steelers", "https://imathur1.github.io/Images/steelerWallpaper.png"],
-    ["St. Louis Rams", "https://imathur1.github.io/Images/ramWallpaper.png"],
-    ["San Diego Chargers", "https://imathur1.github.io/Images/chargerWallpaper.png"]
+    ["San Francisco 49ers", "../../../Images/49erWallpaper.png"],
+    ["Chicago Bears", "../../../Images/bearWallpaper.png"],
+    ["Cincinnati Bengals", "../../../Images/bengalWallpaper.png"],
+    ["Buffalo Bills", "../../../Images/billWallpaper.png"],
+    ["Denver Broncos", "../../../Images/broncoWallpaper.png"],
+    ["Cleveland Browns", "../../../Images/brownWallpaper.png"],
+    ["Tampa Bay Buccaneers", "../../../Images/buccaneerWallpaper.png"],
+    ["Arizona Cardinals", "../../../Images/cardinalWallpaper.png"],
+    ["Indianapolis Colts", "../../../Images/coltWallpaper.png"],
+    ["Kansas City Chiefs", "../../../Images/chiefWallpaper.png"],
+    ["Los Angeles Chargers", "../../../Images/chargerWallpaper.png"],
+    ["Dallas Cowboys", "../../../Images/cowboyWallpaper.png"],
+    ["Miami Dolphins", "../../../Images/dolphinWallpaper.png"],
+    ["Philadelphia Eagles", "../../../Images/eagleWallpaper.png"],
+    ["New York Giants", "../../../Images/giantWallpaper.png"],
+    ["Jacksonville Jaguars", "../../../Images/jaguarWallpaper.png"],
+    ["Atlanta Falcons", "../../../Images/falconWallpaper.png"],
+    ["New York Jets", "../../../Images/jetWallpaper.png"],
+    ["Green Bay Packers", "../../../Images/packerWallpaper.png"],
+    ["Detroit Lions", "../../../Images/lionWallpaper.png"],
+    ["New England Patriots", "../../../Images/patriotWallpaper.png"],
+    ["Carolina Panthers", "../../../Images/pantherWallpaper.png"],
+    ["Oakland Raiders", "../../../Images/raiderWallpaper.png"],
+    ["Washington Redskins", "../../../Images/redskinWallpaper.png"],
+    ["New Orleans Saints", "../../../Images/saintWallpaper.png"],
+    ["Seattle Seahawks", "../../../Images/seahawkWallpaper.png"],
+    ["Baltimore Ravens", "../../../Images/ravenWallpaper.png"],
+    ["Los Angeles Rams", "../../../Images/ramWallpaper.png"],
+    ["Houston Texans", "../../../Images/texanWallpaper.png"],
+    ["Tennessee Titans", "../../../Images/titanWallpaper.png"],
+    ["Minnesota Vikings", "../../../Images/vikingWallpaper.png"],
+    ["Pittsburgh Steelers", "../../../Images/steelerWallpaper.png"],
+    ["St. Louis Rams", "../../../Images/ramWallpaper.png"],
+    ["San Diego Chargers", "../../../Images/chargerWallpaper.png"]
 ];
 
 home[0].onmouseover = function() {
@@ -74,7 +74,7 @@ home[0].onmouseout = function() {
     home[0].style.color = "#fff";
 };
 home[0].onclick = function() {
-    location.href = "https://imathur1.github.io/HTML/index.html";
+    location.href = "../../../HTML/index.html";
 };
 
 const noData = document.getElementsByClassName('noData');
@@ -304,7 +304,7 @@ function changeHTML() {
 
     var previous = -1;
     if (num === 2) {
-        if (score1[0].innerHTML > score2[0].innerHTML) {
+        if (Number(score1[0].innerHTML) >= Number(score2[0].innerHTML)) {
             var superbowl = 0;
             for (var i = 0; i < wallpapers.length; i++) {
                 if (name1[0].innerHTML === wallpapers[i][0]) {

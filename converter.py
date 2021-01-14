@@ -4,49 +4,44 @@ import xml.etree.ElementTree as ET
 from operator import itemgetter
 from datetime import date as dateName
 
-# NFL Official
-# Key: 5dbyzszswdjteg4ab663g837
-# NFL Classic
-# Key: zvqbcxphvmpgyndjpqf2y27c
-
 class Converter():
 
     noData = False
     standings = {
-    "Arizona Cardinals": [0, 0, 0, "https://imathur1.github.io/Images/cardinals.png"],
-    "Atlanta Falcons": [0, 0, 0, "https://imathur1.github.io/Images/falcons.png"],
-    "Baltimore Ravens": [0, 0, 0, "https://imathur1.github.io/Images/ravens.png"],
-    "Buffalo Bills": [0, 0, 0, "https://imathur1.github.io/Images/bills.png"],
-    "Carolina Panthers": [0, 0, 0, "https://imathur1.github.io/Images/panthers.png"],
-    "Chicago Bears": [0, 0, 0, "https://imathur1.github.io/Images/bears.png"],
-    "Cincinnati Bengals": [0, 0, 0, "https://imathur1.github.io/Images/bengals.png"],
-    "Cleveland Browns": [0, 0, 0, "https://imathur1.github.io/Images/browns.png"],
-    "Dallas Cowboys": [0, 0, 0, "https://imathur1.github.io/Images/cowboys.png"],
-    "Denver Broncos": [0, 0, 0, "https://imathur1.github.io/Images/broncos.png"],
-    "Detroit Lions": [0, 0, 0, "https://imathur1.github.io/Images/lions.png"],
-    "Green Bay Packers": [0, 0, 0, "https://imathur1.github.io/Images/packers.png"],
-    "Houston Texans": [0, 0, 0, "https://imathur1.github.io/Images/texans.png"],
-    "Indianapolis Colts": [0, 0, 0, "https://imathur1.github.io/Images/colts.png"],
-    "Jacksonville Jaguars": [0, 0, 0, "https://imathur1.github.io/Images/jaguars.png"],
-    "Kansas City Chiefs": [0, 0, 0, "https://imathur1.github.io/Images/chiefs.png"],
-    "Los Angeles Chargers": [0, 0, 0, "https://imathur1.github.io/Images/chargers.png"],
-    "Los Angeles Rams": [0, 0, 0, "https://imathur1.github.io/Images/rams.png"],
-    "Miami Dolphins": [0, 0, 0, "https://imathur1.github.io/Images/dolphins.png"],
-    "Minnesota Vikings": [0, 0, 0, "https://imathur1.github.io/Images/vikings.png"],
-    "New England Patriots": [0, 0, 0, "https://imathur1.github.io/Images/patriots.png"],
-    "New Orleans Saints": [0, 0, 0, "https://imathur1.github.io/Images/saints.png"],
-    "New York Giants": [0, 0, 0, "https://imathur1.github.io/Images/giants.png"],
-    "New York Jets": [0, 0, 0, "https://imathur1.github.io/Images/jets.png"],
-    "Oakland Raiders": [0, 0, 0, "https://imathur1.github.io/Images/raiders.png"],
-    "Philadelphia Eagles": [0, 0, 0, "https://imathur1.github.io/Images/eagles.png"],
-    "Pittsburgh Steelers": [0, 0, 0, "https://imathur1.github.io/Images/steelers.png"],
-    "San Diego Chargers": [0, 0, 0, "https://imathur1.github.io/Images/chargers.png"],
-    "San Francisco 49ers": [0, 0, 0, "https://imathur1.github.io/Images/49ers.png"],
-    "Seattle Seahawks": [0, 0, 0, "https://imathur1.github.io/Images/seahawks.png"],
-    "St. Louis Rams": [0, 0, 0, "https://imathur1.github.io/Images/rams.png"],
-    "Tampa Bay Buccaneers": [0, 0, 0, "https://imathur1.github.io/Images/buccaneers.png"],
-    "Tennessee Titans": [0, 0, 0, "https://imathur1.github.io/Images/titans.png"],
-    "Washington Redskins": [0, 0, 0, "https://imathur1.github.io/Images/redskins.png"]
+    "Arizona Cardinals": [0, 0, 0, "../../../Images/cardinals.png"],
+    "Atlanta Falcons": [0, 0, 0, "../../../Images/falcons.png"],
+    "Baltimore Ravens": [0, 0, 0, "../../../Images/ravens.png"],
+    "Buffalo Bills": [0, 0, 0, "../../../Images/bills.png"],
+    "Carolina Panthers": [0, 0, 0, "../../../Images/panthers.png"],
+    "Chicago Bears": [0, 0, 0, "../../../Images/bears.png"],
+    "Cincinnati Bengals": [0, 0, 0, "../../../Images/bengals.png"],
+    "Cleveland Browns": [0, 0, 0, "../../../Images/browns.png"],
+    "Dallas Cowboys": [0, 0, 0, "../../../Images/cowboys.png"],
+    "Denver Broncos": [0, 0, 0, "../../../Images/broncos.png"],
+    "Detroit Lions": [0, 0, 0, "../../../Images/lions.png"],
+    "Green Bay Packers": [0, 0, 0, "../../../Images/packers.png"],
+    "Houston Texans": [0, 0, 0, "../../../Images/texans.png"],
+    "Indianapolis Colts": [0, 0, 0, "../../../Images/colts.png"],
+    "Jacksonville Jaguars": [0, 0, 0, "../../../Images/jaguars.png"],
+    "Kansas City Chiefs": [0, 0, 0, "../../../Images/chiefs.png"],
+    "Los Angeles Chargers": [0, 0, 0, "../../../Images/chargers.png"],
+    "Los Angeles Rams": [0, 0, 0, "../../../Images/rams.png"],
+    "Miami Dolphins": [0, 0, 0, "../../../Images/dolphins.png"],
+    "Minnesota Vikings": [0, 0, 0, "../../../Images/vikings.png"],
+    "New England Patriots": [0, 0, 0, "../../../Images/patriots.png"],
+    "New Orleans Saints": [0, 0, 0, "../../../Images/saints.png"],
+    "New York Giants": [0, 0, 0, "../../../Images/giants.png"],
+    "New York Jets": [0, 0, 0, "../../../Images/jets.png"],
+    "Oakland Raiders": [0, 0, 0, "../../../Images/raiders.png"],
+    "Philadelphia Eagles": [0, 0, 0, "../../../Images/eagles.png"],
+    "Pittsburgh Steelers": [0, 0, 0, "../../../Images/steelers.png"],
+    "San Diego Chargers": [0, 0, 0, "../../../Images/chargers.png"],
+    "San Francisco 49ers": [0, 0, 0, "../../../Images/49ers.png"],
+    "Seattle Seahawks": [0, 0, 0, "../../../Images/seahawks.png"],
+    "St. Louis Rams": [0, 0, 0, "../../../Images/rams.png"],
+    "Tampa Bay Buccaneers": [0, 0, 0, "../../../Images/buccaneers.png"],
+    "Tennessee Titans": [0, 0, 0, "../../../Images/titans.png"],
+    "Washington Redskins": [0, 0, 0, "../../../Images/redskins.png"]
     }
 
     def __init__(self, startYear, type, week):
@@ -73,15 +68,15 @@ class Converter():
         text = """<!DOCTYPE html>
 <html>
     <head>
-        <link href='https://imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
-        <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://imathur1.github.io/CSS/scorecards.css">
+        <link href='../../../Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='../../../Fonts/Oswald.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../../../CSS/scorecards.css">
         <title>NFL Scorecards | Week """ + str(self.week) + """</title>
-        <link rel="shortcut icon" type="image/x-icon" href="https://imathur1.github.io/HTML/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="../../../HTML/favicon.ico" />
     </head>
     <body>
         <div class="nav">
-            <img class="logo" src="https://imathur1.github.io/Images/nfl.png">
+            <img class="logo" src="../../../Images/nfl.png">
             <div class="title">NFL SCORECARDS</div>
             <div class="home">Home</div>
         </div>
@@ -349,7 +344,7 @@ class Converter():
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][2]) + '</div>\n'
                 text += ' ' * 12 + '<div class="hiddenStanding2">' + str(Converter.standings[i][3]) + '</div>\n'
         text += """        </div>
-        <script type="text/javascript" src="https://imathur1.github.io/JS/scorecards.js"></script>
+        <script type="text/javascript" src="../../../JS/scorecards.js"></script>
     </body>
 </html>"""
         output.write(text)
@@ -538,15 +533,15 @@ def makeHomepage():
     file = open("HTML/index.html", "w")
     text = """<html>
     <head>
-        <link href='https://imathur1.github.io/Fonts/Roboto.css' rel='stylesheet' type='text/css'>
-        <link href='https://imathur1.github.io/Fonts/Oswald.css' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://imathur1.github.io/CSS/homepage.css">
+        <link href='../Fonts/Roboto.css' rel='stylesheet' type='text/css'>
+        <link href='../Fonts/Oswald.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../CSS/homepage.css">
         <title>NFL Scorecards</title>
-        <link rel="shortcut icon" type="image/x-icon" href="https://imathur1.github.io/HTML/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="../HTML/favicon.ico" />
     </head>
     <body>
         <div class="nav">
-            <img class="logo" src="https://imathur1.github.io/Images/nfl.png">
+            <img class="logo" src="../Images/nfl.png">
             <div class="title">NFL SCORECARDS</div>
             <div class="season">Year</div>
             <div class="dropdown">
@@ -667,7 +662,7 @@ def makeHomepage():
                 </div>
             </div>"""
         i -= 2
-    text += """        <script type="text/javascript" src="https://imathur1.github.io/JS/homepage.js"></script>
+    text += """        <script type="text/javascript" src="../JS/homepage.js"></script>
         </div>
     </body>
 </html>"""
@@ -718,14 +713,14 @@ def makeCalls(startYear, endYear):
             week = 1
             while week <= 4:
                 converter = Converter(startYear, type, week)
-                converter.makeInfo()
+                # converter.makeInfo()
                 converter.convertInfo()  
                 week += 1
         startYear += 1
 
 def main():
     makeHomepage()
-    makeCalls(2018, 2018)
+    makeCalls(2001, 2018)
 
 if __name__ == '__main__':
     main()
