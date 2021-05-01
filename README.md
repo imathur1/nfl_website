@@ -1,4 +1,4 @@
-# NFL_Website
+# NFL-Website
 
 This site displays preseason, regular season, and postseason NFL game scores since 2001.
 
